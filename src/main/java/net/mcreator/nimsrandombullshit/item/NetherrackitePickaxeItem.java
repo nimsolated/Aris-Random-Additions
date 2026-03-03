@@ -10,12 +10,11 @@ import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.nimsrandombullshit.procedures.NetherrackitePickaxeBlockDestroyedWithToolProcedure;
-import net.mcreator.nimsrandombullshit.procedures.NetherrackingLogicProcedure;
+import net.mcreator.nimsrandombullshit.init.NimsRandomBullshitModBlocks;
 
 import java.util.List;
 
@@ -23,15 +22,15 @@ public class NetherrackitePickaxeItem extends PickaxeItem {
 	public NetherrackitePickaxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 18279;
+				return 6093;
 			}
 
 			public float getSpeed() {
-				return 729f;
+				return 13f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return 4f;
 			}
 
 			public int getLevel() {
@@ -43,7 +42,7 @@ public class NetherrackitePickaxeItem extends PickaxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of();
+				return Ingredient.of(new ItemStack(NimsRandomBullshitModBlocks.CONDENSED_CONDENSED_CONDENSED_NETHERRACK.get()));
 			}
 		}, 1, -3f, new Item.Properties().fireResistant());
 	}
@@ -59,12 +58,5 @@ public class NetherrackitePickaxeItem extends PickaxeItem {
 	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, level, list, flag);
 		list.add(Component.translatable("item.nims_random_bullshit.netherrackite_pickaxe.description_0"));
-	}
-
-	@Override
-	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
-		super.inventoryTick(itemstack, world, entity, slot, selected);
-		if (selected)
-			NetherrackingLogicProcedure.execute(world, entity, itemstack);
 	}
 }

@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class CondensedCondensedNetherrackBlock extends Block {
 	public CondensedCondensedNetherrackBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.NETHERRACK).strength(32.4f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.NETHERRACK).strength(12.6f).requiresCorrectToolForDrops());
 	}
 
 	@Override

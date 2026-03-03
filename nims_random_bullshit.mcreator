@@ -8,11 +8,11 @@
       "registry_name": "condensed_netherrack",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/block/CondensedNetherrackBlock.java",
-          "src/main/resources/assets/nims_random_bullshit/models/block/condensed_netherrack.json",
-          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/condensed_netherrack.json",
           "src/main/resources/assets/nims_random_bullshit/models/item/condensed_netherrack.json",
-          "src/main/resources/assets/nims_random_bullshit/blockstates/condensed_netherrack.json"
+          "src/main/resources/assets/nims_random_bullshit/blockstates/condensed_netherrack.json",
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/condensed_netherrack.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/condensed_netherrack.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/CondensedNetherrackBlock.java"
         ]
       },
       "path": "~/Netherracks"
@@ -25,11 +25,11 @@
       "registry_name": "condensed_condensed_netherrack",
       "metadata": {
         "files": [
+          "src/main/resources/assets/nims_random_bullshit/blockstates/condensed_condensed_netherrack.json",
           "src/main/java/net/mcreator/nimsrandombullshit/block/CondensedCondensedNetherrackBlock.java",
-          "src/main/resources/assets/nims_random_bullshit/models/block/condensed_condensed_netherrack.json",
           "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/condensed_condensed_netherrack.json",
           "src/main/resources/assets/nims_random_bullshit/models/item/condensed_condensed_netherrack.json",
-          "src/main/resources/assets/nims_random_bullshit/blockstates/condensed_condensed_netherrack.json"
+          "src/main/resources/assets/nims_random_bullshit/models/block/condensed_condensed_netherrack.json"
         ]
       },
       "path": "~/Netherracks"
@@ -42,11 +42,11 @@
       "registry_name": "condensed_condensed_condensed_netherrack",
       "metadata": {
         "files": [
-          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/condensed_condensed_condensed_netherrack.json",
-          "src/main/resources/assets/nims_random_bullshit/blockstates/condensed_condensed_condensed_netherrack.json",
           "src/main/java/net/mcreator/nimsrandombullshit/block/CondensedCondensedCondensedNetherrackBlock.java",
           "src/main/resources/assets/nims_random_bullshit/models/item/condensed_condensed_condensed_netherrack.json",
-          "src/main/resources/assets/nims_random_bullshit/models/block/condensed_condensed_condensed_netherrack.json"
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/condensed_condensed_condensed_netherrack.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/condensed_condensed_condensed_netherrack.json",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/condensed_condensed_condensed_netherrack.json"
         ]
       },
       "path": "~/Netherracks"
@@ -137,8 +137,8 @@
       "registry_name": "block_eater",
       "metadata": {
         "files": [
-          "src/main/resources/assets/nims_random_bullshit/models/item/block_eater.json",
-          "src/main/java/net/mcreator/nimsrandombullshit/item/BlockEaterItem.java"
+          "src/main/java/net/mcreator/nimsrandombullshit/item/BlockEaterItem.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/block_eater.json"
         ]
       },
       "path": "~/Netherracks"
@@ -273,10 +273,10 @@
       "registry_name": "quadra_condensed_netherrack",
       "metadata": {
         "files": [
-          "src/main/resources/assets/nims_random_bullshit/models/block/quadra_condensed_netherrack.json",
-          "src/main/java/net/mcreator/nimsrandombullshit/block/QuadraCondensedNetherrackBlock.java",
           "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/quadra_condensed_netherrack.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/quadra_condensed_netherrack.json",
           "src/main/resources/assets/nims_random_bullshit/blockstates/quadra_condensed_netherrack.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/QuadraCondensedNetherrackBlock.java",
           "src/main/resources/assets/nims_random_bullshit/models/item/quadra_condensed_netherrack.json"
         ]
       },
@@ -290,8 +290,8 @@
       "registry_name": "netherrackite_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/nims_random_bullshit/models/item/netherrackite_pickaxe.json",
-          "src/main/java/net/mcreator/nimsrandombullshit/item/NetherrackitePickaxeItem.java"
+          "src/main/java/net/mcreator/nimsrandombullshit/item/NetherrackitePickaxeItem.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/netherrackite_pickaxe.json"
         ]
       },
       "path": "~/Netherracks"
@@ -363,46 +363,6 @@
       "path": "~/Netherracks"
     },
     {
-      "name": "NetherrackingEnchantment",
-      "type": "enchantment",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "netherracking_enchantment",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/enchantment/NetherrackingEnchantmentEnchantment.java"
-        ]
-      },
-      "path": "~/Netherracks"
-    },
-    {
-      "name": "NetherrackingLogic",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "netherracking_logic",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/procedures/NetherrackingLogicProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Netherracks"
-    },
-    {
       "name": "PentaCondensedNetherrack",
       "type": "block",
       "compiles": true,
@@ -410,11 +370,11 @@
       "registry_name": "penta_condensed_netherrack",
       "metadata": {
         "files": [
-          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/penta_condensed_netherrack.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/penta_condensed_netherrack.json",
           "src/main/resources/assets/nims_random_bullshit/models/item/penta_condensed_netherrack.json",
           "src/main/resources/assets/nims_random_bullshit/blockstates/penta_condensed_netherrack.json",
-          "src/main/resources/assets/nims_random_bullshit/models/block/penta_condensed_netherrack.json",
-          "src/main/java/net/mcreator/nimsrandombullshit/block/PentaCondensedNetherrackBlock.java"
+          "src/main/java/net/mcreator/nimsrandombullshit/block/PentaCondensedNetherrackBlock.java",
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/penta_condensed_netherrack.json"
         ]
       },
       "path": "~/Netherracks"
@@ -453,10 +413,10 @@
       "registry_name": "hexa_condensed_netherrack",
       "metadata": {
         "files": [
-          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/hexa_condensed_netherrack.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/HexaCondensedNetherrackBlock.java",
           "src/main/resources/assets/nims_random_bullshit/models/item/hexa_condensed_netherrack.json",
           "src/main/resources/assets/nims_random_bullshit/models/block/hexa_condensed_netherrack.json",
-          "src/main/java/net/mcreator/nimsrandombullshit/block/HexaCondensedNetherrackBlock.java",
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/hexa_condensed_netherrack.json",
           "src/main/resources/assets/nims_random_bullshit/blockstates/hexa_condensed_netherrack.json"
         ]
       },
@@ -1481,8 +1441,7 @@
       "item.nims_random_bullshit.gravedigger.description_0": "Right-Click on soul sand or soul soil to use them, summoning a ghoul that attacks hostile mobs.",
       "item.nims_random_bullshit.shit": "Shit",
       "block.nims_random_bullshit.condensed_netherrack": "Condensed Netherrack",
-      "enchantment.nims_random_bullshit.netherracking_enchantment": "Netherracking",
-      "item.nims_random_bullshit.netherrackite": "Netherrackite"
+      "item.nims_random_bullshit.netherrackite": "Netherrackite Ingot"
     }
   },
   "foldersRoot": {
