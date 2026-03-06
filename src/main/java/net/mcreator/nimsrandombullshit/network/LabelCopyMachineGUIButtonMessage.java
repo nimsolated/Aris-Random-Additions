@@ -64,7 +64,7 @@ public class LabelCopyMachineGUIButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			LabelCopyMachineCopyButtonPressedProcedure.execute(entity);
+			LabelCopyMachineCopyButtonPressedProcedure.execute(world, entity);
 		}
 	}
 

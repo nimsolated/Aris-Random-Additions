@@ -22,7 +22,41 @@
       "fixedValue": 1.25
     },
     "modelLayers": [],
-    "animations": [],
+    "animations": [
+      {
+        "animation": {
+          "value": "CUSTOM:tuxModelAnimation.walking"
+        },
+        "speed": 1.0,
+        "condition": {
+          "name": "TuxPlaybackConditionWalking"
+        },
+        "walking": true,
+        "amplitude": 1.0
+      },
+      {
+        "animation": {
+          "value": "CUSTOM:tuxModelAnimation.jumpUp"
+        },
+        "speed": 1.0,
+        "condition": {
+          "name": "TuxPlaybackConditionJumpUp"
+        },
+        "walking": false,
+        "amplitude": 1.0
+      },
+      {
+        "animation": {
+          "value": "CUSTOM:tuxModelAnimation.JumpDown"
+        },
+        "speed": 1.0,
+        "condition": {
+          "name": "TuxPlaybackConditionFalling"
+        },
+        "walking": false,
+        "amplitude": 1.0
+      }
+    ],
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,

@@ -23,6 +23,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EntityDimensions;
 import net.minecraft.world.entity.AreaEffectCloud;
+import net.minecraft.world.entity.AnimationState;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.sounds.SoundEvent;
@@ -33,9 +34,13 @@ import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.chat.Component;
 
+import net.mcreator.nimsrandombullshit.procedures.TuxPlaybackConditionJumpUpProcedure;
+import net.mcreator.nimsrandombullshit.procedures.TuxPlaybackConditionFallingProcedure;
 import net.mcreator.nimsrandombullshit.init.NimsRandomBullshitModEntities;
 
 public class TuxEntity extends Monster {
+	public final AnimationState animationState1 = new AnimationState();
+	public final AnimationState animationState2 = new AnimationState();
 	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.BLUE, ServerBossEvent.BossBarOverlay.PROGRESS);
 
 	public TuxEntity(PlayMessages.SpawnEntity packet, Level world) {
@@ -106,6 +111,15 @@ public class TuxEntity extends Monster {
 		if (damagesource.is(DamageTypes.FALLING_ANVIL))
 			return false;
 		return super.hurt(damagesource, amount);
+	}
+
+	@Override
+	public void tick() {
+		super.tick();
+		if (this.level().isClientSide()) {
+			this.animationState1.animateWhen(TuxPlaybackConditionJumpUpProcedure.execute(this), this.tickCount);
+			this.animationState2.animateWhen(TuxPlaybackConditionFallingProcedure.execute(this), this.tickCount);
+		}
 	}
 
 	@Override

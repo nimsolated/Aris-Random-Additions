@@ -1785,6 +1785,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -1869,6 +1873,66 @@
         ]
       },
       "path": "~/Mailbox"
+    },
+    {
+      "name": "TuxPlaybackConditionJumpUp",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tux_playback_condition_jump_up",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/TuxPlaybackConditionJumpUpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tux"
+    },
+    {
+      "name": "TuxPlaybackConditionFalling",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tux_playback_condition_falling",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/TuxPlaybackConditionFallingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mailbox"
+    },
+    {
+      "name": "TuxPlaybackConditionWalking",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tux_playback_condition_walking",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/TuxPlaybackConditionWalkingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tux"
     }
   ],
   "variable_elements": [],
