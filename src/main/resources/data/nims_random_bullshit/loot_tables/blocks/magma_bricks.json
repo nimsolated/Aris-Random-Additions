@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "nims_random_bullshit:blocks/magma_bricks",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "nims_random_bullshit:magma_bricks"
+        }
+      ]
+    }
+  ]
+}

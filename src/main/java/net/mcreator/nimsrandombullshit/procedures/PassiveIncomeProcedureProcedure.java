@@ -33,7 +33,7 @@ public class PassiveIncomeProcedureProcedure {
 		if (entity == null)
 			return;
 		entity.getPersistentData().putDouble("PassiveIncomeCounter", (entity.getPersistentData().getDouble("PassiveIncomeCounter") + 1));
-		if (entity.getPersistentData().getDouble("PassiveIncomeCounter") % 80 == 0) {
+		if (entity.getPersistentData().getDouble("PassiveIncomeCounter") % 3340 == 0) {
 			if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).getEnchantmentLevel(NimsRandomBullshitModEnchantments.PASSIVE_INCOME_ENCHANTMENT.get()) > 0) {
 				if (entity instanceof Player _player)
 					_player.giveExperiencePoints(

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:magma_block"
+    }
+  },
+  "result": {
+    "item": "nims_random_bullshit:magma_bricks",
+    "count": 1
+  }
+}

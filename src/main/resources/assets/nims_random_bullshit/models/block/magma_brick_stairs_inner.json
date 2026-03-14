@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "nims_random_bullshit:block/magma_bricks_2",
+    "bottom": "nims_random_bullshit:block/magma_bricks_2",
+    "top": "nims_random_bullshit:block/magma_bricks_2",
+    "side": "nims_random_bullshit:block/magma_bricks_2"
+  },
+  "render_type": "solid"
+}

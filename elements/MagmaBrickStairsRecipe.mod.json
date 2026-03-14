@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MagmaBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MagmaBricks"
+      },
+      {
+        "value": "CUSTOM:MagmaBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MagmaBricks"
+      },
+      {
+        "value": "CUSTOM:MagmaBricks"
+      },
+      {
+        "value": "CUSTOM:MagmaBricks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MagmaBrickStairs"
+    },
+    "name": "magma_brick_stairs_recipe",
+    "namespace": "mod"
+  }
+}

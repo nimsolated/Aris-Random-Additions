@@ -26,7 +26,9 @@ import net.mcreator.nimsrandombullshit.item.MagicDustItem;
 import net.mcreator.nimsrandombullshit.item.LapisLazuliNuggetItem;
 import net.mcreator.nimsrandombullshit.item.GravediggerItem;
 import net.mcreator.nimsrandombullshit.item.GoldenBerriesItem;
+import net.mcreator.nimsrandombullshit.item.CheeseItem;
 import net.mcreator.nimsrandombullshit.item.BlockEaterItem;
+import net.mcreator.nimsrandombullshit.item.BeanItem;
 import net.mcreator.nimsrandombullshit.NimsRandomBullshitMod;
 
 public class NimsRandomBullshitModItems {
@@ -57,6 +59,18 @@ public class NimsRandomBullshitModItems {
 	public static final RegistryObject<Item> SHIPPING_LABEL = REGISTRY.register("shipping_label", () -> new ShippingLabelItem());
 	public static final RegistryObject<Item> TUX_SPAWN_EGG = REGISTRY.register("tux_spawn_egg", () -> new ForgeSpawnEggItem(NimsRandomBullshitModEntities.TUX, -16777216, -1, new Item.Properties()));
 	public static final RegistryObject<Item> LABEL_COPY_MACHINE = block(NimsRandomBullshitModBlocks.LABEL_COPY_MACHINE);
+	public static final RegistryObject<Item> REDSTONE_BRICKS = block(NimsRandomBullshitModBlocks.REDSTONE_BRICKS);
+	public static final RegistryObject<Item> REDSTONE_BRICK_STAIRS = block(NimsRandomBullshitModBlocks.REDSTONE_BRICK_STAIRS);
+	public static final RegistryObject<Item> REDSTONE_BRICK_SLABS = block(NimsRandomBullshitModBlocks.REDSTONE_BRICK_SLABS);
+	public static final RegistryObject<Item> REDSTONE_BRICK_WALLS = block(NimsRandomBullshitModBlocks.REDSTONE_BRICK_WALLS);
+	public static final RegistryObject<Item> MAGMA_BRICKS = block(NimsRandomBullshitModBlocks.MAGMA_BRICKS);
+	public static final RegistryObject<Item> MAGMA_BRICK_STAIRS = block(NimsRandomBullshitModBlocks.MAGMA_BRICK_STAIRS);
+	public static final RegistryObject<Item> MAGMA_BRICK_SLABS = block(NimsRandomBullshitModBlocks.MAGMA_BRICK_SLABS);
+	public static final RegistryObject<Item> MAGMA_BRICK_WALLS = block(NimsRandomBullshitModBlocks.MAGMA_BRICK_WALLS);
+	public static final RegistryObject<Item> MAGMA_BRICK_PRESSURE_PLATE = block(NimsRandomBullshitModBlocks.MAGMA_BRICK_PRESSURE_PLATE);
+	public static final RegistryObject<Item> MAGMA_BRICK_BUTTON = block(NimsRandomBullshitModBlocks.MAGMA_BRICK_BUTTON);
+	public static final RegistryObject<Item> BEAN = REGISTRY.register("bean", () -> new BeanItem());
+	public static final RegistryObject<Item> CHEESE = REGISTRY.register("cheese", () -> new CheeseItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

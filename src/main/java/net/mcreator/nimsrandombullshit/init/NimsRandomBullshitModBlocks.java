@@ -10,11 +10,21 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.nimsrandombullshit.block.RedstoneBricksBlock;
+import net.mcreator.nimsrandombullshit.block.RedstoneBrickWallsBlock;
+import net.mcreator.nimsrandombullshit.block.RedstoneBrickStairsBlock;
+import net.mcreator.nimsrandombullshit.block.RedstoneBrickSlabsBlock;
 import net.mcreator.nimsrandombullshit.block.QuadraCondensedNetherrackBlock;
 import net.mcreator.nimsrandombullshit.block.PentaCondensedNetherrackBlock;
 import net.mcreator.nimsrandombullshit.block.OreMinerBlock;
 import net.mcreator.nimsrandombullshit.block.NetherrackJuiceBlock;
 import net.mcreator.nimsrandombullshit.block.MailboxBlock;
+import net.mcreator.nimsrandombullshit.block.MagmaBricksBlock;
+import net.mcreator.nimsrandombullshit.block.MagmaBrickWallsBlock;
+import net.mcreator.nimsrandombullshit.block.MagmaBrickStairsBlock;
+import net.mcreator.nimsrandombullshit.block.MagmaBrickSlabsBlock;
+import net.mcreator.nimsrandombullshit.block.MagmaBrickPressurePlateBlock;
+import net.mcreator.nimsrandombullshit.block.MagmaBrickButtonBlock;
 import net.mcreator.nimsrandombullshit.block.LabelCopyMachineBlock;
 import net.mcreator.nimsrandombullshit.block.HexaCondensedNetherrackBlock;
 import net.mcreator.nimsrandombullshit.block.CondensedNetherrackBlock;
@@ -36,6 +46,16 @@ public class NimsRandomBullshitModBlocks {
 	public static final RegistryObject<Block> NETHERRACK_JUICE = REGISTRY.register("netherrack_juice", () -> new NetherrackJuiceBlock());
 	public static final RegistryObject<Block> MAILBOX = REGISTRY.register("mailbox", () -> new MailboxBlock());
 	public static final RegistryObject<Block> LABEL_COPY_MACHINE = REGISTRY.register("label_copy_machine", () -> new LabelCopyMachineBlock());
+	public static final RegistryObject<Block> REDSTONE_BRICKS = REGISTRY.register("redstone_bricks", () -> new RedstoneBricksBlock());
+	public static final RegistryObject<Block> REDSTONE_BRICK_STAIRS = REGISTRY.register("redstone_brick_stairs", () -> new RedstoneBrickStairsBlock());
+	public static final RegistryObject<Block> REDSTONE_BRICK_SLABS = REGISTRY.register("redstone_brick_slabs", () -> new RedstoneBrickSlabsBlock());
+	public static final RegistryObject<Block> REDSTONE_BRICK_WALLS = REGISTRY.register("redstone_brick_walls", () -> new RedstoneBrickWallsBlock());
+	public static final RegistryObject<Block> MAGMA_BRICKS = REGISTRY.register("magma_bricks", () -> new MagmaBricksBlock());
+	public static final RegistryObject<Block> MAGMA_BRICK_STAIRS = REGISTRY.register("magma_brick_stairs", () -> new MagmaBrickStairsBlock());
+	public static final RegistryObject<Block> MAGMA_BRICK_SLABS = REGISTRY.register("magma_brick_slabs", () -> new MagmaBrickSlabsBlock());
+	public static final RegistryObject<Block> MAGMA_BRICK_WALLS = REGISTRY.register("magma_brick_walls", () -> new MagmaBrickWallsBlock());
+	public static final RegistryObject<Block> MAGMA_BRICK_PRESSURE_PLATE = REGISTRY.register("magma_brick_pressure_plate", () -> new MagmaBrickPressurePlateBlock());
+	public static final RegistryObject<Block> MAGMA_BRICK_BUTTON = REGISTRY.register("magma_brick_button", () -> new MagmaBrickButtonBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

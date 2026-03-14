@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "nims_random_bullshit:redstone_bricks"
+    }
+  },
+  "result": {
+    "item": "nims_random_bullshit:redstone_brick_slabs",
+    "count": 6
+  }
+}

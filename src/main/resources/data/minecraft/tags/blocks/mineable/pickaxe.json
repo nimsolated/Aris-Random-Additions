@@ -1,6 +1,16 @@
 {
   "replace": false,
   "values": [
+    "nims_random_bullshit:magma_brick_button",
+    "nims_random_bullshit:magma_brick_pressure_plate",
+    "nims_random_bullshit:magma_brick_walls",
+    "nims_random_bullshit:magma_brick_slabs",
+    "nims_random_bullshit:magma_brick_stairs",
+    "nims_random_bullshit:magma_bricks",
+    "nims_random_bullshit:redstone_brick_walls",
+    "nims_random_bullshit:redstone_brick_slabs",
+    "nims_random_bullshit:redstone_brick_stairs",
+    "nims_random_bullshit:redstone_bricks",
     "nims_random_bullshit:hexa_condensed_netherrack",
     "nims_random_bullshit:penta_condensed_netherrack",
     "nims_random_bullshit:quadra_condensed_netherrack",

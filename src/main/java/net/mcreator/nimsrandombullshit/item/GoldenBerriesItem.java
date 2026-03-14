@@ -8,7 +8,7 @@ import net.minecraft.world.food.FoodProperties;
 
 public class GoldenBerriesItem extends Item {
 	public GoldenBerriesItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.UNCOMMON).food((new FoodProperties.Builder()).nutrition(4).saturationMod(12f).build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.UNCOMMON).food((new FoodProperties.Builder()).nutrition(4).saturationMod(1.67f).build()));
 	}
 
 	@Override

@@ -29,6 +29,10 @@ public class NimsRandomBullshitModTabs {
 			tabData.accept(NimsRandomBullshitModBlocks.QUADRA_CONDENSED_NETHERRACK.get().asItem());
 			tabData.accept(NimsRandomBullshitModBlocks.PENTA_CONDENSED_NETHERRACK.get().asItem());
 			tabData.accept(NimsRandomBullshitModBlocks.HEXA_CONDENSED_NETHERRACK.get().asItem());
+			tabData.accept(NimsRandomBullshitModBlocks.MAGMA_BRICKS.get().asItem());
+			tabData.accept(NimsRandomBullshitModBlocks.MAGMA_BRICK_STAIRS.get().asItem());
+			tabData.accept(NimsRandomBullshitModBlocks.MAGMA_BRICK_SLABS.get().asItem());
+			tabData.accept(NimsRandomBullshitModBlocks.MAGMA_BRICK_WALLS.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(NimsRandomBullshitModItems.BLOCK_EATER.get());
 			tabData.accept(NimsRandomBullshitModItems.NETHERRACKITE_PICKAXE.get());
@@ -46,6 +50,8 @@ public class NimsRandomBullshitModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(NimsRandomBullshitModItems.MAGIC_FLESH.get());
 			tabData.accept(NimsRandomBullshitModItems.GOLDEN_BERRIES.get());
+			tabData.accept(NimsRandomBullshitModItems.BEAN.get());
+			tabData.accept(NimsRandomBullshitModItems.CHEESE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(NimsRandomBullshitModBlocks.ORE_MINER.get().asItem());
 			tabData.accept(NimsRandomBullshitModBlocks.MAILBOX.get().asItem());
@@ -53,6 +59,13 @@ public class NimsRandomBullshitModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(NimsRandomBullshitModItems.GHOUL_SPAWN_EGG.get());
 			tabData.accept(NimsRandomBullshitModItems.TUX_SPAWN_EGG.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
+			tabData.accept(NimsRandomBullshitModBlocks.REDSTONE_BRICKS.get().asItem());
+			tabData.accept(NimsRandomBullshitModBlocks.REDSTONE_BRICK_STAIRS.get().asItem());
+			tabData.accept(NimsRandomBullshitModBlocks.REDSTONE_BRICK_SLABS.get().asItem());
+			tabData.accept(NimsRandomBullshitModBlocks.REDSTONE_BRICK_WALLS.get().asItem());
+			tabData.accept(NimsRandomBullshitModBlocks.MAGMA_BRICK_PRESSURE_PLATE.get().asItem());
+			tabData.accept(NimsRandomBullshitModBlocks.MAGMA_BRICK_BUTTON.get().asItem());
 		}
 	}
 }

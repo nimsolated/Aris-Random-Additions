@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "nims_random_bullshit:blocks/redstone_brick_walls",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "nims_random_bullshit:redstone_brick_walls"
+        }
+      ]
+    }
+  ]
+}

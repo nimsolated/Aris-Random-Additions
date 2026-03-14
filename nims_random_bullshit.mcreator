@@ -1976,6 +1976,416 @@
         ]
       },
       "path": "~/Other"
+    },
+    {
+      "name": "RedstoneBricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/blockstates/redstone_bricks.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/RedstoneBricksBlock.java",
+          "src/main/resources/assets/nims_random_bullshit/models/block/redstone_bricks.json",
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/redstone_bricks.json",
+          "src/main/resources/assets/nims_random_bullshit/models/item/redstone_bricks.json"
+        ]
+      },
+      "path": "~/Redstone"
+    },
+    {
+      "name": "RedstoneBrickStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/models/block/redstone_brick_stairs.json",
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/redstone_brick_stairs.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/redstone_brick_stairs_outer.json",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/redstone_brick_stairs.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/RedstoneBrickStairsBlock.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/redstone_brick_stairs.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/redstone_brick_stairs_inner.json"
+        ]
+      },
+      "path": "~/Redstone"
+    },
+    {
+      "name": "RedstoneBrickSlabs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_brick_slabs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/redstone_brick_slabs.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/redstone_brick_slabs.json",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/redstone_brick_slabs.json",
+          "src/main/resources/assets/nims_random_bullshit/models/item/redstone_brick_slabs.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/redstone_brick_slabs_top.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/redstone_brick_slabs_full.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/RedstoneBrickSlabsBlock.java"
+        ]
+      },
+      "path": "~/Redstone"
+    },
+    {
+      "name": "RedstoneBrickWalls",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_brick_walls",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/redstone_brick_walls.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/redstone_brick_walls.json",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/redstone_brick_walls.json",
+          "src/main/resources/assets/nims_random_bullshit/models/item/redstone_brick_walls.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/redstone_brick_walls_post.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/RedstoneBrickWallsBlock.java",
+          "src/main/resources/assets/nims_random_bullshit/models/block/redstone_brick_walls_inventory.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/redstone_brick_walls_side_tall.json"
+        ]
+      },
+      "path": "~/Redstone"
+    },
+    {
+      "name": "MagmaBricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/models/item/magma_bricks.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/MagmaBricksBlock.java",
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/magma_bricks.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/magma_bricks.json",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/magma_bricks.json"
+        ]
+      },
+      "path": "~/Magma"
+    },
+    {
+      "name": "MagmaBrickStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/models/item/magma_brick_stairs.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/MagmaBrickStairsBlock.java",
+          "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_stairs_outer.json",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/magma_brick_stairs.json",
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/magma_brick_stairs.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_stairs.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_stairs_inner.json"
+        ]
+      },
+      "path": "~/Magma"
+    },
+    {
+      "name": "MagmaBrickSlabs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_brick_slabs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/block/MagmaBrickSlabsBlock.java",
+          "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_slabs_full.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_slabs.json",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/magma_brick_slabs.json",
+          "src/main/resources/assets/nims_random_bullshit/models/item/magma_brick_slabs.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_slabs_top.json",
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/magma_brick_slabs.json"
+        ]
+      },
+      "path": "~/Magma"
+    },
+    {
+      "name": "MagmaBrickWalls",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_brick_walls",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_walls_post.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_walls.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_walls_side_tall.json",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/magma_brick_walls.json",
+          "src/main/resources/assets/nims_random_bullshit/models/item/magma_brick_walls.json",
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/magma_brick_walls.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_walls_inventory.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/MagmaBrickWallsBlock.java"
+        ]
+      },
+      "path": "~/Magma"
+    },
+    {
+      "name": "MagmaBrickPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_brick_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/block/MagmaBrickPressurePlateBlock.java",
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/magma_brick_pressure_plate.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_pressure_plate.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_pressure_plate_down.json",
+          "src/main/resources/assets/nims_random_bullshit/models/item/magma_brick_pressure_plate.json",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/magma_brick_pressure_plate.json"
+        ]
+      },
+      "path": "~/Magma"
+    },
+    {
+      "name": "MagmaBrickButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_brick_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/magma_brick_button.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_button_inventory.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_button.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_button_pressed.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/MagmaBrickButtonBlock.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/magma_brick_button.json",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/magma_brick_button.json"
+        ]
+      },
+      "path": "~/Magma"
+    },
+    {
+      "name": "MagmaBricksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_bricks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/magma_bricks_recipe.json"
+        ]
+      },
+      "path": "~/Magma"
+    },
+    {
+      "name": "MagmaBrickStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_brick_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/magma_brick_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Magma"
+    },
+    {
+      "name": "MagmaBrickSlabsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_brick_slabs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/magma_brick_slabs_recipe.json"
+        ]
+      },
+      "path": "~/Magma"
+    },
+    {
+      "name": "MagmaBrickWallsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_brick_walls_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/magma_brick_walls_recipe.json"
+        ]
+      },
+      "path": "~/Magma"
+    },
+    {
+      "name": "MagmaBrickPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_brick_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/magma_brick_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Magma"
+    },
+    {
+      "name": "MagmaBrickButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_brick_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/magma_brick_button_recipe.json"
+        ]
+      },
+      "path": "~/Magma"
+    },
+    {
+      "name": "RedstoneBricksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_bricks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/redstone_bricks_recipe.json"
+        ]
+      },
+      "path": "~/Redstone"
+    },
+    {
+      "name": "RedstoneBrickStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_brick_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/redstone_brick_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Redstone"
+    },
+    {
+      "name": "RedstoneBrickSlabsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_brick_slabs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/redstone_brick_slabs_recipe.json"
+        ]
+      },
+      "path": "~/Redstone"
+    },
+    {
+      "name": "RedstoneBrickWallsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_brick_walls_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/redstone_brick_walls_recipe.json"
+        ]
+      },
+      "path": "~/Redstone"
+    },
+    {
+      "name": "Bean",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bean",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/models/item/bean.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/item/BeanItem.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "Cheese",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/models/item/cheese.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/item/CheeseItem.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "MagmaBlockLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_block_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/magma_block.json"
+        ]
+      },
+      "path": "~/Magma"
+    },
+    {
+      "name": "MagmaBricksRecipe4",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_bricks_recipe_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/magma_bricks_recipe_4.json"
+        ]
+      },
+      "path": "~/Magma"
+    },
+    {
+      "name": "BedrockLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/bedrock.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "ObsidianRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/obsidian_recipe.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "CheeseRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/cheese_recipe.json"
+        ]
+      },
+      "path": "~/Other"
     }
   ],
   "variable_elements": [],
@@ -1985,6 +2395,16 @@
       "~CUSTOM:NetherrackJuice"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:MagmaBrickButton",
+      "~CUSTOM:MagmaBrickPressurePlate",
+      "~CUSTOM:MagmaBrickWalls",
+      "~CUSTOM:MagmaBrickSlabs",
+      "~CUSTOM:MagmaBrickStairs",
+      "~CUSTOM:MagmaBricks",
+      "~CUSTOM:RedstoneBrickWalls",
+      "~CUSTOM:RedstoneBrickSlabs",
+      "~CUSTOM:RedstoneBrickStairs",
+      "~CUSTOM:RedstoneBricks",
       "~CUSTOM:HexaCondensedNetherrack",
       "~CUSTOM:PentaCondensedNetherrack",
       "~CUSTOM:QuadraCondensedNetherrack",
@@ -1993,6 +2413,8 @@
       "~CUSTOM:CondensedNetherrack"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:MagmaBrickSlabs",
+      "~CUSTOM:RedstoneBrickSlabs",
       "~CUSTOM:RubberSlab"
     ],
     "BLOCKS:minecraft:fences": [
@@ -2002,7 +2424,13 @@
       "~CUSTOM:StarWand",
       "~CUSTOM:NetherrackitePickaxe"
     ],
+    "BLOCKS:minecraft:walls": [
+      "~CUSTOM:MagmaBrickWalls",
+      "~CUSTOM:RedstoneBrickWalls"
+    ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:MagmaBrickStairs",
+      "~CUSTOM:RedstoneBrickStairs",
       "~CUSTOM:RubberStairs"
     ],
     "ITEMS:minecraft:shovels": [
@@ -2020,23 +2448,28 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.nims_random_bullshit.star_wand": "Star Wand",
       "gui.nims_random_bullshit.mailbox_name_entry_gui.button_done": "Done",
+      "item.nims_random_bullshit.star_wand": "Star Wand",
       "gui.nims_random_bullshit.ore_miner_gui.button_mine": "Mine",
-      "item.nims_random_bullshit.magic_dust": "Magic Dust",
       "block.nims_random_bullshit.penta_condensed_netherrack": "Penta-condensed Netherrack",
+      "item.nims_random_bullshit.magic_dust": "Magic Dust",
+      "block.nims_random_bullshit.magma_brick_button": "Magma Brick Button",
       "enchantment.nims_random_bullshit.passive_income_enchantment": "Passive Income",
       "gui.nims_random_bullshit.label_copy_machine_gui.button_copy": "Copy",
       "gui.nims_random_bullshit.mailbox_gui.outbox_x_coord": "0",
       "block.nims_random_bullshit.broken_glass": "Broken Glass",
+      "block.nims_random_bullshit.redstone_brick_walls": "Redstone Brick Wall",
       "block.nims_random_bullshit.rubber_fence": "Rubber Fence",
       "block.nims_random_bullshit.label_copy_machine": "Label Copy Machine",
+      "item.nims_random_bullshit.bean": "Bean",
       "effect.nims_random_bullshit.summoned_entity_effect": "Summoned Entity",
       "block.nims_random_bullshit.rubber_slab": "Rubber Slab",
       "gui.nims_random_bullshit.mailbox_name_entry_gui.mailbox_name_field": "",
       "item.nims_random_bullshit.shipping_label": "Shipping Label",
       "item.nims_random_bullshit.ghoul_spawn_egg": "Ghoul Spawn Egg",
+      "block.nims_random_bullshit.magma_brick_walls": "Magma Brick Wall",
       "gui.nims_random_bullshit.mailbox_gui.label_y": "Y:",
+      "block.nims_random_bullshit.redstone_bricks": "Redstone Bricks",
       "gui.nims_random_bullshit.mailbox_gui.label_z": "Z:",
       "item.nims_random_bullshit.tux_spawn_egg": "Tux Spawn Egg",
       "gui.nims_random_bullshit.mailbox_gui.label_x": "X:",
@@ -2049,8 +2482,11 @@
       "gui.nims_random_bullshit.label_copy_machine_gui.tooltip_paper_slot": "Paper Slot",
       "block.nims_random_bullshit.mailbox": "Mailbox",
       "gui.nims_random_bullshit.mailbox_gui.button_send": "Send",
+      "block.nims_random_bullshit.redstone_brick_stairs": "Redstone Brick Stairs",
       "gui.nims_random_bullshit.mailbox_gui.outbox_y_coord": "0",
       "gui.nims_random_bullshit.mailbox_gui.label_inbox": "Inbox",
+      "block.nims_random_bullshit.magma_brick_pressure_plate": "Magma Brick Pressure Plate",
+      "item.nims_random_bullshit.cheese": "Cheese",
       "item.nims_random_bullshit.netherrackite": "Netherrackite Ingot",
       "block.nims_random_bullshit.condensed_condensed_netherrack": "Condensed Condensed Netherrack",
       "item.nims_random_bullshit.gravedigger": "Gravedigger",
@@ -2077,10 +2513,14 @@
       "entity.nims_random_bullshit.ghoul": "Ghoul",
       "item.nims_random_bullshit.star": "Star",
       "gui.nims_random_bullshit.shit_gui.label_uh_ohh_stinky": "UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! ",
+      "block.nims_random_bullshit.magma_bricks": "Magma Bricks",
       "block.nims_random_bullshit.rubber_pressure_plate": "Rubber Pressure Plate",
       "item.nims_random_bullshit.shit": "Shit",
       "block.nims_random_bullshit.condensed_netherrack": "Condensed Netherrack",
+      "block.nims_random_bullshit.magma_brick_stairs": "Magma Brick Stairs",
+      "block.nims_random_bullshit.magma_brick_slabs": "Magma Brick Slab",
       "gui.nims_random_bullshit.label_copy_machine_gui.tooltip_shipping_label_slot": "Shipping Label Slot",
+      "block.nims_random_bullshit.redstone_brick_slabs": "Redstone Brick Slab",
       "gui.nims_random_bullshit.mailbox_name_entry_gui.label_mailbox_name": "Mailbox Name:"
     }
   },
@@ -2122,13 +2562,21 @@
       {
         "name": "Tux",
         "children": []
+      },
+      {
+        "name": "Redstone",
+        "children": []
+      },
+      {
+        "name": "Magma",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "nims_random_bullshit",
     "modName": "Nim\u0027s Random Bullshit",
-    "version": "1.4.2",
+    "version": "1.5.0",
     "description": "Random shit added by Nim. Created with MCreator.",
     "author": "nimsolated, MCreator",
     "websiteURL": "https://mcreator.net",

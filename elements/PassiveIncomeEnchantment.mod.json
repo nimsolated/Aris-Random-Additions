@@ -11,7 +11,7 @@
     "incompatibleEnchantments": [],
     "supportedItems": [
       {
-        "value": "TAG:enchantable/equippable"
+        "value": "TAG:minecraft:enchantable/armor"
       }
     ],
     "isTreasureEnchantment": false,
