@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "nims_random_bullshit:rubber_planks"
+    }
+  ],
+  "result": {
+    "item": "nims_random_bullshit:rubber_button",
+    "count": 1
+  }
+}

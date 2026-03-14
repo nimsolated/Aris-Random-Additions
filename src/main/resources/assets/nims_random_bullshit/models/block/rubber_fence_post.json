@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "nims_random_bullshit:block/rubber_planks",
+    "particle": "nims_random_bullshit:block/rubber_planks"
+  },
+  "render_type": "solid"
+}

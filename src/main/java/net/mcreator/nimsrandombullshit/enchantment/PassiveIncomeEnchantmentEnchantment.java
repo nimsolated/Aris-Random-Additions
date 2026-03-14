@@ -31,9 +31,4 @@ public class PassiveIncomeEnchantmentEnchantment extends Enchantment {
 	public int getMaxLevel() {
 		return 5;
 	}
-
-	@Override
-	public boolean isTreasureOnly() {
-		return true;
-	}
 }

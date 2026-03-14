@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_fence_gate_open",
+  "textures": {
+    "particle": "nims_random_bullshit:block/rubber_planks",
+    "texture": "nims_random_bullshit:block/rubber_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "nims_random_bullshit:block/rubber_planks",
+    "bottom": "nims_random_bullshit:block/rubber_planks",
+    "top": "nims_random_bullshit:block/rubber_planks",
+    "side": "nims_random_bullshit:block/rubber_planks"
+  },
+  "render_type": "solid"
+}

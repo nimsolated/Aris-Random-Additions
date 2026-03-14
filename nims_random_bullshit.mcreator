@@ -1898,6 +1898,84 @@
         ]
       },
       "path": "~/Other"
+    },
+    {
+      "name": "RabbitHideRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rabbit_hide_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/rabbit_hide_recipe.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "RabbitFootRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rabbit_foot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/rabbit_foot_recipe.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "DragonBreathRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_breath_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/recipes/brewing/DragonBreathRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "GunpowderRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gunpowder_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/gunpowder_recipe.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "MobSpawnerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_spawner_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/mob_spawner_recipe.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "ExperienceBottleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "experience_bottle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/recipes/brewing/ExperienceBottleRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Other"
     }
   ],
   "variable_elements": [],
@@ -1914,9 +1992,18 @@
       "~CUSTOM:CondensedCondensedNetherrack",
       "~CUSTOM:CondensedNetherrack"
     ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:RubberSlab"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:RubberFence"
+    ],
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:StarWand",
       "~CUSTOM:NetherrackitePickaxe"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:RubberStairs"
     ],
     "ITEMS:minecraft:shovels": [
       "~CUSTOM:Gravedigger"
@@ -1933,20 +2020,22 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "gui.nims_random_bullshit.mailbox_name_entry_gui.button_done": "Done",
       "item.nims_random_bullshit.star_wand": "Star Wand",
+      "gui.nims_random_bullshit.mailbox_name_entry_gui.button_done": "Done",
       "gui.nims_random_bullshit.ore_miner_gui.button_mine": "Mine",
-      "block.nims_random_bullshit.penta_condensed_netherrack": "Penta-condensed Netherrack",
       "item.nims_random_bullshit.magic_dust": "Magic Dust",
+      "block.nims_random_bullshit.penta_condensed_netherrack": "Penta-condensed Netherrack",
       "enchantment.nims_random_bullshit.passive_income_enchantment": "Passive Income",
       "gui.nims_random_bullshit.label_copy_machine_gui.button_copy": "Copy",
       "gui.nims_random_bullshit.mailbox_gui.outbox_x_coord": "0",
       "block.nims_random_bullshit.broken_glass": "Broken Glass",
+      "block.nims_random_bullshit.rubber_fence": "Rubber Fence",
       "block.nims_random_bullshit.label_copy_machine": "Label Copy Machine",
       "effect.nims_random_bullshit.summoned_entity_effect": "Summoned Entity",
+      "block.nims_random_bullshit.rubber_slab": "Rubber Slab",
       "gui.nims_random_bullshit.mailbox_name_entry_gui.mailbox_name_field": "",
-      "item.nims_random_bullshit.ghoul_spawn_egg": "Ghoul Spawn Egg",
       "item.nims_random_bullshit.shipping_label": "Shipping Label",
+      "item.nims_random_bullshit.ghoul_spawn_egg": "Ghoul Spawn Egg",
       "gui.nims_random_bullshit.mailbox_gui.label_y": "Y:",
       "gui.nims_random_bullshit.mailbox_gui.label_z": "Z:",
       "item.nims_random_bullshit.tux_spawn_egg": "Tux Spawn Egg",
@@ -1955,6 +2044,7 @@
       "item.nims_random_bullshit.lapis_lazuli_nugget": "Lapis Lazuli Nugget",
       "item.nims_random_bullshit.gravedigger.description_1": "We must dig!",
       "item.nims_random_bullshit.gravedigger.description_0": "Right-Click on soul sand or soul soil to use them, summoning a ghoul that attacks hostile mobs.",
+      "block.nims_random_bullshit.rubber_fence_gate": "Rubber Fence Gate",
       "gui.nims_random_bullshit.label_copy_machine_gui.tooltip_ink_sac_slot": "Ink Sac Slot",
       "gui.nims_random_bullshit.label_copy_machine_gui.tooltip_paper_slot": "Paper Slot",
       "block.nims_random_bullshit.mailbox": "Mailbox",
@@ -1974,7 +2064,9 @@
       "block.nims_random_bullshit.hexa_condensed_netherrack": "Hexa-condensed Netherrack",
       "block.nims_random_bullshit.ore_miner": "Ore Miner",
       "gui.nims_random_bullshit.mailbox_gui.label_outbox": "Outbox",
+      "block.nims_random_bullshit.rubber_stairs": "Rubber Stairs",
       "block.nims_random_bullshit.netherrack_juice": "Netherrack Juice",
+      "block.nims_random_bullshit.rubber_button": "Rubber Button",
       "item.nims_random_bullshit.sand_dust": "Sand Dust",
       "entity.nims_random_bullshit.tux": "Tux",
       "item.nims_random_bullshit.magic_flesh": "Magic Flesh",
@@ -1985,6 +2077,7 @@
       "entity.nims_random_bullshit.ghoul": "Ghoul",
       "item.nims_random_bullshit.star": "Star",
       "gui.nims_random_bullshit.shit_gui.label_uh_ohh_stinky": "UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! ",
+      "block.nims_random_bullshit.rubber_pressure_plate": "Rubber Pressure Plate",
       "item.nims_random_bullshit.shit": "Shit",
       "block.nims_random_bullshit.condensed_netherrack": "Condensed Netherrack",
       "gui.nims_random_bullshit.label_copy_machine_gui.tooltip_shipping_label_slot": "Shipping Label Slot",
@@ -2035,7 +2128,8 @@
   "workspaceSettings": {
     "modid": "nims_random_bullshit",
     "modName": "Nim\u0027s Random Bullshit",
-    "version": "1.0.0",
+    "version": "1.4.2",
+    "description": "Random shit added by Nim. Created with MCreator.",
     "author": "nimsolated, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
@@ -2045,6 +2139,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.nimsrandombullshit"
   },
   "mcreatorVersion": 202400452410

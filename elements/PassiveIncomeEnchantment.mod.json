@@ -14,7 +14,7 @@
         "value": "TAG:enchantable/equippable"
       }
     ],
-    "isTreasureEnchantment": true,
+    "isTreasureEnchantment": false,
     "isCurse": false,
     "canGenerateInLootTables": true,
     "canVillagerTrade": true

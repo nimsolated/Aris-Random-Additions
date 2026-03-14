@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "nims_random_bullshit:block/rubber_slab"
+    },
+    "type=top": {
+      "model": "nims_random_bullshit:block/rubber_slab_top"
+    },
+    "type=double": {
+      "model": "nims_random_bullshit:block/rubber_slab_full"
+    }
+  }
+}
