@@ -15,10 +15,10 @@
         "value": "Items.COAL#0"
       },
       {
-        "value": "Items.RAW_COPPER"
+        "value": "Items.COPPER_INGOT"
       },
       {
-        "value": "Items.RAW_IRON"
+        "value": "Items.IRON_INGOT"
       },
       {
         "value": "Items.NETHERITE_SCRAP"
@@ -27,7 +27,7 @@
         "value": "CUSTOM:QuadraCondensedNetherrack"
       },
       {
-        "value": "Items.RAW_GOLD"
+        "value": "Items.GOLD_INGOT"
       },
       {
         "value": "Items.REDSTONE"

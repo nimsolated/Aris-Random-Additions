@@ -4,6 +4,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.Slot;
@@ -54,16 +55,20 @@ public class OreMinerMineButtonPressedProcedure {
 								}
 								return 0;
 							}
-						}.getAmount(1) + Mth.nextInt(RandomSource.create(), 1, 3)));
+						}.getAmount(1) + Mth.nextInt(RandomSource.create(), 1, 3)
+								* ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+										.getEnchantmentLevel(Enchantments.BLOCK_FORTUNE) + 1)));
 						((Slot) _slots.get(1)).set(_setstack);
 						_player.containerMenu.broadcastChanges();
 					}
+					if (entity instanceof Player _player)
+						_player.giveExperiencePoints(1);
 					if (entity instanceof Player _player)
 						_player.getCooldowns()
 								.addCooldown((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem(), 6);
 				} else if (oreMinerRoll < 0.6) {
 					if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-						ItemStack _setstack = new ItemStack(Items.RAW_COPPER).copy();
+						ItemStack _setstack = new ItemStack(Items.COPPER_INGOT).copy();
 						_setstack.setCount((int) (new Object() {
 							public int getAmount(int sltid) {
 								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
@@ -73,7 +78,9 @@ public class OreMinerMineButtonPressedProcedure {
 								}
 								return 0;
 							}
-						}.getAmount(2) + Mth.nextInt(RandomSource.create(), 2, 4)));
+						}.getAmount(2) + Mth.nextInt(RandomSource.create(), 2, 4)
+								* ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+										.getEnchantmentLevel(Enchantments.BLOCK_FORTUNE) + 1)));
 						((Slot) _slots.get(2)).set(_setstack);
 						_player.containerMenu.broadcastChanges();
 					}
@@ -82,7 +89,7 @@ public class OreMinerMineButtonPressedProcedure {
 								.addCooldown((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem(), 8);
 				} else if (oreMinerRoll < 0.7) {
 					if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-						ItemStack _setstack = new ItemStack(Items.RAW_IRON).copy();
+						ItemStack _setstack = new ItemStack(Items.IRON_INGOT).copy();
 						_setstack.setCount((int) (new Object() {
 							public int getAmount(int sltid) {
 								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
@@ -92,7 +99,8 @@ public class OreMinerMineButtonPressedProcedure {
 								}
 								return 0;
 							}
-						}.getAmount(3) + 1));
+						}.getAmount(3) + 1 * ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+								.getEnchantmentLevel(Enchantments.BLOCK_FORTUNE) + 1)));
 						((Slot) _slots.get(3)).set(_setstack);
 						_player.containerMenu.broadcastChanges();
 					}
@@ -101,7 +109,7 @@ public class OreMinerMineButtonPressedProcedure {
 								.addCooldown((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem(), 8);
 				} else if (oreMinerRoll < 0.78) {
 					if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-						ItemStack _setstack = new ItemStack(Items.RAW_GOLD).copy();
+						ItemStack _setstack = new ItemStack(Items.GOLD_INGOT).copy();
 						_setstack.setCount((int) (new Object() {
 							public int getAmount(int sltid) {
 								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
@@ -111,7 +119,8 @@ public class OreMinerMineButtonPressedProcedure {
 								}
 								return 0;
 							}
-						}.getAmount(4) + 1));
+						}.getAmount(4) + 1 * ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+								.getEnchantmentLevel(Enchantments.BLOCK_FORTUNE) + 1)));
 						((Slot) _slots.get(4)).set(_setstack);
 						_player.containerMenu.broadcastChanges();
 					}
@@ -130,10 +139,14 @@ public class OreMinerMineButtonPressedProcedure {
 								}
 								return 0;
 							}
-						}.getAmount(5) + Mth.nextInt(RandomSource.create(), 1, 2)));
+						}.getAmount(5) + Mth.nextInt(RandomSource.create(), 1, 2)
+								* ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+										.getEnchantmentLevel(Enchantments.BLOCK_FORTUNE) + 1)));
 						((Slot) _slots.get(5)).set(_setstack);
 						_player.containerMenu.broadcastChanges();
 					}
+					if (entity instanceof Player _player)
+						_player.giveExperiencePoints(3);
 					if (entity instanceof Player _player)
 						_player.getCooldowns()
 								.addCooldown((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem(), 14);
@@ -149,10 +162,14 @@ public class OreMinerMineButtonPressedProcedure {
 								}
 								return 0;
 							}
-						}.getAmount(6) + Mth.nextInt(RandomSource.create(), 1, 2)));
+						}.getAmount(6) + Mth.nextInt(RandomSource.create(), 1, 2)
+								* ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+										.getEnchantmentLevel(Enchantments.BLOCK_FORTUNE) + 1)));
 						((Slot) _slots.get(6)).set(_setstack);
 						_player.containerMenu.broadcastChanges();
 					}
+					if (entity instanceof Player _player)
+						_player.giveExperiencePoints(3);
 					if (entity instanceof Player _player)
 						_player.getCooldowns()
 								.addCooldown((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem(), 14);
@@ -168,10 +185,14 @@ public class OreMinerMineButtonPressedProcedure {
 								}
 								return 0;
 							}
-						}.getAmount(7) + Mth.nextInt(RandomSource.create(), 3, 6)));
+						}.getAmount(7) + Mth.nextInt(RandomSource.create(), 3, 6)
+								* ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+										.getEnchantmentLevel(Enchantments.BLOCK_FORTUNE) + 1)));
 						((Slot) _slots.get(7)).set(_setstack);
 						_player.containerMenu.broadcastChanges();
 					}
+					if (entity instanceof Player _player)
+						_player.giveExperiencePoints(5);
 					if (entity instanceof Player _player)
 						_player.getCooldowns()
 								.addCooldown((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem(), 9);
@@ -187,7 +208,8 @@ public class OreMinerMineButtonPressedProcedure {
 								}
 								return 0;
 							}
-						}.getAmount(8) + 1));
+						}.getAmount(8) + 1 * ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+								.getEnchantmentLevel(Enchantments.BLOCK_FORTUNE) + 1)));
 						((Slot) _slots.get(8)).set(_setstack);
 						_player.containerMenu.broadcastChanges();
 					}

@@ -6,10 +6,10 @@
       "item": "minecraft:coal"
     },
     {
-      "item": "minecraft:raw_copper"
+      "item": "minecraft:copper_ingot"
     },
     {
-      "item": "minecraft:raw_iron"
+      "item": "minecraft:iron_ingot"
     },
     {
       "item": "minecraft:netherite_scrap"
@@ -18,7 +18,7 @@
       "item": "nims_random_bullshit:quadra_condensed_netherrack"
     },
     {
-      "item": "minecraft:raw_gold"
+      "item": "minecraft:gold_ingot"
     },
     {
       "item": "minecraft:redstone"
