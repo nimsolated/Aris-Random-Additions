@@ -25,8 +25,8 @@ public class OreMinerMineButtonPressedProcedure {
 			return;
 		double oreMinerRoll = 0;
 		if (!world.isClientSide()) {
-			if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == Items.DIAMOND_PICKAXE
-					&& !(entity instanceof Player _plrCldCheck4 && _plrCldCheck4.getCooldowns()
+			if (!((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == ItemStack.EMPTY.getItem())
+					&& !(entity instanceof Player _plrCldCheck5 && _plrCldCheck5.getCooldowns()
 							.isOnCooldown((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem()))) {
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {

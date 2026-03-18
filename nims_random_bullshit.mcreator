@@ -1315,341 +1315,6 @@
       "path": "~/Other"
     },
     {
-      "name": "Mailbox",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mailbox",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/nims_random_bullshit/blockstates/mailbox.json",
-          "src/main/java/net/mcreator/nimsrandombullshit/block/MailboxBlock.java",
-          "src/main/java/net/mcreator/nimsrandombullshit/block/entity/MailboxBlockEntity.java",
-          "src/main/resources/assets/nims_random_bullshit/models/item/mailbox.json",
-          "src/main/resources/assets/nims_random_bullshit/models/block/mailbox.json",
-          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/mailbox.json"
-        ]
-      },
-      "path": "~/Mailbox"
-    },
-    {
-      "name": "MailboxGUI",
-      "type": "gui",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mailbox_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/world/inventory/MailboxGUIMenu.java",
-          "src/main/java/net/mcreator/nimsrandombullshit/network/MailboxGUIButtonMessage.java",
-          "src/main/java/net/mcreator/nimsrandombullshit/client/gui/MailboxGUIScreen.java"
-        ]
-      },
-      "path": "~/Mailbox"
-    },
-    {
-      "name": "MailboxSmartSendLogic",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mailbox_smart_send_logic",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/procedures/MailboxSmartSendLogicProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Mailbox"
-    },
-    {
-      "name": "MailboxRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mailbox_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/nims_random_bullshit/recipes/mailbox_recipe.json"
-        ]
-      },
-      "path": "~/Mailbox"
-    },
-    {
-      "name": "ShippingLabel",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "shipping_label",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/nims_random_bullshit/models/item/shipping_label.json",
-          "src/main/java/net/mcreator/nimsrandombullshit/item/ShippingLabelItem.java"
-        ]
-      },
-      "path": "~/Mailbox"
-    },
-    {
-      "name": "ShippingLabelRightclickedOnBlock",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "shipping_label_rightclicked_on_block",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/procedures/ShippingLabelRightclickedOnBlockProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "blockstate",
-            "type": "blockstate"
-          },
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Mailbox"
-    },
-    {
-      "name": "ShippingLabelHasItemGlowingEffect",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "shipping_label_has_item_glowing_effect",
-      "metadata": {
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/procedures/ShippingLabelHasItemGlowingEffectProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
-      },
-      "path": "~/Mailbox"
-    },
-    {
-      "name": "ShippingLabelSpecialInformation",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "shipping_label_special_information",
-      "metadata": {
-        "return_type": "string",
-        "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/procedures/ShippingLabelSpecialInformationProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
-      },
-      "path": "~/Mailbox"
-    },
-    {
-      "name": "ShippingLabelRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "shipping_label_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/nims_random_bullshit/recipes/shipping_label_recipe.json"
-        ]
-      },
-      "path": "~/Mailbox"
-    },
-    {
-      "name": "MailboxSlot99ShippingLabelInsertionCondition",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mailbox_slot_99_shipping_label_insertion_condition",
-      "metadata": {
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/procedures/MailboxSlot99ShippingLabelInsertionConditionProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
-      },
-      "path": "~/Mailbox"
-    },
-    {
-      "name": "MailboxNameEntryGUI",
-      "type": "gui",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mailbox_name_entry_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/world/inventory/MailboxNameEntryGUIMenu.java",
-          "src/main/java/net/mcreator/nimsrandombullshit/client/gui/MailboxNameEntryGUIScreen.java",
-          "src/main/java/net/mcreator/nimsrandombullshit/network/MailboxNameEntryGUIButtonMessage.java"
-        ]
-      },
-      "path": "~/Mailbox"
-    },
-    {
-      "name": "MailboxBlockIsPlacedBy",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mailbox_block_is_placed_by",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/procedures/MailboxBlockIsPlacedByProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Mailbox"
-    },
-    {
-      "name": "MailboxNameEntryButtonPressed",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mailbox_name_entry_button_pressed",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/procedures/MailboxNameEntryButtonPressedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "guistate",
-            "type": "map"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Mailbox"
-    },
-    {
-      "name": "MailboxNameEntryGUIThisGUIIsClosed",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mailbox_name_entry_gui_this_gui_is_closed",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/procedures/MailboxNameEntryGUIThisGUIIsClosedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "guistate",
-            "type": "map"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Mailbox"
-    },
-    {
       "name": "Tux",
       "type": "livingentity",
       "compiles": true,
@@ -1663,155 +1328,6 @@
         ]
       },
       "path": "~/Tux"
-    },
-    {
-      "name": "LabelCopyMachine",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "label_copy_machine",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/nims_random_bullshit/models/block/label_copy_machine.json",
-          "src/main/resources/assets/nims_random_bullshit/blockstates/label_copy_machine.json",
-          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/label_copy_machine.json",
-          "src/main/java/net/mcreator/nimsrandombullshit/block/LabelCopyMachineBlock.java",
-          "src/main/java/net/mcreator/nimsrandombullshit/block/entity/LabelCopyMachineBlockEntity.java",
-          "src/main/resources/assets/nims_random_bullshit/models/item/label_copy_machine.json"
-        ]
-      },
-      "path": "~/Mailbox"
-    },
-    {
-      "name": "LabelCopyMachineRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "label_copy_machine_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/nims_random_bullshit/recipes/label_copy_machine_recipe.json"
-        ]
-      },
-      "path": "~/Mailbox"
-    },
-    {
-      "name": "LabelCopyMachineGUI",
-      "type": "gui",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "label_copy_machine_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/world/inventory/LabelCopyMachineGUIMenu.java",
-          "src/main/java/net/mcreator/nimsrandombullshit/client/gui/LabelCopyMachineGUIScreen.java",
-          "src/main/java/net/mcreator/nimsrandombullshit/network/LabelCopyMachineGUIButtonMessage.java"
-        ]
-      },
-      "path": "~/Mailbox"
-    },
-    {
-      "name": "LabelCopyMachineCopyButtonPressed",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "label_copy_machine_copy_button_pressed",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/procedures/LabelCopyMachineCopyButtonPressedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Mailbox"
-    },
-    {
-      "name": "LabelCopyMachineGUISlot0TooltipCondition",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "label_copy_machine_gui_slot_0_tooltip_condition",
-      "metadata": {
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/procedures/LabelCopyMachineGUISlot0TooltipConditionProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Mailbox"
-    },
-    {
-      "name": "LabelCopyMachineGUISlot1TooltipCondition",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "label_copy_machine_gui_slot_1_tooltip_condition",
-      "metadata": {
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/procedures/LabelCopyMachineGUISlot1TooltipConditionProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Mailbox"
-    },
-    {
-      "name": "LabelCopyMachineGUISlot2TooltipCondition",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "label_copy_machine_gui_slot_2_tooltip_condition",
-      "metadata": {
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/procedures/LabelCopyMachineGUISlot2TooltipConditionProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Mailbox"
-    },
-    {
-      "name": "LabelCopyMachineGUISlot3TooltipCondition",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "label_copy_machine_gui_slot_3_tooltip_condition",
-      "metadata": {
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/procedures/LabelCopyMachineGUISlot3TooltipConditionProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Mailbox"
     },
     {
       "name": "TuxPlaybackConditionJumpUp",
@@ -2474,28 +1990,6 @@
         "files": [
           "src/main/resources/data/nims_random_bullshit/recipes/totem_of_undying_recipe.json"
         ]
-      },
-      "path": "~/Other"
-    },
-    {
-      "name": "MailmanProfession",
-      "type": "villagerprofession",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mailman_profession",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Other"
-    },
-    {
-      "name": "MailmanTrades",
-      "type": "villagertrade",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mailman_trades",
-      "metadata": {
-        "files": []
       },
       "path": "~/Other"
     },
@@ -3206,6 +2700,59 @@
         "files": []
       },
       "path": "~/Shit"
+    },
+    {
+      "name": "BrownDyeShitRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_dye_shit_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/brown_dye_shit_recipe.json"
+        ]
+      },
+      "path": "~/Shit"
+    },
+    {
+      "name": "GiftCommandLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gift_command_logic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/GiftCommandLogicProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "GiftCommand",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gift_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/command/GiftCommandCommand.java"
+        ]
+      },
+      "path": "~/Other"
     }
   ],
   "variable_elements": [],
@@ -3216,6 +2763,15 @@
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:Bedrockifier"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:BedrockPickaxe",
+      "~CUSTOM:StarWand",
+      "~CUSTOM:NetherrackitePickaxe"
+    ],
+    "ITEMS:mod:ore_miner_acceptable_inputs": [
+      "CUSTOM:BedrockPickaxe",
+      "Items.DIAMOND_PICKAXE"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:Bedrockifier",
@@ -3243,11 +2799,6 @@
     ],
     "BLOCKS:minecraft:fences": [
       "~CUSTOM:RubberFence"
-    ],
-    "ITEMS:minecraft:pickaxes": [
-      "~CUSTOM:BedrockPickaxe",
-      "~CUSTOM:StarWand",
-      "~CUSTOM:NetherrackitePickaxe"
     ],
     "BLOCKS:minecraft:walls": [
       "~CUSTOM:MagmaBrickWalls",
@@ -3277,26 +2828,21 @@
   "language_map": {
     "en_us": {
       "item.nims_random_bullshit.star_wand": "Star Wand",
-      "gui.nims_random_bullshit.mailbox_name_entry_gui.button_done": "Done",
       "gui.nims_random_bullshit.ore_miner_gui.button_mine": "Mine",
       "block.nims_random_bullshit.penta_condensed_netherrack": "Penta-condensed Netherrack",
       "item.nims_random_bullshit.magic_dust": "Magic Dust",
       "block.nims_random_bullshit.magma_brick_button": "Magma Brick Button",
       "painting.nims_random_bullshit.shit_painting.title": "Shit Painting",
       "enchantment.nims_random_bullshit.passive_income_enchantment": "Passive Income",
-      "gui.nims_random_bullshit.label_copy_machine_gui.button_copy": "Copy",
       "painting.nims_random_bullshit.shit_painting.author": "nim",
       "gui.nims_random_bullshit.mailbox_gui.outbox_x_coord": "0",
       "block.nims_random_bullshit.broken_glass": "Broken Glass",
       "block.nims_random_bullshit.redstone_brick_walls": "Redstone Brick Wall",
       "block.nims_random_bullshit.rubber_fence": "Rubber Fence",
-      "block.nims_random_bullshit.label_copy_machine": "Label Copy Machine",
       "item.nims_random_bullshit.bean": "Bean",
       "effect.nims_random_bullshit.summoned_entity_effect": "Summoned Entity",
       "block.nims_random_bullshit.rubber_slab": "Rubber Slab",
-      "gui.nims_random_bullshit.mailbox_name_entry_gui.mailbox_name_field": "",
       "item.nims_random_bullshit.bedrock_upgrade_template": "Bedrock Upgrade Template",
-      "item.nims_random_bullshit.shipping_label": "Shipping Label",
       "item.nims_random_bullshit.ghoul_spawn_egg": "Ghoul Spawn Egg",
       "block.nims_random_bullshit.magma_brick_walls": "Magma Brick Wall",
       "gui.nims_random_bullshit.mailbox_gui.label_y": "Y:",
@@ -3305,20 +2851,14 @@
       "item.nims_random_bullshit.iron_golem_question_mark": "Iron Golem...?",
       "item.nims_random_bullshit.tux_spawn_egg": "Tux Spawn Egg",
       "gui.nims_random_bullshit.mailbox_gui.label_x": "X:",
-      "gui.nims_random_bullshit.label_copy_machine_gui.label_label_copy_machine": "Label Copy Machine",
       "item.nims_random_bullshit.lapis_lazuli_nugget": "Lapis Lazuli Nugget",
       "item.nims_random_bullshit.gravedigger.description_1": "We must dig!",
       "item.nims_random_bullshit.gravedigger.description_0": "Right-Click on soul sand or soul soil to use them, summoning a ghoul that attacks hostile mobs.",
       "block.nims_random_bullshit.rubber_fence_gate": "Rubber Fence Gate",
-      "gui.nims_random_bullshit.label_copy_machine_gui.tooltip_ink_sac_slot": "Ink Sac Slot",
-      "gui.nims_random_bullshit.label_copy_machine_gui.tooltip_paper_slot": "Paper Slot",
       "item.nims_random_bullshit.snow_golem_question_mark": "Snow Golem...?",
       "item.nims_random_bullshit.bedrock_sword": "Bedrock Sword",
-      "block.nims_random_bullshit.mailbox": "Mailbox",
-      "gui.nims_random_bullshit.mailbox_gui.button_send": "Send",
       "block.nims_random_bullshit.redstone_brick_stairs": "Redstone Brick Stairs",
       "gui.nims_random_bullshit.mailbox_gui.outbox_y_coord": "0",
-      "gui.nims_random_bullshit.mailbox_gui.label_inbox": "Inbox",
       "item.nims_random_bullshit.wither_question_mark": "Wither...?",
       "block.nims_random_bullshit.magma_brick_pressure_plate": "Magma Brick Pressure Plate",
       "item.nims_random_bullshit.cheese": "Cheese",
@@ -3328,14 +2868,12 @@
       "fluid.nims_random_bullshit.netherrack_juice": "Netherrack Juice",
       "block.nims_random_bullshit.quadra_condensed_netherrack": "Quadra-condensed Netherrack",
       "gui.nims_random_bullshit.mailbox_gui.outbox_z_coord": "0",
-      "gui.nims_random_bullshit.label_copy_machine_gui.tooltip_output_copy_of_shipping_label": "Output (copy of shipping label)",
       "item.nims_random_bullshit.netherrackite_pickaxe.description_0": "Non-condensed netherracks broken by this pickaxe drop themselves an additional time.",
       "gui.nims_random_bullshit.bedrockifier_gui.button_empty": "-\u003e",
       "item.nims_random_bullshit.netherrackite_pickaxe": "Netherrackite Pickaxe",
       "effect.nims_random_bullshit.stinky_effect": "Stinky",
       "block.nims_random_bullshit.hexa_condensed_netherrack": "Hexa-condensed Netherrack",
       "block.nims_random_bullshit.ore_miner": "Ore Miner",
-      "gui.nims_random_bullshit.mailbox_gui.label_outbox": "Outbox",
       "block.nims_random_bullshit.rubber_stairs": "Rubber Stairs",
       "block.nims_random_bullshit.netherrack_juice": "Netherrack Juice",
       "block.nims_random_bullshit.rubber_button": "Rubber Button",
@@ -3352,7 +2890,6 @@
       "item.nims_random_bullshit.star": "Star",
       "gui.nims_random_bullshit.shit_gui.label_uh_ohh_stinky": "UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! ",
       "block.nims_random_bullshit.magma_bricks": "Magma Bricks",
-      "entity.minecraft.villager.nims_random_bullshit.mailman_profession": "Mailman Profession",
       "gui.nims_random_bullshit.bedrockifier_gui.label_bedrockifier": "Bedrockifier",
       "block.nims_random_bullshit.rubber_pressure_plate": "Rubber Pressure Plate",
       "item.nims_random_bullshit.shit": "Shit",
@@ -3360,9 +2897,7 @@
       "item.nims_random_bullshit.bedrock_pickaxe": "Bedrock Pickaxe",
       "block.nims_random_bullshit.magma_brick_stairs": "Magma Brick Stairs",
       "block.nims_random_bullshit.magma_brick_slabs": "Magma Brick Slab",
-      "gui.nims_random_bullshit.label_copy_machine_gui.tooltip_shipping_label_slot": "Shipping Label Slot",
-      "block.nims_random_bullshit.redstone_brick_slabs": "Redstone Brick Slab",
-      "gui.nims_random_bullshit.mailbox_name_entry_gui.label_mailbox_name": "Mailbox Name:"
+      "block.nims_random_bullshit.redstone_brick_slabs": "Redstone Brick Slab"
     }
   },
   "foldersRoot": {
@@ -3397,10 +2932,6 @@
         "children": []
       },
       {
-        "name": "Mailbox",
-        "children": []
-      },
-      {
         "name": "Tux",
         "children": []
       },
@@ -3425,7 +2956,7 @@
   "workspaceSettings": {
     "modid": "nims_random_bullshit",
     "modName": "Nim\u0027s Random Bullshit",
-    "version": "1.6.1",
+    "version": "1.6.2",
     "description": "Random shit added by Nim. Created with MCreator.",
     "author": "nimsolated, MCreator",
     "websiteURL": "https://mcreator.net",

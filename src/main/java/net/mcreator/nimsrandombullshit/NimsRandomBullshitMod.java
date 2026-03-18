@@ -17,7 +17,6 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.nimsrandombullshit.init.NimsRandomBullshitModVillagerProfessions;
 import net.mcreator.nimsrandombullshit.init.NimsRandomBullshitModTabs;
 import net.mcreator.nimsrandombullshit.init.NimsRandomBullshitModPaintings;
 import net.mcreator.nimsrandombullshit.init.NimsRandomBullshitModMobEffects;
@@ -61,7 +60,6 @@ public class NimsRandomBullshitMod {
 
 		NimsRandomBullshitModPaintings.REGISTRY.register(bus);
 
-		NimsRandomBullshitModVillagerProfessions.PROFESSIONS.register(bus);
 		NimsRandomBullshitModMenus.REGISTRY.register(bus);
 		NimsRandomBullshitModFluids.REGISTRY.register(bus);
 		NimsRandomBullshitModFluidTypes.REGISTRY.register(bus);

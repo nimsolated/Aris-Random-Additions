@@ -14,7 +14,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": "Items.DIAMOND_PICKAXE"
+            "value": "TAG:mod:ore_miner_acceptable_inputs"
           },
           "disablePlacement": {
             "fixedValue": false

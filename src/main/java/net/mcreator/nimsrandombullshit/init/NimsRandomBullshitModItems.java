@@ -18,7 +18,6 @@ import net.mcreator.nimsrandombullshit.item.StarWandItem;
 import net.mcreator.nimsrandombullshit.item.StarItem;
 import net.mcreator.nimsrandombullshit.item.SnowGolemQuestionMarkItem;
 import net.mcreator.nimsrandombullshit.item.ShitItem;
-import net.mcreator.nimsrandombullshit.item.ShippingLabelItem;
 import net.mcreator.nimsrandombullshit.item.SandDustItem;
 import net.mcreator.nimsrandombullshit.item.NetherrackitePickaxeItem;
 import net.mcreator.nimsrandombullshit.item.NetherrackiteItem;
@@ -62,10 +61,7 @@ public class NimsRandomBullshitModItems {
 	public static final RegistryObject<Item> STAR = REGISTRY.register("star", () -> new StarItem());
 	public static final RegistryObject<Item> STAR_WAND = REGISTRY.register("star_wand", () -> new StarWandItem());
 	public static final RegistryObject<Item> NETHERRACK_JUICE_BUCKET = REGISTRY.register("netherrack_juice_bucket", () -> new NetherrackJuiceItem());
-	public static final RegistryObject<Item> MAILBOX = block(NimsRandomBullshitModBlocks.MAILBOX);
-	public static final RegistryObject<Item> SHIPPING_LABEL = REGISTRY.register("shipping_label", () -> new ShippingLabelItem());
 	public static final RegistryObject<Item> TUX_SPAWN_EGG = REGISTRY.register("tux_spawn_egg", () -> new ForgeSpawnEggItem(NimsRandomBullshitModEntities.TUX, -16777216, -1, new Item.Properties()));
-	public static final RegistryObject<Item> LABEL_COPY_MACHINE = block(NimsRandomBullshitModBlocks.LABEL_COPY_MACHINE);
 	public static final RegistryObject<Item> REDSTONE_BRICKS = block(NimsRandomBullshitModBlocks.REDSTONE_BRICKS);
 	public static final RegistryObject<Item> REDSTONE_BRICK_STAIRS = block(NimsRandomBullshitModBlocks.REDSTONE_BRICK_STAIRS);
 	public static final RegistryObject<Item> REDSTONE_BRICK_SLABS = block(NimsRandomBullshitModBlocks.REDSTONE_BRICK_SLABS);

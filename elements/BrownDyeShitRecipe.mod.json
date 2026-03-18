@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 2,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -12,12 +12,6 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "Items.PAPER"
-      },
-      {
-        "value": "Items.DYE#0"
-      },
-      {
         "value": ""
       },
       {
@@ -25,6 +19,12 @@
       },
       {
         "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Shit"
       },
       {
         "value": ""
@@ -40,9 +40,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ShippingLabel"
+      "value": "Items.DYE#17"
     },
-    "name": "shipping_label_recipe",
+    "name": "brown_dye_shit_recipe",
     "namespace": "mod"
   }
 }
