@@ -18,6 +18,7 @@ import net.minecraft.world.entity.Entity;
 
 import net.mcreator.nimsrandombullshit.entity.TuxEntity;
 import net.mcreator.nimsrandombullshit.entity.ShitProjectileEntity;
+import net.mcreator.nimsrandombullshit.entity.PocketLightningProjectileEntity;
 import net.mcreator.nimsrandombullshit.entity.GhoulEntity;
 import net.mcreator.nimsrandombullshit.NimsRandomBullshitMod;
 
@@ -32,6 +33,9 @@ public class NimsRandomBullshitModEntities {
 			EntityType.Builder.<TuxEntity>of(TuxEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TuxEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<PocketLightningProjectileEntity>> POCKET_LIGHTNING_PROJECTILE = register("pocket_lightning_projectile",
+			EntityType.Builder.<PocketLightningProjectileEntity>of(PocketLightningProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(PocketLightningProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities

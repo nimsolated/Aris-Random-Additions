@@ -4,7 +4,7 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="nims_random_bullshit"
-version="1.7.1"
+version="1.8.0"
 displayName="Nim's Random Bullshit"
 displayURL="https://mcreator.net"
 logoFile="logo.png"

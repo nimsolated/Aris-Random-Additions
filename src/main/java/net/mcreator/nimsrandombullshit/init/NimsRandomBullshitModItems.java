@@ -14,11 +14,13 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.nimsrandombullshit.item.WitherQuestionMarkItem;
+import net.mcreator.nimsrandombullshit.item.WandOfResizingItem;
 import net.mcreator.nimsrandombullshit.item.StarWandItem;
 import net.mcreator.nimsrandombullshit.item.StarItem;
 import net.mcreator.nimsrandombullshit.item.SnowGolemQuestionMarkItem;
 import net.mcreator.nimsrandombullshit.item.ShitItem;
 import net.mcreator.nimsrandombullshit.item.SandDustItem;
+import net.mcreator.nimsrandombullshit.item.PocketLightningItem;
 import net.mcreator.nimsrandombullshit.item.OrichalcumSwordItem;
 import net.mcreator.nimsrandombullshit.item.OrichalcumShovelItem;
 import net.mcreator.nimsrandombullshit.item.OrichalcumPickaxeItem;
@@ -105,6 +107,8 @@ public class NimsRandomBullshitModItems {
 	public static final RegistryObject<Item> ORICHALCUM_ARMOR_BOOTS = REGISTRY.register("orichalcum_armor_boots", () -> new OrichalcumArmorItem.Boots());
 	public static final RegistryObject<Item> BEDROCK_SHARD = REGISTRY.register("bedrock_shard", () -> new BedrockShardItem());
 	public static final RegistryObject<Item> BEDROCK_EATER = REGISTRY.register("bedrock_eater", () -> new BedrockEaterItem());
+	public static final RegistryObject<Item> WAND_OF_RESIZING = REGISTRY.register("wand_of_resizing", () -> new WandOfResizingItem());
+	public static final RegistryObject<Item> POCKET_LIGHTNING = REGISTRY.register("pocket_lightning", () -> new PocketLightningItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

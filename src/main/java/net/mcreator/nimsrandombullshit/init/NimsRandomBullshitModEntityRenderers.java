@@ -21,5 +21,6 @@ public class NimsRandomBullshitModEntityRenderers {
 		event.registerEntityRenderer(NimsRandomBullshitModEntities.SHIT_PROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(NimsRandomBullshitModEntities.GHOUL.get(), GhoulRenderer::new);
 		event.registerEntityRenderer(NimsRandomBullshitModEntities.TUX.get(), TuxRenderer::new);
+		event.registerEntityRenderer(NimsRandomBullshitModEntities.POCKET_LIGHTNING_PROJECTILE.get(), ThrownItemRenderer::new);
 	}
 }
