@@ -3527,6 +3527,276 @@
         ]
       },
       "path": "~/PocketLightning"
+    },
+    {
+      "name": "RuiningEnchantment",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruining_enchantment",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/enchantment/RuiningEnchantmentEnchantment.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "RuiningProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruining_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/RuiningProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "SunderingEnchantment",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sundering_enchantment",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/enchantment/SunderingEnchantmentEnchantment.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "SunderingProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sundering_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/SunderingProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "NightVisionGoggles",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_vision_goggles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/models/item/night_vision_goggles_helmet.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/item/NightVisionGogglesItem.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "NightVisionGogglesHelmetTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_vision_goggles_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/NightVisionGogglesHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "NightVisionGogglesShaderUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_vision_goggles_shader_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/NightVisionGogglesShaderUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "BlackIronIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_iron_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/item/BlackIronIngotItem.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/black_iron_ingot.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "NightVisionGogglesRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_vision_goggles_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/night_vision_goggles_recipe.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "BlackIronIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_iron_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/black_iron_ingot_recipe.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "RaveBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rave_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/blockstates/rave_block.json",
+          "src/main/resources/assets/nims_random_bullshit/models/item/rave_block.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/RaveBlockBlock.java",
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/rave_block.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/rave_block.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "RaveBlockStates",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rave_block_states",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nims_random_bullshit/models/block/rave_block_states_blockstate_4.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/rave_block_states_blockstate_3.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/rave_block_states_blockstate_0.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/rave_block_states_blockstate_1.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/rave_block_states_blockstate_2.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "RaveBlockOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rave_block_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/RaveBlockOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "RaveBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rave_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/rave_block_recipe.json"
+        ]
+      },
+      "path": "~/Other"
     }
   ],
   "variable_elements": [],
@@ -3644,6 +3914,7 @@
       "gui.nims_random_bullshit.mailbox_gui.outbox_y_coord": "0",
       "item.nims_random_bullshit.wither_question_mark": "Wither...?",
       "advancements.block_eater_advancement.descr": "Eat a block with the Block Eater",
+      "enchantment.nims_random_bullshit.ruining_enchantment": "Ruining",
       "advancements.tux_advancement.title": "Tux!?",
       "advancements.netherrack_juice_advancement.descr": "Obtain Netherrack Juice",
       "block.nims_random_bullshit.condensed_condensed_netherrack": "Condensed Condensed Netherrack",
@@ -3652,12 +3923,14 @@
       "advancements.shit_advancement.descr": "Shit",
       "gui.nims_random_bullshit.bedrockifier_gui.button_empty": "-\u003e",
       "block.nims_random_bullshit.hexa_condensed_netherrack": "Hexa-condensed Netherrack",
+      "enchantment.nims_random_bullshit.sundering_enchantment": "Sundering",
       "item.nims_random_bullshit.sand_dust": "Sand Dust",
       "entity.nims_random_bullshit.tux": "Tux",
       "block.nims_random_bullshit.bedrockifier": "Bedrockifier",
       "item.nims_random_bullshit.magic_flesh": "Magic Flesh",
       "item.nims_random_bullshit.golden_berries": "Golden Berries",
       "item.nims_random_bullshit.netherrack_juice_bucket": "Netherrack Juice Bucket",
+      "item.nims_random_bullshit.black_iron_ingot": "Black Iron Ingot",
       "item.nims_random_bullshit.orichalcum": "Orichalcum",
       "advancements.magic_egg_advancement.descr": "Obtain a Magic Egg",
       "item.nims_random_bullshit.pocket_lightning.description_0": "Spawns lightning wherever it lands.",
@@ -3667,6 +3940,7 @@
       "block.nims_random_bullshit.condensed_netherrack": "Condensed Netherrack",
       "block.nims_random_bullshit.magma_brick_slabs": "Magma Brick Slab",
       "item.nims_random_bullshit.pocket_lightning": "Pocket Lightning",
+      "item.nims_random_bullshit.night_vision_goggles_helmet": "Night Vision Goggles",
       "advancements.orichalcum_set_advancement.title": "Cover Me In Orc Cum",
       "item.nims_random_bullshit.star_wand": "Star Wand",
       "gui.nims_random_bullshit.ore_miner_gui.button_mine": "Mine",
@@ -3684,6 +3958,7 @@
       "advancements.orichalcum_advancement.title": "Folly Red Cum",
       "item.nims_random_bullshit.ghoul_spawn_egg": "Ghoul Spawn Egg",
       "block.nims_random_bullshit.magma_brick_walls": "Magma Brick Wall",
+      "block.nims_random_bullshit.rave_block": "Rave Block",
       "gui.nims_random_bullshit.mailbox_gui.label_y": "Y:",
       "gui.nims_random_bullshit.mailbox_gui.label_z": "Z:",
       "item.nims_random_bullshit.tux_spawn_egg": "Tux Spawn Egg",

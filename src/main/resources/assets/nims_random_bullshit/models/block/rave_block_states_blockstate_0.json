@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "nims_random_bullshit:block/rave_block_r",
+    "up": "nims_random_bullshit:block/rave_block_r",
+    "north": "nims_random_bullshit:block/rave_block_r",
+    "east": "nims_random_bullshit:block/rave_block_r",
+    "south": "nims_random_bullshit:block/rave_block_r",
+    "west": "nims_random_bullshit:block/rave_block_r",
+    "particle": "nims_random_bullshit:block/rave_block"
+  },
+  "render_type": "solid"
+}

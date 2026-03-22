@@ -28,6 +28,7 @@ import net.mcreator.nimsrandombullshit.item.OrichalcumItem;
 import net.mcreator.nimsrandombullshit.item.OrichalcumHoeItem;
 import net.mcreator.nimsrandombullshit.item.OrichalcumAxeItem;
 import net.mcreator.nimsrandombullshit.item.OrichalcumArmorItem;
+import net.mcreator.nimsrandombullshit.item.NightVisionGogglesItem;
 import net.mcreator.nimsrandombullshit.item.NetherrackitePickaxeItem;
 import net.mcreator.nimsrandombullshit.item.NetherrackiteItem;
 import net.mcreator.nimsrandombullshit.item.NetherrackJuiceItem;
@@ -40,6 +41,7 @@ import net.mcreator.nimsrandombullshit.item.GravediggerItem;
 import net.mcreator.nimsrandombullshit.item.GoldenBerriesItem;
 import net.mcreator.nimsrandombullshit.item.CheeseItem;
 import net.mcreator.nimsrandombullshit.item.BlockEaterItem;
+import net.mcreator.nimsrandombullshit.item.BlackIronIngotItem;
 import net.mcreator.nimsrandombullshit.item.BedrockUpgradeTemplateItem;
 import net.mcreator.nimsrandombullshit.item.BedrockSwordItem;
 import net.mcreator.nimsrandombullshit.item.BedrockShardItem;
@@ -109,6 +111,9 @@ public class NimsRandomBullshitModItems {
 	public static final RegistryObject<Item> BEDROCK_EATER = REGISTRY.register("bedrock_eater", () -> new BedrockEaterItem());
 	public static final RegistryObject<Item> WAND_OF_RESIZING = REGISTRY.register("wand_of_resizing", () -> new WandOfResizingItem());
 	public static final RegistryObject<Item> POCKET_LIGHTNING = REGISTRY.register("pocket_lightning", () -> new PocketLightningItem());
+	public static final RegistryObject<Item> NIGHT_VISION_GOGGLES_HELMET = REGISTRY.register("night_vision_goggles_helmet", () -> new NightVisionGogglesItem.Helmet());
+	public static final RegistryObject<Item> BLACK_IRON_INGOT = REGISTRY.register("black_iron_ingot", () -> new BlackIronIngotItem());
+	public static final RegistryObject<Item> RAVE_BLOCK = block(NimsRandomBullshitModBlocks.RAVE_BLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

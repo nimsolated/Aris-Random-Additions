@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BlackIronIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlackIronIngot"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS_PANE#5"
+      },
+      {
+        "value": "CUSTOM:BlackIronIngot"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS_PANE#5"
+      },
+      {
+        "value": "CUSTOM:BlackIronIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlackIronIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NightVisionGoggles.helmet"
+    },
+    "name": "night_vision_goggles_recipe",
+    "namespace": "mod"
+  }
+}

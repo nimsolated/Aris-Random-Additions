@@ -1,0 +1,74 @@
+{
+  "_fv": 73,
+  "_type": "blockstates",
+  "definition": {
+    "block": "RaveBlock",
+    "blockstateList": [
+      {
+        "texture": "rave_block_r",
+        "textureTop": "rave_block_r",
+        "textureLeft": "rave_block_r",
+        "textureFront": "rave_block_r",
+        "textureRight": "rave_block_r",
+        "textureBack": "rave_block_r",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 10,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "rave_block_y",
+        "textureTop": "rave_block_y",
+        "textureLeft": "rave_block_y",
+        "textureFront": "rave_block_y",
+        "textureRight": "rave_block_y",
+        "textureBack": "rave_block_y",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 10,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "rave_block_g",
+        "textureTop": "rave_block_g",
+        "textureLeft": "rave_block_g",
+        "textureFront": "rave_block_g",
+        "textureRight": "rave_block_g",
+        "textureBack": "rave_block_g",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 10,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "rave_block_b",
+        "textureTop": "rave_block_b",
+        "textureLeft": "rave_block_b",
+        "textureFront": "rave_block_b",
+        "textureRight": "rave_block_b",
+        "textureBack": "rave_block_b",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 10,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "rave_block_p",
+        "textureTop": "rave_block_p",
+        "textureLeft": "rave_block_p",
+        "textureFront": "rave_block_p",
+        "textureRight": "rave_block_p",
+        "textureBack": "rave_block_p",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 10,
+        "boundingBoxes": []
+      }
+    ]
+  }
+}

@@ -1,6 +1,8 @@
 
 package net.mcreator.nimsrandombullshit.item;
 
+import net.minecraftforge.registries.ForgeRegistries;
+
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
@@ -10,8 +12,8 @@ import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.nimsrandombullshit.procedures.OrichalcumArmorBootsTickEventProcedure;
 import net.mcreator.nimsrandombullshit.init.NimsRandomBullshitModItems;
@@ -38,7 +40,7 @@ public abstract class OrichalcumArmorItem extends ArmorItem {
 
 			@Override
 			public SoundEvent getEquipSound() {
-				return SoundEvents.EMPTY;
+				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.armor.equip_netherite"));
 			}
 
 			@Override
@@ -70,7 +72,7 @@ public abstract class OrichalcumArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "nims_random_bullshit:textures/models/armor/orichalcum_layer_1.png";
+			return "nims_random_bullshit:textures/models/armor/orichalcum_armor_layer_1.png";
 		}
 	}
 
@@ -81,7 +83,7 @@ public abstract class OrichalcumArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "nims_random_bullshit:textures/models/armor/orichalcum_layer_1.png";
+			return "nims_random_bullshit:textures/models/armor/orichalcum_armor_layer_1.png";
 		}
 	}
 
@@ -92,7 +94,7 @@ public abstract class OrichalcumArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "nims_random_bullshit:textures/models/armor/orichalcum_layer_2.png";
+			return "nims_random_bullshit:textures/models/armor/orichalcum_armor_layer_2.png";
 		}
 	}
 
@@ -103,7 +105,7 @@ public abstract class OrichalcumArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "nims_random_bullshit:textures/models/armor/orichalcum_layer_1.png";
+			return "nims_random_bullshit:textures/models/armor/orichalcum_armor_layer_1.png";
 		}
 
 		@Override
