@@ -42,6 +42,7 @@ import net.mcreator.nimsrandombullshit.item.BedrockUpgradeTemplateItem;
 import net.mcreator.nimsrandombullshit.item.BedrockSwordItem;
 import net.mcreator.nimsrandombullshit.item.BedrockShardItem;
 import net.mcreator.nimsrandombullshit.item.BedrockPickaxeItem;
+import net.mcreator.nimsrandombullshit.item.BedrockEaterItem;
 import net.mcreator.nimsrandombullshit.item.BeanItem;
 import net.mcreator.nimsrandombullshit.NimsRandomBullshitMod;
 
@@ -103,6 +104,7 @@ public class NimsRandomBullshitModItems {
 	public static final RegistryObject<Item> ORICHALCUM_ARMOR_LEGGINGS = REGISTRY.register("orichalcum_armor_leggings", () -> new OrichalcumArmorItem.Leggings());
 	public static final RegistryObject<Item> ORICHALCUM_ARMOR_BOOTS = REGISTRY.register("orichalcum_armor_boots", () -> new OrichalcumArmorItem.Boots());
 	public static final RegistryObject<Item> BEDROCK_SHARD = REGISTRY.register("bedrock_shard", () -> new BedrockShardItem());
+	public static final RegistryObject<Item> BEDROCK_EATER = REGISTRY.register("bedrock_eater", () -> new BedrockEaterItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

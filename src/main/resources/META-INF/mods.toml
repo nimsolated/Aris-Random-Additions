@@ -4,7 +4,7 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="nims_random_bullshit"
-version="1.7.0"
+version="1.7.1"
 displayName="Nim's Random Bullshit"
 displayURL="https://mcreator.net"
 logoFile="logo.png"
@@ -23,6 +23,18 @@ description="Random shit added by Nim. Created with MCreator."
     side="BOTH"
 
 
+[[dependencies.nims_random_bullshit]]
+    modId="photon"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.nims_random_bullshit]]
+    modId="pehkui"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 
 # Start of user code block dependencies configuration

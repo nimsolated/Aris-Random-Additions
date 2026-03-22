@@ -48,6 +48,7 @@ public class NimsRandomBullshitModTabs {
 			tabData.accept(NimsRandomBullshitModItems.ORICHALCUM_AXE.get());
 			tabData.accept(NimsRandomBullshitModItems.ORICHALCUM_SHOVEL.get());
 			tabData.accept(NimsRandomBullshitModItems.ORICHALCUM_HOE.get());
+			tabData.accept(NimsRandomBullshitModItems.BEDROCK_EATER.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(NimsRandomBullshitModItems.NETHERRACKITE.get());
 			tabData.accept(NimsRandomBullshitModItems.SAND_DUST.get());

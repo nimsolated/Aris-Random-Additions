@@ -63,22 +63,6 @@
         }
       },
       {
-        "type": "button",
-        "data": {
-          "name": "button_empty",
-          "text": "->",
-          "isUndecorated": false,
-          "onClick": {
-            "name": "BedrockifierButtonPressLogic"
-          },
-          "width": 35,
-          "height": 20,
-          "x": 222,
-          "y": 71,
-          "locked": false
-        }
-      },
-      {
         "type": "outputslot",
         "data": {
           "color": {
@@ -108,6 +92,16 @@
           },
           "x": 132,
           "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "right_arrow_sign.png",
+          "use1Xscale": false,
+          "x": 222,
+          "y": 71,
           "locked": false
         }
       }

@@ -1,3 +1,4 @@
+
 package net.mcreator.nimsrandombullshit.client.gui;
 
 import net.minecraft.world.level.Level;
@@ -6,13 +7,10 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.nimsrandombullshit.world.inventory.OreMinerGUIMenu;
 import net.mcreator.nimsrandombullshit.procedures.OreMinerGUISlot0ImageDisplayConditionProcedure;
-import net.mcreator.nimsrandombullshit.network.OreMinerGUIButtonMessage;
-import net.mcreator.nimsrandombullshit.NimsRandomBullshitMod;
 
 import java.util.HashMap;
 
@@ -23,7 +21,6 @@ public class OreMinerGUIScreen extends AbstractContainerScreen<OreMinerGUIMenu> 
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
-	Button button_mine;
 
 	public OreMinerGUIScreen(OreMinerGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -73,13 +70,5 @@ public class OreMinerGUIScreen extends AbstractContainerScreen<OreMinerGUIMenu> 
 	@Override
 	public void init() {
 		super.init();
-		button_mine = Button.builder(Component.translatable("gui.nims_random_bullshit.ore_miner_gui.button_mine"), e -> {
-			if (true) {
-				NimsRandomBullshitMod.PACKET_HANDLER.sendToServer(new OreMinerGUIButtonMessage(0, x, y, z));
-				OreMinerGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
-			}
-		}).bounds(this.leftPos + 15, this.topPos + 43, 46, 20).build();
-		guistate.put("button:button_mine", button_mine);
-		this.addRenderableWidget(button_mine);
 	}
 }

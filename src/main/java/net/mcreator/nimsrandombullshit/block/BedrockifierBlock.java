@@ -32,6 +32,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.nimsrandombullshit.world.inventory.BedrockifierGUIMenu;
+import net.mcreator.nimsrandombullshit.procedures.BedrockifierLogicProcedure;
 import net.mcreator.nimsrandombullshit.block.entity.BedrockifierBlockEntity;
 
 import io.netty.buffer.Unpooled;
@@ -66,6 +67,14 @@ public class BedrockifierBlock extends Block implements EntityBlock {
 
 	public BlockState mirror(BlockState state, Mirror mirrorIn) {
 		return state.rotate(mirrorIn.getRotation(state.getValue(FACING)));
+	}
+
+	@Override
+	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
+		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
+		if (world.getBestNeighborSignal(pos) > 0) {
+			BedrockifierLogicProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		}
 	}
 
 	@Override

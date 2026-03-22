@@ -1,3 +1,4 @@
+
 package net.mcreator.nimsrandombullshit.block.entity;
 
 import net.minecraftforge.items.wrapper.SidedInvWrapper;

@@ -30,22 +30,6 @@
         }
       },
       {
-        "type": "button",
-        "data": {
-          "name": "button_mine",
-          "text": "Mine",
-          "isUndecorated": false,
-          "onClick": {
-            "name": "OreMinerMineButtonPressed"
-          },
-          "width": 46,
-          "height": 20,
-          "x": 141,
-          "y": 80,
-          "locked": false
-        }
-      },
-      {
         "type": "image",
         "data": {
           "image": "diamond_pickaxe_blueprint.png",

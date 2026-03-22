@@ -1,3 +1,4 @@
+
 package net.mcreator.nimsrandombullshit.client.gui;
 
 import net.minecraft.world.level.Level;
@@ -6,12 +7,9 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.nimsrandombullshit.world.inventory.BedrockifierGUIMenu;
-import net.mcreator.nimsrandombullshit.network.BedrockifierGUIButtonMessage;
-import net.mcreator.nimsrandombullshit.NimsRandomBullshitMod;
 
 import java.util.HashMap;
 
@@ -22,7 +20,6 @@ public class BedrockifierGUIScreen extends AbstractContainerScreen<BedrockifierG
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
-	Button button_empty;
 
 	public BedrockifierGUIScreen(BedrockifierGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -53,6 +50,8 @@ public class BedrockifierGUIScreen extends AbstractContainerScreen<BedrockifierG
 
 		guiGraphics.blit(new ResourceLocation("nims_random_bullshit:textures/screens/plus_sign.png"), this.leftPos + 42, this.topPos + 34, 0, 0, 16, 16, 16, 16);
 
+		guiGraphics.blit(new ResourceLocation("nims_random_bullshit:textures/screens/right_arrow_sign.png"), this.leftPos + 96, this.topPos + 34, 0, 0, 32, 16, 32, 16);
+
 		RenderSystem.disableBlend();
 	}
 
@@ -73,13 +72,5 @@ public class BedrockifierGUIScreen extends AbstractContainerScreen<BedrockifierG
 	@Override
 	public void init() {
 		super.init();
-		button_empty = Button.builder(Component.translatable("gui.nims_random_bullshit.bedrockifier_gui.button_empty"), e -> {
-			if (true) {
-				NimsRandomBullshitMod.PACKET_HANDLER.sendToServer(new BedrockifierGUIButtonMessage(0, x, y, z));
-				BedrockifierGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
-			}
-		}).bounds(this.leftPos + 96, this.topPos + 34, 35, 20).build();
-		guistate.put("button:button_empty", button_empty);
-		this.addRenderableWidget(button_empty);
 	}
 }

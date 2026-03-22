@@ -8,11 +8,11 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.InteractionResult;
 
-import net.mcreator.nimsrandombullshit.procedures.BlockEaterRightclickedOnBlockProcedure;
+import net.mcreator.nimsrandombullshit.procedures.BedrockEaterRightClickProcedure;
 
-public class BlockEaterItem extends Item {
-	public BlockEaterItem() {
-		super(new Item.Properties().stacksTo(1).fireResistant().rarity(Rarity.RARE));
+public class BedrockEaterItem extends Item {
+	public BedrockEaterItem() {
+		super(new Item.Properties().stacksTo(1).fireResistant().rarity(Rarity.EPIC));
 	}
 
 	@Override
@@ -23,7 +23,7 @@ public class BlockEaterItem extends Item {
 	@Override
 	public InteractionResult useOn(UseOnContext context) {
 		super.useOn(context);
-		BlockEaterRightclickedOnBlockProcedure.execute(context.getLevel(), context.getClickedPos().getX(), context.getClickedPos().getY(), context.getClickedPos().getZ(), context.getPlayer(), context.getItemInHand());
+		BedrockEaterRightClickProcedure.execute(context.getLevel(), context.getClickedPos().getX(), context.getClickedPos().getY(), context.getClickedPos().getZ(), context.getPlayer(), context.getItemInHand());
 		return InteractionResult.SUCCESS;
 	}
 }

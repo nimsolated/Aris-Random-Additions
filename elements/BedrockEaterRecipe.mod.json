@@ -8,41 +8,41 @@
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "MISC",
-    "recipeShapeless": true,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.COAL#0"
-      },
-      {
-        "value": "Items.COPPER_INGOT"
-      },
-      {
-        "value": "Items.IRON_INGOT"
-      },
-      {
-        "value": "Items.NETHERITE_SCRAP"
+        "value": "CUSTOM:BlockEater"
       },
       {
         "value": "Blocks.BEDROCK"
       },
       {
-        "value": "Items.GOLD_INGOT"
+        "value": ""
       },
       {
-        "value": "Items.REDSTONE"
+        "value": "Blocks.BEDROCK"
       },
       {
-        "value": "Items.EMERALD"
+        "value": "Blocks.BEDROCK"
       },
       {
-        "value": "Items.DIAMOND"
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:OreMiner"
+      "value": "CUSTOM:BedrockEater"
     },
-    "name": "ore_miner_recipe",
+    "name": "bedrock_eater_recipe",
     "namespace": "mod"
   }
 }

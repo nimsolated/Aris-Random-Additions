@@ -31,7 +31,7 @@ public class BedrockPickaxeItem extends PickaxeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 19;
+				return 22;
 			}
 
 			public Ingredient getRepairIngredient() {

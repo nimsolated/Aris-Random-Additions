@@ -26,7 +26,7 @@ public class BedrockSwordItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 19;
+				return 22;
 			}
 
 			public Ingredient getRepairIngredient() {

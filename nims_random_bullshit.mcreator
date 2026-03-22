@@ -8,11 +8,11 @@
       "registry_name": "condensed_netherrack",
       "metadata": {
         "files": [
-          "src/main/resources/assets/nims_random_bullshit/models/item/condensed_netherrack.json",
           "src/main/resources/assets/nims_random_bullshit/blockstates/condensed_netherrack.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/CondensedNetherrackBlock.java",
           "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/condensed_netherrack.json",
           "src/main/resources/assets/nims_random_bullshit/models/block/condensed_netherrack.json",
-          "src/main/java/net/mcreator/nimsrandombullshit/block/CondensedNetherrackBlock.java"
+          "src/main/resources/assets/nims_random_bullshit/models/item/condensed_netherrack.json"
         ]
       },
       "path": "~/Netherracks"
@@ -25,11 +25,11 @@
       "registry_name": "condensed_condensed_netherrack",
       "metadata": {
         "files": [
-          "src/main/resources/assets/nims_random_bullshit/blockstates/condensed_condensed_netherrack.json",
           "src/main/java/net/mcreator/nimsrandombullshit/block/CondensedCondensedNetherrackBlock.java",
           "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/condensed_condensed_netherrack.json",
-          "src/main/resources/assets/nims_random_bullshit/models/item/condensed_condensed_netherrack.json",
-          "src/main/resources/assets/nims_random_bullshit/models/block/condensed_condensed_netherrack.json"
+          "src/main/resources/assets/nims_random_bullshit/blockstates/condensed_condensed_netherrack.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/condensed_condensed_netherrack.json",
+          "src/main/resources/assets/nims_random_bullshit/models/item/condensed_condensed_netherrack.json"
         ]
       },
       "path": "~/Netherracks"
@@ -42,11 +42,11 @@
       "registry_name": "condensed_condensed_condensed_netherrack",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/block/CondensedCondensedCondensedNetherrackBlock.java",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/condensed_condensed_condensed_netherrack.json",
           "src/main/resources/assets/nims_random_bullshit/models/item/condensed_condensed_condensed_netherrack.json",
-          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/condensed_condensed_condensed_netherrack.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/CondensedCondensedCondensedNetherrackBlock.java",
           "src/main/resources/assets/nims_random_bullshit/models/block/condensed_condensed_condensed_netherrack.json",
-          "src/main/resources/assets/nims_random_bullshit/blockstates/condensed_condensed_condensed_netherrack.json"
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/condensed_condensed_condensed_netherrack.json"
         ]
       },
       "path": "~/Netherracks"
@@ -137,8 +137,8 @@
       "registry_name": "block_eater",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/item/BlockEaterItem.java",
-          "src/main/resources/assets/nims_random_bullshit/models/item/block_eater.json"
+          "src/main/resources/assets/nims_random_bullshit/models/item/block_eater.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/item/BlockEaterItem.java"
         ]
       },
       "path": "~/Netherracks"
@@ -239,15 +239,15 @@
       "registry_name": "broken_glass",
       "metadata": {
         "files": [
-          "src/main/resources/assets/nims_random_bullshit/models/block/broken_glass_noside.json",
-          "src/main/resources/assets/nims_random_bullshit/models/block/broken_glass_noside_alt.json",
-          "src/main/java/net/mcreator/nimsrandombullshit/block/BrokenGlassBlock.java",
-          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/broken_glass.json",
           "src/main/resources/assets/nims_random_bullshit/models/item/broken_glass.json",
           "src/main/resources/assets/nims_random_bullshit/blockstates/broken_glass.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/broken_glass_side.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/broken_glass_noside.json",
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/broken_glass.json",
           "src/main/resources/assets/nims_random_bullshit/models/block/broken_glass_side_alt.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/BrokenGlassBlock.java",
           "src/main/resources/assets/nims_random_bullshit/models/block/broken_glass_post.json",
-          "src/main/resources/assets/nims_random_bullshit/models/block/broken_glass_side.json"
+          "src/main/resources/assets/nims_random_bullshit/models/block/broken_glass_noside_alt.json"
         ]
       },
       "path": "~/Other"
@@ -273,9 +273,9 @@
       "registry_name": "quadra_condensed_netherrack",
       "metadata": {
         "files": [
+          "src/main/resources/assets/nims_random_bullshit/blockstates/quadra_condensed_netherrack.json",
           "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/quadra_condensed_netherrack.json",
           "src/main/resources/assets/nims_random_bullshit/models/block/quadra_condensed_netherrack.json",
-          "src/main/resources/assets/nims_random_bullshit/blockstates/quadra_condensed_netherrack.json",
           "src/main/java/net/mcreator/nimsrandombullshit/block/QuadraCondensedNetherrackBlock.java",
           "src/main/resources/assets/nims_random_bullshit/models/item/quadra_condensed_netherrack.json"
         ]
@@ -304,8 +304,8 @@
       "registry_name": "netherrackite",
       "metadata": {
         "files": [
-          "src/main/resources/assets/nims_random_bullshit/models/item/netherrackite.json",
-          "src/main/java/net/mcreator/nimsrandombullshit/item/NetherrackiteItem.java"
+          "src/main/java/net/mcreator/nimsrandombullshit/item/NetherrackiteItem.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/netherrackite.json"
         ]
       },
       "path": "~/Netherracks"
@@ -371,10 +371,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/nims_random_bullshit/models/block/penta_condensed_netherrack.json",
-          "src/main/resources/assets/nims_random_bullshit/models/item/penta_condensed_netherrack.json",
-          "src/main/resources/assets/nims_random_bullshit/blockstates/penta_condensed_netherrack.json",
           "src/main/java/net/mcreator/nimsrandombullshit/block/PentaCondensedNetherrackBlock.java",
-          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/penta_condensed_netherrack.json"
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/penta_condensed_netherrack.json",
+          "src/main/resources/assets/nims_random_bullshit/models/item/penta_condensed_netherrack.json",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/penta_condensed_netherrack.json"
         ]
       },
       "path": "~/Netherracks"
@@ -413,11 +413,11 @@
       "registry_name": "hexa_condensed_netherrack",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/block/HexaCondensedNetherrackBlock.java",
-          "src/main/resources/assets/nims_random_bullshit/models/item/hexa_condensed_netherrack.json",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/hexa_condensed_netherrack.json",
           "src/main/resources/assets/nims_random_bullshit/models/block/hexa_condensed_netherrack.json",
+          "src/main/resources/assets/nims_random_bullshit/models/item/hexa_condensed_netherrack.json",
           "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/hexa_condensed_netherrack.json",
-          "src/main/resources/assets/nims_random_bullshit/blockstates/hexa_condensed_netherrack.json"
+          "src/main/java/net/mcreator/nimsrandombullshit/block/HexaCondensedNetherrackBlock.java"
         ]
       },
       "path": "~/Netherracks"
@@ -505,8 +505,8 @@
       "registry_name": "lapis_lazuli_nugget",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/item/LapisLazuliNuggetItem.java",
-          "src/main/resources/assets/nims_random_bullshit/models/item/lapis_lazuli_nugget.json"
+          "src/main/resources/assets/nims_random_bullshit/models/item/lapis_lazuli_nugget.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/item/LapisLazuliNuggetItem.java"
         ]
       },
       "path": "~/Lapis"
@@ -545,8 +545,8 @@
       "registry_name": "magic_dust",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/item/MagicDustItem.java",
-          "src/main/resources/assets/nims_random_bullshit/models/item/magic_dust.json"
+          "src/main/resources/assets/nims_random_bullshit/models/item/magic_dust.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/item/MagicDustItem.java"
         ]
       },
       "path": "~/Lapis"
@@ -816,8 +816,8 @@
       "registry_name": "golden_berries",
       "metadata": {
         "files": [
-          "src/main/resources/assets/nims_random_bullshit/models/item/golden_berries.json",
-          "src/main/java/net/mcreator/nimsrandombullshit/item/GoldenBerriesItem.java"
+          "src/main/java/net/mcreator/nimsrandombullshit/item/GoldenBerriesItem.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/golden_berries.json"
         ]
       },
       "path": "~/Other"
@@ -843,9 +843,8 @@
       "registry_name": "ore_miner_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/client/gui/OreMinerGUIScreen.java",
           "src/main/java/net/mcreator/nimsrandombullshit/world/inventory/OreMinerGUIMenu.java",
-          "src/main/java/net/mcreator/nimsrandombullshit/network/OreMinerGUIButtonMessage.java"
+          "src/main/java/net/mcreator/nimsrandombullshit/client/gui/OreMinerGUIScreen.java"
         ]
       },
       "path": "~/OreMiner"
@@ -891,47 +890,12 @@
       "registry_name": "ore_miner",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/block/OreMinerBlock.java",
           "src/main/java/net/mcreator/nimsrandombullshit/block/entity/OreMinerBlockEntity.java",
-          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/ore_miner.json",
-          "src/main/resources/assets/nims_random_bullshit/models/block/ore_miner.json",
           "src/main/resources/assets/nims_random_bullshit/models/item/ore_miner.json",
-          "src/main/resources/assets/nims_random_bullshit/blockstates/ore_miner.json"
-        ]
-      },
-      "path": "~/OreMiner"
-    },
-    {
-      "name": "OreMinerMineButtonPressed",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ore_miner_mine_button_pressed",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/procedures/OreMinerMineButtonPressedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/ore_miner.json",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/ore_miner.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/OreMinerBlock.java",
+          "src/main/resources/assets/nims_random_bullshit/models/block/ore_miner.json"
         ]
       },
       "path": "~/OreMiner"
@@ -1246,11 +1210,11 @@
       "registry_name": "netherrack_juice",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/block/NetherrackJuiceBlock.java",
           "src/main/resources/assets/nims_random_bullshit/blockstates/netherrack_juice.json",
-          "src/main/java/net/mcreator/nimsrandombullshit/fluid/NetherrackJuiceFluid.java",
-          "src/main/java/net/mcreator/nimsrandombullshit/item/NetherrackJuiceItem.java",
           "src/main/resources/assets/nims_random_bullshit/models/block/netherrack_juice.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/item/NetherrackJuiceItem.java",
+          "src/main/java/net/mcreator/nimsrandombullshit/fluid/NetherrackJuiceFluid.java",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/NetherrackJuiceBlock.java",
           "src/main/java/net/mcreator/nimsrandombullshit/fluid/types/NetherrackJuiceFluidType.java",
           "src/main/resources/assets/nims_random_bullshit/models/item/netherrack_juice_bucket.json"
         ]
@@ -1322,8 +1286,8 @@
       "registry_name": "tux",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/entity/TuxEntity.java",
           "src/main/resources/assets/nims_random_bullshit/models/item/tux_spawn_egg.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/entity/TuxEntity.java",
           "src/main/java/net/mcreator/nimsrandombullshit/client/renderer/TuxRenderer.java"
         ]
       },
@@ -1501,11 +1465,11 @@
       "registry_name": "redstone_bricks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/nims_random_bullshit/blockstates/redstone_bricks.json",
-          "src/main/java/net/mcreator/nimsrandombullshit/block/RedstoneBricksBlock.java",
           "src/main/resources/assets/nims_random_bullshit/models/block/redstone_bricks.json",
+          "src/main/resources/assets/nims_random_bullshit/models/item/redstone_bricks.json",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/redstone_bricks.json",
           "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/redstone_bricks.json",
-          "src/main/resources/assets/nims_random_bullshit/models/item/redstone_bricks.json"
+          "src/main/java/net/mcreator/nimsrandombullshit/block/RedstoneBricksBlock.java"
         ]
       },
       "path": "~/Redstone"
@@ -1518,13 +1482,13 @@
       "registry_name": "redstone_brick_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/nims_random_bullshit/models/block/redstone_brick_stairs.json",
-          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/redstone_brick_stairs.json",
-          "src/main/resources/assets/nims_random_bullshit/models/block/redstone_brick_stairs_outer.json",
-          "src/main/resources/assets/nims_random_bullshit/blockstates/redstone_brick_stairs.json",
-          "src/main/java/net/mcreator/nimsrandombullshit/block/RedstoneBrickStairsBlock.java",
           "src/main/resources/assets/nims_random_bullshit/models/item/redstone_brick_stairs.json",
-          "src/main/resources/assets/nims_random_bullshit/models/block/redstone_brick_stairs_inner.json"
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/redstone_brick_stairs.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/RedstoneBrickStairsBlock.java",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/redstone_brick_stairs.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/redstone_brick_stairs_inner.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/redstone_brick_stairs.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/redstone_brick_stairs_outer.json"
         ]
       },
       "path": "~/Redstone"
@@ -1537,12 +1501,12 @@
       "registry_name": "redstone_brick_slabs",
       "metadata": {
         "files": [
-          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/redstone_brick_slabs.json",
-          "src/main/resources/assets/nims_random_bullshit/models/block/redstone_brick_slabs.json",
           "src/main/resources/assets/nims_random_bullshit/blockstates/redstone_brick_slabs.json",
           "src/main/resources/assets/nims_random_bullshit/models/item/redstone_brick_slabs.json",
-          "src/main/resources/assets/nims_random_bullshit/models/block/redstone_brick_slabs_top.json",
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/redstone_brick_slabs.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/redstone_brick_slabs.json",
           "src/main/resources/assets/nims_random_bullshit/models/block/redstone_brick_slabs_full.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/redstone_brick_slabs_top.json",
           "src/main/java/net/mcreator/nimsrandombullshit/block/RedstoneBrickSlabsBlock.java"
         ]
       },
@@ -1556,14 +1520,14 @@
       "registry_name": "redstone_brick_walls",
       "metadata": {
         "files": [
-          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/redstone_brick_walls.json",
-          "src/main/resources/assets/nims_random_bullshit/models/block/redstone_brick_walls.json",
           "src/main/resources/assets/nims_random_bullshit/blockstates/redstone_brick_walls.json",
-          "src/main/resources/assets/nims_random_bullshit/models/item/redstone_brick_walls.json",
           "src/main/resources/assets/nims_random_bullshit/models/block/redstone_brick_walls_post.json",
-          "src/main/java/net/mcreator/nimsrandombullshit/block/RedstoneBrickWallsBlock.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/redstone_brick_walls.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/redstone_brick_walls.json",
           "src/main/resources/assets/nims_random_bullshit/models/block/redstone_brick_walls_inventory.json",
-          "src/main/resources/assets/nims_random_bullshit/models/block/redstone_brick_walls_side_tall.json"
+          "src/main/resources/assets/nims_random_bullshit/models/block/redstone_brick_walls_side_tall.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/RedstoneBrickWallsBlock.java",
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/redstone_brick_walls.json"
         ]
       },
       "path": "~/Redstone"
@@ -1576,11 +1540,11 @@
       "registry_name": "magma_bricks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/nims_random_bullshit/models/item/magma_bricks.json",
           "src/main/java/net/mcreator/nimsrandombullshit/block/MagmaBricksBlock.java",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/magma_bricks.json",
           "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/magma_bricks.json",
-          "src/main/resources/assets/nims_random_bullshit/models/block/magma_bricks.json",
-          "src/main/resources/assets/nims_random_bullshit/blockstates/magma_bricks.json"
+          "src/main/resources/assets/nims_random_bullshit/models/item/magma_bricks.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/magma_bricks.json"
         ]
       },
       "path": "~/Magma"
@@ -1593,13 +1557,13 @@
       "registry_name": "magma_brick_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/nims_random_bullshit/models/item/magma_brick_stairs.json",
-          "src/main/java/net/mcreator/nimsrandombullshit/block/MagmaBrickStairsBlock.java",
-          "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_stairs_outer.json",
           "src/main/resources/assets/nims_random_bullshit/blockstates/magma_brick_stairs.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_stairs_inner.json",
           "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/magma_brick_stairs.json",
-          "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_stairs.json",
-          "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_stairs_inner.json"
+          "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_stairs_outer.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/MagmaBrickStairsBlock.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/magma_brick_stairs.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_stairs.json"
         ]
       },
       "path": "~/Magma"
@@ -1612,13 +1576,13 @@
       "registry_name": "magma_brick_slabs",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/block/MagmaBrickSlabsBlock.java",
           "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_slabs_full.json",
           "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_slabs.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/MagmaBrickSlabsBlock.java",
           "src/main/resources/assets/nims_random_bullshit/blockstates/magma_brick_slabs.json",
-          "src/main/resources/assets/nims_random_bullshit/models/item/magma_brick_slabs.json",
           "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_slabs_top.json",
-          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/magma_brick_slabs.json"
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/magma_brick_slabs.json",
+          "src/main/resources/assets/nims_random_bullshit/models/item/magma_brick_slabs.json"
         ]
       },
       "path": "~/Magma"
@@ -1633,11 +1597,11 @@
         "files": [
           "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_walls_post.json",
           "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_walls.json",
-          "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_walls_side_tall.json",
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/magma_brick_walls.json",
           "src/main/resources/assets/nims_random_bullshit/blockstates/magma_brick_walls.json",
           "src/main/resources/assets/nims_random_bullshit/models/item/magma_brick_walls.json",
-          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/magma_brick_walls.json",
           "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_walls_inventory.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_walls_side_tall.json",
           "src/main/java/net/mcreator/nimsrandombullshit/block/MagmaBrickWallsBlock.java"
         ]
       },
@@ -1651,12 +1615,12 @@
       "registry_name": "magma_brick_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/block/MagmaBrickPressurePlateBlock.java",
-          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/magma_brick_pressure_plate.json",
-          "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_pressure_plate.json",
-          "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_pressure_plate_down.json",
           "src/main/resources/assets/nims_random_bullshit/models/item/magma_brick_pressure_plate.json",
-          "src/main/resources/assets/nims_random_bullshit/blockstates/magma_brick_pressure_plate.json"
+          "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_pressure_plate_down.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/MagmaBrickPressurePlateBlock.java",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/magma_brick_pressure_plate.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_pressure_plate.json",
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/magma_brick_pressure_plate.json"
         ]
       },
       "path": "~/Magma"
@@ -1671,11 +1635,11 @@
         "files": [
           "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/magma_brick_button.json",
           "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_button_inventory.json",
+          "src/main/resources/assets/nims_random_bullshit/models/item/magma_brick_button.json",
           "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_button.json",
           "src/main/resources/assets/nims_random_bullshit/models/block/magma_brick_button_pressed.json",
-          "src/main/java/net/mcreator/nimsrandombullshit/block/MagmaBrickButtonBlock.java",
-          "src/main/resources/assets/nims_random_bullshit/models/item/magma_brick_button.json",
-          "src/main/resources/assets/nims_random_bullshit/blockstates/magma_brick_button.json"
+          "src/main/resources/assets/nims_random_bullshit/blockstates/magma_brick_button.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/MagmaBrickButtonBlock.java"
         ]
       },
       "path": "~/Magma"
@@ -1832,8 +1796,8 @@
       "registry_name": "cheese",
       "metadata": {
         "files": [
-          "src/main/resources/assets/nims_random_bullshit/models/item/cheese.json",
-          "src/main/java/net/mcreator/nimsrandombullshit/item/CheeseItem.java"
+          "src/main/java/net/mcreator/nimsrandombullshit/item/CheeseItem.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/cheese.json"
         ]
       },
       "path": "~/Other"
@@ -1898,8 +1862,8 @@
       "registry_name": "bedrock_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/nims_random_bullshit/models/item/bedrock_pickaxe.json",
-          "src/main/java/net/mcreator/nimsrandombullshit/item/BedrockPickaxeItem.java"
+          "src/main/java/net/mcreator/nimsrandombullshit/item/BedrockPickaxeItem.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/bedrock_pickaxe.json"
         ]
       },
       "path": "~/Bedrock"
@@ -1935,8 +1899,8 @@
       "registry_name": "bedrock_upgrade_template",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/item/BedrockUpgradeTemplateItem.java",
-          "src/main/resources/assets/nims_random_bullshit/models/item/bedrock_upgrade_template.json"
+          "src/main/resources/assets/nims_random_bullshit/models/item/bedrock_upgrade_template.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/item/BedrockUpgradeTemplateItem.java"
         ]
       },
       "path": "~/Bedrock"
@@ -1988,12 +1952,12 @@
       "registry_name": "bedrockifier",
       "metadata": {
         "files": [
-          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/bedrockifier.json",
-          "src/main/resources/assets/nims_random_bullshit/blockstates/bedrockifier.json",
-          "src/main/java/net/mcreator/nimsrandombullshit/block/BedrockifierBlock.java",
-          "src/main/java/net/mcreator/nimsrandombullshit/block/entity/BedrockifierBlockEntity.java",
+          "src/main/resources/assets/nims_random_bullshit/models/block/bedrockifier.json",
           "src/main/resources/assets/nims_random_bullshit/models/item/bedrockifier.json",
-          "src/main/resources/assets/nims_random_bullshit/models/block/bedrockifier.json"
+          "src/main/java/net/mcreator/nimsrandombullshit/block/BedrockifierBlock.java",
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/bedrockifier.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/entity/BedrockifierBlockEntity.java",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/bedrockifier.json"
         ]
       },
       "path": "~/Bedrock"
@@ -2006,44 +1970,8 @@
       "registry_name": "bedrockifier_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/network/BedrockifierGUIButtonMessage.java",
           "src/main/java/net/mcreator/nimsrandombullshit/world/inventory/BedrockifierGUIMenu.java",
           "src/main/java/net/mcreator/nimsrandombullshit/client/gui/BedrockifierGUIScreen.java"
-        ]
-      },
-      "path": "~/Bedrock"
-    },
-    {
-      "name": "BedrockifierButtonPressLogic",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bedrockifier_button_press_logic",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/procedures/BedrockifierButtonPressLogicProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
         ]
       },
       "path": "~/Bedrock"
@@ -2069,8 +1997,8 @@
       "registry_name": "magic_egg",
       "metadata": {
         "files": [
-          "src/main/resources/assets/nims_random_bullshit/models/item/magic_egg.json",
-          "src/main/java/net/mcreator/nimsrandombullshit/item/MagicEggItem.java"
+          "src/main/java/net/mcreator/nimsrandombullshit/item/MagicEggItem.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/magic_egg.json"
         ]
       },
       "path": "~/SpawnEggs"
@@ -2776,14 +2704,14 @@
       "registry_name": "orichalcum_ore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/block/OrichalcumOreBlock.java",
-          "src/main/resources/data/nims_random_bullshit/worldgen/configured_feature/orichalcum_ore.json",
-          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/orichalcum_ore.json",
-          "src/main/resources/data/nims_random_bullshit/worldgen/placed_feature/orichalcum_ore.json",
-          "src/main/resources/assets/nims_random_bullshit/models/item/orichalcum_ore.json",
           "src/main/resources/data/nims_random_bullshit/forge/biome_modifier/orichalcum_ore_biome_modifier.json",
+          "src/main/resources/assets/nims_random_bullshit/models/item/orichalcum_ore.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/block/OrichalcumOreBlock.java",
+          "src/main/resources/data/nims_random_bullshit/worldgen/placed_feature/orichalcum_ore.json",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/orichalcum_ore.json",
+          "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/orichalcum_ore.json",
           "src/main/resources/assets/nims_random_bullshit/models/block/orichalcum_ore.json",
-          "src/main/resources/assets/nims_random_bullshit/blockstates/orichalcum_ore.json"
+          "src/main/resources/data/nims_random_bullshit/worldgen/configured_feature/orichalcum_ore.json"
         ]
       },
       "path": "~/Orichalcum"
@@ -2796,11 +2724,11 @@
       "registry_name": "orichalcum_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/nims_random_bullshit/models/block/orichalcum_block.json",
           "src/main/resources/assets/nims_random_bullshit/models/item/orichalcum_block.json",
+          "src/main/resources/assets/nims_random_bullshit/models/block/orichalcum_block.json",
+          "src/main/resources/assets/nims_random_bullshit/blockstates/orichalcum_block.json",
           "src/main/resources/data/nims_random_bullshit/loot_tables/blocks/orichalcum_block.json",
-          "src/main/java/net/mcreator/nimsrandombullshit/block/OrichalcumBlockBlock.java",
-          "src/main/resources/assets/nims_random_bullshit/blockstates/orichalcum_block.json"
+          "src/main/java/net/mcreator/nimsrandombullshit/block/OrichalcumBlockBlock.java"
         ]
       },
       "path": "~/Orichalcum"
@@ -2852,8 +2780,8 @@
       "registry_name": "orichalcum_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/item/OrichalcumPickaxeItem.java",
-          "src/main/resources/assets/nims_random_bullshit/models/item/orichalcum_pickaxe.json"
+          "src/main/resources/assets/nims_random_bullshit/models/item/orichalcum_pickaxe.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/item/OrichalcumPickaxeItem.java"
         ]
       },
       "path": "~/Orichalcum"
@@ -2866,8 +2794,8 @@
       "registry_name": "orichalcum_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/item/OrichalcumAxeItem.java",
-          "src/main/resources/assets/nims_random_bullshit/models/item/orichalcum_axe.json"
+          "src/main/resources/assets/nims_random_bullshit/models/item/orichalcum_axe.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/item/OrichalcumAxeItem.java"
         ]
       },
       "path": "~/Orichalcum"
@@ -2908,8 +2836,8 @@
       "registry_name": "orichalcum_hoe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/nimsrandombullshit/item/OrichalcumHoeItem.java",
-          "src/main/resources/assets/nims_random_bullshit/models/item/orichalcum_hoe.json"
+          "src/main/resources/assets/nims_random_bullshit/models/item/orichalcum_hoe.json",
+          "src/main/java/net/mcreator/nimsrandombullshit/item/OrichalcumHoeItem.java"
         ]
       },
       "path": "~/Orichalcum"
@@ -2988,10 +2916,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/nims_random_bullshit/models/item/orichalcum_armor_helmet.json",
-          "src/main/resources/assets/nims_random_bullshit/models/item/orichalcum_armor_leggings.json",
-          "src/main/java/net/mcreator/nimsrandombullshit/item/OrichalcumArmorItem.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/orichalcum_armor_chestplate.json",
           "src/main/resources/assets/nims_random_bullshit/models/item/orichalcum_armor_boots.json",
-          "src/main/resources/assets/nims_random_bullshit/models/item/orichalcum_armor_chestplate.json"
+          "src/main/java/net/mcreator/nimsrandombullshit/item/OrichalcumArmorItem.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/orichalcum_armor_leggings.json"
         ]
       },
       "path": "~/Orichalcum"
@@ -3056,9 +2984,9 @@
       "registry_name": "orichalcum_feature",
       "metadata": {
         "files": [
+          "src/main/resources/data/nims_random_bullshit/worldgen/configured_feature/orichalcum_feature.json",
           "src/main/resources/data/nims_random_bullshit/worldgen/placed_feature/orichalcum_feature.json",
-          "src/main/resources/data/nims_random_bullshit/forge/biome_modifier/orichalcum_feature_biome_modifier.json",
-          "src/main/resources/data/nims_random_bullshit/worldgen/configured_feature/orichalcum_feature.json"
+          "src/main/resources/data/nims_random_bullshit/forge/biome_modifier/orichalcum_feature_biome_modifier.json"
         ]
       },
       "path": "~/Orichalcum"
@@ -3116,8 +3044,8 @@
       "registry_name": "bedrock_shard",
       "metadata": {
         "files": [
-          "src/main/resources/assets/nims_random_bullshit/models/item/bedrock_shard.json",
-          "src/main/java/net/mcreator/nimsrandombullshit/item/BedrockShardItem.java"
+          "src/main/java/net/mcreator/nimsrandombullshit/item/BedrockShardItem.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/bedrock_shard.json"
         ]
       },
       "path": "~/Bedrock"
@@ -3303,6 +3231,134 @@
         ]
       },
       "path": "~/Advancements"
+    },
+    {
+      "name": "OreMinerTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_miner_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/OreMinerTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/OreMiner"
+    },
+    {
+      "name": "BedrockifierLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrockifier_logic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/BedrockifierLogicProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Bedrock"
+    },
+    {
+      "name": "BedrockEater",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_eater",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/item/BedrockEaterItem.java",
+          "src/main/resources/assets/nims_random_bullshit/models/item/bedrock_eater.json"
+        ]
+      },
+      "path": "~/Bedrock"
+    },
+    {
+      "name": "BedrockEaterRightClick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_eater_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nimsrandombullshit/procedures/BedrockEaterRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Bedrock"
+    },
+    {
+      "name": "BedrockEaterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_eater_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nims_random_bullshit/recipes/bedrock_eater_recipe.json"
+        ]
+      },
+      "path": "~/Bedrock"
     }
   ],
   "variable_elements": [],
@@ -3434,6 +3490,7 @@
       "item.nims_random_bullshit.netherrack_juice_bucket": "Netherrack Juice Bucket",
       "item.nims_random_bullshit.orichalcum": "Orichalcum",
       "advancements.magic_egg_advancement.descr": "Obtain a Magic Egg",
+      "item.nims_random_bullshit.bedrock_eater": "Bedrock Eater",
       "block.nims_random_bullshit.rubber_pressure_plate": "Rubber Pressure Plate",
       "item.nims_random_bullshit.orichalcum_armor_leggings": "Orichalcum Leggings",
       "block.nims_random_bullshit.condensed_netherrack": "Condensed Netherrack",
@@ -3569,7 +3626,7 @@
   "workspaceSettings": {
     "modid": "nims_random_bullshit",
     "modName": "Nim\u0027s Random Bullshit",
-    "version": "1.7.0",
+    "version": "1.7.1",
     "description": "Random shit added by Nim. Created with MCreator.",
     "author": "nimsolated, MCreator",
     "websiteURL": "https://mcreator.net",
@@ -3579,7 +3636,10 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "photon",
+      "pehkui"
+    ],
     "currentGenerator": "forge-1.20.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.nimsrandombullshit"

@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "block_eater",
+    "texture": "bedrock_eater",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Block Eater",
-    "rarity": "RARE",
+    "name": "Bedrock Eater",
+    "rarity": "EPIC",
     "creativeTabs": [
       {
         "value": "TOOLS"
@@ -37,7 +37,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onRightClickedOnBlock": {
-      "name": "BlockEaterRightclickedOnBlock"
+      "name": "BedrockEaterRightClick"
     },
     "enableRanged": false,
     "shootConstantly": false,
