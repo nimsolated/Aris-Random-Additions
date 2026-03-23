@@ -43,7 +43,6 @@ public class ArisRandomAdditionsModTabs {
 			tabData.accept(ArisRandomAdditionsModItems.STAR_WAND.get());
 			tabData.accept(ArisRandomAdditionsModItems.NETHERRACK_JUICE_BUCKET.get());
 			tabData.accept(ArisRandomAdditionsModItems.BEDROCK_PICKAXE.get());
-			tabData.accept(ArisRandomAdditionsModItems.BEDROCK_SWORD.get());
 			tabData.accept(ArisRandomAdditionsModItems.ORICHALCUM_PICKAXE.get());
 			tabData.accept(ArisRandomAdditionsModItems.ORICHALCUM_AXE.get());
 			tabData.accept(ArisRandomAdditionsModItems.ORICHALCUM_SHOVEL.get());
@@ -84,12 +83,14 @@ public class ArisRandomAdditionsModTabs {
 			tabData.accept(ArisRandomAdditionsModBlocks.MAGMA_BRICK_PRESSURE_PLATE.get().asItem());
 			tabData.accept(ArisRandomAdditionsModBlocks.MAGMA_BRICK_BUTTON.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(ArisRandomAdditionsModItems.BEDROCK_SWORD.get());
 			tabData.accept(ArisRandomAdditionsModItems.ORICHALCUM_SWORD.get());
 			tabData.accept(ArisRandomAdditionsModItems.ORICHALCUM_ARMOR_HELMET.get());
 			tabData.accept(ArisRandomAdditionsModItems.ORICHALCUM_ARMOR_CHESTPLATE.get());
 			tabData.accept(ArisRandomAdditionsModItems.ORICHALCUM_ARMOR_LEGGINGS.get());
 			tabData.accept(ArisRandomAdditionsModItems.ORICHALCUM_ARMOR_BOOTS.get());
 			tabData.accept(ArisRandomAdditionsModItems.NIGHT_VISION_GOGGLES_HELMET.get());
+			tabData.accept(ArisRandomAdditionsModItems.WAND_OF_DRAINING.get());
 		}
 	}
 }

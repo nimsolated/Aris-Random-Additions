@@ -3,46 +3,46 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 16,
+    "recipeRetstackSize": 1,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "Items.SKULL#1"
+      },
+      {
+        "value": "Items.NETHER_STAR"
       },
       {
         "value": ""
       },
       {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Items.SKULL#1"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
         "value": ""
-      },
-      {
-        "value": "Items.TOTEM_OF_UNDYING"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Turd"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:MagicDust"
+      "value": "CUSTOM:WandOfDraining"
     },
-    "name": "totem_of_undying_recipe",
+    "name": "wand_of_draining_recipe",
     "namespace": "mod"
   }
 }

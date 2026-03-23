@@ -4,7 +4,7 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="aris_random_additions"
-version="2.0.0"
+version="2.0.1"
 displayName="Ari's Random Additions"
 displayURL="https://mcreator.net"
 logoFile="logo.png"
@@ -23,12 +23,6 @@ description="Random Additions by Ari. Created with MCreator."
     side="BOTH"
 
 
-[[dependencies.aris_random_additions]]
-    modId="photon"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 [[dependencies.aris_random_additions]]
     modId="pehkui"
     mandatory=false

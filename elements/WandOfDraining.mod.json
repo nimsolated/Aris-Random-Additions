@@ -2,13 +2,13 @@
   "_fv": 73,
   "_type": "tool",
   "definition": {
-    "toolType": "Sword",
+    "toolType": "Special",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "bedrock_sword",
+    "texture": "wand_of_draining",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Bedrock Sword",
+    "name": "Wand Of Draining",
     "specialInformation": {
       "fixedValue": []
     },
@@ -17,19 +17,22 @@
         "value": "COMBAT"
       }
     ],
-    "efficiency": 4.0,
-    "attackSpeed": 1.6,
-    "enchantability": 22,
-    "damageVsEntity": 80.0,
+    "efficiency": 2.0,
+    "attackSpeed": 1.0,
+    "enchantability": 1,
+    "damageVsEntity": 0.0,
     "usageCount": 0,
     "glowCondition": {
       "fixedValue": false
     },
     "repairItems": [],
     "immuneToFire": true,
-    "blockDropsTier": "NETHERITE",
+    "blockDropsTier": "WOOD",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "WandOfDrainingRightclicked"
+    }
   }
 }

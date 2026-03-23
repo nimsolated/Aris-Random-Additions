@@ -9,8 +9,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/aris_random_additions/blockstates/condensed_netherrack.json",
-          "src/main/java/net/mcreator/arisrandomadditions/block/CondensedNetherrackBlock.java",
           "src/main/resources/assets/aris_random_additions/models/item/condensed_netherrack.json",
+          "src/main/java/net/mcreator/arisrandomadditions/block/CondensedNetherrackBlock.java",
           "src/main/resources/assets/aris_random_additions/models/block/condensed_netherrack.json",
           "src/main/resources/data/aris_random_additions/loot_tables/blocks/condensed_netherrack.json"
         ]
@@ -25,11 +25,11 @@
       "registry_name": "condensed_condensed_netherrack",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aris_random_additions/models/block/condensed_condensed_netherrack.json",
-          "src/main/resources/assets/aris_random_additions/blockstates/condensed_condensed_netherrack.json",
           "src/main/java/net/mcreator/arisrandomadditions/block/CondensedCondensedNetherrackBlock.java",
+          "src/main/resources/assets/aris_random_additions/blockstates/condensed_condensed_netherrack.json",
           "src/main/resources/data/aris_random_additions/loot_tables/blocks/condensed_condensed_netherrack.json",
-          "src/main/resources/assets/aris_random_additions/models/item/condensed_condensed_netherrack.json"
+          "src/main/resources/assets/aris_random_additions/models/item/condensed_condensed_netherrack.json",
+          "src/main/resources/assets/aris_random_additions/models/block/condensed_condensed_netherrack.json"
         ]
       },
       "path": "~/Netherracks"
@@ -42,10 +42,10 @@
       "registry_name": "condensed_condensed_condensed_netherrack",
       "metadata": {
         "files": [
-          "src/main/resources/data/aris_random_additions/loot_tables/blocks/condensed_condensed_condensed_netherrack.json",
           "src/main/resources/assets/aris_random_additions/blockstates/condensed_condensed_condensed_netherrack.json",
           "src/main/java/net/mcreator/arisrandomadditions/block/CondensedCondensedCondensedNetherrackBlock.java",
           "src/main/resources/assets/aris_random_additions/models/item/condensed_condensed_condensed_netherrack.json",
+          "src/main/resources/data/aris_random_additions/loot_tables/blocks/condensed_condensed_condensed_netherrack.json",
           "src/main/resources/assets/aris_random_additions/models/block/condensed_condensed_condensed_netherrack.json"
         ]
       },
@@ -137,8 +137,8 @@
       "registry_name": "block_eater",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/arisrandomadditions/item/BlockEaterItem.java",
-          "src/main/resources/assets/aris_random_additions/models/item/block_eater.json"
+          "src/main/resources/assets/aris_random_additions/models/item/block_eater.json",
+          "src/main/java/net/mcreator/arisrandomadditions/item/BlockEaterItem.java"
         ]
       },
       "path": "~/Netherracks"
@@ -239,15 +239,15 @@
       "registry_name": "broken_glass",
       "metadata": {
         "files": [
+          "src/main/resources/data/aris_random_additions/loot_tables/blocks/broken_glass.json",
           "src/main/resources/assets/aris_random_additions/models/block/broken_glass_side.json",
           "src/main/resources/assets/aris_random_additions/blockstates/broken_glass.json",
           "src/main/resources/assets/aris_random_additions/models/block/broken_glass_side_alt.json",
-          "src/main/resources/data/aris_random_additions/loot_tables/blocks/broken_glass.json",
           "src/main/resources/assets/aris_random_additions/models/block/broken_glass_noside_alt.json",
-          "src/main/resources/assets/aris_random_additions/models/item/broken_glass.json",
-          "src/main/resources/assets/aris_random_additions/models/block/broken_glass_noside.json",
           "src/main/resources/assets/aris_random_additions/models/block/broken_glass_post.json",
-          "src/main/java/net/mcreator/arisrandomadditions/block/BrokenGlassBlock.java"
+          "src/main/java/net/mcreator/arisrandomadditions/block/BrokenGlassBlock.java",
+          "src/main/resources/assets/aris_random_additions/models/item/broken_glass.json",
+          "src/main/resources/assets/aris_random_additions/models/block/broken_glass_noside.json"
         ]
       },
       "path": "~/Other"
@@ -273,11 +273,11 @@
       "registry_name": "quadra_condensed_netherrack",
       "metadata": {
         "files": [
+          "src/main/resources/assets/aris_random_additions/models/item/quadra_condensed_netherrack.json",
           "src/main/resources/assets/aris_random_additions/models/block/quadra_condensed_netherrack.json",
           "src/main/java/net/mcreator/arisrandomadditions/block/QuadraCondensedNetherrackBlock.java",
-          "src/main/resources/assets/aris_random_additions/models/item/quadra_condensed_netherrack.json",
-          "src/main/resources/data/aris_random_additions/loot_tables/blocks/quadra_condensed_netherrack.json",
-          "src/main/resources/assets/aris_random_additions/blockstates/quadra_condensed_netherrack.json"
+          "src/main/resources/assets/aris_random_additions/blockstates/quadra_condensed_netherrack.json",
+          "src/main/resources/data/aris_random_additions/loot_tables/blocks/quadra_condensed_netherrack.json"
         ]
       },
       "path": "~/Netherracks"
@@ -290,8 +290,8 @@
       "registry_name": "netherrackite_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aris_random_additions/models/item/netherrackite_pickaxe.json",
-          "src/main/java/net/mcreator/arisrandomadditions/item/NetherrackitePickaxeItem.java"
+          "src/main/java/net/mcreator/arisrandomadditions/item/NetherrackitePickaxeItem.java",
+          "src/main/resources/assets/aris_random_additions/models/item/netherrackite_pickaxe.json"
         ]
       },
       "path": "~/Netherracks"
@@ -370,11 +370,11 @@
       "registry_name": "penta_condensed_netherrack",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/arisrandomadditions/block/PentaCondensedNetherrackBlock.java",
           "src/main/resources/assets/aris_random_additions/models/item/penta_condensed_netherrack.json",
-          "src/main/resources/data/aris_random_additions/loot_tables/blocks/penta_condensed_netherrack.json",
+          "src/main/java/net/mcreator/arisrandomadditions/block/PentaCondensedNetherrackBlock.java",
+          "src/main/resources/assets/aris_random_additions/blockstates/penta_condensed_netherrack.json",
           "src/main/resources/assets/aris_random_additions/models/block/penta_condensed_netherrack.json",
-          "src/main/resources/assets/aris_random_additions/blockstates/penta_condensed_netherrack.json"
+          "src/main/resources/data/aris_random_additions/loot_tables/blocks/penta_condensed_netherrack.json"
         ]
       },
       "path": "~/Netherracks"
@@ -414,8 +414,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/aris_random_additions/loot_tables/blocks/hexa_condensed_netherrack.json",
-          "src/main/resources/assets/aris_random_additions/models/block/hexa_condensed_netherrack.json",
           "src/main/resources/assets/aris_random_additions/blockstates/hexa_condensed_netherrack.json",
+          "src/main/resources/assets/aris_random_additions/models/block/hexa_condensed_netherrack.json",
           "src/main/java/net/mcreator/arisrandomadditions/block/HexaCondensedNetherrackBlock.java",
           "src/main/resources/assets/aris_random_additions/models/item/hexa_condensed_netherrack.json"
         ]
@@ -505,8 +505,8 @@
       "registry_name": "lapis_lazuli_nugget",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aris_random_additions/models/item/lapis_lazuli_nugget.json",
-          "src/main/java/net/mcreator/arisrandomadditions/item/LapisLazuliNuggetItem.java"
+          "src/main/java/net/mcreator/arisrandomadditions/item/LapisLazuliNuggetItem.java",
+          "src/main/resources/assets/aris_random_additions/models/item/lapis_lazuli_nugget.json"
         ]
       },
       "path": "~/Lapis"
@@ -750,8 +750,8 @@
       "registry_name": "ore_miner_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/arisrandomadditions/world/inventory/OreMinerGUIMenu.java",
-          "src/main/java/net/mcreator/arisrandomadditions/client/gui/OreMinerGUIScreen.java"
+          "src/main/java/net/mcreator/arisrandomadditions/client/gui/OreMinerGUIScreen.java",
+          "src/main/java/net/mcreator/arisrandomadditions/world/inventory/OreMinerGUIMenu.java"
         ]
       },
       "path": "~/OreMiner"
@@ -797,12 +797,12 @@
       "registry_name": "ore_miner",
       "metadata": {
         "files": [
-          "src/main/resources/data/aris_random_additions/loot_tables/blocks/ore_miner.json",
-          "src/main/resources/assets/aris_random_additions/models/block/ore_miner.json",
-          "src/main/java/net/mcreator/arisrandomadditions/block/OreMinerBlock.java",
           "src/main/resources/assets/aris_random_additions/models/item/ore_miner.json",
-          "src/main/java/net/mcreator/arisrandomadditions/block/entity/OreMinerBlockEntity.java",
-          "src/main/resources/assets/aris_random_additions/blockstates/ore_miner.json"
+          "src/main/java/net/mcreator/arisrandomadditions/block/OreMinerBlock.java",
+          "src/main/resources/assets/aris_random_additions/models/block/ore_miner.json",
+          "src/main/resources/data/aris_random_additions/loot_tables/blocks/ore_miner.json",
+          "src/main/resources/assets/aris_random_additions/blockstates/ore_miner.json",
+          "src/main/java/net/mcreator/arisrandomadditions/block/entity/OreMinerBlockEntity.java"
         ]
       },
       "path": "~/OreMiner"
@@ -841,9 +841,9 @@
       "registry_name": "ghoul",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/arisrandomadditions/client/renderer/GhoulRenderer.java",
+          "src/main/java/net/mcreator/arisrandomadditions/entity/GhoulEntity.java",
           "src/main/resources/assets/aris_random_additions/models/item/ghoul_spawn_egg.json",
-          "src/main/java/net/mcreator/arisrandomadditions/entity/GhoulEntity.java"
+          "src/main/java/net/mcreator/arisrandomadditions/client/renderer/GhoulRenderer.java"
         ]
       },
       "path": "~/Gravedigger"
@@ -887,8 +887,8 @@
       "registry_name": "gravedigger",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aris_random_additions/models/item/gravedigger.json",
-          "src/main/java/net/mcreator/arisrandomadditions/item/GravediggerItem.java"
+          "src/main/java/net/mcreator/arisrandomadditions/item/GravediggerItem.java",
+          "src/main/resources/assets/aris_random_additions/models/item/gravedigger.json"
         ]
       },
       "path": "~/Gravedigger"
@@ -1117,13 +1117,13 @@
       "registry_name": "netherrack_juice",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aris_random_additions/blockstates/netherrack_juice.json",
-          "src/main/java/net/mcreator/arisrandomadditions/fluid/NetherrackJuiceFluid.java",
           "src/main/java/net/mcreator/arisrandomadditions/item/NetherrackJuiceItem.java",
           "src/main/resources/assets/aris_random_additions/models/item/netherrack_juice_bucket.json",
+          "src/main/java/net/mcreator/arisrandomadditions/fluid/NetherrackJuiceFluid.java",
           "src/main/java/net/mcreator/arisrandomadditions/block/NetherrackJuiceBlock.java",
-          "src/main/resources/assets/aris_random_additions/models/block/netherrack_juice.json",
-          "src/main/java/net/mcreator/arisrandomadditions/fluid/types/NetherrackJuiceFluidType.java"
+          "src/main/resources/assets/aris_random_additions/blockstates/netherrack_juice.json",
+          "src/main/java/net/mcreator/arisrandomadditions/fluid/types/NetherrackJuiceFluidType.java",
+          "src/main/resources/assets/aris_random_additions/models/block/netherrack_juice.json"
         ]
       },
       "path": "~/Netherracks"
@@ -1194,8 +1194,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/aris_random_additions/models/item/tux_spawn_egg.json",
-          "src/main/java/net/mcreator/arisrandomadditions/client/renderer/TuxRenderer.java",
-          "src/main/java/net/mcreator/arisrandomadditions/entity/TuxEntity.java"
+          "src/main/java/net/mcreator/arisrandomadditions/entity/TuxEntity.java",
+          "src/main/java/net/mcreator/arisrandomadditions/client/renderer/TuxRenderer.java"
         ]
       },
       "path": "~/Tux"
@@ -1372,11 +1372,11 @@
       "registry_name": "redstone_bricks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aris_random_additions/models/block/redstone_bricks.json",
           "src/main/resources/data/aris_random_additions/loot_tables/blocks/redstone_bricks.json",
+          "src/main/java/net/mcreator/arisrandomadditions/block/RedstoneBricksBlock.java",
           "src/main/resources/assets/aris_random_additions/blockstates/redstone_bricks.json",
           "src/main/resources/assets/aris_random_additions/models/item/redstone_bricks.json",
-          "src/main/java/net/mcreator/arisrandomadditions/block/RedstoneBricksBlock.java"
+          "src/main/resources/assets/aris_random_additions/models/block/redstone_bricks.json"
         ]
       },
       "path": "~/Redstone"
@@ -1389,13 +1389,13 @@
       "registry_name": "redstone_brick_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aris_random_additions/models/item/redstone_brick_stairs.json",
-          "src/main/resources/assets/aris_random_additions/blockstates/redstone_brick_stairs.json",
-          "src/main/resources/assets/aris_random_additions/models/block/redstone_brick_stairs.json",
-          "src/main/resources/data/aris_random_additions/loot_tables/blocks/redstone_brick_stairs.json",
-          "src/main/resources/assets/aris_random_additions/models/block/redstone_brick_stairs_inner.json",
           "src/main/java/net/mcreator/arisrandomadditions/block/RedstoneBrickStairsBlock.java",
-          "src/main/resources/assets/aris_random_additions/models/block/redstone_brick_stairs_outer.json"
+          "src/main/resources/data/aris_random_additions/loot_tables/blocks/redstone_brick_stairs.json",
+          "src/main/resources/assets/aris_random_additions/models/item/redstone_brick_stairs.json",
+          "src/main/resources/assets/aris_random_additions/models/block/redstone_brick_stairs_outer.json",
+          "src/main/resources/assets/aris_random_additions/blockstates/redstone_brick_stairs.json",
+          "src/main/resources/assets/aris_random_additions/models/block/redstone_brick_stairs_inner.json",
+          "src/main/resources/assets/aris_random_additions/models/block/redstone_brick_stairs.json"
         ]
       },
       "path": "~/Redstone"
@@ -1409,11 +1409,11 @@
       "metadata": {
         "files": [
           "src/main/resources/data/aris_random_additions/loot_tables/blocks/redstone_brick_slabs.json",
-          "src/main/java/net/mcreator/arisrandomadditions/block/RedstoneBrickSlabsBlock.java",
-          "src/main/resources/assets/aris_random_additions/models/block/redstone_brick_slabs_full.json",
           "src/main/resources/assets/aris_random_additions/models/item/redstone_brick_slabs.json",
-          "src/main/resources/assets/aris_random_additions/blockstates/redstone_brick_slabs.json",
+          "src/main/resources/assets/aris_random_additions/models/block/redstone_brick_slabs_full.json",
+          "src/main/java/net/mcreator/arisrandomadditions/block/RedstoneBrickSlabsBlock.java",
           "src/main/resources/assets/aris_random_additions/models/block/redstone_brick_slabs_top.json",
+          "src/main/resources/assets/aris_random_additions/blockstates/redstone_brick_slabs.json",
           "src/main/resources/assets/aris_random_additions/models/block/redstone_brick_slabs.json"
         ]
       },
@@ -1428,12 +1428,12 @@
       "metadata": {
         "files": [
           "src/main/resources/data/aris_random_additions/loot_tables/blocks/redstone_brick_walls.json",
-          "src/main/resources/assets/aris_random_additions/models/block/redstone_brick_walls_post.json",
-          "src/main/resources/assets/aris_random_additions/models/block/redstone_brick_walls_side_tall.json",
           "src/main/java/net/mcreator/arisrandomadditions/block/RedstoneBrickWallsBlock.java",
           "src/main/resources/assets/aris_random_additions/models/item/redstone_brick_walls.json",
-          "src/main/resources/assets/aris_random_additions/blockstates/redstone_brick_walls.json",
+          "src/main/resources/assets/aris_random_additions/models/block/redstone_brick_walls_side_tall.json",
+          "src/main/resources/assets/aris_random_additions/models/block/redstone_brick_walls_post.json",
           "src/main/resources/assets/aris_random_additions/models/block/redstone_brick_walls_inventory.json",
+          "src/main/resources/assets/aris_random_additions/blockstates/redstone_brick_walls.json",
           "src/main/resources/assets/aris_random_additions/models/block/redstone_brick_walls.json"
         ]
       },
@@ -1447,9 +1447,9 @@
       "registry_name": "magma_bricks",
       "metadata": {
         "files": [
+          "src/main/resources/assets/aris_random_additions/models/item/magma_bricks.json",
           "src/main/resources/assets/aris_random_additions/models/block/magma_bricks.json",
           "src/main/java/net/mcreator/arisrandomadditions/block/MagmaBricksBlock.java",
-          "src/main/resources/assets/aris_random_additions/models/item/magma_bricks.json",
           "src/main/resources/data/aris_random_additions/loot_tables/blocks/magma_bricks.json",
           "src/main/resources/assets/aris_random_additions/blockstates/magma_bricks.json"
         ]
@@ -1465,12 +1465,12 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/aris_random_additions/models/block/magma_brick_stairs_inner.json",
+          "src/main/resources/assets/aris_random_additions/models/block/magma_brick_stairs.json",
           "src/main/resources/data/aris_random_additions/loot_tables/blocks/magma_brick_stairs.json",
           "src/main/resources/assets/aris_random_additions/models/block/magma_brick_stairs_outer.json",
-          "src/main/resources/assets/aris_random_additions/blockstates/magma_brick_stairs.json",
           "src/main/resources/assets/aris_random_additions/models/item/magma_brick_stairs.json",
-          "src/main/resources/assets/aris_random_additions/models/block/magma_brick_stairs.json",
-          "src/main/java/net/mcreator/arisrandomadditions/block/MagmaBrickStairsBlock.java"
+          "src/main/java/net/mcreator/arisrandomadditions/block/MagmaBrickStairsBlock.java",
+          "src/main/resources/assets/aris_random_additions/blockstates/magma_brick_stairs.json"
         ]
       },
       "path": "~/Magma"
@@ -1483,13 +1483,13 @@
       "registry_name": "magma_brick_slabs",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/arisrandomadditions/block/MagmaBrickSlabsBlock.java",
           "src/main/resources/data/aris_random_additions/loot_tables/blocks/magma_brick_slabs.json",
           "src/main/resources/assets/aris_random_additions/blockstates/magma_brick_slabs.json",
+          "src/main/resources/assets/aris_random_additions/models/item/magma_brick_slabs.json",
           "src/main/resources/assets/aris_random_additions/models/block/magma_brick_slabs.json",
           "src/main/resources/assets/aris_random_additions/models/block/magma_brick_slabs_full.json",
-          "src/main/resources/assets/aris_random_additions/models/item/magma_brick_slabs.json",
-          "src/main/resources/assets/aris_random_additions/models/block/magma_brick_slabs_top.json"
+          "src/main/resources/assets/aris_random_additions/models/block/magma_brick_slabs_top.json",
+          "src/main/java/net/mcreator/arisrandomadditions/block/MagmaBrickSlabsBlock.java"
         ]
       },
       "path": "~/Magma"
@@ -1503,13 +1503,13 @@
       "metadata": {
         "files": [
           "src/main/resources/data/aris_random_additions/loot_tables/blocks/magma_brick_walls.json",
-          "src/main/resources/assets/aris_random_additions/blockstates/magma_brick_walls.json",
-          "src/main/resources/assets/aris_random_additions/models/block/magma_brick_walls.json",
           "src/main/resources/assets/aris_random_additions/models/item/magma_brick_walls.json",
+          "src/main/resources/assets/aris_random_additions/models/block/magma_brick_walls.json",
+          "src/main/resources/assets/aris_random_additions/models/block/magma_brick_walls_side_tall.json",
           "src/main/java/net/mcreator/arisrandomadditions/block/MagmaBrickWallsBlock.java",
           "src/main/resources/assets/aris_random_additions/models/block/magma_brick_walls_post.json",
-          "src/main/resources/assets/aris_random_additions/models/block/magma_brick_walls_side_tall.json",
-          "src/main/resources/assets/aris_random_additions/models/block/magma_brick_walls_inventory.json"
+          "src/main/resources/assets/aris_random_additions/models/block/magma_brick_walls_inventory.json",
+          "src/main/resources/assets/aris_random_additions/blockstates/magma_brick_walls.json"
         ]
       },
       "path": "~/Magma"
@@ -1522,11 +1522,11 @@
       "registry_name": "magma_brick_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aris_random_additions/models/block/magma_brick_pressure_plate.json",
-          "src/main/resources/data/aris_random_additions/loot_tables/blocks/magma_brick_pressure_plate.json",
           "src/main/resources/assets/aris_random_additions/models/item/magma_brick_pressure_plate.json",
           "src/main/resources/assets/aris_random_additions/blockstates/magma_brick_pressure_plate.json",
           "src/main/resources/assets/aris_random_additions/models/block/magma_brick_pressure_plate_down.json",
+          "src/main/resources/data/aris_random_additions/loot_tables/blocks/magma_brick_pressure_plate.json",
+          "src/main/resources/assets/aris_random_additions/models/block/magma_brick_pressure_plate.json",
           "src/main/java/net/mcreator/arisrandomadditions/block/MagmaBrickPressurePlateBlock.java"
         ]
       },
@@ -1540,13 +1540,13 @@
       "registry_name": "magma_brick_button",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/arisrandomadditions/block/MagmaBrickButtonBlock.java",
-          "src/main/resources/data/aris_random_additions/loot_tables/blocks/magma_brick_button.json",
-          "src/main/resources/assets/aris_random_additions/models/block/magma_brick_button_inventory.json",
-          "src/main/resources/assets/aris_random_additions/blockstates/magma_brick_button.json",
           "src/main/resources/assets/aris_random_additions/models/block/magma_brick_button_pressed.json",
+          "src/main/resources/assets/aris_random_additions/models/block/magma_brick_button_inventory.json",
+          "src/main/resources/assets/aris_random_additions/models/block/magma_brick_button.json",
+          "src/main/resources/data/aris_random_additions/loot_tables/blocks/magma_brick_button.json",
+          "src/main/java/net/mcreator/arisrandomadditions/block/MagmaBrickButtonBlock.java",
           "src/main/resources/assets/aris_random_additions/models/item/magma_brick_button.json",
-          "src/main/resources/assets/aris_random_additions/models/block/magma_brick_button.json"
+          "src/main/resources/assets/aris_random_additions/blockstates/magma_brick_button.json"
         ]
       },
       "path": "~/Magma"
@@ -1689,8 +1689,8 @@
       "registry_name": "bean",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aris_random_additions/models/item/bean.json",
-          "src/main/java/net/mcreator/arisrandomadditions/item/BeanItem.java"
+          "src/main/java/net/mcreator/arisrandomadditions/item/BeanItem.java",
+          "src/main/resources/assets/aris_random_additions/models/item/bean.json"
         ]
       },
       "path": "~/Other"
@@ -1859,11 +1859,11 @@
       "registry_name": "bedrockifier",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aris_random_additions/models/item/bedrockifier.json",
           "src/main/java/net/mcreator/arisrandomadditions/block/entity/BedrockifierBlockEntity.java",
-          "src/main/resources/data/aris_random_additions/loot_tables/blocks/bedrockifier.json",
           "src/main/resources/assets/aris_random_additions/blockstates/bedrockifier.json",
+          "src/main/resources/data/aris_random_additions/loot_tables/blocks/bedrockifier.json",
           "src/main/java/net/mcreator/arisrandomadditions/block/BedrockifierBlock.java",
+          "src/main/resources/assets/aris_random_additions/models/item/bedrockifier.json",
           "src/main/resources/assets/aris_random_additions/models/block/bedrockifier.json"
         ]
       },
@@ -1904,8 +1904,8 @@
       "registry_name": "magic_egg",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/arisrandomadditions/item/MagicEggItem.java",
-          "src/main/resources/assets/aris_random_additions/models/item/magic_egg.json"
+          "src/main/resources/assets/aris_random_additions/models/item/magic_egg.json",
+          "src/main/java/net/mcreator/arisrandomadditions/item/MagicEggItem.java"
         ]
       },
       "path": "~/SpawnEggs"
@@ -1931,8 +1931,8 @@
       "registry_name": "wither_question_mark",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aris_random_additions/models/item/wither_question_mark.json",
-          "src/main/java/net/mcreator/arisrandomadditions/item/WitherQuestionMarkItem.java"
+          "src/main/java/net/mcreator/arisrandomadditions/item/WitherQuestionMarkItem.java",
+          "src/main/resources/assets/aris_random_additions/models/item/wither_question_mark.json"
         ]
       },
       "path": "~/SpawnEggs"
@@ -2440,8 +2440,8 @@
       "registry_name": "snow_golem_question_mark",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/arisrandomadditions/item/SnowGolemQuestionMarkItem.java",
-          "src/main/resources/assets/aris_random_additions/models/item/snow_golem_question_mark.json"
+          "src/main/resources/assets/aris_random_additions/models/item/snow_golem_question_mark.json",
+          "src/main/java/net/mcreator/arisrandomadditions/item/SnowGolemQuestionMarkItem.java"
         ]
       },
       "path": "~/SpawnEggs"
@@ -2573,8 +2573,8 @@
       "registry_name": "orichalcum",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aris_random_additions/models/item/orichalcum.json",
-          "src/main/java/net/mcreator/arisrandomadditions/item/OrichalcumItem.java"
+          "src/main/java/net/mcreator/arisrandomadditions/item/OrichalcumItem.java",
+          "src/main/resources/assets/aris_random_additions/models/item/orichalcum.json"
         ]
       },
       "path": "~/Orichalcum"
@@ -2588,13 +2588,13 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/arisrandomadditions/block/OrichalcumOreBlock.java",
-          "src/main/resources/assets/aris_random_additions/blockstates/orichalcum_ore.json",
-          "src/main/resources/data/aris_random_additions/loot_tables/blocks/orichalcum_ore.json",
-          "src/main/resources/data/aris_random_additions/worldgen/configured_feature/orichalcum_ore.json",
           "src/main/resources/assets/aris_random_additions/models/item/orichalcum_ore.json",
+          "src/main/resources/data/aris_random_additions/worldgen/configured_feature/orichalcum_ore.json",
+          "src/main/resources/assets/aris_random_additions/blockstates/orichalcum_ore.json",
+          "src/main/resources/assets/aris_random_additions/models/block/orichalcum_ore.json",
           "src/main/resources/data/aris_random_additions/forge/biome_modifier/orichalcum_ore_biome_modifier.json",
           "src/main/resources/data/aris_random_additions/worldgen/placed_feature/orichalcum_ore.json",
-          "src/main/resources/assets/aris_random_additions/models/block/orichalcum_ore.json"
+          "src/main/resources/data/aris_random_additions/loot_tables/blocks/orichalcum_ore.json"
         ]
       },
       "path": "~/Orichalcum"
@@ -2607,11 +2607,11 @@
       "registry_name": "orichalcum_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/aris_random_additions/loot_tables/blocks/orichalcum_block.json",
-          "src/main/resources/assets/aris_random_additions/models/block/orichalcum_block.json",
           "src/main/resources/assets/aris_random_additions/models/item/orichalcum_block.json",
+          "src/main/java/net/mcreator/arisrandomadditions/block/OrichalcumBlockBlock.java",
           "src/main/resources/assets/aris_random_additions/blockstates/orichalcum_block.json",
-          "src/main/java/net/mcreator/arisrandomadditions/block/OrichalcumBlockBlock.java"
+          "src/main/resources/data/aris_random_additions/loot_tables/blocks/orichalcum_block.json",
+          "src/main/resources/assets/aris_random_additions/models/block/orichalcum_block.json"
         ]
       },
       "path": "~/Orichalcum"
@@ -2691,8 +2691,8 @@
       "registry_name": "orichalcum_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/arisrandomadditions/item/OrichalcumSwordItem.java",
-          "src/main/resources/assets/aris_random_additions/models/item/orichalcum_sword.json"
+          "src/main/resources/assets/aris_random_additions/models/item/orichalcum_sword.json",
+          "src/main/java/net/mcreator/arisrandomadditions/item/OrichalcumSwordItem.java"
         ]
       },
       "path": "~/Orichalcum"
@@ -2798,11 +2798,11 @@
       "registry_name": "orichalcum_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aris_random_additions/models/item/orichalcum_armor_boots.json",
           "src/main/resources/assets/aris_random_additions/models/item/orichalcum_armor_chestplate.json",
           "src/main/resources/assets/aris_random_additions/models/item/orichalcum_armor_leggings.json",
           "src/main/resources/assets/aris_random_additions/models/item/orichalcum_armor_helmet.json",
-          "src/main/java/net/mcreator/arisrandomadditions/item/OrichalcumArmorItem.java"
+          "src/main/java/net/mcreator/arisrandomadditions/item/OrichalcumArmorItem.java",
+          "src/main/resources/assets/aris_random_additions/models/item/orichalcum_armor_boots.json"
         ]
       },
       "path": "~/Orichalcum"
@@ -2867,8 +2867,8 @@
       "registry_name": "orichalcum_feature",
       "metadata": {
         "files": [
-          "src/main/resources/data/aris_random_additions/forge/biome_modifier/orichalcum_feature_biome_modifier.json",
           "src/main/resources/data/aris_random_additions/worldgen/configured_feature/orichalcum_feature.json",
+          "src/main/resources/data/aris_random_additions/forge/biome_modifier/orichalcum_feature_biome_modifier.json",
           "src/main/resources/data/aris_random_additions/worldgen/placed_feature/orichalcum_feature.json"
         ]
       },
@@ -2927,8 +2927,8 @@
       "registry_name": "bedrock_shard",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aris_random_additions/models/item/bedrock_shard.json",
-          "src/main/java/net/mcreator/arisrandomadditions/item/BedrockShardItem.java"
+          "src/main/java/net/mcreator/arisrandomadditions/item/BedrockShardItem.java",
+          "src/main/resources/assets/aris_random_additions/models/item/bedrock_shard.json"
         ]
       },
       "path": "~/Bedrock"
@@ -3304,8 +3304,8 @@
       "registry_name": "pocket_lightning",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/arisrandomadditions/item/PocketLightningItem.java",
-          "src/main/resources/assets/aris_random_additions/models/item/pocket_lightning.json"
+          "src/main/resources/assets/aris_random_additions/models/item/pocket_lightning.json",
+          "src/main/java/net/mcreator/arisrandomadditions/item/PocketLightningItem.java"
         ]
       },
       "path": "~/PocketLightning"
@@ -3595,10 +3595,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/arisrandomadditions/block/RaveBlockBlock.java",
-          "src/main/resources/assets/aris_random_additions/models/item/rave_block.json",
-          "src/main/resources/assets/aris_random_additions/models/block/rave_block.json",
           "src/main/resources/data/aris_random_additions/loot_tables/blocks/rave_block.json",
-          "src/main/resources/assets/aris_random_additions/blockstates/rave_block.json"
+          "src/main/resources/assets/aris_random_additions/models/block/rave_block.json",
+          "src/main/resources/assets/aris_random_additions/blockstates/rave_block.json",
+          "src/main/resources/assets/aris_random_additions/models/item/rave_block.json"
         ]
       },
       "path": "~/Other"
@@ -3612,10 +3612,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/aris_random_additions/models/block/rave_block_states_blockstate_0.json",
-          "src/main/resources/assets/aris_random_additions/models/block/rave_block_states_blockstate_3.json",
           "src/main/resources/assets/aris_random_additions/models/block/rave_block_states_blockstate_1.json",
-          "src/main/resources/assets/aris_random_additions/models/block/rave_block_states_blockstate_4.json",
-          "src/main/resources/assets/aris_random_additions/models/block/rave_block_states_blockstate_2.json"
+          "src/main/resources/assets/aris_random_additions/models/block/rave_block_states_blockstate_2.json",
+          "src/main/resources/assets/aris_random_additions/models/block/rave_block_states_blockstate_3.json",
+          "src/main/resources/assets/aris_random_additions/models/block/rave_block_states_blockstate_4.json"
         ]
       },
       "path": "~/Other"
@@ -3676,8 +3676,8 @@
       "registry_name": "turd",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aris_random_additions/models/item/turd.json",
-          "src/main/java/net/mcreator/arisrandomadditions/item/TurdItem.java"
+          "src/main/java/net/mcreator/arisrandomadditions/item/TurdItem.java",
+          "src/main/resources/assets/aris_random_additions/models/item/turd.json"
         ]
       },
       "path": "~/Turd"
@@ -3742,8 +3742,8 @@
       "registry_name": "turd_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/arisrandomadditions/world/inventory/TurdGUIMenu.java",
-          "src/main/java/net/mcreator/arisrandomadditions/client/gui/TurdGUIScreen.java"
+          "src/main/java/net/mcreator/arisrandomadditions/client/gui/TurdGUIScreen.java",
+          "src/main/java/net/mcreator/arisrandomadditions/world/inventory/TurdGUIMenu.java"
         ]
       },
       "path": "~/Turd"
@@ -3797,6 +3797,108 @@
         ]
       },
       "path": "~/Advancements"
+    },
+    {
+      "name": "LifeMendingEnchantment",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "life_mending_enchantment",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/enchantment/LifeMendingEnchantmentEnchantment.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "LifeMendingProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "life_mending_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/LifeMendingProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "WandOfDraining",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand_of_draining",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/item/WandOfDrainingItem.java",
+          "src/main/resources/assets/aris_random_additions/models/item/wand_of_draining.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "WandOfDrainingRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand_of_draining_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/WandOfDrainingRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "WandOfDrainingRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand_of_draining_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/wand_of_draining_recipe.json"
+        ]
+      },
+      "path": "~/Other"
     }
   ],
   "variable_elements": [],
@@ -3811,6 +3913,7 @@
       "~CUSTOM:Bedrockifier"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:WandOfDraining",
       "~CUSTOM:WandOfResizing",
       "~CUSTOM:OrichalcumPickaxe",
       "~CUSTOM:BedrockPickaxe",
@@ -3887,8 +3990,8 @@
   "language_map": {
     "en_us": {
       "advancements.condensed_netherrack_advancement.descr": "Condense Netherrack for the first time",
-      "item.nims_random_bullshit.magic_dust": "Magic Dust",
       "block.nims_random_bullshit.penta_condensed_netherrack": "Penta-condensed Netherrack",
+      "item.nims_random_bullshit.magic_dust": "Magic Dust",
       "item.nims_random_bullshit.orichalcum_armor_boots": "Orichalcum Boots",
       "block.nims_random_bullshit.magma_brick_button": "Magma Brick Button",
       "painting.nims_random_bullshit.shit_painting.title": "Shit Painting",
@@ -3897,15 +4000,15 @@
       "item.aris_random_additions.ghoul_spawn_egg": "Ghoul Spawn Egg",
       "gui.aris_random_additions.turd_gui.label_uh_ohh_stinky": "UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! ",
       "item.aris_random_additions.bedrock_shard": "Bedrock Shard",
-      "advancements.grave_digger_advancement.title": "We Must Dig!",
       "item.aris_random_additions.bedrock_upgrade_template": "Bedrock Upgrade Template",
+      "advancements.grave_digger_advancement.title": "We Must Dig!",
       "block.nims_random_bullshit.orichalcum_block": "Block of Orichalcum",
       "block.nims_random_bullshit.rubber_slab": "Rubber Slab",
-      "item.nims_random_bullshit.bedrock_upgrade_template": "Bedrock Upgrade Template",
       "block.aris_random_additions.magma_brick_pressure_plate": "Magma Brick Pressure Plate",
+      "item.nims_random_bullshit.bedrock_upgrade_template": "Bedrock Upgrade Template",
       "advancements.orichalcum_set_advancement.descr": "Wear a full armor set of Orichalcum.",
-      "block.nims_random_bullshit.orichalcum_ore": "Orichalcum Ore",
       "block.aris_random_additions.condensed_condensed_netherrack": "Condensed Condensed Netherrack",
+      "block.nims_random_bullshit.orichalcum_ore": "Orichalcum Ore",
       "painting.aris_random_additions.turd_painting.author": "Ari/nim",
       "item.nims_random_bullshit.wand_of_resizing": "Wand Of Resizing",
       "item.nims_random_bullshit.gravedigger.description_1": "We must dig!",
@@ -3914,13 +4017,14 @@
       "block.aris_random_additions.hexa_condensed_netherrack": "Hexa-condensed Netherrack",
       "item.aris_random_additions.bedrock_sword": "Bedrock Sword",
       "item.aris_random_additions.orichalcum_hoe": "Orichalcum Hoe",
+      "item.aris_random_additions.wand_of_draining": "Wand Of Draining",
       "enchantment.aris_random_additions.passive_income_enchantment": "Passive Income",
       "item.aris_random_additions.sand_dust": "Sand Dust",
       "block.aris_random_additions.orichalcum_block": "Block of Orichalcum",
       "gui.nims_random_bullshit.mailbox_gui.outbox_y_coord": "0",
       "enchantment.nims_random_bullshit.ruining_enchantment": "Ruining",
-      "block.nims_random_bullshit.condensed_condensed_netherrack": "Condensed Condensed Netherrack",
       "advancements.netherrack_juice_advancement.descr": "Obtain Netherrack Juice",
+      "block.nims_random_bullshit.condensed_condensed_netherrack": "Condensed Condensed Netherrack",
       "block.nims_random_bullshit.quadra_condensed_netherrack": "Quadra-condensed Netherrack",
       "gui.nims_random_bullshit.bedrockifier_gui.button_empty": "-\u003e",
       "block.nims_random_bullshit.hexa_condensed_netherrack": "Hexa-condensed Netherrack",
@@ -3953,8 +4057,8 @@
       "block.nims_random_bullshit.broken_glass": "Broken Glass",
       "block.nims_random_bullshit.redstone_brick_walls": "Redstone Brick Wall",
       "item.aris_random_additions.tux_spawn_egg": "Tux Spawn Egg",
-      "effect.nims_random_bullshit.summoned_entity_effect": "Summoned Entity",
       "advancements.grave_digger_advancement.descr": "Obtain Gravedigger",
+      "effect.nims_random_bullshit.summoned_entity_effect": "Summoned Entity",
       "item.aris_random_additions.netherrackite": "Netherrackite Ingot",
       "advancements.orichalcum_advancement.title": "Folly Red",
       "item.nims_random_bullshit.ghoul_spawn_egg": "Ghoul Spawn Egg",
@@ -3966,8 +4070,8 @@
       "block.aris_random_additions.magma_bricks": "Magma Bricks",
       "item.nims_random_bullshit.snow_golem_question_mark": "Snow Golem...?",
       "item.aris_random_additions.gravedigger.description_0": "Right-Click on soul sand or soul soil to use them, summoning a ghoul that attacks hostile mobs.",
-      "advancements.bedrock_advancement.descr": "Obtain Bedrock",
       "item.aris_random_additions.gravedigger.description_1": "We must dig!",
+      "advancements.bedrock_advancement.descr": "Obtain Bedrock",
       "item.nims_random_bullshit.orichalcum_shovel": "Orichalcum Shovel",
       "block.nims_random_bullshit.redstone_brick_stairs": "Redstone Brick Stairs",
       "block.aris_random_additions.magma_brick_walls": "Magma Brick Wall",
@@ -3989,6 +4093,7 @@
       "block.nims_random_bullshit.condensed_condensed_condensed_netherrack": "Condensed Condensed Condensed Netherrack",
       "item.aris_random_additions.magic_egg": "Magic Egg",
       "entity.nims_random_bullshit.ghoul": "Ghoul",
+      "enchantment.aris_random_additions.life_mending_enchantment": "Life Mending",
       "block.aris_random_additions.redstone_brick_slabs": "Redstone Brick Slab",
       "advancements.star_advancement.descr": "Obtain a Star",
       "item.nims_random_bullshit.bedrock_pickaxe": "Bedrock Pickaxe",
@@ -4158,7 +4263,7 @@
   "workspaceSettings": {
     "modid": "aris_random_additions",
     "modName": "Ari\u0027s Random Additions",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "Random Additions by Ari. Created with MCreator.",
     "author": "nimsolated, MCreator",
     "websiteURL": "https://mcreator.net",
@@ -4169,7 +4274,6 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
-      "photon",
       "pehkui"
     ],
     "currentGenerator": "forge-1.20.1",

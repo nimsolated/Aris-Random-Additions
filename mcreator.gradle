@@ -1,32 +1,4 @@
 repositories {
-  maven {
-      url = 'https://cursemaven.com/'
-  }
-}
-minecraft {
-runs {
-    client {
-        property 'mixin.env.remapRefMap', 'true'
-        property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
-    }
-
-    server {
-        property 'mixin.env.remapRefMap', 'true'
-        property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
-    }
-    data {
-        property 'mixin.env.remapRefMap', 'true'
-        property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
-    }
-  }
-}
-dependencies {
-  implementation fg.deobf("curse.maven:photon-871522:7381162")
-  implementation fg.deobf("curse.maven:ldlib-626676:7412415")
-}
-
-
-repositories {
     maven {
         url = "https://jitpack.io"
     }

@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.arisrandomadditions.item.WitherQuestionMarkItem;
 import net.mcreator.arisrandomadditions.item.WandOfResizingItem;
+import net.mcreator.arisrandomadditions.item.WandOfDrainingItem;
 import net.mcreator.arisrandomadditions.item.TurdItem;
 import net.mcreator.arisrandomadditions.item.StarWandItem;
 import net.mcreator.arisrandomadditions.item.StarItem;
@@ -114,6 +115,7 @@ public class ArisRandomAdditionsModItems {
 	public static final RegistryObject<Item> BLACK_IRON_INGOT = REGISTRY.register("black_iron_ingot", () -> new BlackIronIngotItem());
 	public static final RegistryObject<Item> RAVE_BLOCK = block(ArisRandomAdditionsModBlocks.RAVE_BLOCK);
 	public static final RegistryObject<Item> TURD = REGISTRY.register("turd", () -> new TurdItem());
+	public static final RegistryObject<Item> WAND_OF_DRAINING = REGISTRY.register("wand_of_draining", () -> new WandOfDrainingItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
