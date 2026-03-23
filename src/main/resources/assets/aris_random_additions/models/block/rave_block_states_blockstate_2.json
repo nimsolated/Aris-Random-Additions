@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aris_random_additions:block/rave_block_g",
+    "up": "aris_random_additions:block/rave_block_g",
+    "north": "aris_random_additions:block/rave_block_g",
+    "east": "aris_random_additions:block/rave_block_g",
+    "south": "aris_random_additions:block/rave_block_g",
+    "west": "aris_random_additions:block/rave_block_g",
+    "particle": "aris_random_additions:block/rave_block"
+  },
+  "render_type": "solid"
+}

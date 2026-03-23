@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "aris_random_additions:bedrock_shard"
+    },
+    {
+      "item": "aris_random_additions:bedrock_shard"
+    },
+    {
+      "item": "aris_random_additions:bedrock_shard"
+    },
+    {
+      "item": "aris_random_additions:bedrock_shard"
+    },
+    {
+      "item": "aris_random_additions:cheese"
+    },
+    {
+      "item": "aris_random_additions:bedrock_shard"
+    },
+    {
+      "item": "aris_random_additions:bedrock_shard"
+    },
+    {
+      "item": "aris_random_additions:bedrock_shard"
+    },
+    {
+      "item": "aris_random_additions:bedrock_shard"
+    }
+  ],
+  "result": {
+    "item": "minecraft:bedrock",
+    "count": 1
+  }
+}

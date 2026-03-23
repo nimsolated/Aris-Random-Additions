@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "aris_random_additions:block/magma_bricks_2",
+    "bottom": "aris_random_additions:block/magma_bricks_2",
+    "top": "aris_random_additions:block/magma_bricks_2",
+    "side": "aris_random_additions:block/magma_bricks_2"
+  },
+  "render_type": "solid"
+}

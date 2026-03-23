@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "nims_random_bullshit:orichalcum_block",
-    "nims_random_bullshit:orichalcum_ore",
-    "nims_random_bullshit:bedrockifier"
+    "aris_random_additions:orichalcum_block",
+    "aris_random_additions:orichalcum_ore",
+    "aris_random_additions:bedrockifier"
   ]
 }

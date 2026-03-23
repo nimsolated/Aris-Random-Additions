@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    "b": {
+      "item": "minecraft:shulker_shell"
+    },
+    "c": {
+      "item": "aris_random_additions:magic_egg"
+    }
+  },
+  "result": {
+    "item": "minecraft:shulker_spawn_egg",
+    "count": 1
+  }
+}

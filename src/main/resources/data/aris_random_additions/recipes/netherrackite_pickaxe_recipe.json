@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "minecraft:netherite_pickaxe"
+  },
+  "addition": {
+    "item": "aris_random_additions:netherrackite"
+  },
+  "result": {
+    "item": "aris_random_additions:netherrackite_pickaxe"
+  }
+}

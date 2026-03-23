@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aris_random_additions:block/ore_miner_bottom",
+    "up": "aris_random_additions:block/ore_miner_top_180",
+    "north": "aris_random_additions:block/ore_miner_side",
+    "east": "aris_random_additions:block/ore_miner_side",
+    "south": "aris_random_additions:block/ore_miner_side",
+    "west": "aris_random_additions:block/ore_miner_side",
+    "particle": "aris_random_additions:block/ore_miner_bottom"
+  },
+  "render_type": "solid"
+}

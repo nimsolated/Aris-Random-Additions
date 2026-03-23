@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "b": {
+      "item": "aris_random_additions:magic_egg"
+    },
+    "c": {
+      "item": "minecraft:white_bed"
+    },
+    "d": {
+      "item": "minecraft:elytra"
+    }
+  },
+  "result": {
+    "item": "minecraft:phantom_spawn_egg",
+    "count": 1
+  }
+}

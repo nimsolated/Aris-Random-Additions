@@ -1,0 +1,9 @@
+{
+  "parent": "block/template_glass_pane_post",
+  "textures": {
+    "particle": "aris_random_additions:block/broken_glass",
+    "edge": "aris_random_additions:block/broken_glass",
+    "pane": "aris_random_additions:block/broken_glass"
+  },
+  "render_type": "translucent"
+}

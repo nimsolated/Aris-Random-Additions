@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "nims_random_bullshit:orichalcum_sword",
-    "nims_random_bullshit:bedrock_sword"
+    "aris_random_additions:orichalcum_sword",
+    "aris_random_additions:bedrock_sword"
   ]
 }

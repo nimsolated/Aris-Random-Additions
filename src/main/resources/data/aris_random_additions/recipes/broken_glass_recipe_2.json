@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "aris_random_additions:deleted_mod_element"
+    }
+  },
+  "result": {
+    "item": "aris_random_additions:broken_glass",
+    "count": 16
+  }
+}

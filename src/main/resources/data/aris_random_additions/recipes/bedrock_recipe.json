@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "aris_random_additions:hexa_condensed_netherrack"
+    },
+    {
+      "item": "aris_random_additions:hexa_condensed_netherrack"
+    },
+    {
+      "item": "aris_random_additions:hexa_condensed_netherrack"
+    },
+    {
+      "item": "aris_random_additions:hexa_condensed_netherrack"
+    },
+    {
+      "item": "aris_random_additions:hexa_condensed_netherrack"
+    },
+    {
+      "item": "aris_random_additions:hexa_condensed_netherrack"
+    },
+    {
+      "item": "aris_random_additions:hexa_condensed_netherrack"
+    },
+    {
+      "item": "aris_random_additions:hexa_condensed_netherrack"
+    },
+    {
+      "item": "aris_random_additions:hexa_condensed_netherrack"
+    }
+  ],
+  "result": {
+    "item": "minecraft:bedrock",
+    "count": 1
+  }
+}

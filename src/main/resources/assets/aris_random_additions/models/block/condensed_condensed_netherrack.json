@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aris_random_additions:block/condensed_condensed_netherrack_1",
+    "up": "aris_random_additions:block/condensed_condensed_netherrack_1",
+    "north": "aris_random_additions:block/condensed_condensed_netherrack_1",
+    "east": "aris_random_additions:block/condensed_condensed_netherrack_1",
+    "south": "aris_random_additions:block/condensed_condensed_netherrack_1",
+    "west": "aris_random_additions:block/condensed_condensed_netherrack_1",
+    "particle": "aris_random_additions:block/condensed_condensed_netherrack_1"
+  },
+  "render_type": "solid"
+}

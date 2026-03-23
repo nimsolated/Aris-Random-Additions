@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "aris_random_additions:broken_glass"
+    },
+    "b": {
+      "item": "minecraft:bedrock"
+    },
+    "c": {
+      "item": "aris_random_additions:magic_egg"
+    }
+  },
+  "result": {
+    "item": "aris_random_additions:tux_spawn_egg",
+    "count": 1
+  }
+}

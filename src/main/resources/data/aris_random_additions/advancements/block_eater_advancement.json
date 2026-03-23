@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "aris_random_additions:block_eater"
+    },
+    "title": {
+      "translate": "advancements.block_eater_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.block_eater_advancement.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "block_eater_advancement_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "nims_random_bullshit:magma_brick_stairs",
-    "nims_random_bullshit:redstone_brick_stairs"
+    "aris_random_additions:magma_brick_stairs",
+    "aris_random_additions:redstone_brick_stairs"
   ]
 }

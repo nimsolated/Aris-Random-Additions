@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "aris_random_additions:block/bedrockifier"
+    },
+    "facing=east": {
+      "model": "aris_random_additions:block/bedrockifier",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "aris_random_additions:block/bedrockifier",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "aris_random_additions:block/bedrockifier",
+      "y": 270
+    }
+  }
+}

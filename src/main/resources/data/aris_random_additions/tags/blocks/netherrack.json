@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:netherrack",
+    "aris_random_additions:condensed_netherrack",
+    "aris_random_additions:condensed_condensed_netherrack",
+    "aris_random_additions:condensed_condensed_condensed_netherrack",
+    "aris_random_additions:quadra_condensed_netherrack",
+    "aris_random_additions:penta_condensed_netherrack"
+  ]
+}

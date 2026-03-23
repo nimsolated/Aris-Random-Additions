@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "aris_random_additions:lapis_lazuli_nugget"
+    },
+    "b": {
+      "item": "aris_random_additions:sand_dust"
+    }
+  },
+  "result": {
+    "item": "aris_random_additions:magic_dust",
+    "count": 1
+  }
+}

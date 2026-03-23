@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "aris_random_additions:hexa_condensed_netherrack"
+    }
+  ],
+  "result": {
+    "item": "aris_random_additions:penta_condensed_netherrack",
+    "count": 9
+  }
+}

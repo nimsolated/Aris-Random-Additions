@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "nims_random_bullshit:wand_of_resizing",
-    "nims_random_bullshit:orichalcum_pickaxe",
-    "nims_random_bullshit:bedrock_pickaxe",
-    "nims_random_bullshit:star_wand",
-    "nims_random_bullshit:netherrackite_pickaxe"
+    "aris_random_additions:wand_of_resizing",
+    "aris_random_additions:orichalcum_pickaxe",
+    "aris_random_additions:bedrock_pickaxe",
+    "aris_random_additions:star_wand",
+    "aris_random_additions:netherrackite_pickaxe"
   ]
 }

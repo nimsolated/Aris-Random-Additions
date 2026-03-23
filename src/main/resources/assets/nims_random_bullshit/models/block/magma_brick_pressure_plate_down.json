@@ -1,8 +1,0 @@
-{
-  "parent": "block/pressure_plate_down",
-  "textures": {
-    "particle": "nims_random_bullshit:block/magma_bricks_2",
-    "texture": "nims_random_bullshit:block/magma_bricks_2"
-  },
-  "render_type": "solid"
-}

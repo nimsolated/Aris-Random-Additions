@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "aris_random_additions:condensed_netherrack"
+    },
+    "b": {
+      "item": "aris_random_additions:condensed_condensed_netherrack"
+    },
+    "c": {
+      "item": "minecraft:pig_spawn_egg"
+    }
+  },
+  "result": {
+    "item": "minecraft:hoglin_spawn_egg",
+    "count": 1
+  }
+}

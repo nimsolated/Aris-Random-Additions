@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "ab",
+    "bb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:dragon_head"
+    },
+    "b": {
+      "item": "aris_random_additions:condensed_condensed_condensed_netherrack"
+    }
+  },
+  "result": {
+    "item": "aris_random_additions:block_eater",
+    "count": 1
+  }
+}

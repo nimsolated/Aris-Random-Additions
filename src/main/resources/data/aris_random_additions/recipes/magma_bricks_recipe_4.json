@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "aris_random_additions:bean"
+    },
+    "b": {
+      "item": "aris_random_additions:cheese"
+    }
+  },
+  "result": {
+    "item": "aris_random_additions:magma_bricks",
+    "count": 3
+  }
+}

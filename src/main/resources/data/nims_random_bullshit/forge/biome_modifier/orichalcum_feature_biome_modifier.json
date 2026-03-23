@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "#minecraft:is_overworld",
-  "features": "nims_random_bullshit:orichalcum_feature",
-  "step": "underground_ores"
-}

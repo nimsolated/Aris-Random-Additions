@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "nims_random_bullshit:bean",
+          "name": "aris_random_additions:bean",
           "weight": 1,
           "conditions": [
             {
@@ -51,7 +51,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "nims_random_bullshit:cheese",
+          "name": "aris_random_additions:cheese",
           "weight": 1,
           "conditions": [
             {

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "aris_random_additions:snow_golem_question_mark"
+    },
+    {
+      "item": "aris_random_additions:magic_egg"
+    }
+  ],
+  "result": {
+    "item": "minecraft:snow_golem_spawn_egg",
+    "count": 1
+  }
+}

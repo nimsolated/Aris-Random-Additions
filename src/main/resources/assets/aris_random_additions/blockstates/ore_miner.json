@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "aris_random_additions:block/ore_miner"
+    },
+    "facing=east": {
+      "model": "aris_random_additions:block/ore_miner",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "aris_random_additions:block/ore_miner",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "aris_random_additions:block/ore_miner",
+      "y": 270
+    }
+  }
+}

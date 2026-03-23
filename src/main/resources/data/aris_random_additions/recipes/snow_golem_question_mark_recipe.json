@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:carved_pumpkin"
+    },
+    "b": {
+      "item": "minecraft:snow_block"
+    }
+  },
+  "result": {
+    "item": "aris_random_additions:snow_golem_question_mark",
+    "count": 1
+  }
+}

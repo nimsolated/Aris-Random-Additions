@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_wall_side",
-  "textures": {
-    "wall": "nims_random_bullshit:block/magma_bricks_2",
-    "particle": "nims_random_bullshit:block/magma_bricks_2"
-  },
-  "render_type": "solid"
-}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aris_random_additions:block/bedrockifier-bottom",
+    "up": "aris_random_additions:block/bedrockifier-top",
+    "north": "aris_random_additions:block/bedrockifier-core",
+    "east": "aris_random_additions:block/bedrockifier-side",
+    "south": "aris_random_additions:block/bedrockifier-side",
+    "west": "aris_random_additions:block/bedrockifier-side",
+    "particle": "aris_random_additions:block/bedrockifier-bottom"
+  },
+  "render_type": "solid"
+}

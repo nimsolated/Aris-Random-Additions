@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "aris_random_additions:star_wand"
+    },
+    "title": {
+      "translate": "advancements.star_wand_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.star_wand_advancement.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "star_wand_advancement_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "aris_random_additions:star_advancement"
+}

@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "nims_random_bullshit:orichalcum_shovel",
-    "nims_random_bullshit:gravedigger"
+    "aris_random_additions:orichalcum_shovel",
+    "aris_random_additions:gravedigger"
   ]
 }

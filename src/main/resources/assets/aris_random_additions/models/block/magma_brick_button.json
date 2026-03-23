@@ -1,0 +1,8 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "particle": "aris_random_additions:block/magma_bricks_2",
+    "texture": "aris_random_additions:block/magma_bricks_2"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:echo_shard"
+    },
+    "b": {
+      "item": "aris_random_additions:magic_egg"
+    },
+    "c": {
+      "item": "aris_random_additions:iron_golem_question_mark"
+    }
+  },
+  "result": {
+    "item": "minecraft:warden_spawn_egg",
+    "count": 1
+  }
+}

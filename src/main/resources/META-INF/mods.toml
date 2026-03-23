@@ -3,19 +3,19 @@ loaderVersion="[47,)"
 license="Academic Free License v3.0"
 
 [[mods]]
-modId="nims_random_bullshit"
-version="1.8.0"
-displayName="Nim's Random Bullshit"
+modId="aris_random_additions"
+version="2.0.0"
+displayName="Ari's Random Additions"
 displayURL="https://mcreator.net"
 logoFile="logo.png"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 authors="nimsolated, MCreator"
-description="Random shit added by Nim. Created with MCreator."
+description="Random Additions by Ari. Created with MCreator."
 
 # Start of user code block mod configuration
 # End of user code block mod configuration
 
-[[dependencies.nims_random_bullshit]]
+[[dependencies.aris_random_additions]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.20.1]"
@@ -23,13 +23,13 @@ description="Random shit added by Nim. Created with MCreator."
     side="BOTH"
 
 
-[[dependencies.nims_random_bullshit]]
+[[dependencies.aris_random_additions]]
     modId="photon"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.nims_random_bullshit]]
+[[dependencies.aris_random_additions]]
     modId="pehkui"
     mandatory=false
     versionRange="[0,)"

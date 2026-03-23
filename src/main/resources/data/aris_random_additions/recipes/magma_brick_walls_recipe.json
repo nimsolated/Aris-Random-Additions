@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "aris_random_additions:magma_bricks"
+    }
+  },
+  "result": {
+    "item": "aris_random_additions:magma_brick_walls",
+    "count": 6
+  }
+}

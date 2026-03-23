@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "nims_random_bullshit:block/orichalcum_ore",
-    "particle": "nims_random_bullshit:block/orichalcum_ore"
-  },
-  "render_type": "solid"
-}

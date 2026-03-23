@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:bedrock"
+    },
+    "b": {
+      "item": "aris_random_additions:condensed_condensed_condensed_netherrack"
+    },
+    "c": {
+      "item": "aris_random_additions:cheese"
+    }
+  },
+  "result": {
+    "item": "aris_random_additions:bedrockifier",
+    "count": 1
+  }
+}

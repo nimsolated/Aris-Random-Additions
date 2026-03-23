@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "aris_random_additions:bedrock_upgrade_template"
+  },
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "addition": {
+    "item": "minecraft:bedrock"
+  },
+  "result": {
+    "item": "aris_random_additions:bedrock_sword"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "aris_random_additions:lapis_lazuli_nugget"
+    },
+    {
+      "item": "aris_random_additions:lapis_lazuli_nugget"
+    },
+    {
+      "item": "aris_random_additions:lapis_lazuli_nugget"
+    },
+    {
+      "item": "aris_random_additions:lapis_lazuli_nugget"
+    },
+    {
+      "item": "aris_random_additions:lapis_lazuli_nugget"
+    },
+    {
+      "item": "aris_random_additions:lapis_lazuli_nugget"
+    },
+    {
+      "item": "aris_random_additions:lapis_lazuli_nugget"
+    },
+    {
+      "item": "aris_random_additions:lapis_lazuli_nugget"
+    },
+    {
+      "item": "aris_random_additions:lapis_lazuli_nugget"
+    }
+  ],
+  "result": {
+    "item": "minecraft:lapis_lazuli",
+    "count": 1
+  }
+}

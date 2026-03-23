@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cooked_mutton"
+    },
+    "b": {
+      "item": "minecraft:cooked_chicken"
+    },
+    "c": {
+      "item": "aris_random_additions:magic_egg"
+    },
+    "d": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+  }
+}

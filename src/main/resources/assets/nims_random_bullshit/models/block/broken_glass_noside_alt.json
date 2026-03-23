@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_glass_pane_noside_alt",
-  "textures": {
-    "particle": "nims_random_bullshit:block/broken_glass",
-    "pane": "nims_random_bullshit:block/broken_glass"
-  },
-  "render_type": "translucent"
-}

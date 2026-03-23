@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "aris_random_additions:redstone_bricks"
+    }
+  },
+  "result": {
+    "item": "aris_random_additions:redstone_brick_slabs",
+    "count": 6
+  }
+}
