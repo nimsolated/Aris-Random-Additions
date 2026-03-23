@@ -116,6 +116,7 @@ public class ArisRandomAdditionsModItems {
 	public static final RegistryObject<Item> RAVE_BLOCK = block(ArisRandomAdditionsModBlocks.RAVE_BLOCK);
 	public static final RegistryObject<Item> TURD = REGISTRY.register("turd", () -> new TurdItem());
 	public static final RegistryObject<Item> WAND_OF_DRAINING = REGISTRY.register("wand_of_draining", () -> new WandOfDrainingItem());
+	public static final RegistryObject<Item> ARI_SPAWN_EGG = REGISTRY.register("ari_spawn_egg", () -> new ForgeSpawnEggItem(ArisRandomAdditionsModEntities.ARI, -65448, -1, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

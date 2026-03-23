@@ -1,0 +1,16 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "snowy_beach",
+    "snowy_plains",
+    "snowy_taiga",
+    "cherry_grove",
+    "snowy_slopes"
+  ],
+  "spawners": {
+    "type": "aris_random_additions:ari",
+    "weight": 9,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

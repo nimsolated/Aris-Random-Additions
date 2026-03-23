@@ -13,6 +13,7 @@ import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
 import net.mcreator.arisrandomadditions.client.renderer.TuxRenderer;
 import net.mcreator.arisrandomadditions.client.renderer.GhoulRenderer;
+import net.mcreator.arisrandomadditions.client.renderer.AriRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ArisRandomAdditionsModEntityRenderers {
@@ -22,5 +23,6 @@ public class ArisRandomAdditionsModEntityRenderers {
 		event.registerEntityRenderer(ArisRandomAdditionsModEntities.TUX.get(), TuxRenderer::new);
 		event.registerEntityRenderer(ArisRandomAdditionsModEntities.POCKET_LIGHTNING_PROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(ArisRandomAdditionsModEntities.TURD_PROJECTILE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(ArisRandomAdditionsModEntities.ARI.get(), AriRenderer::new);
 	}
 }

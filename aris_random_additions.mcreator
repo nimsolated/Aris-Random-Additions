@@ -3899,6 +3899,67 @@
         ]
       },
       "path": "~/Other"
+    },
+    {
+      "name": "Ari",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ari",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aris_random_additions/models/item/ari_spawn_egg.json",
+          "src/main/java/net/mcreator/arisrandomadditions/client/renderer/AriRenderer.java",
+          "src/main/java/net/mcreator/arisrandomadditions/entity/AriEntity.java",
+          "src/main/resources/data/aris_random_additions/forge/biome_modifier/ari_biome_modifier.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "AriSpawnEggRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ari_spawn_egg_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/ari_spawn_egg_recipe.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "FoxSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fox_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/fox_spawn_egg.json"
+        ]
+      },
+      "path": "~/SpawnEggs"
+    },
+    {
+      "name": "AriOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ari_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/AriOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Other"
     }
   ],
   "variable_elements": [],
@@ -4136,6 +4197,7 @@
       "effect.aris_random_additions.summoned_entity_effect": "Summoned Entity",
       "item.nims_random_bullshit.orichalcum": "Orichalcum",
       "advancements.magic_egg_advancement.descr": "Obtain a Magic Egg",
+      "entity.aris_random_additions.ari": "Ari",
       "item.nims_random_bullshit.night_vision_goggles_helmet": "Night Vision Goggles",
       "block.aris_random_additions.orichalcum_ore": "Orichalcum Ore",
       "item.aris_random_additions.orichalcum_axe": "Orichalcum Axe",
@@ -4157,6 +4219,7 @@
       "block.aris_random_additions.condensed_condensed_condensed_netherrack": "Condensed Condensed Condensed Netherrack",
       "advancements.star_wand_advancement.title": "Healius Absorbus!",
       "advancements.magic_egg_advancement.title": "Core of a Spawner",
+      "item.aris_random_additions.ari_spawn_egg": "Ari Spawn Egg",
       "entity.aris_random_additions.tux": "Tux",
       "item.nims_random_bullshit.orichalcum_pickaxe": "Orichalcum Pickaxe",
       "item.aris_random_additions.magic_dust": "Magic Dust",
@@ -4263,7 +4326,7 @@
   "workspaceSettings": {
     "modid": "aris_random_additions",
     "modName": "Ari\u0027s Random Additions",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "description": "Random Additions by Ari. Created with MCreator.",
     "author": "nimsolated, MCreator",
     "websiteURL": "https://mcreator.net",

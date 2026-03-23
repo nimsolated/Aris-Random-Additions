@@ -20,6 +20,7 @@ import net.mcreator.arisrandomadditions.entity.TuxEntity;
 import net.mcreator.arisrandomadditions.entity.TurdProjectileEntity;
 import net.mcreator.arisrandomadditions.entity.PocketLightningProjectileEntity;
 import net.mcreator.arisrandomadditions.entity.GhoulEntity;
+import net.mcreator.arisrandomadditions.entity.AriEntity;
 import net.mcreator.arisrandomadditions.ArisRandomAdditionsMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -36,6 +37,10 @@ public class ArisRandomAdditionsModEntities {
 					.setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<TurdProjectileEntity>> TURD_PROJECTILE = register("turd_projectile",
 			EntityType.Builder.<TurdProjectileEntity>of(TurdProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(TurdProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<AriEntity>> ARI = register("ari",
+			EntityType.Builder.<AriEntity>of(AriEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AriEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -48,6 +53,7 @@ public class ArisRandomAdditionsModEntities {
 		event.enqueueWork(() -> {
 			GhoulEntity.init();
 			TuxEntity.init();
+			AriEntity.init();
 		});
 	}
 
@@ -55,5 +61,6 @@ public class ArisRandomAdditionsModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(GHOUL.get(), GhoulEntity.createAttributes().build());
 		event.put(TUX.get(), TuxEntity.createAttributes().build());
+		event.put(ARI.get(), AriEntity.createAttributes().build());
 	}
 }

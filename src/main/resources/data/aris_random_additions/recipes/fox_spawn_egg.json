@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "dbd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:chicken"
+    },
+    "b": {
+      "item": "minecraft:sweet_berries"
+    },
+    "c": {
+      "item": "aris_random_additions:magic_egg"
+    },
+    "d": {
+      "item": "minecraft:rabbit"
+    }
+  },
+  "result": {
+    "item": "minecraft:fox_spawn_egg",
+    "count": 1
+  }
+}

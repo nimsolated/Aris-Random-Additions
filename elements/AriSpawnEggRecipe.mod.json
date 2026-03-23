@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.RED_FLOWER#0"
+      },
+      {
+        "value": "CUSTOM:Orichalcum"
+      },
+      {
+        "value": "Blocks.RED_FLOWER#0"
+      },
+      {
+        "value": "CUSTOM:Orichalcum"
+      },
+      {
+        "value": "Items.FOX_SPAWN_EGG"
+      },
+      {
+        "value": "CUSTOM:Orichalcum"
+      },
+      {
+        "value": "Items.SWEET_BERRIES"
+      },
+      {
+        "value": "CUSTOM:Orichalcum"
+      },
+      {
+        "value": "Items.SWEET_BERRIES"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Ari.spawn_egg"
+    },
+    "name": "ari_spawn_egg_recipe",
+    "namespace": "mod"
+  }
+}
