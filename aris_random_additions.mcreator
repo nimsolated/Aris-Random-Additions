@@ -1791,6 +1791,10 @@
             "type": "entity"
           },
           {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -3960,6 +3964,54 @@
         ]
       },
       "path": "~/Other"
+    },
+    {
+      "name": "SweetBladeEnchantment",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sweet_blade_enchantment",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/enchantment/SweetBladeEnchantmentEnchantment.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "SweetBladeProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sweet_blade_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/SweetBladeProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Other"
     }
   ],
   "variable_elements": [],
@@ -4228,6 +4280,7 @@
       "fluid.nims_random_bullshit.netherrack_juice": "Netherrack Juice",
       "item.nims_random_bullshit.wand_of_resizing.description_0": "DISCLAIMER: Does not work with Origins that periodically reset your scale!",
       "gui.nims_random_bullshit.mailbox_gui.outbox_z_coord": "0",
+      "enchantment.aris_random_additions.sweet_blade_enchantment": "Sweet Blade",
       "item.aris_random_additions.turd": "Turd",
       "item.aris_random_additions.pocket_lightning.description_0": "Spawns lightning wherever it lands.",
       "item.nims_random_bullshit.netherrackite_pickaxe": "Netherrackite Pickaxe",
@@ -4326,11 +4379,11 @@
   "workspaceSettings": {
     "modid": "aris_random_additions",
     "modName": "Ari\u0027s Random Additions",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "description": "Random Additions by Ari. Created with MCreator.",
     "author": "nimsolated, MCreator",
     "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "license": "MIT License",
     "serverSideOnly": false,
     "modPicture": "ari",
     "requiredMods": [],

@@ -43,7 +43,7 @@ public class BedrockPickaxeItem extends PickaxeItem {
 	@Override
 	public boolean onEntitySwing(ItemStack itemstack, LivingEntity entity) {
 		boolean retval = super.onEntitySwing(itemstack, entity);
-		BedrockPickaxeEntitySwingsItemProcedure.execute(entity.level(), entity);
+		BedrockPickaxeEntitySwingsItemProcedure.execute(entity.level(), entity, itemstack);
 		return retval;
 	}
 }
