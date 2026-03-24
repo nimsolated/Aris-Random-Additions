@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Orichalcum"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Orichalcum"
+      },
+      {
+        "value": "Items.NETHER_STAR"
+      },
+      {
+        "value": "CUSTOM:Orichalcum"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Orichalcum"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PowerStar"
+    },
+    "name": "power_star_recipe",
+    "namespace": "mod"
+  }
+}

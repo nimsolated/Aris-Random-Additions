@@ -36,6 +36,7 @@ public class ArisRandomAdditionsModTabs {
 			tabData.accept(ArisRandomAdditionsModBlocks.ORICHALCUM_ORE.get().asItem());
 			tabData.accept(ArisRandomAdditionsModBlocks.ORICHALCUM_BLOCK.get().asItem());
 			tabData.accept(ArisRandomAdditionsModBlocks.RAVE_BLOCK.get().asItem());
+			tabData.accept(ArisRandomAdditionsModBlocks.ENDITE_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(ArisRandomAdditionsModItems.BLOCK_EATER.get());
 			tabData.accept(ArisRandomAdditionsModItems.NETHERRACKITE_PICKAXE.get());
@@ -50,6 +51,11 @@ public class ArisRandomAdditionsModTabs {
 			tabData.accept(ArisRandomAdditionsModItems.BEDROCK_EATER.get());
 			tabData.accept(ArisRandomAdditionsModItems.WAND_OF_RESIZING.get());
 			tabData.accept(ArisRandomAdditionsModItems.TURD.get());
+			tabData.accept(ArisRandomAdditionsModItems.ENDITE_PICKAXE.get());
+			tabData.accept(ArisRandomAdditionsModItems.ENDITE_AXE.get());
+			tabData.accept(ArisRandomAdditionsModItems.ENDITE_SHOVEL.get());
+			tabData.accept(ArisRandomAdditionsModItems.ENDITE_HOE.get());
+			tabData.accept(ArisRandomAdditionsModItems.ENDITE_SCYTHE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(ArisRandomAdditionsModItems.NETHERRACKITE.get());
 			tabData.accept(ArisRandomAdditionsModItems.SAND_DUST.get());
@@ -64,6 +70,10 @@ public class ArisRandomAdditionsModTabs {
 			tabData.accept(ArisRandomAdditionsModItems.ORICHALCUM.get());
 			tabData.accept(ArisRandomAdditionsModItems.BEDROCK_SHARD.get());
 			tabData.accept(ArisRandomAdditionsModItems.BLACK_IRON_INGOT.get());
+			tabData.accept(ArisRandomAdditionsModItems.ENDITE_INGOT.get());
+			tabData.accept(ArisRandomAdditionsModItems.ENDITE_UPGRADE_SMITHING_TEMPLATE.get());
+			tabData.accept(ArisRandomAdditionsModItems.CHORUS_EYE.get());
+			tabData.accept(ArisRandomAdditionsModItems.POWER_STAR.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(ArisRandomAdditionsModItems.MAGIC_FLESH.get());
 			tabData.accept(ArisRandomAdditionsModItems.GOLDEN_BERRIES.get());
@@ -92,6 +102,12 @@ public class ArisRandomAdditionsModTabs {
 			tabData.accept(ArisRandomAdditionsModItems.ORICHALCUM_ARMOR_BOOTS.get());
 			tabData.accept(ArisRandomAdditionsModItems.NIGHT_VISION_GOGGLES_HELMET.get());
 			tabData.accept(ArisRandomAdditionsModItems.WAND_OF_DRAINING.get());
+			tabData.accept(ArisRandomAdditionsModItems.ENDITE_SWORD.get());
+			tabData.accept(ArisRandomAdditionsModItems.ENDITE_ARMOR_HELMET.get());
+			tabData.accept(ArisRandomAdditionsModItems.ENDITE_ARMOR_CHESTPLATE.get());
+			tabData.accept(ArisRandomAdditionsModItems.ENDITE_ARMOR_LEGGINGS.get());
+			tabData.accept(ArisRandomAdditionsModItems.ENDITE_ARMOR_BOOTS.get());
+			tabData.accept(ArisRandomAdditionsModItems.ENDITE_SCYTHE.get());
 		}
 	}
 }

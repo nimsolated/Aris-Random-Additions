@@ -21,6 +21,7 @@ import net.mcreator.arisrandomadditions.item.StarWandItem;
 import net.mcreator.arisrandomadditions.item.StarItem;
 import net.mcreator.arisrandomadditions.item.SnowGolemQuestionMarkItem;
 import net.mcreator.arisrandomadditions.item.SandDustItem;
+import net.mcreator.arisrandomadditions.item.PowerStarItem;
 import net.mcreator.arisrandomadditions.item.PocketLightningItem;
 import net.mcreator.arisrandomadditions.item.OrichalcumSwordItem;
 import net.mcreator.arisrandomadditions.item.OrichalcumShovelItem;
@@ -40,6 +41,16 @@ import net.mcreator.arisrandomadditions.item.LapisLazuliNuggetItem;
 import net.mcreator.arisrandomadditions.item.IronGolemQuestionMarkItem;
 import net.mcreator.arisrandomadditions.item.GravediggerItem;
 import net.mcreator.arisrandomadditions.item.GoldenBerriesItem;
+import net.mcreator.arisrandomadditions.item.EnditeUpgradeSmithingTemplateItem;
+import net.mcreator.arisrandomadditions.item.EnditeSwordItem;
+import net.mcreator.arisrandomadditions.item.EnditeShovelItem;
+import net.mcreator.arisrandomadditions.item.EnditeScytheItem;
+import net.mcreator.arisrandomadditions.item.EnditePickaxeItem;
+import net.mcreator.arisrandomadditions.item.EnditeIngotItem;
+import net.mcreator.arisrandomadditions.item.EnditeHoeItem;
+import net.mcreator.arisrandomadditions.item.EnditeAxeItem;
+import net.mcreator.arisrandomadditions.item.EnditeArmorItem;
+import net.mcreator.arisrandomadditions.item.ChorusEyeItem;
 import net.mcreator.arisrandomadditions.item.CheeseItem;
 import net.mcreator.arisrandomadditions.item.BlockEaterItem;
 import net.mcreator.arisrandomadditions.item.BlackIronIngotItem;
@@ -117,6 +128,21 @@ public class ArisRandomAdditionsModItems {
 	public static final RegistryObject<Item> TURD = REGISTRY.register("turd", () -> new TurdItem());
 	public static final RegistryObject<Item> WAND_OF_DRAINING = REGISTRY.register("wand_of_draining", () -> new WandOfDrainingItem());
 	public static final RegistryObject<Item> ARI_SPAWN_EGG = REGISTRY.register("ari_spawn_egg", () -> new ForgeSpawnEggItem(ArisRandomAdditionsModEntities.ARI, -65448, -1, new Item.Properties()));
+	public static final RegistryObject<Item> ENDITE_INGOT = REGISTRY.register("endite_ingot", () -> new EnditeIngotItem());
+	public static final RegistryObject<Item> ENDITE_BLOCK = block(ArisRandomAdditionsModBlocks.ENDITE_BLOCK);
+	public static final RegistryObject<Item> ENDITE_PICKAXE = REGISTRY.register("endite_pickaxe", () -> new EnditePickaxeItem());
+	public static final RegistryObject<Item> ENDITE_AXE = REGISTRY.register("endite_axe", () -> new EnditeAxeItem());
+	public static final RegistryObject<Item> ENDITE_SWORD = REGISTRY.register("endite_sword", () -> new EnditeSwordItem());
+	public static final RegistryObject<Item> ENDITE_SHOVEL = REGISTRY.register("endite_shovel", () -> new EnditeShovelItem());
+	public static final RegistryObject<Item> ENDITE_HOE = REGISTRY.register("endite_hoe", () -> new EnditeHoeItem());
+	public static final RegistryObject<Item> ENDITE_ARMOR_HELMET = REGISTRY.register("endite_armor_helmet", () -> new EnditeArmorItem.Helmet());
+	public static final RegistryObject<Item> ENDITE_ARMOR_CHESTPLATE = REGISTRY.register("endite_armor_chestplate", () -> new EnditeArmorItem.Chestplate());
+	public static final RegistryObject<Item> ENDITE_ARMOR_LEGGINGS = REGISTRY.register("endite_armor_leggings", () -> new EnditeArmorItem.Leggings());
+	public static final RegistryObject<Item> ENDITE_ARMOR_BOOTS = REGISTRY.register("endite_armor_boots", () -> new EnditeArmorItem.Boots());
+	public static final RegistryObject<Item> ENDITE_UPGRADE_SMITHING_TEMPLATE = REGISTRY.register("endite_upgrade_smithing_template", () -> new EnditeUpgradeSmithingTemplateItem());
+	public static final RegistryObject<Item> CHORUS_EYE = REGISTRY.register("chorus_eye", () -> new ChorusEyeItem());
+	public static final RegistryObject<Item> POWER_STAR = REGISTRY.register("power_star", () -> new PowerStarItem());
+	public static final RegistryObject<Item> ENDITE_SCYTHE = REGISTRY.register("endite_scythe", () -> new EnditeScytheItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

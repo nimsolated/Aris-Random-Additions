@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "aris_random_additions:endite_scythe",
+    "aris_random_additions:endite_hoe",
     "aris_random_additions:orichalcum_hoe"
   ]
 }

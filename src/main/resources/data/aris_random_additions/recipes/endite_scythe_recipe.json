@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aab",
+    " c ",
+    "c  "
+  ],
+  "key": {
+    "a": {
+      "item": "aris_random_additions:endite_ingot"
+    },
+    "b": {
+      "item": "aris_random_additions:endite_hoe"
+    },
+    "c": {
+      "item": "aris_random_additions:black_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "aris_random_additions:endite_scythe",
+    "count": 1
+  }
+}

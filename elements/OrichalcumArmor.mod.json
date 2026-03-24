@@ -24,16 +24,24 @@
     "leggingsName": "Orichalcum Leggings",
     "bootsName": "Orichalcum Boots",
     "helmetSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Set Bonus: Speed, Jump Boost"
+      ]
     },
     "bodySpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Set Bonus: Speed, Jump Boost"
+      ]
     },
     "leggingsSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Set Bonus: Speed, Jump Boost"
+      ]
     },
     "bootsSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Set Bonus: Speed, Jump Boost"
+      ]
     },
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
@@ -59,10 +67,10 @@
     "leggingsItemCustomModelName": "Normal",
     "bootsItemRenderType": 0,
     "bootsItemCustomModelName": "Normal",
-    "helmetImmuneToFire": false,
-    "bodyImmuneToFire": false,
-    "leggingsImmuneToFire": false,
-    "bootsImmuneToFire": false,
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
     "helmetGlowCondition": {
       "fixedValue": false
     },

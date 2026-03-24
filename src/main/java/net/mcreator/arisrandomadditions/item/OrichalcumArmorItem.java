@@ -5,6 +5,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ArmorMaterial;
@@ -14,9 +15,12 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.Component;
 
 import net.mcreator.arisrandomadditions.procedures.OrichalcumArmorBootsTickEventProcedure;
 import net.mcreator.arisrandomadditions.init.ArisRandomAdditionsModItems;
+
+import java.util.List;
 
 import com.google.common.collect.Iterables;
 
@@ -67,7 +71,13 @@ public abstract class OrichalcumArmorItem extends ArmorItem {
 
 	public static class Helmet extends OrichalcumArmorItem {
 		public Helmet() {
-			super(ArmorItem.Type.HELMET, new Item.Properties());
+			super(ArmorItem.Type.HELMET, new Item.Properties().fireResistant());
+		}
+
+		@Override
+		public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
+			super.appendHoverText(itemstack, level, list, flag);
+			list.add(Component.translatable("item.aris_random_additions.orichalcum_armor_helmet.description_0"));
 		}
 
 		@Override
@@ -78,7 +88,13 @@ public abstract class OrichalcumArmorItem extends ArmorItem {
 
 	public static class Chestplate extends OrichalcumArmorItem {
 		public Chestplate() {
-			super(ArmorItem.Type.CHESTPLATE, new Item.Properties());
+			super(ArmorItem.Type.CHESTPLATE, new Item.Properties().fireResistant());
+		}
+
+		@Override
+		public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
+			super.appendHoverText(itemstack, level, list, flag);
+			list.add(Component.translatable("item.aris_random_additions.orichalcum_armor_chestplate.description_0"));
 		}
 
 		@Override
@@ -89,7 +105,13 @@ public abstract class OrichalcumArmorItem extends ArmorItem {
 
 	public static class Leggings extends OrichalcumArmorItem {
 		public Leggings() {
-			super(ArmorItem.Type.LEGGINGS, new Item.Properties());
+			super(ArmorItem.Type.LEGGINGS, new Item.Properties().fireResistant());
+		}
+
+		@Override
+		public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
+			super.appendHoverText(itemstack, level, list, flag);
+			list.add(Component.translatable("item.aris_random_additions.orichalcum_armor_leggings.description_0"));
 		}
 
 		@Override
@@ -100,7 +122,13 @@ public abstract class OrichalcumArmorItem extends ArmorItem {
 
 	public static class Boots extends OrichalcumArmorItem {
 		public Boots() {
-			super(ArmorItem.Type.BOOTS, new Item.Properties());
+			super(ArmorItem.Type.BOOTS, new Item.Properties().fireResistant());
+		}
+
+		@Override
+		public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
+			super.appendHoverText(itemstack, level, list, flag);
+			list.add(Component.translatable("item.aris_random_additions.orichalcum_armor_boots.description_0"));
 		}
 
 		@Override

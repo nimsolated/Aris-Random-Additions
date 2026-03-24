@@ -1,0 +1,43 @@
+{
+  "_fv": 73,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Hoe",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "endite_scythe",
+    "customModelName": "enditescythe:default",
+    "blockingModelName": "Normal blocking",
+    "name": "Endite Scythe",
+    "specialInformation": {
+      "fixedValue": [
+        "Inflicts \"The End Of Your Misery\" effect on-hit, which detonates after 4 seconds to do 33% missing health magic damage."
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      },
+      {
+        "value": "COMBAT"
+      }
+    ],
+    "efficiency": 12.0,
+    "attackSpeed": 1.0,
+    "enchantability": 22,
+    "damageVsEntity": 9.0,
+    "usageCount": 3048,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "EnditeScytheLivingEntityIsHitWithTool"
+    }
+  }
+}

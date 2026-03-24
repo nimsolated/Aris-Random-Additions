@@ -1,0 +1,26 @@
+{
+  "_fv": 73,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "The End Of Your Misery",
+    "icon": "chorus_eye",
+    "color": {
+      "value": -13434778,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredByMilk": true,
+    "isProtectedByTotem": true,
+    "isCuredbyHoney": false,
+    "modifiers": [],
+    "onStarted": {
+      "name": "TheEndOfYourMiseryEffectEffectStartedapplied"
+    },
+    "onExpired": {
+      "name": "TheEndOfYourMiseryEffectEffectExpires"
+    }
+  }
+}

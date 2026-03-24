@@ -28,6 +28,7 @@ import net.mcreator.arisrandomadditions.block.MagmaBrickSlabsBlock;
 import net.mcreator.arisrandomadditions.block.MagmaBrickPressurePlateBlock;
 import net.mcreator.arisrandomadditions.block.MagmaBrickButtonBlock;
 import net.mcreator.arisrandomadditions.block.HexaCondensedNetherrackBlock;
+import net.mcreator.arisrandomadditions.block.EnditeBlockBlock;
 import net.mcreator.arisrandomadditions.block.CondensedNetherrackBlock;
 import net.mcreator.arisrandomadditions.block.CondensedCondensedNetherrackBlock;
 import net.mcreator.arisrandomadditions.block.CondensedCondensedCondensedNetherrackBlock;
@@ -60,6 +61,7 @@ public class ArisRandomAdditionsModBlocks {
 	public static final RegistryObject<Block> ORICHALCUM_ORE = REGISTRY.register("orichalcum_ore", () -> new OrichalcumOreBlock());
 	public static final RegistryObject<Block> ORICHALCUM_BLOCK = REGISTRY.register("orichalcum_block", () -> new OrichalcumBlockBlock());
 	public static final RegistryObject<Block> RAVE_BLOCK = REGISTRY.register("rave_block", () -> new RaveBlockBlock());
+	public static final RegistryObject<Block> ENDITE_BLOCK = REGISTRY.register("endite_block", () -> new EnditeBlockBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
