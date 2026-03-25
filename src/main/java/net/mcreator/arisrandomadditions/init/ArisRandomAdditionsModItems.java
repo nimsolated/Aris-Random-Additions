@@ -26,6 +26,7 @@ import net.mcreator.arisrandomadditions.item.PocketLightningItem;
 import net.mcreator.arisrandomadditions.item.OrichalcumSwordItem;
 import net.mcreator.arisrandomadditions.item.OrichalcumShovelItem;
 import net.mcreator.arisrandomadditions.item.OrichalcumPickaxeItem;
+import net.mcreator.arisrandomadditions.item.OrichalcumKatanaItem;
 import net.mcreator.arisrandomadditions.item.OrichalcumItem;
 import net.mcreator.arisrandomadditions.item.OrichalcumHoeItem;
 import net.mcreator.arisrandomadditions.item.OrichalcumAxeItem;
@@ -143,6 +144,7 @@ public class ArisRandomAdditionsModItems {
 	public static final RegistryObject<Item> CHORUS_EYE = REGISTRY.register("chorus_eye", () -> new ChorusEyeItem());
 	public static final RegistryObject<Item> POWER_STAR = REGISTRY.register("power_star", () -> new PowerStarItem());
 	public static final RegistryObject<Item> ENDITE_SCYTHE = REGISTRY.register("endite_scythe", () -> new EnditeScytheItem());
+	public static final RegistryObject<Item> ORICHALCUM_KATANA = REGISTRY.register("orichalcum_katana", () -> new OrichalcumKatanaItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

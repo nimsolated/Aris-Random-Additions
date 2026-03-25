@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "aris_random_additions:orichalcum_sword"
+    },
+    "b": {
+      "item": "aris_random_additions:power_star"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "aris_random_additions:orichalcum_katana",
+    "count": 1
+  }
+}

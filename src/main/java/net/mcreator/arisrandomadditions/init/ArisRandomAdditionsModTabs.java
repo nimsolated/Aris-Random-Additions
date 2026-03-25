@@ -108,6 +108,7 @@ public class ArisRandomAdditionsModTabs {
 			tabData.accept(ArisRandomAdditionsModItems.ENDITE_ARMOR_LEGGINGS.get());
 			tabData.accept(ArisRandomAdditionsModItems.ENDITE_ARMOR_BOOTS.get());
 			tabData.accept(ArisRandomAdditionsModItems.ENDITE_SCYTHE.get());
+			tabData.accept(ArisRandomAdditionsModItems.ORICHALCUM_KATANA.get());
 		}
 	}
 }

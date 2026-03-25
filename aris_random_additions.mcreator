@@ -206,7 +206,7 @@
           "src/main/java/net/mcreator/arisrandomadditions/enchantment/PassiveIncomeEnchantmentEnchantment.java"
         ]
       },
-      "path": "~/Other"
+      "path": "~/Enchantments"
     },
     {
       "name": "PassiveIncomeProcedure",
@@ -229,7 +229,7 @@
           }
         ]
       },
-      "path": "~/Other"
+      "path": "~/Enchantments"
     },
     {
       "name": "BrokenGlass",
@@ -3413,7 +3413,7 @@
           "src/main/java/net/mcreator/arisrandomadditions/enchantment/RuiningEnchantmentEnchantment.java"
         ]
       },
-      "path": "~/Other"
+      "path": "~/Enchantments"
     },
     {
       "name": "RuiningProcedure",
@@ -3444,7 +3444,7 @@
           }
         ]
       },
-      "path": "~/Other"
+      "path": "~/Enchantments"
     },
     {
       "name": "SunderingEnchantment",
@@ -3457,7 +3457,7 @@
           "src/main/java/net/mcreator/arisrandomadditions/enchantment/SunderingEnchantmentEnchantment.java"
         ]
       },
-      "path": "~/Other"
+      "path": "~/Enchantments"
     },
     {
       "name": "SunderingProcedure",
@@ -3488,7 +3488,7 @@
           }
         ]
       },
-      "path": "~/Other"
+      "path": "~/Enchantments"
     },
     {
       "name": "NightVisionGoggles",
@@ -3813,7 +3813,7 @@
           "src/main/java/net/mcreator/arisrandomadditions/enchantment/LifeMendingEnchantmentEnchantment.java"
         ]
       },
-      "path": "~/Other"
+      "path": "~/Enchantments"
     },
     {
       "name": "LifeMendingProcedure",
@@ -3836,7 +3836,7 @@
           }
         ]
       },
-      "path": "~/Other"
+      "path": "~/Enchantments"
     },
     {
       "name": "WandOfDraining",
@@ -3976,7 +3976,7 @@
           "src/main/java/net/mcreator/arisrandomadditions/enchantment/SweetBladeEnchantmentEnchantment.java"
         ]
       },
-      "path": "~/Other"
+      "path": "~/Enchantments"
     },
     {
       "name": "SweetBladeProcedure",
@@ -4011,7 +4011,7 @@
           }
         ]
       },
-      "path": "~/Other"
+      "path": "~/Enchantments"
     },
     {
       "name": "EnditeIngot",
@@ -4584,6 +4584,219 @@
         ]
       },
       "path": "~/Advancements"
+    },
+    {
+      "name": "OrichalcumKatana",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_katana",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aris_random_additions/models/item/orichalcum_katana.json",
+          "src/main/java/net/mcreator/arisrandomadditions/item/OrichalcumKatanaItem.java"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "BleedDamageType",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleed_damage_type",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/damage_type/bleed_damage_type.json"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "BleedEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleed_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/potion/BleedEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "BleedingParticles",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleeding_particles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aris_random_additions/particles/bleeding_particles.json",
+          "src/main/java/net/mcreator/arisrandomadditions/client/particle/BleedingParticlesParticle.java"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "BleedEffectOnEffectActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleed_effect_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/BleedEffectOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "OrichalcumKatanaLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_katana_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/OrichalcumKatanaLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "OrichalcumKatanaRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_katana_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/OrichalcumKatanaRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "OrichalcumKatanaHasItemGlowingEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_katana_has_item_glowing_effect",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/OrichalcumKatanaHasItemGlowingEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "OrichalcumKatanaRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_katana_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/orichalcum_katana_recipe.json"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "OrichalcumKatanaAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_katana_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/advancements/orichalcum_katana_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
     }
   ],
   "variable_elements": [],
@@ -4658,6 +4871,7 @@
       "CUSTOM:MagicFlesh"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:OrichalcumKatana",
       "~CUSTOM:EnditeSword",
       "~CUSTOM:OrichalcumSword",
       "~CUSTOM:BedrockSword"
@@ -4694,8 +4908,8 @@
       "item.aris_random_additions.endite_armor_boots": "Endite Boots",
       "gui.aris_random_additions.turd_gui.label_uh_ohh_stinky": "UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! ",
       "item.aris_random_additions.bedrock_shard": "Bedrock Shard",
-      "item.aris_random_additions.bedrock_upgrade_template": "Bedrock Upgrade Template",
       "advancements.grave_digger_advancement.title": "We Must Dig!",
+      "item.aris_random_additions.bedrock_upgrade_template": "Bedrock Upgrade Template",
       "item.aris_random_additions.endite_ingot": "Endite",
       "block.nims_random_bullshit.orichalcum_block": "Block of Orichalcum",
       "block.nims_random_bullshit.rubber_slab": "Rubber Slab",
@@ -4726,6 +4940,7 @@
       "advancements.netherrack_juice_advancement.descr": "Obtain Netherrack Juice",
       "block.nims_random_bullshit.condensed_condensed_netherrack": "Condensed Condensed Netherrack",
       "block.nims_random_bullshit.quadra_condensed_netherrack": "Quadra-condensed Netherrack",
+      "advancements.orichalcum_katana_advancement.descr": "Obtain an Orichalcum Katana",
       "gui.nims_random_bullshit.bedrockifier_gui.button_empty": "-\u003e",
       "block.nims_random_bullshit.hexa_condensed_netherrack": "Hexa-condensed Netherrack",
       "enchantment.nims_random_bullshit.sundering_enchantment": "Sundering",
@@ -4771,6 +4986,7 @@
       "item.nims_random_bullshit.tux_spawn_egg": "Tux Spawn Egg",
       "gui.nims_random_bullshit.mailbox_gui.label_x": "X:",
       "item.nims_random_bullshit.orichalcum_armor_helmet": "Orichalcum Helmet",
+      "death.attack.bleed_damage_type.item": "%1$s was bled to death by %2$s using %3$s",
       "block.aris_random_additions.magma_bricks": "Magma Bricks",
       "item.aris_random_additions.endite_axe": "Endite Axe",
       "item.nims_random_bullshit.snow_golem_question_mark": "Snow Golem...?",
@@ -4791,6 +5007,7 @@
       "item.aris_random_additions.netherrack_juice_bucket": "Netherrack Juice Bucket",
       "item.nims_random_bullshit.netherrackite_pickaxe.description_0": "Non-condensed netherracks broken by this pickaxe drop themselves an additional time.",
       "effect.nims_random_bullshit.stinky_effect": "Stinky",
+      "death.attack.bleed_damage_type": "%1$s bled to death",
       "advancements.tux_advancement.descr": "Obtain a Tux Spawn Egg",
       "item.aris_random_additions.gravedigger": "Gravedigger",
       "item.aris_random_additions.orichalcum": "Orichalcum",
@@ -4809,6 +5026,7 @@
       "block.nims_random_bullshit.magma_brick_stairs": "Magma Brick Stairs",
       "advancements.bedrock_shard_advancement.descr": "Obtain Bedrock Shard",
       "block.aris_random_additions.quadra_condensed_netherrack": "Quadra-condensed Netherrack",
+      "item.aris_random_additions.orichalcum_katana": "Orichalcum Katana",
       "item.aris_random_additions.orichalcum_armor_boots": "Orichalcum Boots",
       "item.aris_random_additions.endite_upgrade_smithing_template": "Endite Upgrade Template",
       "item.aris_random_additions.bedrock_eater": "Bedrock Eater",
@@ -4825,6 +5043,7 @@
       "enchantment.aris_random_additions.ruining_enchantment": "Ruining",
       "block.aris_random_additions.ore_miner": "Ore Miner",
       "block.aris_random_additions.condensed_netherrack": "Condensed Netherrack",
+      "item.aris_random_additions.orichalcum_katana.description_0": "Right-Click: empower the blade, making your next attack cause bleeding DoT effect to the target for a duration.",
       "block.nims_random_bullshit.redstone_bricks": "Redstone Bricks",
       "item.nims_random_bullshit.iron_golem_question_mark": "Iron Golem...?",
       "item.aris_random_additions.golden_berries": "Golden Berries",
@@ -4837,6 +5056,7 @@
       "item.nims_random_bullshit.gravedigger": "Gravedigger",
       "item.aris_random_additions.pocket_lightning": "Pocket Lightning",
       "item.aris_random_additions.night_vision_goggles_helmet": "Night Vision Goggles",
+      "advancements.orichalcum_katana_advancement.title": "As Fierce As The Color",
       "item.aris_random_additions.cheese": "Cheese",
       "item.aris_random_additions.orichalcum_sword": "Orichalcum Sword",
       "item.aris_random_additions.wand_of_resizing.description_0": "DISCLAIMER: Does not work with Origins that periodically reset your scale!",
@@ -4861,11 +5081,13 @@
       "gui.nims_random_bullshit.ore_miner_gui.button_mine": "Mine",
       "item.aris_random_additions.endite_scythe": "Endite Scythe",
       "advancements.star_advancement.title": "A Star Meant To Be",
+      "effect.aris_random_additions.bleed_effect": "Bleeding",
       "painting.nims_random_bullshit.shit_painting.author": "nim",
       "gui.nims_random_bullshit.mailbox_gui.outbox_x_coord": "0",
       "block.nims_random_bullshit.rubber_fence": "Rubber Fence",
       "advancements.turd_advancement.descr": "Turd",
       "advancements.condensed_netherrack_advancement.title": "Rackin\u0027 Em Up!",
+      "death.attack.bleed_damage_type.player": "%1$s bled to death whilst trying to escape %2$s",
       "item.aris_random_additions.magic_flesh": "Magic Flesh",
       "item.aris_random_additions.black_iron_ingot": "Black Iron Ingot",
       "item.aris_random_additions.endite_armor_helmet": "Endite Helmet",
@@ -4992,13 +5214,17 @@
       {
         "name": "Endite",
         "children": []
+      },
+      {
+        "name": "Enchantments",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "aris_random_additions",
     "modName": "Ari\u0027s Random Additions",
-    "version": "2.1.0",
+    "version": "2.1.1",
     "description": "Random Additions by Ari. Created with MCreator.",
     "author": "nimsolated, MCreator",
     "websiteURL": "https://mcreator.net",

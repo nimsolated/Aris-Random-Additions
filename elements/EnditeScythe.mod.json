@@ -30,7 +30,11 @@
     "glowCondition": {
       "fixedValue": false
     },
-    "repairItems": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:EnditeIngot"
+      }
+    ],
     "immuneToFire": true,
     "blockDropsTier": "NETHERITE",
     "blocksAffected": [],

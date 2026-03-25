@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.arisrandomadditions.init.ArisRandomAdditionsModTabs;
+import net.mcreator.arisrandomadditions.init.ArisRandomAdditionsModParticleTypes;
 import net.mcreator.arisrandomadditions.init.ArisRandomAdditionsModPaintings;
 import net.mcreator.arisrandomadditions.init.ArisRandomAdditionsModMobEffects;
 import net.mcreator.arisrandomadditions.init.ArisRandomAdditionsModMenus;
@@ -59,6 +60,7 @@ public class ArisRandomAdditionsMod {
 		ArisRandomAdditionsModMobEffects.REGISTRY.register(bus);
 
 		ArisRandomAdditionsModPaintings.REGISTRY.register(bus);
+		ArisRandomAdditionsModParticleTypes.REGISTRY.register(bus);
 
 		ArisRandomAdditionsModMenus.REGISTRY.register(bus);
 		ArisRandomAdditionsModFluids.REGISTRY.register(bus);

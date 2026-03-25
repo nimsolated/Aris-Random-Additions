@@ -13,6 +13,7 @@ import net.minecraft.world.effect.MobEffect;
 import net.mcreator.arisrandomadditions.potion.TheEndOfYourMiseryEffectMobEffect;
 import net.mcreator.arisrandomadditions.potion.SummonedEntityEffectMobEffect;
 import net.mcreator.arisrandomadditions.potion.StinkyEffectMobEffect;
+import net.mcreator.arisrandomadditions.potion.BleedEffectMobEffect;
 import net.mcreator.arisrandomadditions.ArisRandomAdditionsMod;
 
 public class ArisRandomAdditionsModMobEffects {
@@ -20,4 +21,5 @@ public class ArisRandomAdditionsModMobEffects {
 	public static final RegistryObject<MobEffect> STINKY_EFFECT = REGISTRY.register("stinky_effect", () -> new StinkyEffectMobEffect());
 	public static final RegistryObject<MobEffect> SUMMONED_ENTITY_EFFECT = REGISTRY.register("summoned_entity_effect", () -> new SummonedEntityEffectMobEffect());
 	public static final RegistryObject<MobEffect> THE_END_OF_YOUR_MISERY_EFFECT = REGISTRY.register("the_end_of_your_misery_effect", () -> new TheEndOfYourMiseryEffectMobEffect());
+	public static final RegistryObject<MobEffect> BLEED_EFFECT = REGISTRY.register("bleed_effect", () -> new BleedEffectMobEffect());
 }

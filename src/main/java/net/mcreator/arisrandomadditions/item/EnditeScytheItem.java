@@ -12,6 +12,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.network.chat.Component;
 
 import net.mcreator.arisrandomadditions.procedures.EnditeScytheLivingEntityIsHitWithToolProcedure;
+import net.mcreator.arisrandomadditions.init.ArisRandomAdditionsModItems;
 
 import java.util.List;
 
@@ -39,7 +40,7 @@ public class EnditeScytheItem extends HoeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of();
+				return Ingredient.of(new ItemStack(ArisRandomAdditionsModItems.ENDITE_INGOT.get()));
 			}
 		}, 0, -3f, new Item.Properties().fireResistant());
 	}
