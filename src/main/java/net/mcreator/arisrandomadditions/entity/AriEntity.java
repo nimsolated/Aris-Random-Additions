@@ -82,7 +82,7 @@ public class AriEntity extends Monster {
 		this.goalSelector.addGoal(2, new TemptGoal(this, 1, Ingredient.of(ArisRandomAdditionsModItems.ORICHALCUM.get()), false));
 		this.goalSelector.addGoal(3, new LookAtPlayerGoal(this, Player.class, (float) 6));
 		this.goalSelector.addGoal(4, new RandomStrollGoal(this, 1));
-		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, Mob.class, true, true));
+		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, Monster.class, true, true));
 		this.targetSelector.addGoal(6, new HurtByTargetGoal(this));
 		this.goalSelector.addGoal(7, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(8, new FloatGoal(this));
