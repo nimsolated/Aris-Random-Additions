@@ -1,0 +1,10 @@
+{
+  "_fv": 73,
+  "_type": "command",
+  "definition": {
+    "commandName": "ari-get-permanent-stats",
+    "type": "STANDARD",
+    "permissionLevel": "No requirement",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"165\" y=\"94\"><next><block type=\"call_procedure\"><field name=\"procedure\">GetPermanentStatsCommandProcedure</field></block></next></block></xml>"
+  }
+}

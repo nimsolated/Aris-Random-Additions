@@ -40,7 +40,7 @@
     "shootConstantly": false,
     "rangedItemChargesPower": false,
     "projectile": {
-      "value": "CUSTOM:ShitProjectile"
+      "value": "CUSTOM:PocketLightningProjectile"
     },
     "projectileDisableAmmoCheck": false,
     "isFood": true,

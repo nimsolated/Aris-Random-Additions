@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "orichalcum_gem",
+    "texture": "orichalcum",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
@@ -40,7 +40,7 @@
     "shootConstantly": false,
     "rangedItemChargesPower": false,
     "projectile": {
-      "value": "CUSTOM:ShitProjectile"
+      "value": "CUSTOM:PocketLightningProjectile"
     },
     "projectileDisableAmmoCheck": false,
     "isFood": false,

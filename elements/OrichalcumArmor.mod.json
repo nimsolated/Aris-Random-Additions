@@ -3,13 +3,13 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "orichalcum_head",
+    "textureHelmet": "orichalcum_helmat",
     "enableBody": true,
-    "textureBody": "orichalcum_body",
+    "textureBody": "orichalcum_chestplate",
     "enableLeggings": true,
     "textureLeggings": "orichalcum_leggings",
     "enableBoots": true,
-    "textureBoots": "orichalcum_boots",
+    "textureBoots": "orichalcum_heels",
     "onBootsTick": {
       "name": "OrichalcumArmorBootsTickEvent"
     },
@@ -18,11 +18,11 @@
         "value": "COMBAT"
       }
     ],
-    "armorTextureFile": "orichalcum_armor",
+    "armorTextureFile": "orichalcum",
     "helmetName": "Orichalcum Helmet",
     "bodyName": "Orichalcum Chestplate",
     "leggingsName": "Orichalcum Leggings",
-    "bootsName": "Orichalcum Boots",
+    "bootsName": "Orichalcum Heels",
     "helmetSpecialInformation": {
       "fixedValue": [
         "Set Bonus: Speed, Jump Boost"

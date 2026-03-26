@@ -12,7 +12,7 @@ import net.mcreator.arisrandomadditions.procedures.MagicFleshOnPlayerStoppedUsin
 
 public class MagicFleshItem extends Item {
 	public MagicFleshItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.UNCOMMON).food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.2f).alwaysEat().build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.UNCOMMON).food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.2f).alwaysEat().meat().build()));
 	}
 
 	@Override

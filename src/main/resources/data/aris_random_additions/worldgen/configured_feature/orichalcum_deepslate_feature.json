@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:scattered_ore",
+  "config": {
+    "size": 3,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "block_match",
+          "block": "minecraft:deepslate"
+        },
+        "state": {
+          "Name": "aris_random_additions:orichalcum_deepslate_ore"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Orichalcum"
+      },
+      {
+        "value": "CUSTOM:EnditeUpgradeSmithingTemplate"
+      },
+      {
+        "value": "CUSTOM:Orichalcum"
+      },
+      {
+        "value": "CUSTOM:Orichalcum"
+      },
+      {
+        "value": "CUSTOM:ChorusEye"
+      },
+      {
+        "value": "CUSTOM:Orichalcum"
+      },
+      {
+        "value": "CUSTOM:Orichalcum"
+      },
+      {
+        "value": "CUSTOM:Orichalcum"
+      },
+      {
+        "value": "CUSTOM:Orichalcum"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EnditeUpgradeSmithingTemplate"
+    },
+    "name": "endite_upgrade_smithing_template_recipe_2",
+    "namespace": "mod"
+  }
+}

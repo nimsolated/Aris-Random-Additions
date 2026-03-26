@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "aris_random_additions:endite_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "aris_random_additions:power_star"
+  },
+  "addition": {
+    "item": "aris_random_additions:chorus_eye"
+  },
+  "result": {
+    "item": "aris_random_additions:void_star"
+  }
+}

@@ -52,7 +52,7 @@
     "eatResultItem": {
       "value": ""
     },
-    "isMeat": false,
+    "isMeat": true,
     "isAlwaysEdible": true,
     "animation": "eat",
     "isMusicDisc": false,

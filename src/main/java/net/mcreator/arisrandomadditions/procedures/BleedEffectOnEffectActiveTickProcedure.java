@@ -20,7 +20,7 @@ public class BleedEffectOnEffectActiveTickProcedure {
 			ArisRandomAdditionsMod.queueServerWork(10, () -> {
 				entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, new ResourceLocation("aris_random_additions:bleed_damage_type")))), 1);
 				if (world instanceof ServerLevel _level)
-					_level.sendParticles((SimpleParticleType) (ArisRandomAdditionsModParticleTypes.BLEEDING_PARTICLES.get()), x, (y + 1), z, 3, 0.5, 0.5, 0.5, 0);
+					_level.sendParticles((SimpleParticleType) (ArisRandomAdditionsModParticleTypes.BLEEDING_PARTICLES.get()), x, (y + 1), z, 3, 0.33, 0.33, 0.33, 0);
 			});
 		}
 	}

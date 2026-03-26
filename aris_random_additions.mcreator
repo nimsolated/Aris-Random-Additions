@@ -3918,7 +3918,7 @@
           "src/main/resources/data/aris_random_additions/forge/biome_modifier/ari_biome_modifier.json"
         ]
       },
-      "path": "~/Other"
+      "path": "~/Ari"
     },
     {
       "name": "AriSpawnEggRecipe",
@@ -3963,7 +3963,7 @@
           }
         ]
       },
-      "path": "~/Other"
+      "path": "~/Ari"
     },
     {
       "name": "SweetBladeEnchantment",
@@ -4797,6 +4797,312 @@
         ]
       },
       "path": "~/Advancements"
+    },
+    {
+      "name": "OrichalcumDeepslateOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_deepslate_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/block/OrichalcumDeepslateOreBlock.java",
+          "src/main/resources/data/aris_random_additions/forge/biome_modifier/orichalcum_deepslate_ore_biome_modifier.json",
+          "src/main/resources/data/aris_random_additions/worldgen/configured_feature/orichalcum_deepslate_ore.json",
+          "src/main/resources/assets/aris_random_additions/blockstates/orichalcum_deepslate_ore.json",
+          "src/main/resources/assets/aris_random_additions/models/item/orichalcum_deepslate_ore.json",
+          "src/main/resources/assets/aris_random_additions/models/block/orichalcum_deepslate_ore.json",
+          "src/main/resources/data/aris_random_additions/worldgen/placed_feature/orichalcum_deepslate_ore.json",
+          "src/main/resources/data/aris_random_additions/loot_tables/blocks/orichalcum_deepslate_ore.json"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "OrichalcumDeepslateFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_deepslate_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/forge/biome_modifier/orichalcum_deepslate_feature_biome_modifier.json",
+          "src/main/resources/data/aris_random_additions/worldgen/placed_feature/orichalcum_deepslate_feature.json",
+          "src/main/resources/data/aris_random_additions/worldgen/configured_feature/orichalcum_deepslate_feature.json"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "VoidStar",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_star",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aris_random_additions/models/item/void_star.json",
+          "src/main/java/net/mcreator/arisrandomadditions/item/VoidStarItem.java"
+        ]
+      },
+      "path": "~/Endite"
+    },
+    {
+      "name": "VoidStarRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_star_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/void_star_recipe.json"
+        ]
+      },
+      "path": "~/Endite"
+    },
+    {
+      "name": "AriLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ari_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/loot_tables/entities/ari.json"
+        ]
+      },
+      "path": "~/Ari"
+    },
+    {
+      "name": "NotchAppleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "notch_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/notch_apple_recipe.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "VoidApple",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aris_random_additions/models/item/void_apple.json",
+          "src/main/java/net/mcreator/arisrandomadditions/item/VoidAppleItem.java"
+        ]
+      },
+      "path": "~/Endite"
+    },
+    {
+      "name": "VoidAppleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/void_apple_recipe.json"
+        ]
+      },
+      "path": "~/Endite"
+    },
+    {
+      "name": "VoidApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/VoidApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Endite"
+    },
+    {
+      "name": "PlayerRespawnUpdatePermanentAttributeMods",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_respawn_update_permanent_attribute_mods",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/PlayerRespawnUpdatePermanentAttributeModsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "OrichalcumApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/OrichalcumApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "OrichalcumApple",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aris_random_additions/models/item/orichalcum_apple.json",
+          "src/main/java/net/mcreator/arisrandomadditions/item/OrichalcumAppleItem.java"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "GetPermanentStatsCommandProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_permanent_stats_command_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/GetPermanentStatsCommandProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "GetPermanentStats",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_permanent_stats",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/command/GetPermanentStatsCommand.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "OrichalcumAppleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/orichalcum_apple_recipe.json"
+        ]
+      },
+      "path": "~/Orichalcum"
+    },
+    {
+      "name": "EnditeUpgradeSmithingTemplateRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endite_upgrade_smithing_template_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/endite_upgrade_smithing_template_recipe_2.json"
+        ]
+      },
+      "path": "~/Endite"
+    },
+    {
+      "name": "BedrockApple",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aris_random_additions/models/item/bedrock_apple.json",
+          "src/main/java/net/mcreator/arisrandomadditions/item/BedrockAppleItem.java"
+        ]
+      },
+      "path": "~/Bedrock"
+    },
+    {
+      "name": "BedrockApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/BedrockApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Bedrock"
+    },
+    {
+      "name": "BedrockAppleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/bedrock_apple_recipe.json"
+        ]
+      },
+      "path": "~/Bedrock"
     }
   ],
   "variable_elements": [],
@@ -4806,6 +5112,7 @@
       "~CUSTOM:NetherrackJuice"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:OrichalcumDeepslateOre",
       "~CUSTOM:EnditeBlock",
       "~CUSTOM:OrichalcumBlock",
       "~CUSTOM:OrichalcumOre",
@@ -4830,6 +5137,7 @@
       "Items.DIAMOND_PICKAXE"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:OrichalcumDeepslateOre",
       "~CUSTOM:EnditeBlock",
       "~CUSTOM:OrichalcumBlock",
       "~CUSTOM:OrichalcumOre",
@@ -4903,6 +5211,7 @@
       "block.nims_random_bullshit.magma_brick_button": "Magma Brick Button",
       "painting.nims_random_bullshit.shit_painting.title": "Shit Painting",
       "entity.aris_random_additions.ghoul": "Ghoul",
+      "item.aris_random_additions.void_star": "Void Star",
       "block.aris_random_additions.broken_glass": "Broken Glass",
       "item.aris_random_additions.ghoul_spawn_egg": "Ghoul Spawn Egg",
       "item.aris_random_additions.endite_armor_boots": "Endite Boots",
@@ -4928,8 +5237,8 @@
       "block.aris_random_additions.hexa_condensed_netherrack": "Hexa-condensed Netherrack",
       "item.aris_random_additions.bedrock_sword": "Bedrock Sword",
       "item.aris_random_additions.orichalcum_hoe": "Orichalcum Hoe",
-      "block.aris_random_additions.endite_block": "Block of Endite",
       "item.aris_random_additions.wand_of_draining": "Wand Of Draining",
+      "block.aris_random_additions.endite_block": "Block of Endite",
       "enchantment.aris_random_additions.passive_income_enchantment": "Passive Income",
       "item.aris_random_additions.sand_dust": "Sand Dust",
       "block.aris_random_additions.orichalcum_block": "Block of Orichalcum",
@@ -4937,8 +5246,8 @@
       "item.aris_random_additions.power_star": "Power Star",
       "enchantment.nims_random_bullshit.ruining_enchantment": "Ruining",
       "advancements.endite_advancement.descr": "Obtain Endite",
-      "advancements.netherrack_juice_advancement.descr": "Obtain Netherrack Juice",
       "block.nims_random_bullshit.condensed_condensed_netherrack": "Condensed Condensed Netherrack",
+      "advancements.netherrack_juice_advancement.descr": "Obtain Netherrack Juice",
       "block.nims_random_bullshit.quadra_condensed_netherrack": "Quadra-condensed Netherrack",
       "advancements.orichalcum_katana_advancement.descr": "Obtain an Orichalcum Katana",
       "gui.nims_random_bullshit.bedrockifier_gui.button_empty": "-\u003e",
@@ -4951,6 +5260,7 @@
       "item.nims_random_bullshit.golden_berries": "Golden Berries",
       "item.nims_random_bullshit.netherrack_juice_bucket": "Netherrack Juice Bucket",
       "item.nims_random_bullshit.black_iron_ingot": "Black Iron Ingot",
+      "item.aris_random_additions.void_apple": "Void Apple",
       "item.aris_random_additions.star_wand": "Star Wand",
       "item.nims_random_bullshit.pocket_lightning.description_0": "Spawns lightning wherever it lands.",
       "advancements.turd_advancement.title": "Crap!",
@@ -4963,6 +5273,7 @@
       "block.nims_random_bullshit.condensed_netherrack": "Condensed Netherrack",
       "block.aris_random_additions.magma_brick_stairs": "Magma Brick Stairs",
       "block.nims_random_bullshit.magma_brick_slabs": "Magma Brick Slab",
+      "block.aris_random_additions.orichalcum_deepslate_ore": "Orichalcum Deepslate Ore",
       "item.nims_random_bullshit.pocket_lightning": "Pocket Lightning",
       "block.aris_random_additions.redstone_brick_stairs": "Redstone Brick Stairs",
       "item.aris_random_additions.orichalcum_shovel": "Orichalcum Shovel",
@@ -5020,6 +5331,7 @@
       "entity.nims_random_bullshit.ghoul": "Ghoul",
       "enchantment.aris_random_additions.life_mending_enchantment": "Life Mending",
       "block.aris_random_additions.redstone_brick_slabs": "Redstone Brick Slab",
+      "item.aris_random_additions.orichalcum_apple": "Orichalcum Apple",
       "advancements.star_advancement.descr": "Obtain a Star",
       "item.nims_random_bullshit.bedrock_pickaxe": "Bedrock Pickaxe",
       "item.aris_random_additions.endite_armor_chestplate.description_0": "Set Bonus: Resistance, Regeneration, Strength",
@@ -5027,7 +5339,7 @@
       "advancements.bedrock_shard_advancement.descr": "Obtain Bedrock Shard",
       "block.aris_random_additions.quadra_condensed_netherrack": "Quadra-condensed Netherrack",
       "item.aris_random_additions.orichalcum_katana": "Orichalcum Katana",
-      "item.aris_random_additions.orichalcum_armor_boots": "Orichalcum Boots",
+      "item.aris_random_additions.orichalcum_armor_boots": "Orichalcum Heels",
       "item.aris_random_additions.endite_upgrade_smithing_template": "Endite Upgrade Template",
       "item.aris_random_additions.bedrock_eater": "Bedrock Eater",
       "advancements.orichalcum_advancement.descr": "Obtain Orichalcum",
@@ -5036,6 +5348,7 @@
       "item.aris_random_additions.orichalcum_armor_leggings": "Orichalcum Leggings",
       "item.aris_random_additions.iron_golem_question_mark": "Iron Golem...?",
       "item.nims_random_bullshit.orichalcum_armor_chestplate": "Orichalcum Chestplate",
+      "item.aris_random_additions.bedrock_apple.description_0": "When consumed: Grants permanent creative flight.",
       "item.nims_random_bullshit.bean": "Bean",
       "effect.aris_random_additions.stinky_effect": "Stinky",
       "advancements.endite_hoe_advancement.descr": "Craft an Endite Hoe",
@@ -5069,6 +5382,7 @@
       "item.nims_random_bullshit.orichalcum": "Orichalcum",
       "item.aris_random_additions.orichalcum_armor_leggings.description_0": "Set Bonus: Speed, Jump Boost",
       "advancements.magic_egg_advancement.descr": "Obtain a Magic Egg",
+      "item.aris_random_additions.orichalcum_apple.description_0": "When consumed: Grants 1 permanent bonus attack damage.",
       "advancements.endite_advancement.title": "Purple Butter",
       "entity.aris_random_additions.ari": "Ari",
       "item.nims_random_bullshit.night_vision_goggles_helmet": "Night Vision Goggles",
@@ -5078,8 +5392,10 @@
       "item.aris_random_additions.endite_hoe": "Endite Hoe",
       "block.aris_random_additions.rave_block": "Rave Block",
       "advancements.orichalcum_set_advancement.title": "Cover Me In Folly Red",
+      "item.aris_random_additions.bedrock_apple": "Bedrock Apple",
       "gui.nims_random_bullshit.ore_miner_gui.button_mine": "Mine",
       "item.aris_random_additions.endite_scythe": "Endite Scythe",
+      "item.aris_random_additions.void_apple.description_0": "When consumed: Grants 2 permanent bonus max health.",
       "advancements.star_advancement.title": "A Star Meant To Be",
       "effect.aris_random_additions.bleed_effect": "Bleeding",
       "painting.nims_random_bullshit.shit_painting.author": "nim",
@@ -5218,13 +5534,17 @@
       {
         "name": "Enchantments",
         "children": []
+      },
+      {
+        "name": "Ari",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "aris_random_additions",
     "modName": "Ari\u0027s Random Additions",
-    "version": "2.1.1",
+    "version": "2.1.2",
     "description": "Random Additions by Ari. Created with MCreator.",
     "author": "nimsolated, MCreator",
     "websiteURL": "https://mcreator.net",

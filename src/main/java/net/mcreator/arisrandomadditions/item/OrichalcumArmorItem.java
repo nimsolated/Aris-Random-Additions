@@ -82,7 +82,7 @@ public abstract class OrichalcumArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "aris_random_additions:textures/models/armor/orichalcum_armor_layer_1.png";
+			return "aris_random_additions:textures/models/armor/orichalcum_layer_1.png";
 		}
 	}
 
@@ -99,7 +99,7 @@ public abstract class OrichalcumArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "aris_random_additions:textures/models/armor/orichalcum_armor_layer_1.png";
+			return "aris_random_additions:textures/models/armor/orichalcum_layer_1.png";
 		}
 	}
 
@@ -116,7 +116,7 @@ public abstract class OrichalcumArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "aris_random_additions:textures/models/armor/orichalcum_armor_layer_2.png";
+			return "aris_random_additions:textures/models/armor/orichalcum_layer_2.png";
 		}
 	}
 
@@ -133,7 +133,7 @@ public abstract class OrichalcumArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "aris_random_additions:textures/models/armor/orichalcum_armor_layer_1.png";
+			return "aris_random_additions:textures/models/armor/orichalcum_layer_1.png";
 		}
 
 		@Override

@@ -18,6 +18,7 @@ import net.mcreator.arisrandomadditions.block.RaveBlockBlock;
 import net.mcreator.arisrandomadditions.block.QuadraCondensedNetherrackBlock;
 import net.mcreator.arisrandomadditions.block.PentaCondensedNetherrackBlock;
 import net.mcreator.arisrandomadditions.block.OrichalcumOreBlock;
+import net.mcreator.arisrandomadditions.block.OrichalcumDeepslateOreBlock;
 import net.mcreator.arisrandomadditions.block.OrichalcumBlockBlock;
 import net.mcreator.arisrandomadditions.block.OreMinerBlock;
 import net.mcreator.arisrandomadditions.block.NetherrackJuiceBlock;
@@ -62,6 +63,7 @@ public class ArisRandomAdditionsModBlocks {
 	public static final RegistryObject<Block> ORICHALCUM_BLOCK = REGISTRY.register("orichalcum_block", () -> new OrichalcumBlockBlock());
 	public static final RegistryObject<Block> RAVE_BLOCK = REGISTRY.register("rave_block", () -> new RaveBlockBlock());
 	public static final RegistryObject<Block> ENDITE_BLOCK = REGISTRY.register("endite_block", () -> new EnditeBlockBlock());
+	public static final RegistryObject<Block> ORICHALCUM_DEEPSLATE_ORE = REGISTRY.register("orichalcum_deepslate_ore", () -> new OrichalcumDeepslateOreBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

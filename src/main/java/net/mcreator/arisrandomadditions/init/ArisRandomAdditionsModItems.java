@@ -16,6 +16,8 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.arisrandomadditions.item.WitherQuestionMarkItem;
 import net.mcreator.arisrandomadditions.item.WandOfResizingItem;
 import net.mcreator.arisrandomadditions.item.WandOfDrainingItem;
+import net.mcreator.arisrandomadditions.item.VoidStarItem;
+import net.mcreator.arisrandomadditions.item.VoidAppleItem;
 import net.mcreator.arisrandomadditions.item.TurdItem;
 import net.mcreator.arisrandomadditions.item.StarWandItem;
 import net.mcreator.arisrandomadditions.item.StarItem;
@@ -31,6 +33,7 @@ import net.mcreator.arisrandomadditions.item.OrichalcumItem;
 import net.mcreator.arisrandomadditions.item.OrichalcumHoeItem;
 import net.mcreator.arisrandomadditions.item.OrichalcumAxeItem;
 import net.mcreator.arisrandomadditions.item.OrichalcumArmorItem;
+import net.mcreator.arisrandomadditions.item.OrichalcumAppleItem;
 import net.mcreator.arisrandomadditions.item.NightVisionGogglesItem;
 import net.mcreator.arisrandomadditions.item.NetherrackitePickaxeItem;
 import net.mcreator.arisrandomadditions.item.NetherrackiteItem;
@@ -60,6 +63,7 @@ import net.mcreator.arisrandomadditions.item.BedrockSwordItem;
 import net.mcreator.arisrandomadditions.item.BedrockShardItem;
 import net.mcreator.arisrandomadditions.item.BedrockPickaxeItem;
 import net.mcreator.arisrandomadditions.item.BedrockEaterItem;
+import net.mcreator.arisrandomadditions.item.BedrockAppleItem;
 import net.mcreator.arisrandomadditions.item.BeanItem;
 import net.mcreator.arisrandomadditions.ArisRandomAdditionsMod;
 
@@ -145,6 +149,11 @@ public class ArisRandomAdditionsModItems {
 	public static final RegistryObject<Item> POWER_STAR = REGISTRY.register("power_star", () -> new PowerStarItem());
 	public static final RegistryObject<Item> ENDITE_SCYTHE = REGISTRY.register("endite_scythe", () -> new EnditeScytheItem());
 	public static final RegistryObject<Item> ORICHALCUM_KATANA = REGISTRY.register("orichalcum_katana", () -> new OrichalcumKatanaItem());
+	public static final RegistryObject<Item> ORICHALCUM_DEEPSLATE_ORE = block(ArisRandomAdditionsModBlocks.ORICHALCUM_DEEPSLATE_ORE);
+	public static final RegistryObject<Item> VOID_STAR = REGISTRY.register("void_star", () -> new VoidStarItem());
+	public static final RegistryObject<Item> VOID_APPLE = REGISTRY.register("void_apple", () -> new VoidAppleItem());
+	public static final RegistryObject<Item> ORICHALCUM_APPLE = REGISTRY.register("orichalcum_apple", () -> new OrichalcumAppleItem());
+	public static final RegistryObject<Item> BEDROCK_APPLE = REGISTRY.register("bedrock_apple", () -> new BedrockAppleItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

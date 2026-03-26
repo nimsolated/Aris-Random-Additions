@@ -102,7 +102,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": "CUSTOM:Orichalcum"
+      "value": ""
     },
     "livingSound": {
       "value": "block.amethyst_block.chime"

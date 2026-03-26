@@ -17,7 +17,7 @@
       "value": "Items.SHULKER_SHELL"
     },
     "smithingInputTemplateStack": {
-      "value": "CUSTOM:PowerStar"
+      "value": "CUSTOM:VoidStar"
     },
     "smithingReturnStack": {
       "value": "CUSTOM:EnditeIngot"

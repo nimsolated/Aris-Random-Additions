@@ -37,6 +37,7 @@ public class ArisRandomAdditionsModTabs {
 			tabData.accept(ArisRandomAdditionsModBlocks.ORICHALCUM_BLOCK.get().asItem());
 			tabData.accept(ArisRandomAdditionsModBlocks.RAVE_BLOCK.get().asItem());
 			tabData.accept(ArisRandomAdditionsModBlocks.ENDITE_BLOCK.get().asItem());
+			tabData.accept(ArisRandomAdditionsModBlocks.ORICHALCUM_DEEPSLATE_ORE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(ArisRandomAdditionsModItems.BLOCK_EATER.get());
 			tabData.accept(ArisRandomAdditionsModItems.NETHERRACKITE_PICKAXE.get());
@@ -74,11 +75,15 @@ public class ArisRandomAdditionsModTabs {
 			tabData.accept(ArisRandomAdditionsModItems.ENDITE_UPGRADE_SMITHING_TEMPLATE.get());
 			tabData.accept(ArisRandomAdditionsModItems.CHORUS_EYE.get());
 			tabData.accept(ArisRandomAdditionsModItems.POWER_STAR.get());
+			tabData.accept(ArisRandomAdditionsModItems.VOID_STAR.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(ArisRandomAdditionsModItems.MAGIC_FLESH.get());
 			tabData.accept(ArisRandomAdditionsModItems.GOLDEN_BERRIES.get());
 			tabData.accept(ArisRandomAdditionsModItems.BEAN.get());
 			tabData.accept(ArisRandomAdditionsModItems.CHEESE.get());
+			tabData.accept(ArisRandomAdditionsModItems.VOID_APPLE.get());
+			tabData.accept(ArisRandomAdditionsModItems.ORICHALCUM_APPLE.get());
+			tabData.accept(ArisRandomAdditionsModItems.BEDROCK_APPLE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(ArisRandomAdditionsModBlocks.ORE_MINER.get().asItem());
 			tabData.accept(ArisRandomAdditionsModBlocks.BEDROCKIFIER.get().asItem());

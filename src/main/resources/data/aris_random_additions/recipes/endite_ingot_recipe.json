@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "template": {
-    "item": "aris_random_additions:power_star"
+    "item": "aris_random_additions:void_star"
   },
   "base": {
     "item": "minecraft:netherite_ingot"

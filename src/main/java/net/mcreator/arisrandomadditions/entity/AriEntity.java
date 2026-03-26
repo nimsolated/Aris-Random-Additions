@@ -103,11 +103,6 @@ public class AriEntity extends Monster {
 		return -0.35D;
 	}
 
-	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
-		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
-		this.spawnAtLocation(new ItemStack(ArisRandomAdditionsModItems.ORICHALCUM.get()));
-	}
-
 	@Override
 	public SoundEvent getAmbientSound() {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.amethyst_block.chime"));
