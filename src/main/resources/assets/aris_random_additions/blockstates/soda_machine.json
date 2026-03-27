@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "aris_random_additions:block/soda_machine"
+    },
+    "facing=east": {
+      "model": "aris_random_additions:block/soda_machine",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "aris_random_additions:block/soda_machine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "aris_random_additions:block/soda_machine",
+      "y": 270
+    }
+  }
+}

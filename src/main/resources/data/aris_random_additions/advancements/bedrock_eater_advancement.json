@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "aris_random_additions:bedrock_eater"
+    },
+    "title": {
+      "translate": "advancements.bedrock_eater_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.bedrock_eater_advancement.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bedrock_eater_advancement_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "aris_random_additions:block_eater_advancement"
+}

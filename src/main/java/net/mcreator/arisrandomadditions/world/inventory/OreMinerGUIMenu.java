@@ -81,6 +81,8 @@ public class OreMinerGUIMenu extends AbstractContainerMenu implements Supplier<M
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 31, 17) {
 			private final int slot = 0;
+			private int x = OreMinerGUIMenu.this.x;
+			private int y = OreMinerGUIMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -89,6 +91,8 @@ public class OreMinerGUIMenu extends AbstractContainerMenu implements Supplier<M
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 79, 17) {
 			private final int slot = 1;
+			private int x = OreMinerGUIMenu.this.x;
+			private int y = OreMinerGUIMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -97,6 +101,8 @@ public class OreMinerGUIMenu extends AbstractContainerMenu implements Supplier<M
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 97, 17) {
 			private final int slot = 2;
+			private int x = OreMinerGUIMenu.this.x;
+			private int y = OreMinerGUIMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -105,6 +111,8 @@ public class OreMinerGUIMenu extends AbstractContainerMenu implements Supplier<M
 		}));
 		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 115, 17) {
 			private final int slot = 3;
+			private int x = OreMinerGUIMenu.this.x;
+			private int y = OreMinerGUIMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -113,6 +121,8 @@ public class OreMinerGUIMenu extends AbstractContainerMenu implements Supplier<M
 		}));
 		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 133, 17) {
 			private final int slot = 4;
+			private int x = OreMinerGUIMenu.this.x;
+			private int y = OreMinerGUIMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -121,6 +131,8 @@ public class OreMinerGUIMenu extends AbstractContainerMenu implements Supplier<M
 		}));
 		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 79, 35) {
 			private final int slot = 5;
+			private int x = OreMinerGUIMenu.this.x;
+			private int y = OreMinerGUIMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -129,6 +141,8 @@ public class OreMinerGUIMenu extends AbstractContainerMenu implements Supplier<M
 		}));
 		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 97, 35) {
 			private final int slot = 6;
+			private int x = OreMinerGUIMenu.this.x;
+			private int y = OreMinerGUIMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -137,6 +151,8 @@ public class OreMinerGUIMenu extends AbstractContainerMenu implements Supplier<M
 		}));
 		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 115, 35) {
 			private final int slot = 7;
+			private int x = OreMinerGUIMenu.this.x;
+			private int y = OreMinerGUIMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -145,6 +161,8 @@ public class OreMinerGUIMenu extends AbstractContainerMenu implements Supplier<M
 		}));
 		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 133, 35) {
 			private final int slot = 8;
+			private int x = OreMinerGUIMenu.this.x;
+			private int y = OreMinerGUIMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {

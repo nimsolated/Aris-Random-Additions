@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "aris_random_additions:mint_sweetened_carbonated_water_can"
+    },
+    "title": {
+      "translate": "advancements.mint_sweetened_carbonated_water_can_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.mint_sweetened_carbonated_water_can_advancement.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mint_sweetened_carbonated_water_can_advancement_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "aris_random_additions:mint_sweetened_carbonated_water_can"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "aris_random_additions:sweetened_carbonated_water_can_advancement"
+}

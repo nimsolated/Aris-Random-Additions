@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "aris_random_additions:orange_wood_planks"
+    }
+  },
+  "result": {
+    "item": "aris_random_additions:orange_wood_slab",
+    "count": 6
+  }
+}

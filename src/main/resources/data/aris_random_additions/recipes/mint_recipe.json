@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "aris_random_additions:mint_leaves"
+    }
+  },
+  "result": {
+    "item": "aris_random_additions:mint",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aba",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:green_concrete"
+    },
+    "b": {
+      "item": "aris_random_additions:socket"
+    },
+    "c": {
+      "item": "minecraft:end_stone"
+    },
+    "d": {
+      "item": "aris_random_additions:void_star"
+    }
+  },
+  "result": {
+    "item": "minecraft:end_portal_frame",
+    "count": 3
+  }
+}

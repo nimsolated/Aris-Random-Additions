@@ -41,9 +41,9 @@ public class BedrockEaterRightClickProcedure {
 			if (entity instanceof Player _player)
 				_player.getCooldowns().addCooldown(itemstack.getItem(), 300);
 			if (!(entity instanceof ServerPlayer _plr13 && _plr13.level() instanceof ServerLevel
-					&& _plr13.getAdvancements().getOrStartProgress(_plr13.server.getAdvancements().getAdvancement(new ResourceLocation("aris_random_additions:block_eater_advancement"))).isDone())) {
+					&& _plr13.getAdvancements().getOrStartProgress(_plr13.server.getAdvancements().getAdvancement(new ResourceLocation("aris_random_additions:bedrock_eater_advancement"))).isDone())) {
 				if (entity instanceof ServerPlayer _player) {
-					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("aris_random_additions:block_eater_advancement"));
+					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("aris_random_additions:bedrock_eater_advancement"));
 					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
 					if (!_ap.isDone()) {
 						for (String criteria : _ap.getRemainingCriteria())

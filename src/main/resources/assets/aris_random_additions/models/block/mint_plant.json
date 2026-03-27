@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "aris_random_additions:block/mint_plant",
+    "particle": "aris_random_additions:block/mint_plant"
+  },
+  "render_type": "cutout"
+}

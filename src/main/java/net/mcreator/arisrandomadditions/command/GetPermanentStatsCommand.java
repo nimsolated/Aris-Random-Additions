@@ -18,7 +18,7 @@ import net.mcreator.arisrandomadditions.procedures.GetPermanentStatsCommandProce
 public class GetPermanentStatsCommand {
 	@SubscribeEvent
 	public static void registerCommand(RegisterCommandsEvent event) {
-		event.getDispatcher().register(Commands.literal("ari-get-permanent-stats")
+		event.getDispatcher().register(Commands.literal("arira-get-permanent-stats")
 
 				.executes(arguments -> {
 					Level world = arguments.getSource().getUnsidedLevel();

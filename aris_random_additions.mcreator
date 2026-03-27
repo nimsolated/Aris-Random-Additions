@@ -1552,19 +1552,6 @@
       "path": "~/Magma"
     },
     {
-      "name": "MagmaBricksRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "magma_bricks_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/aris_random_additions/recipes/magma_bricks_recipe.json"
-        ]
-      },
-      "path": "~/Magma"
-    },
-    {
       "name": "MagmaBrickStairsRecipe",
       "type": "recipe",
       "compiles": true,
@@ -1882,6 +1869,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/arisrandomadditions/world/inventory/BedrockifierGUIMenu.java",
+          "src/main/java/net/mcreator/arisrandomadditions/network/BedrockifierGUIButtonMessage.java",
           "src/main/java/net/mcreator/arisrandomadditions/client/gui/BedrockifierGUIScreen.java"
         ]
       },
@@ -5103,6 +5091,755 @@
         ]
       },
       "path": "~/Bedrock"
+    },
+    {
+      "name": "Orange",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/item/OrangeItem.java",
+          "src/main/resources/assets/aris_random_additions/models/item/orange.json"
+        ]
+      },
+      "path": "~/Orange"
+    },
+    {
+      "name": "Mint",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mint",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/item/MintItem.java",
+          "src/main/resources/assets/aris_random_additions/models/item/mint.json"
+        ]
+      },
+      "path": "~/Mint"
+    },
+    {
+      "name": "CanLid",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "can_lid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/item/CanLidItem.java",
+          "src/main/resources/assets/aris_random_additions/models/item/can_lid.json"
+        ]
+      },
+      "path": "~/Cans"
+    },
+    {
+      "name": "EmptyCan",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_can",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/item/EmptyCanItem.java",
+          "src/main/resources/assets/aris_random_additions/models/item/empty_can.json"
+        ]
+      },
+      "path": "~/Cans"
+    },
+    {
+      "name": "CanLidRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "can_lid_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/can_lid_recipe.json"
+        ]
+      },
+      "path": "~/Cans"
+    },
+    {
+      "name": "EmptyCanRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_can_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/empty_can_recipe.json"
+        ]
+      },
+      "path": "~/Cans"
+    },
+    {
+      "name": "WaterCan",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_can",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aris_random_additions/models/item/water_can.json",
+          "src/main/java/net/mcreator/arisrandomadditions/item/WaterCanItem.java"
+        ]
+      },
+      "path": "~/Cans"
+    },
+    {
+      "name": "EmptyCanRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_can_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/EmptyCanRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cans"
+    },
+    {
+      "name": "CarbonatedWaterCan",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carbonated_water_can",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/item/CarbonatedWaterCanItem.java",
+          "src/main/resources/assets/aris_random_additions/models/item/carbonated_water_can.json"
+        ]
+      },
+      "path": "~/Cans"
+    },
+    {
+      "name": "CarbonatedWaterCanRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carbonated_water_can_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/recipes/brewing/CarbonatedWaterCanRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Cans"
+    },
+    {
+      "name": "SweetenedCarbonatedWaterCan",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sweetened_carbonated_water_can",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/item/SweetenedCarbonatedWaterCanItem.java",
+          "src/main/resources/assets/aris_random_additions/models/item/sweetened_carbonated_water_can.json"
+        ]
+      },
+      "path": "~/Cans"
+    },
+    {
+      "name": "SweetenedCarbonatedWaterCanRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sweetened_carbonated_water_can_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/recipes/brewing/SweetenedCarbonatedWaterCanRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Cans"
+    },
+    {
+      "name": "SweetenedCarbonatedWaterCanPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sweetened_carbonated_water_can_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/SweetenedCarbonatedWaterCanPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cans"
+    },
+    {
+      "name": "MintSweetenedCarbonatedWaterCan",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mint_sweetened_carbonated_water_can",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/item/MintSweetenedCarbonatedWaterCanItem.java",
+          "src/main/resources/assets/aris_random_additions/models/item/mint_sweetened_carbonated_water_can.json"
+        ]
+      },
+      "path": "~/Cans"
+    },
+    {
+      "name": "MintSweetenedCarbonatedWaterCanPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mint_sweetened_carbonated_water_can_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/MintSweetenedCarbonatedWaterCanPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cans"
+    },
+    {
+      "name": "MintSweetenedCarbonatedWaterCanRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mint_sweetened_carbonated_water_can_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/recipes/brewing/MintSweetenedCarbonatedWaterCanRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Cans"
+    },
+    {
+      "name": "OrangeSweetenedCarbonatedWaterCan",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_sweetened_carbonated_water_can",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aris_random_additions/models/item/orange_sweetened_carbonated_water_can.json",
+          "src/main/java/net/mcreator/arisrandomadditions/item/OrangeSweetenedCarbonatedWaterCanItem.java"
+        ]
+      },
+      "path": "~/Cans"
+    },
+    {
+      "name": "OrangeSweetenedCarbonatedWaterCanPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_sweetened_carbonated_water_can_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/OrangeSweetenedCarbonatedWaterCanPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cans"
+    },
+    {
+      "name": "OrangeSweetenedCarbonatedWaterCanRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_sweetened_carbonated_water_can_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/recipes/brewing/OrangeSweetenedCarbonatedWaterCanRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Cans"
+    },
+    {
+      "name": "OakTreeLeavesLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_tree_leaves_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/oak_leaves.json"
+        ]
+      },
+      "path": "~/Orange"
+    },
+    {
+      "name": "DarkOakTreeLeavesLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_oak_tree_leaves_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/dark_oak_leaves.json"
+        ]
+      },
+      "path": "~/Orange"
+    },
+    {
+      "name": "MintPlant",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mint_plant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/block/MintPlantBlock.java",
+          "src/main/resources/assets/aris_random_additions/models/block/mint_plant.json",
+          "src/main/resources/data/aris_random_additions/forge/biome_modifier/mint_plant_biome_modifier.json",
+          "src/main/resources/data/aris_random_additions/worldgen/placed_feature/mint_plant.json",
+          "src/main/resources/data/aris_random_additions/worldgen/configured_feature/mint_plant.json",
+          "src/main/resources/assets/aris_random_additions/models/item/mint_plant.json",
+          "src/main/resources/assets/aris_random_additions/blockstates/mint_plant.json"
+        ]
+      },
+      "path": "~/Mint"
+    },
+    {
+      "name": "MintPlantFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mint_plant_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/forge/biome_modifier/mint_plant_feature_biome_modifier.json",
+          "src/main/resources/data/aris_random_additions/worldgen/configured_feature/mint_plant_feature.json",
+          "src/main/resources/data/aris_random_additions/worldgen/placed_feature/mint_plant_feature.json"
+        ]
+      },
+      "path": "~/Mint"
+    },
+    {
+      "name": "MintLeaves",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mint_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aris_random_additions/models/item/mint_leaves.json",
+          "src/main/java/net/mcreator/arisrandomadditions/item/MintLeavesItem.java"
+        ]
+      },
+      "path": "~/Mint"
+    },
+    {
+      "name": "MintPlantLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mint_plant_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/loot_tables/blocks/mint_plant.json"
+        ]
+      },
+      "path": "~/Mint"
+    },
+    {
+      "name": "MintRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mint_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/mint_recipe.json"
+        ]
+      },
+      "path": "~/Mint"
+    },
+    {
+      "name": "BrickierMagmaBricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brickier_magma_bricks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/block/BrickierMagmaBricksBlock.java",
+          "src/main/resources/assets/aris_random_additions/blockstates/brickier_magma_bricks.json",
+          "src/main/resources/data/aris_random_additions/loot_tables/blocks/brickier_magma_bricks.json",
+          "src/main/resources/assets/aris_random_additions/models/item/brickier_magma_bricks.json",
+          "src/main/resources/assets/aris_random_additions/models/block/brickier_magma_bricks.json"
+        ]
+      },
+      "path": "~/Magma"
+    },
+    {
+      "name": "BrickierMagmaBricksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brickier_magma_bricks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/brickier_magma_bricks_recipe.json"
+        ]
+      },
+      "path": "~/Magma"
+    },
+    {
+      "name": "Socket",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "socket",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/item/SocketItem.java",
+          "src/main/resources/assets/aris_random_additions/models/item/socket.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "EndPortalFrameRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_portal_frame_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/end_portal_frame_recipe.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "SodaMachine",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soda_machine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/block/SodaMachineBlock.java",
+          "src/main/resources/assets/aris_random_additions/blockstates/soda_machine.json",
+          "src/main/resources/data/aris_random_additions/loot_tables/blocks/soda_machine.json",
+          "src/main/resources/assets/aris_random_additions/models/item/soda_machine.json",
+          "src/main/resources/assets/aris_random_additions/models/block/soda_machine.json"
+        ]
+      },
+      "path": "~/Cans"
+    },
+    {
+      "name": "GoldToken",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_token",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aris_random_additions/models/item/gold_token.json",
+          "src/main/java/net/mcreator/arisrandomadditions/item/GoldTokenItem.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "GoldTokenRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_token_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/gold_token_recipe.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "SodaMachineOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soda_machine_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/SodaMachineOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cans"
+    },
+    {
+      "name": "SodaMachineRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soda_machine_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/soda_machine_recipe.json"
+        ]
+      },
+      "path": "~/Cans"
+    },
+    {
+      "name": "EndPortalFrameAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_portal_frame_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/advancements/end_portal_frame_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "VoidStarAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_star_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/advancements/void_star_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "OrichalcumAppleAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_apple_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/advancements/orichalcum_apple_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "VoidAppleAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_apple_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/advancements/void_apple_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "BedrockAppleAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_apple_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/advancements/bedrock_apple_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "SweetenedCarbonatedWaterCanAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sweetened_carbonated_water_can_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/advancements/sweetened_carbonated_water_can_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "MintSweetenedCarbonatedWaterCanAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mint_sweetened_carbonated_water_can_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/advancements/mint_sweetened_carbonated_water_can_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "OrangeSweetenedCarbonatedWaterCanAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_sweetened_carbonated_water_can_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/advancements/orange_sweetened_carbonated_water_can_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "WelcomeAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "welcome_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/advancements/welcome_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "WelcomeAdvancementGranter",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "welcome_advancement_granter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/WelcomeAdvancementGranterProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "WelcomeAdvancementLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "welcome_advancement_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/loot_tables/advancements/welcome_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "BedrockEaterAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_eater_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/advancements/bedrock_eater_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "SodaMachineAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soda_machine_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/advancements/soda_machine_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "SodaMachineRefusedAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soda_machine_refused_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/advancements/soda_machine_refused_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
     }
   ],
   "variable_elements": [],
@@ -5137,6 +5874,7 @@
       "Items.DIAMOND_PICKAXE"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:BrickierMagmaBricks",
       "~CUSTOM:OrichalcumDeepslateOre",
       "~CUSTOM:EnditeBlock",
       "~CUSTOM:OrichalcumBlock",
@@ -5212,6 +5950,7 @@
       "painting.nims_random_bullshit.shit_painting.title": "Shit Painting",
       "entity.aris_random_additions.ghoul": "Ghoul",
       "item.aris_random_additions.void_star": "Void Star",
+      "block.aris_random_additions.soda_machine": "Soda Machine",
       "block.aris_random_additions.broken_glass": "Broken Glass",
       "item.aris_random_additions.ghoul_spawn_egg": "Ghoul Spawn Egg",
       "item.aris_random_additions.endite_armor_boots": "Endite Boots",
@@ -5223,10 +5962,11 @@
       "block.nims_random_bullshit.orichalcum_block": "Block of Orichalcum",
       "block.nims_random_bullshit.rubber_slab": "Rubber Slab",
       "item.nims_random_bullshit.bedrock_upgrade_template": "Bedrock Upgrade Template",
-      "block.aris_random_additions.magma_brick_pressure_plate": "Magma Brick Pressure Plate",
+      "block.aris_random_additions.magma_brick_pressure_plate": "Beans and Cheese Pressure Plate",
       "advancements.orichalcum_set_advancement.descr": "Wear a full armor set of Orichalcum.",
       "block.nims_random_bullshit.orichalcum_ore": "Orichalcum Ore",
       "block.aris_random_additions.condensed_condensed_netherrack": "Condensed Condensed Netherrack",
+      "advancements.orange_sweetened_carbonated_water_can_advancement.descr": "Drink an Orange Soda",
       "item.aris_random_additions.endite_pickaxe": "Endite Pickaxe",
       "advancements.endite_scythe_advancement.title": "Endbringer\u0027s Sharpest Tool",
       "painting.aris_random_additions.turd_painting.author": "Ari/nim",
@@ -5242,18 +5982,23 @@
       "enchantment.aris_random_additions.passive_income_enchantment": "Passive Income",
       "item.aris_random_additions.sand_dust": "Sand Dust",
       "block.aris_random_additions.orichalcum_block": "Block of Orichalcum",
+      "item.aris_random_additions.orange_sweetened_carbonated_water_can": "Canned Orange Soda",
       "gui.nims_random_bullshit.mailbox_gui.outbox_y_coord": "0",
       "item.aris_random_additions.power_star": "Power Star",
+      "advancements.bedrock_eater_advancement.title": "Somehow, Being Made Of Bedrock Makes It More Replinishing. Yeah. I don\u0027t know.",
       "enchantment.nims_random_bullshit.ruining_enchantment": "Ruining",
       "advancements.endite_advancement.descr": "Obtain Endite",
-      "block.nims_random_bullshit.condensed_condensed_netherrack": "Condensed Condensed Netherrack",
       "advancements.netherrack_juice_advancement.descr": "Obtain Netherrack Juice",
+      "block.nims_random_bullshit.condensed_condensed_netherrack": "Condensed Condensed Netherrack",
       "block.nims_random_bullshit.quadra_condensed_netherrack": "Quadra-condensed Netherrack",
+      "block.aris_random_additions.orange_wood_wood": "OrangeWood Wood",
       "advancements.orichalcum_katana_advancement.descr": "Obtain an Orichalcum Katana",
       "gui.nims_random_bullshit.bedrockifier_gui.button_empty": "-\u003e",
       "block.nims_random_bullshit.hexa_condensed_netherrack": "Hexa-condensed Netherrack",
       "enchantment.nims_random_bullshit.sundering_enchantment": "Sundering",
-      "block.aris_random_additions.magma_brick_slabs": "Magma Brick Slab",
+      "block.aris_random_additions.magma_brick_slabs": "Beans and Cheese Slab",
+      "item.aris_random_additions.gold_token": "Gold Token",
+      "advancements.orichalcum_apple_advancement.descr": "Eat an Orichalcum Apple",
       "item.nims_random_bullshit.sand_dust": "Sand Dust",
       "item.aris_random_additions.endite_sword": "Endite Sword",
       "item.nims_random_bullshit.magic_flesh": "Magic Flesh",
@@ -5262,29 +6007,37 @@
       "item.nims_random_bullshit.black_iron_ingot": "Black Iron Ingot",
       "item.aris_random_additions.void_apple": "Void Apple",
       "item.aris_random_additions.star_wand": "Star Wand",
+      "advancements.soda_machine_advancement.descr": "Feed a Gold Token to a Soda Machine",
       "item.nims_random_bullshit.pocket_lightning.description_0": "Spawns lightning wherever it lands.",
       "advancements.turd_advancement.title": "Crap!",
       "item.aris_random_additions.orichalcum_armor_chestplate": "Orichalcum Chestplate",
       "item.nims_random_bullshit.bedrock_eater": "Bedrock Eater",
       "item.aris_random_additions.orichalcum_armor_helmet.description_0": "Set Bonus: Speed, Jump Boost",
+      "item.aris_random_additions.socket": "Socket",
       "block.nims_random_bullshit.rubber_pressure_plate": "Rubber Pressure Plate",
       "block.aris_random_additions.redstone_brick_walls": "Redstone Brick Wall",
       "item.nims_random_bullshit.orichalcum_armor_leggings": "Orichalcum Leggings",
       "block.nims_random_bullshit.condensed_netherrack": "Condensed Netherrack",
-      "block.aris_random_additions.magma_brick_stairs": "Magma Brick Stairs",
+      "block.aris_random_additions.magma_brick_stairs": "Beans and Cheese Stairs",
       "block.nims_random_bullshit.magma_brick_slabs": "Magma Brick Slab",
       "block.aris_random_additions.orichalcum_deepslate_ore": "Orichalcum Deepslate Ore",
       "item.nims_random_bullshit.pocket_lightning": "Pocket Lightning",
+      "item.aris_random_additions.water_can": "Canned Water",
       "block.aris_random_additions.redstone_brick_stairs": "Redstone Brick Stairs",
       "item.aris_random_additions.orichalcum_shovel": "Orichalcum Shovel",
       "item.nims_random_bullshit.star_wand": "Star Wand",
       "item.nims_random_bullshit.orichalcum_axe": "Orichalcum Axe",
       "enchantment.nims_random_bullshit.passive_income_enchantment": "Passive Income",
-      "block.aris_random_additions.magma_brick_button": "Magma Brick Button",
+      "block.aris_random_additions.magma_brick_button": "Beans and Cheese Button",
+      "item.aris_random_additions.can_lid": "Can Lid",
+      "block.aris_random_additions.orange_wood_log": "OrangeWood Log",
       "item.aris_random_additions.bean": "Bean",
+      "block.aris_random_additions.orange_wood_fence_gate": "OrangeWood Fence Gate",
+      "item.aris_random_additions.mint_leaves": "Mint Leaves",
       "block.nims_random_bullshit.broken_glass": "Broken Glass",
       "block.nims_random_bullshit.redstone_brick_walls": "Redstone Brick Wall",
       "item.aris_random_additions.tux_spawn_egg": "Tux Spawn Egg",
+      "block.aris_random_additions.orange_wood_planks": "OrangeWood Planks",
       "advancements.grave_digger_advancement.descr": "Obtain Gravedigger",
       "effect.nims_random_bullshit.summoned_entity_effect": "Summoned Entity",
       "item.aris_random_additions.netherrackite": "Netherrackite Ingot",
@@ -5298,15 +6051,17 @@
       "gui.nims_random_bullshit.mailbox_gui.label_x": "X:",
       "item.nims_random_bullshit.orichalcum_armor_helmet": "Orichalcum Helmet",
       "death.attack.bleed_damage_type.item": "%1$s was bled to death by %2$s using %3$s",
-      "block.aris_random_additions.magma_bricks": "Magma Bricks",
+      "block.aris_random_additions.magma_bricks": "Beans and Cheese Block",
       "item.aris_random_additions.endite_axe": "Endite Axe",
+      "block.aris_random_additions.brickier_magma_bricks": "Beans and Cheese Bricks",
+      "advancements.void_apple_advancement.descr": "Eat a Void Apple",
       "item.nims_random_bullshit.snow_golem_question_mark": "Snow Golem...?",
       "item.aris_random_additions.gravedigger.description_0": "Right-Click on soul sand or soul soil to use them, summoning a ghoul that attacks hostile mobs.",
       "advancements.bedrock_advancement.descr": "Obtain Bedrock",
       "item.aris_random_additions.gravedigger.description_1": "We must dig!",
       "item.nims_random_bullshit.orichalcum_shovel": "Orichalcum Shovel",
       "block.nims_random_bullshit.redstone_brick_stairs": "Redstone Brick Stairs",
-      "block.aris_random_additions.magma_brick_walls": "Magma Brick Wall",
+      "block.aris_random_additions.magma_brick_walls": "Beans and Cheese Wall",
       "item.nims_random_bullshit.cheese": "Cheese",
       "item.aris_random_additions.snow_golem_question_mark": "Snow Golem...?",
       "item.nims_random_bullshit.netherrackite": "Netherrackite Ingot",
@@ -5317,15 +6072,21 @@
       "item.aris_random_additions.netherrackite_pickaxe": "Netherrackite Pickaxe",
       "item.aris_random_additions.netherrack_juice_bucket": "Netherrack Juice Bucket",
       "item.nims_random_bullshit.netherrackite_pickaxe.description_0": "Non-condensed netherracks broken by this pickaxe drop themselves an additional time.",
+      "advancements.sweetened_carbonated_water_can_advancement.descr": "Drink a Canned Soda",
       "effect.nims_random_bullshit.stinky_effect": "Stinky",
       "death.attack.bleed_damage_type": "%1$s bled to death",
+      "advancements.mint_sweetened_carbonated_water_can_advancement.descr": "Drink a Mint Soda",
       "advancements.tux_advancement.descr": "Obtain a Tux Spawn Egg",
       "item.aris_random_additions.gravedigger": "Gravedigger",
+      "block.aris_random_additions.orange_wood_pressure_plate": "OrangeWood Pressure Plate",
       "item.aris_random_additions.orichalcum": "Orichalcum",
       "block.nims_random_bullshit.ore_miner": "Ore Miner",
       "advancements.star_wand_advancement.descr": "Use a Star Wand",
       "item.aris_random_additions.netherrackite_pickaxe.description_0": "Non-condensed netherracks broken by this pickaxe drop themselves an additional time.",
+      "advancements.end_portal_frame_advancement.descr": "Craft an End Portal Frame",
       "advancements.endite_set_advancement.descr": "Wear a full armor set of Endite.",
+      "item.aris_random_additions.mint_sweetened_carbonated_water_can": "Canned Mint Soda",
+      "advancements.welcome_advancement.title": "Arira!",
       "block.nims_random_bullshit.condensed_condensed_condensed_netherrack": "Condensed Condensed Condensed Netherrack",
       "item.aris_random_additions.magic_egg": "Magic Egg",
       "entity.nims_random_bullshit.ghoul": "Ghoul",
@@ -5336,8 +6097,11 @@
       "item.nims_random_bullshit.bedrock_pickaxe": "Bedrock Pickaxe",
       "item.aris_random_additions.endite_armor_chestplate.description_0": "Set Bonus: Resistance, Regeneration, Strength",
       "block.nims_random_bullshit.magma_brick_stairs": "Magma Brick Stairs",
+      "gui.aris_random_additions.bedrockifier_gui.button_empty": "-\u003e",
+      "advancements.bedrock_apple_advancement.descr": "Eat a Bedrock Apple",
       "advancements.bedrock_shard_advancement.descr": "Obtain Bedrock Shard",
       "block.aris_random_additions.quadra_condensed_netherrack": "Quadra-condensed Netherrack",
+      "block.aris_random_additions.orange_wood_slab": "OrangeWood Slab",
       "item.aris_random_additions.orichalcum_katana": "Orichalcum Katana",
       "item.aris_random_additions.orichalcum_armor_boots": "Orichalcum Heels",
       "item.aris_random_additions.endite_upgrade_smithing_template": "Endite Upgrade Template",
@@ -5346,44 +6110,57 @@
       "advancements.spawner_advancement.title": "It\u0027s spawnin\u0027 time!",
       "item.nims_random_bullshit.bedrock_shard": "Bedrock Shard",
       "item.aris_random_additions.orichalcum_armor_leggings": "Orichalcum Leggings",
+      "item.aris_random_additions.orange": "Orange",
       "item.aris_random_additions.iron_golem_question_mark": "Iron Golem...?",
+      "advancements.soda_machine_refused_advancement.title": "Attempted Soda Robbery",
       "item.nims_random_bullshit.orichalcum_armor_chestplate": "Orichalcum Chestplate",
       "item.aris_random_additions.bedrock_apple.description_0": "When consumed: Grants permanent creative flight.",
       "item.nims_random_bullshit.bean": "Bean",
       "effect.aris_random_additions.stinky_effect": "Stinky",
       "advancements.endite_hoe_advancement.descr": "Craft an Endite Hoe",
+      "advancements.void_star_advancement.descr": "Craft a Void Star",
       "item.aris_random_additions.orichalcum_armor_helmet": "Orichalcum Helmet",
       "enchantment.aris_random_additions.ruining_enchantment": "Ruining",
       "block.aris_random_additions.ore_miner": "Ore Miner",
       "block.aris_random_additions.condensed_netherrack": "Condensed Netherrack",
       "item.aris_random_additions.orichalcum_katana.description_0": "Right-Click: empower the blade, making your next attack cause bleeding DoT effect to the target for a duration.",
+      "item.aris_random_additions.empty_can": "Empty Can",
       "block.nims_random_bullshit.redstone_bricks": "Redstone Bricks",
       "item.nims_random_bullshit.iron_golem_question_mark": "Iron Golem...?",
       "item.aris_random_additions.golden_berries": "Golden Berries",
       "item.nims_random_bullshit.lapis_lazuli_nugget": "Lapis Lazuli Nugget",
+      "block.aris_random_additions.orange_wood_leaves": "OrangeWood Leaves",
       "item.aris_random_additions.star": "Star",
       "item.nims_random_bullshit.bedrock_sword": "Bedrock Sword",
+      "item.aris_random_additions.sweetened_carbonated_water_can": "Canned Soda",
       "item.nims_random_bullshit.wither_question_mark": "Wither...?",
       "advancements.block_eater_advancement.descr": "Eat a block with the Block Eater",
       "advancements.tux_advancement.title": "Tux!?",
       "item.nims_random_bullshit.gravedigger": "Gravedigger",
       "item.aris_random_additions.pocket_lightning": "Pocket Lightning",
+      "advancements.sweetened_carbonated_water_can_advancement.title": "Now That\u0027s The Good Stuff!",
       "item.aris_random_additions.night_vision_goggles_helmet": "Night Vision Goggles",
       "advancements.orichalcum_katana_advancement.title": "As Fierce As The Color",
       "item.aris_random_additions.cheese": "Cheese",
       "item.aris_random_additions.orichalcum_sword": "Orichalcum Sword",
+      "advancements.end_portal_frame_advancement.title": "You Shouldn\u0027t Have This...",
       "item.aris_random_additions.wand_of_resizing.description_0": "DISCLAIMER: Does not work with Origins that periodically reset your scale!",
       "advancements.endite_scythe_advancement.descr": "Craft an Endite Scythe",
       "item.aris_random_additions.block_eater": "Block Eater",
       "entity.nims_random_bullshit.tux": "Tux",
       "item.aris_random_additions.orichalcum_pickaxe": "Orichalcum Pickaxe",
       "block.nims_random_bullshit.bedrockifier": "Bedrockifier",
+      "advancements.orichalcum_apple_advancement.title": "Feelin\u0027 Cutesy And Furious",
       "effect.aris_random_additions.summoned_entity_effect": "Summoned Entity",
       "item.nims_random_bullshit.orichalcum": "Orichalcum",
       "item.aris_random_additions.orichalcum_armor_leggings.description_0": "Set Bonus: Speed, Jump Boost",
+      "block.aris_random_additions.orange_wood_fence": "OrangeWood Fence",
       "advancements.magic_egg_advancement.descr": "Obtain a Magic Egg",
+      "advancements.orange_sweetened_carbonated_water_can_advancement.title": "A Fantastic Beverage!",
       "item.aris_random_additions.orichalcum_apple.description_0": "When consumed: Grants 1 permanent bonus attack damage.",
+      "block.aris_random_additions.mint_plant": "Mint Plant",
       "advancements.endite_advancement.title": "Purple Butter",
+      "advancements.bedrock_eater_advancement.descr": "Eat a block with the Bedrock Eater",
       "entity.aris_random_additions.ari": "Ari",
       "item.nims_random_bullshit.night_vision_goggles_helmet": "Night Vision Goggles",
       "advancements.power_star_advancement.descr": "Craft a Power Star",
@@ -5408,10 +6185,16 @@
       "item.aris_random_additions.black_iron_ingot": "Black Iron Ingot",
       "item.aris_random_additions.endite_armor_helmet": "Endite Helmet",
       "advancements.endite_hoe_advancement.title": "Extremely Serious Dedication",
+      "advancements.void_star_advancement.title": "A Star Not Meant To Be",
       "block.nims_random_bullshit.magma_brick_walls": "Magma Brick Wall",
       "block.nims_random_bullshit.rave_block": "Rave Block",
+      "advancements.bedrock_apple_advancement.title": "Need A Dentist Appointment After This",
+      "advancements.mint_sweetened_carbonated_water_can_advancement.title": "Now That\u0027s The Good Stuff! - Minty Edition",
       "item.nims_random_bullshit.orichalcum_sword": "Orichalcum Sword",
+      "item.aris_random_additions.carbonated_water_can": "Canned Sparkling Water",
       "item.aris_random_additions.wand_of_resizing": "Wand Of Resizing",
+      "advancements.welcome_advancement.descr": "Play on a world with Ari\u0027s Random Additions installed for the first time",
+      "advancements.soda_machine_refused_advancement.descr": "You tried to get a Canned Soda for free, and FAILED. AHAHAHA!",
       "block.aris_random_additions.condensed_condensed_condensed_netherrack": "Condensed Condensed Condensed Netherrack",
       "advancements.star_wand_advancement.title": "Healius Absorbus!",
       "advancements.magic_egg_advancement.title": "Core of a Spawner",
@@ -5425,6 +6208,7 @@
       "advancements.endite_set_advancement.title": "Cover Me In Endermite",
       "advancements.bedrock_shard_advancement.title": "Unobtainium",
       "item.aris_random_additions.endite_armor_boots.description_0": "Set Bonus: Resistance, Regeneration, Strength",
+      "advancements.soda_machine_advancement.title": "It Doesn\u0027t Even Need To Be Restocked! It Just Dispenses Soda Out Of Thin Air!",
       "fluid.nims_random_bullshit.netherrack_juice": "Netherrack Juice",
       "item.nims_random_bullshit.wand_of_resizing.description_0": "DISCLAIMER: Does not work with Origins that periodically reset your scale!",
       "gui.nims_random_bullshit.mailbox_gui.outbox_z_coord": "0",
@@ -5434,6 +6218,7 @@
       "item.aris_random_additions.pocket_lightning.description_0": "Spawns lightning wherever it lands.",
       "item.nims_random_bullshit.netherrackite_pickaxe": "Netherrackite Pickaxe",
       "item.aris_random_additions.endite_armor_helmet.description_0": "Set Bonus: Resistance, Regeneration, Strength",
+      "block.aris_random_additions.orange_wood_stairs": "OrangeWood Stairs",
       "gui.aris_random_additions.bedrockifier_gui.label_bedrockifier": "Bedrockifier",
       "block.aris_random_additions.penta_condensed_netherrack": "Penta-condensed Netherrack",
       "item.nims_random_bullshit.orichalcum_hoe": "Orichalcum Hoe",
@@ -5442,10 +6227,13 @@
       "block.nims_random_bullshit.netherrack_juice": "Netherrack Juice",
       "fluid.aris_random_additions.netherrack_juice": "Netherrack Juice",
       "block.nims_random_bullshit.rubber_button": "Rubber Button",
+      "item.aris_random_additions.mint": "mint",
+      "block.aris_random_additions.orange_wood_button": "OrangeWood Button",
       "item.nims_random_bullshit.magic_egg": "Magic Egg",
       "block.aris_random_additions.redstone_bricks": "Redstone Bricks",
       "item.nims_random_bullshit.block_eater": "Block Eater",
       "item.aris_random_additions.lapis_lazuli_nugget": "Lapis Lazuli Nugget",
+      "advancements.void_apple_advancement.title": "It Certainly Is DeVOID Of Taste",
       "item.aris_random_additions.endite_armor_leggings": "Endite Leggings",
       "advancements.bedrock_advancement.title": "Unobtainium Block",
       "item.nims_random_bullshit.star": "Star",
@@ -5538,13 +6326,25 @@
       {
         "name": "Ari",
         "children": []
+      },
+      {
+        "name": "Cans",
+        "children": []
+      },
+      {
+        "name": "Orange",
+        "children": []
+      },
+      {
+        "name": "Mint",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "aris_random_additions",
     "modName": "Ari\u0027s Random Additions",
-    "version": "2.1.3",
+    "version": "2.2.0",
     "description": "Random Additions by Ari. Created with MCreator.",
     "author": "nimsolated, MCreator",
     "websiteURL": "https://mcreator.net",

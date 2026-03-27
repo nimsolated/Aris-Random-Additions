@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "aris_random_additions:soda_machine"
+    },
+    "title": {
+      "translate": "advancements.soda_machine_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.soda_machine_advancement.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "soda_machine_advancement_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "aris_random_additions:sweetened_carbonated_water_can_advancement"
+}

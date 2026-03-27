@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "ade",
+    "afg"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:light_blue_stained_glass_pane"
+    },
+    "b": {
+      "item": "minecraft:nether_star"
+    },
+    "c": {
+      "item": "minecraft:green_stained_glass_pane"
+    },
+    "d": {
+      "item": "minecraft:iron_block"
+    },
+    "e": {
+      "item": "minecraft:stone_button"
+    },
+    "f": {
+      "item": "minecraft:dispenser"
+    },
+    "g": {
+      "item": "aris_random_additions:socket"
+    }
+  },
+  "result": {
+    "item": "aris_random_additions:soda_machine",
+    "count": 1
+  }
+}

@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.arisrandomadditions.block.SodaMachineBlock;
 import net.mcreator.arisrandomadditions.block.RedstoneBricksBlock;
 import net.mcreator.arisrandomadditions.block.RedstoneBrickWallsBlock;
 import net.mcreator.arisrandomadditions.block.RedstoneBrickStairsBlock;
@@ -22,6 +23,7 @@ import net.mcreator.arisrandomadditions.block.OrichalcumDeepslateOreBlock;
 import net.mcreator.arisrandomadditions.block.OrichalcumBlockBlock;
 import net.mcreator.arisrandomadditions.block.OreMinerBlock;
 import net.mcreator.arisrandomadditions.block.NetherrackJuiceBlock;
+import net.mcreator.arisrandomadditions.block.MintPlantBlock;
 import net.mcreator.arisrandomadditions.block.MagmaBricksBlock;
 import net.mcreator.arisrandomadditions.block.MagmaBrickWallsBlock;
 import net.mcreator.arisrandomadditions.block.MagmaBrickStairsBlock;
@@ -34,6 +36,7 @@ import net.mcreator.arisrandomadditions.block.CondensedNetherrackBlock;
 import net.mcreator.arisrandomadditions.block.CondensedCondensedNetherrackBlock;
 import net.mcreator.arisrandomadditions.block.CondensedCondensedCondensedNetherrackBlock;
 import net.mcreator.arisrandomadditions.block.BrokenGlassBlock;
+import net.mcreator.arisrandomadditions.block.BrickierMagmaBricksBlock;
 import net.mcreator.arisrandomadditions.block.BedrockifierBlock;
 import net.mcreator.arisrandomadditions.ArisRandomAdditionsMod;
 
@@ -64,6 +67,9 @@ public class ArisRandomAdditionsModBlocks {
 	public static final RegistryObject<Block> RAVE_BLOCK = REGISTRY.register("rave_block", () -> new RaveBlockBlock());
 	public static final RegistryObject<Block> ENDITE_BLOCK = REGISTRY.register("endite_block", () -> new EnditeBlockBlock());
 	public static final RegistryObject<Block> ORICHALCUM_DEEPSLATE_ORE = REGISTRY.register("orichalcum_deepslate_ore", () -> new OrichalcumDeepslateOreBlock());
+	public static final RegistryObject<Block> MINT_PLANT = REGISTRY.register("mint_plant", () -> new MintPlantBlock());
+	public static final RegistryObject<Block> BRICKIER_MAGMA_BRICKS = REGISTRY.register("brickier_magma_bricks", () -> new BrickierMagmaBricksBlock());
+	public static final RegistryObject<Block> SODA_MACHINE = REGISTRY.register("soda_machine", () -> new SodaMachineBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

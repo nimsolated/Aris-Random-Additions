@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "aris_random_additions:block/orange_wood_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "aris_random_additions:block/orange_wood_log"
+    },
+    "axis=z": {
+      "model": "aris_random_additions:block/orange_wood_log",
+      "x": 90
+    }
+  }
+}

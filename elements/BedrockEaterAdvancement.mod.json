@@ -1,0 +1,24 @@
+{
+  "_fv": 73,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Somehow, Being Made Of Bedrock Makes It More Replinishing. Yeah. I don't know.",
+    "achievementDescription": "Eat a block with the Bedrock Eater",
+    "achievementIcon": {
+      "value": "CUSTOM:BedrockEater"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 0,
+    "achievementType": "challenge",
+    "parent": {
+      "value": "CUSTOM:BlockEaterAdvancement"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"54\" y=\"86\"><next><block type=\"custom_trigger\"></block></next></block></xml>"
+  }
+}

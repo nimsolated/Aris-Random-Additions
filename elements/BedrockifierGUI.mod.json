@@ -96,10 +96,16 @@
         }
       },
       {
-        "type": "image",
+        "type": "button",
         "data": {
-          "image": "right_arrow_sign.png",
-          "use1Xscale": false,
+          "name": "button_empty",
+          "text": "->",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "BedrockifierLogic"
+          },
+          "width": 35,
+          "height": 20,
           "x": 222,
           "y": 71,
           "locked": false

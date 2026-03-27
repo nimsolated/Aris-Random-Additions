@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "cherry_grove",
+    "jungle",
+    "sparse_jungle",
+    "bamboo_jungle"
+  ],
+  "features": "aris_random_additions:mint_plant",
+  "step": "vegetal_decoration"
+}

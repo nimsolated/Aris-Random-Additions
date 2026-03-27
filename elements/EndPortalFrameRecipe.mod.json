@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CONCRETE#13"
+      },
+      {
+        "value": "CUSTOM:Socket"
+      },
+      {
+        "value": "Blocks.CONCRETE#13"
+      },
+      {
+        "value": "Blocks.END_STONE"
+      },
+      {
+        "value": "CUSTOM:VoidStar"
+      },
+      {
+        "value": "Blocks.END_STONE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.END_PORTAL_FRAME"
+    },
+    "name": "end_portal_frame_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_stairs",
+  "category": "building",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "aris_random_additions:orange_wood_planks"
+    }
+  },
+  "result": {
+    "item": "aris_random_additions:orange_wood_stairs",
+    "count": 4
+  }
+}

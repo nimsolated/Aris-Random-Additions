@@ -8,41 +8,41 @@
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "BUILDING",
+    "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.MAGMA"
+        "value": "Blocks.STAINED_GLASS_PANE#3"
       },
       {
-        "value": "Blocks.MAGMA"
+        "value": "Items.NETHER_STAR"
       },
       {
-        "value": ""
+        "value": "Blocks.STAINED_GLASS_PANE#13"
       },
       {
-        "value": "Blocks.MAGMA"
+        "value": "Blocks.STAINED_GLASS_PANE#3"
       },
       {
-        "value": "Blocks.MAGMA"
+        "value": "Blocks.IRON_BLOCK"
       },
       {
-        "value": ""
+        "value": "Blocks.STONE_BUTTON"
       },
       {
-        "value": ""
+        "value": "Blocks.STAINED_GLASS_PANE#3"
       },
       {
-        "value": ""
+        "value": "Blocks.DISPENSER"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Socket"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:MagmaBricks"
+      "value": "CUSTOM:SodaMachine"
     },
-    "name": "magma_bricks_recipe",
+    "name": "soda_machine_recipe",
     "namespace": "mod"
   }
 }

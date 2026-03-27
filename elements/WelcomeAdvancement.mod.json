@@ -1,0 +1,26 @@
+{
+  "_fv": 73,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Arira!",
+    "achievementDescription": "Play on a world with Ari's Random Additions installed for the first time",
+    "achievementIcon": {
+      "value": "Blocks.RED_FLOWER#0"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [
+      "WelcomeAdvancementLootTable"
+    ],
+    "rewardRecipes": [],
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"65\" y=\"99\"><next><block type=\"custom_trigger\"></block></next></block></xml>"
+  }
+}

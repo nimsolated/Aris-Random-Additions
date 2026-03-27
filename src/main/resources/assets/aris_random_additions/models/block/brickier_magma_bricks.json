@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aris_random_additions:block/magma_bricks",
+    "up": "aris_random_additions:block/magma_bricks",
+    "north": "aris_random_additions:block/magma_bricks",
+    "east": "aris_random_additions:block/magma_bricks",
+    "south": "aris_random_additions:block/magma_bricks",
+    "west": "aris_random_additions:block/magma_bricks",
+    "particle": "aris_random_additions:block/magma_bricks"
+  },
+  "render_type": "solid"
+}

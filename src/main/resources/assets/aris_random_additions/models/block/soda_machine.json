@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aris_random_additions:block/soda_machine_base",
+    "up": "aris_random_additions:block/soda_machine_base",
+    "north": "aris_random_additions:block/soda_machine_front",
+    "east": "aris_random_additions:block/soda_machine_base",
+    "south": "aris_random_additions:block/soda_machine_base",
+    "west": "aris_random_additions:block/soda_machine_base",
+    "particle": "aris_random_additions:block/soda_machine_base"
+  },
+  "render_type": "solid"
+}

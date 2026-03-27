@@ -124,9 +124,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRedstoneOn": {
-      "name": "BedrockifierLogic"
-    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

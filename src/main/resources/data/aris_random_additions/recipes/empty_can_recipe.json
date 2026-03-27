@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "a a",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_nugget"
+    },
+    "b": {
+      "item": "aris_random_additions:can_lid"
+    }
+  },
+  "result": {
+    "item": "aris_random_additions:empty_can",
+    "count": 1
+  }
+}

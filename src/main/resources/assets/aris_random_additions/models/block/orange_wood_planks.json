@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "aris_random_additions:block/orangewood_planks",
+    "particle": "aris_random_additions:block/orangewood_planks"
+  },
+  "render_type": "solid"
+}

@@ -38,6 +38,8 @@ public class ArisRandomAdditionsModTabs {
 			tabData.accept(ArisRandomAdditionsModBlocks.RAVE_BLOCK.get().asItem());
 			tabData.accept(ArisRandomAdditionsModBlocks.ENDITE_BLOCK.get().asItem());
 			tabData.accept(ArisRandomAdditionsModBlocks.ORICHALCUM_DEEPSLATE_ORE.get().asItem());
+			tabData.accept(ArisRandomAdditionsModBlocks.BRICKIER_MAGMA_BRICKS.get().asItem());
+			tabData.accept(ArisRandomAdditionsModBlocks.SODA_MACHINE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(ArisRandomAdditionsModItems.BLOCK_EATER.get());
 			tabData.accept(ArisRandomAdditionsModItems.NETHERRACKITE_PICKAXE.get());
@@ -76,6 +78,11 @@ public class ArisRandomAdditionsModTabs {
 			tabData.accept(ArisRandomAdditionsModItems.CHORUS_EYE.get());
 			tabData.accept(ArisRandomAdditionsModItems.POWER_STAR.get());
 			tabData.accept(ArisRandomAdditionsModItems.VOID_STAR.get());
+			tabData.accept(ArisRandomAdditionsModItems.CAN_LID.get());
+			tabData.accept(ArisRandomAdditionsModItems.EMPTY_CAN.get());
+			tabData.accept(ArisRandomAdditionsModItems.MINT_LEAVES.get());
+			tabData.accept(ArisRandomAdditionsModItems.SOCKET.get());
+			tabData.accept(ArisRandomAdditionsModItems.GOLD_TOKEN.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(ArisRandomAdditionsModItems.MAGIC_FLESH.get());
 			tabData.accept(ArisRandomAdditionsModItems.GOLDEN_BERRIES.get());
@@ -84,6 +91,13 @@ public class ArisRandomAdditionsModTabs {
 			tabData.accept(ArisRandomAdditionsModItems.VOID_APPLE.get());
 			tabData.accept(ArisRandomAdditionsModItems.ORICHALCUM_APPLE.get());
 			tabData.accept(ArisRandomAdditionsModItems.BEDROCK_APPLE.get());
+			tabData.accept(ArisRandomAdditionsModItems.ORANGE.get());
+			tabData.accept(ArisRandomAdditionsModItems.MINT.get());
+			tabData.accept(ArisRandomAdditionsModItems.WATER_CAN.get());
+			tabData.accept(ArisRandomAdditionsModItems.CARBONATED_WATER_CAN.get());
+			tabData.accept(ArisRandomAdditionsModItems.SWEETENED_CARBONATED_WATER_CAN.get());
+			tabData.accept(ArisRandomAdditionsModItems.MINT_SWEETENED_CARBONATED_WATER_CAN.get());
+			tabData.accept(ArisRandomAdditionsModItems.ORANGE_SWEETENED_CARBONATED_WATER_CAN.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(ArisRandomAdditionsModBlocks.ORE_MINER.get().asItem());
 			tabData.accept(ArisRandomAdditionsModBlocks.BEDROCKIFIER.get().asItem());
@@ -114,6 +128,8 @@ public class ArisRandomAdditionsModTabs {
 			tabData.accept(ArisRandomAdditionsModItems.ENDITE_ARMOR_BOOTS.get());
 			tabData.accept(ArisRandomAdditionsModItems.ENDITE_SCYTHE.get());
 			tabData.accept(ArisRandomAdditionsModItems.ORICHALCUM_KATANA.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(ArisRandomAdditionsModBlocks.MINT_PLANT.get().asItem());
 		}
 	}
 }

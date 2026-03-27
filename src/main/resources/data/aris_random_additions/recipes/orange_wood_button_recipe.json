@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "aris_random_additions:orange_wood_planks"
+    }
+  ],
+  "result": {
+    "item": "aris_random_additions:orange_wood_button",
+    "count": 1
+  }
+}

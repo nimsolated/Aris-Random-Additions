@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aris_random_additions:block/orangewood_log_top",
+    "up": "aris_random_additions:block/orangewood_log_top",
+    "north": "aris_random_additions:block/orangewood_log_side",
+    "east": "aris_random_additions:block/orangewood_log_side",
+    "south": "aris_random_additions:block/orangewood_log_side",
+    "west": "aris_random_additions:block/orangewood_log_side",
+    "particle": "aris_random_additions:block/orangewood_log_top"
+  },
+  "render_type": "solid"
+}

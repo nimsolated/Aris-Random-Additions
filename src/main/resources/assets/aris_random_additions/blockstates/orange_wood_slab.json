@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "aris_random_additions:block/orange_wood_slab"
+    },
+    "type=top": {
+      "model": "aris_random_additions:block/orange_wood_slab_top"
+    },
+    "type=double": {
+      "model": "aris_random_additions:block/orange_wood_slab_full"
+    }
+  }
+}

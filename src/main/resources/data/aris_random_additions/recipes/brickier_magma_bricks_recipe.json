@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "aris_random_additions:magma_bricks"
+  },
+  "result": "aris_random_additions:brickier_magma_bricks"
+}

@@ -3,17 +3,14 @@
   "category": "misc",
   "pattern": [
     "aaa",
-    "bcb",
-    "bbb"
+    "aba",
+    "aaa"
   ],
   "key": {
     "a": {
       "item": "minecraft:bedrock"
     },
     "b": {
-      "item": "aris_random_additions:condensed_condensed_condensed_netherrack"
-    },
-    "c": {
       "item": "aris_random_additions:cheese"
     }
   },

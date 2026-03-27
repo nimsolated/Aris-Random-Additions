@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "minecraft:poppy"
+    },
+    "title": {
+      "translate": "advancements.welcome_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.welcome_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "welcome_advancement_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "aris_random_additions:advancements/welcome_advancement"
+    ]
+  }
+}
