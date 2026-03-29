@@ -57,7 +57,7 @@ public class AriEntity extends Monster {
 	public AriEntity(EntityType<AriEntity> type, Level world) {
 		super(type, world);
 		setMaxUpStep(0.6f);
-		xpReward = 0;
+		xpReward = 9;
 		setNoAi(false);
 		setCustomName(Component.literal("Ari"));
 		setCustomNameVisible(true);

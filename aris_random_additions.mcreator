@@ -2585,8 +2585,7 @@
           "src/main/resources/assets/aris_random_additions/blockstates/orichalcum_ore.json",
           "src/main/resources/assets/aris_random_additions/models/block/orichalcum_ore.json",
           "src/main/resources/data/aris_random_additions/forge/biome_modifier/orichalcum_ore_biome_modifier.json",
-          "src/main/resources/data/aris_random_additions/worldgen/placed_feature/orichalcum_ore.json",
-          "src/main/resources/data/aris_random_additions/loot_tables/blocks/orichalcum_ore.json"
+          "src/main/resources/data/aris_random_additions/worldgen/placed_feature/orichalcum_ore.json"
         ]
       },
       "path": "~/Orichalcum"
@@ -4800,8 +4799,7 @@
           "src/main/resources/assets/aris_random_additions/blockstates/orichalcum_deepslate_ore.json",
           "src/main/resources/assets/aris_random_additions/models/item/orichalcum_deepslate_ore.json",
           "src/main/resources/assets/aris_random_additions/models/block/orichalcum_deepslate_ore.json",
-          "src/main/resources/data/aris_random_additions/worldgen/placed_feature/orichalcum_deepslate_ore.json",
-          "src/main/resources/data/aris_random_additions/loot_tables/blocks/orichalcum_deepslate_ore.json"
+          "src/main/resources/data/aris_random_additions/worldgen/placed_feature/orichalcum_deepslate_ore.json"
         ]
       },
       "path": "~/Orichalcum"
@@ -7209,6 +7207,32 @@
         ]
       },
       "path": "~/Cans"
+    },
+    {
+      "name": "OrichalcumOreLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_ore_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/loot_tables/blocks/orichalcum_ore.json"
+        ]
+      },
+      "path": "~/LootTables"
+    },
+    {
+      "name": "OrichalcumDeepslateOreLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_deepslate_ore_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/loot_tables/blocks/orichalcum_deepslate_ore.json"
+        ]
+      },
+      "path": "~/LootTables"
     }
   ],
   "variable_elements": [],
@@ -7836,7 +7860,7 @@
   "workspaceSettings": {
     "modid": "aris_random_additions",
     "modName": "Ari\u0027s Random Additions",
-    "version": "2.3.1",
+    "version": "2.3.2",
     "description": "Random Additions by Ari. Created with MCreator.",
     "author": "nimsolated, MCreator",
     "websiteURL": "https://mcreator.net",
