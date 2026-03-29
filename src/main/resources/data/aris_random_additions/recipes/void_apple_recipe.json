@@ -4,7 +4,7 @@
     "item": "aris_random_additions:endite_upgrade_smithing_template"
   },
   "base": {
-    "item": "minecraft:enchanted_golden_apple"
+    "item": "aris_random_additions:orichalcum_apple"
   },
   "addition": {
     "item": "aris_random_additions:void_star"

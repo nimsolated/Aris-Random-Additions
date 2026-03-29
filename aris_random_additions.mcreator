@@ -7254,11 +7254,6 @@
       "CUSTOM:PowerStar",
       "CUSTOM:Star"
     ],
-    "BLOCKS:minecraft:slabs": [
-      "~CUSTOM:AnaheimSlab",
-      "~CUSTOM:MagmaBrickSlabs",
-      "~CUSTOM:RedstoneBrickSlabs"
-    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:BlackIronBlock",
       "~CUSTOM:SodaMachine",
@@ -7285,6 +7280,11 @@
       "~CUSTOM:CondensedCondensedNetherrack",
       "~CUSTOM:CondensedNetherrack"
     ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:AnaheimSlab",
+      "~CUSTOM:MagmaBrickSlabs",
+      "~CUSTOM:RedstoneBrickSlabs"
+    ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:AnaheimPlanks",
       "~CUSTOM:AnaheimLog",
@@ -7310,14 +7310,14 @@
       "~CUSTOM:MagmaBrickStairs",
       "~CUSTOM:RedstoneBrickStairs"
     ],
+    "ITEMS:origins-plus-plus:raw_meat": [
+      "CUSTOM:MagicFlesh"
+    ],
     "ITEMS:minecraft:swords": [
       "~CUSTOM:OrichalcumKatana",
       "~CUSTOM:EnditeSword",
       "~CUSTOM:OrichalcumSword",
       "~CUSTOM:BedrockSword"
-    ],
-    "ITEMS:origins-plus-plus:raw_meat": [
-      "CUSTOM:MagicFlesh"
     ],
     "ITEMS:minecraft:shovels": [
       "~CUSTOM:EnditeShovel",
@@ -7836,7 +7836,7 @@
   "workspaceSettings": {
     "modid": "aris_random_additions",
     "modName": "Ari\u0027s Random Additions",
-    "version": "2.3.0",
+    "version": "2.3.1",
     "description": "Random Additions by Ari. Created with MCreator.",
     "author": "nimsolated, MCreator",
     "websiteURL": "https://mcreator.net",

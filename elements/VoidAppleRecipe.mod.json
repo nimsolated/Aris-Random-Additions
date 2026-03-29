@@ -11,7 +11,7 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "smithingInputStack": {
-      "value": "Items.GOLDEN_APPLE#1"
+      "value": "CUSTOM:OrichalcumApple"
     },
     "smithingInputAdditionStack": {
       "value": "CUSTOM:VoidStar"
