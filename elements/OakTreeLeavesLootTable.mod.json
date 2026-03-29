@@ -16,7 +16,21 @@
             "item": {
               "value": "Items.STICK"
             },
-            "weight": 2,
+            "weight": 4,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": true,
+            "explosionDecay": false,
+            "silkTouchMode": 2
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.SAPLING#0"
+            },
+            "weight": 6,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
