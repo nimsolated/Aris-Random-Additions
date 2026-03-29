@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "aris_random_additions:black_iron_block",
+    "aris_random_additions:soda_machine",
     "aris_random_additions:brickier_magma_bricks",
     "aris_random_additions:orichalcum_deepslate_ore",
     "aris_random_additions:endite_block",

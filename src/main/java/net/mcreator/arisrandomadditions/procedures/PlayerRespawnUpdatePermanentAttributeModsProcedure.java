@@ -55,6 +55,40 @@ public class PlayerRespawnUpdatePermanentAttributeModsProcedure {
 									return 0;
 								}
 							}.getScore("PermanentBonusMaxHealth", entity)));
+				if (entity instanceof LivingEntity _livingEntity9 && _livingEntity9.getAttributes().hasAttribute(Attributes.ARMOR))
+					_livingEntity9.getAttribute(Attributes.ARMOR)
+							.setBaseValue(((entity instanceof LivingEntity _livingEntity7 && _livingEntity7.getAttributes().hasAttribute(Attributes.ARMOR) ? _livingEntity7.getAttribute(Attributes.ARMOR).getBaseValue() : 0) + new Object() {
+								public int getScore(String score, Entity _ent) {
+									Scoreboard _sc = _ent.level().getScoreboard();
+									Objective _so = _sc.getObjective(score);
+									if (_so != null)
+										return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
+									return 0;
+								}
+							}.getScore("PermanentBonusArmor", entity)));
+				if (entity instanceof LivingEntity _livingEntity12 && _livingEntity12.getAttributes().hasAttribute(Attributes.ARMOR_TOUGHNESS))
+					_livingEntity12.getAttribute(Attributes.ARMOR_TOUGHNESS).setBaseValue(
+							((entity instanceof LivingEntity _livingEntity10 && _livingEntity10.getAttributes().hasAttribute(Attributes.ARMOR_TOUGHNESS) ? _livingEntity10.getAttribute(Attributes.ARMOR_TOUGHNESS).getBaseValue() : 0) + new Object() {
+								public int getScore(String score, Entity _ent) {
+									Scoreboard _sc = _ent.level().getScoreboard();
+									Objective _so = _sc.getObjective(score);
+									if (_so != null)
+										return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
+									return 0;
+								}
+							}.getScore("PermanentBonusArmorToughness", entity) * 0.67));
+				if (entity instanceof LivingEntity _livingEntity15 && _livingEntity15.getAttributes().hasAttribute(Attributes.KNOCKBACK_RESISTANCE))
+					_livingEntity15.getAttribute(Attributes.KNOCKBACK_RESISTANCE).setBaseValue(
+							((entity instanceof LivingEntity _livingEntity13 && _livingEntity13.getAttributes().hasAttribute(Attributes.KNOCKBACK_RESISTANCE) ? _livingEntity13.getAttribute(Attributes.KNOCKBACK_RESISTANCE).getBaseValue() : 0)
+									+ new Object() {
+										public int getScore(String score, Entity _ent) {
+											Scoreboard _sc = _ent.level().getScoreboard();
+											Objective _so = _sc.getObjective(score);
+											if (_so != null)
+												return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
+											return 0;
+										}
+									}.getScore("PermanentBonusKnockbackResistance", entity) * 0.05));
 				if (entity instanceof Player _player) {
 					_player.getAbilities().mayfly = (new Object() {
 						public int getScore(String score, Entity _ent) {

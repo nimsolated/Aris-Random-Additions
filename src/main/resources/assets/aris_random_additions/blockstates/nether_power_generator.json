@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "blockstate=0": {
+      "model": "aris_random_additions:block/nether_power_generator"
+    },
+    "blockstate=1": {
+      "model": "aris_random_additions:block/nether_power_generator_filled_block_states_blockstate_0"
+    },
+    "blockstate=2": {
+      "model": "aris_random_additions:block/nether_power_generator_filled_block_states_blockstate_1"
+    },
+    "blockstate=3": {
+      "model": "aris_random_additions:block/nether_power_generator_filled_block_states_blockstate_2"
+    }
+  }
+}

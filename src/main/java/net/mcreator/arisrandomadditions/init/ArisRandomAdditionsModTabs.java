@@ -39,7 +39,16 @@ public class ArisRandomAdditionsModTabs {
 			tabData.accept(ArisRandomAdditionsModBlocks.ENDITE_BLOCK.get().asItem());
 			tabData.accept(ArisRandomAdditionsModBlocks.ORICHALCUM_DEEPSLATE_ORE.get().asItem());
 			tabData.accept(ArisRandomAdditionsModBlocks.BRICKIER_MAGMA_BRICKS.get().asItem());
-			tabData.accept(ArisRandomAdditionsModBlocks.SODA_MACHINE.get().asItem());
+			tabData.accept(ArisRandomAdditionsModBlocks.BLACK_IRON_BLOCK.get().asItem());
+			tabData.accept(ArisRandomAdditionsModBlocks.ANAHEIM_WOOD.get().asItem());
+			tabData.accept(ArisRandomAdditionsModBlocks.ANAHEIM_LOG.get().asItem());
+			tabData.accept(ArisRandomAdditionsModBlocks.ANAHEIM_PLANKS.get().asItem());
+			tabData.accept(ArisRandomAdditionsModBlocks.ANAHEIM_STAIRS.get().asItem());
+			tabData.accept(ArisRandomAdditionsModBlocks.ANAHEIM_SLAB.get().asItem());
+			tabData.accept(ArisRandomAdditionsModBlocks.ANAHEIM_FENCE.get().asItem());
+			tabData.accept(ArisRandomAdditionsModBlocks.ANAHEIM_FENCE_GATE.get().asItem());
+			tabData.accept(ArisRandomAdditionsModBlocks.ANAHEIM_PRESSURE_PLATE.get().asItem());
+			tabData.accept(ArisRandomAdditionsModBlocks.ANAHEIM_BUTTON.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(ArisRandomAdditionsModItems.BLOCK_EATER.get());
 			tabData.accept(ArisRandomAdditionsModItems.NETHERRACKITE_PICKAXE.get());
@@ -83,6 +92,11 @@ public class ArisRandomAdditionsModTabs {
 			tabData.accept(ArisRandomAdditionsModItems.MINT_LEAVES.get());
 			tabData.accept(ArisRandomAdditionsModItems.SOCKET.get());
 			tabData.accept(ArisRandomAdditionsModItems.GOLD_TOKEN.get());
+			tabData.accept(ArisRandomAdditionsModItems.LEFT_PIECE_OF_NETHER_STAR.get());
+			tabData.accept(ArisRandomAdditionsModItems.TOP_PIECE_OF_NETHER_STAR.get());
+			tabData.accept(ArisRandomAdditionsModItems.RIGHT_PIECE_OF_NETHER_STAR.get());
+			tabData.accept(ArisRandomAdditionsModItems.BOTTOM_PIECE_OF_NETHER_STAR.get());
+			tabData.accept(ArisRandomAdditionsModItems.BLACK_IRON_UPGRADE_SMITHING_TEMPLATE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(ArisRandomAdditionsModItems.MAGIC_FLESH.get());
 			tabData.accept(ArisRandomAdditionsModItems.GOLDEN_BERRIES.get());
@@ -98,9 +112,17 @@ public class ArisRandomAdditionsModTabs {
 			tabData.accept(ArisRandomAdditionsModItems.SWEETENED_CARBONATED_WATER_CAN.get());
 			tabData.accept(ArisRandomAdditionsModItems.MINT_SWEETENED_CARBONATED_WATER_CAN.get());
 			tabData.accept(ArisRandomAdditionsModItems.ORANGE_SWEETENED_CARBONATED_WATER_CAN.get());
+			tabData.accept(ArisRandomAdditionsModItems.BLAZE_APPLE.get());
+			tabData.accept(ArisRandomAdditionsModItems.TURTLE_APPLE.get());
+			tabData.accept(ArisRandomAdditionsModItems.BLACK_IRON_APPLE.get());
+			tabData.accept(ArisRandomAdditionsModItems.TASTE_THE_RAINBOW_WATER_CAN.get());
+			tabData.accept(ArisRandomAdditionsModItems.NETHERITE_APPLE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(ArisRandomAdditionsModBlocks.ORE_MINER.get().asItem());
 			tabData.accept(ArisRandomAdditionsModBlocks.BEDROCKIFIER.get().asItem());
+			tabData.accept(ArisRandomAdditionsModBlocks.SODA_MACHINE.get().asItem());
+			tabData.accept(ArisRandomAdditionsModBlocks.NETHER_POWER_GENERATOR.get().asItem());
+			tabData.accept(ArisRandomAdditionsModBlocks.STAR_ASSEMBLY_TABLE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(ArisRandomAdditionsModItems.GHOUL_SPAWN_EGG.get());
 			tabData.accept(ArisRandomAdditionsModItems.TUX_SPAWN_EGG.get());
@@ -130,6 +152,7 @@ public class ArisRandomAdditionsModTabs {
 			tabData.accept(ArisRandomAdditionsModItems.ORICHALCUM_KATANA.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(ArisRandomAdditionsModBlocks.MINT_PLANT.get().asItem());
+			tabData.accept(ArisRandomAdditionsModBlocks.ANAHEIM_LEAVES.get().asItem());
 		}
 	}
 }

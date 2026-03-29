@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "aris_random_additions:black_iron_upgrade_smithing_template"
+    },
+    "c": {
+      "item": "minecraft:blackstone"
+    }
+  },
+  "result": {
+    "item": "aris_random_additions:black_iron_upgrade_smithing_template",
+    "count": 2
+  }
+}

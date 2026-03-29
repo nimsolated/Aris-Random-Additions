@@ -1,0 +1,11 @@
+{
+  "parent": "aris_random_additions:custom/starassemblytable",
+  "textures": {
+    "all": "aris_random_additions:block/beacon",
+    "particle": "aris_random_additions:block/beacon",
+    "0": "aris_random_additions:block/hexa-condensed_netherrack",
+    "1": "aris_random_additions:block/black_iron_block",
+    "2": "aris_random_additions:block/beacon"
+  },
+  "render_type": "solid"
+}

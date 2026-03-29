@@ -23,6 +23,11 @@ public class OrichalcumAppleItem extends Item {
 	}
 
 	@Override
+	public int getUseDuration(ItemStack itemstack) {
+		return 9;
+	}
+
+	@Override
 	@OnlyIn(Dist.CLIENT)
 	public boolean isFoil(ItemStack itemstack) {
 		return true;

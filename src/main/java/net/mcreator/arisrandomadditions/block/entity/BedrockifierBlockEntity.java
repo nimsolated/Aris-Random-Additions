@@ -1,4 +1,3 @@
-
 package net.mcreator.arisrandomadditions.block.entity;
 
 import net.minecraftforge.items.wrapper.SidedInvWrapper;

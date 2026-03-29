@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "aris_random_additions:anaheim_planks"
+    }
+  ],
+  "result": {
+    "item": "aris_random_additions:anaheim_button",
+    "count": 1
+  }
+}

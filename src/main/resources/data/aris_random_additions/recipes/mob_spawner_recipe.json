@@ -3,12 +3,15 @@
   "category": "building",
   "pattern": [
     "aaa",
-    "a a",
+    "aba",
     "aaa"
   ],
   "key": {
     "a": {
       "item": "minecraft:iron_bars"
+    },
+    "b": {
+      "item": "aris_random_additions:socket"
     }
   },
   "result": {

@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.arisrandomadditions.block.StarAssemblyTableBlock;
 import net.mcreator.arisrandomadditions.block.SodaMachineBlock;
 import net.mcreator.arisrandomadditions.block.RedstoneBricksBlock;
 import net.mcreator.arisrandomadditions.block.RedstoneBrickWallsBlock;
@@ -23,6 +24,7 @@ import net.mcreator.arisrandomadditions.block.OrichalcumDeepslateOreBlock;
 import net.mcreator.arisrandomadditions.block.OrichalcumBlockBlock;
 import net.mcreator.arisrandomadditions.block.OreMinerBlock;
 import net.mcreator.arisrandomadditions.block.NetherrackJuiceBlock;
+import net.mcreator.arisrandomadditions.block.NetherPowerGeneratorBlock;
 import net.mcreator.arisrandomadditions.block.MintPlantBlock;
 import net.mcreator.arisrandomadditions.block.MagmaBricksBlock;
 import net.mcreator.arisrandomadditions.block.MagmaBrickWallsBlock;
@@ -37,7 +39,18 @@ import net.mcreator.arisrandomadditions.block.CondensedCondensedNetherrackBlock;
 import net.mcreator.arisrandomadditions.block.CondensedCondensedCondensedNetherrackBlock;
 import net.mcreator.arisrandomadditions.block.BrokenGlassBlock;
 import net.mcreator.arisrandomadditions.block.BrickierMagmaBricksBlock;
+import net.mcreator.arisrandomadditions.block.BlackIronBlockBlock;
 import net.mcreator.arisrandomadditions.block.BedrockifierBlock;
+import net.mcreator.arisrandomadditions.block.AnaheimWoodBlock;
+import net.mcreator.arisrandomadditions.block.AnaheimStairsBlock;
+import net.mcreator.arisrandomadditions.block.AnaheimSlabBlock;
+import net.mcreator.arisrandomadditions.block.AnaheimPressurePlateBlock;
+import net.mcreator.arisrandomadditions.block.AnaheimPlanksBlock;
+import net.mcreator.arisrandomadditions.block.AnaheimLogBlock;
+import net.mcreator.arisrandomadditions.block.AnaheimLeavesBlock;
+import net.mcreator.arisrandomadditions.block.AnaheimFenceGateBlock;
+import net.mcreator.arisrandomadditions.block.AnaheimFenceBlock;
+import net.mcreator.arisrandomadditions.block.AnaheimButtonBlock;
 import net.mcreator.arisrandomadditions.ArisRandomAdditionsMod;
 
 public class ArisRandomAdditionsModBlocks {
@@ -70,6 +83,19 @@ public class ArisRandomAdditionsModBlocks {
 	public static final RegistryObject<Block> MINT_PLANT = REGISTRY.register("mint_plant", () -> new MintPlantBlock());
 	public static final RegistryObject<Block> BRICKIER_MAGMA_BRICKS = REGISTRY.register("brickier_magma_bricks", () -> new BrickierMagmaBricksBlock());
 	public static final RegistryObject<Block> SODA_MACHINE = REGISTRY.register("soda_machine", () -> new SodaMachineBlock());
+	public static final RegistryObject<Block> BLACK_IRON_BLOCK = REGISTRY.register("black_iron_block", () -> new BlackIronBlockBlock());
+	public static final RegistryObject<Block> NETHER_POWER_GENERATOR = REGISTRY.register("nether_power_generator", () -> new NetherPowerGeneratorBlock());
+	public static final RegistryObject<Block> STAR_ASSEMBLY_TABLE = REGISTRY.register("star_assembly_table", () -> new StarAssemblyTableBlock());
+	public static final RegistryObject<Block> ANAHEIM_WOOD = REGISTRY.register("anaheim_wood", () -> new AnaheimWoodBlock());
+	public static final RegistryObject<Block> ANAHEIM_LOG = REGISTRY.register("anaheim_log", () -> new AnaheimLogBlock());
+	public static final RegistryObject<Block> ANAHEIM_PLANKS = REGISTRY.register("anaheim_planks", () -> new AnaheimPlanksBlock());
+	public static final RegistryObject<Block> ANAHEIM_LEAVES = REGISTRY.register("anaheim_leaves", () -> new AnaheimLeavesBlock());
+	public static final RegistryObject<Block> ANAHEIM_STAIRS = REGISTRY.register("anaheim_stairs", () -> new AnaheimStairsBlock());
+	public static final RegistryObject<Block> ANAHEIM_SLAB = REGISTRY.register("anaheim_slab", () -> new AnaheimSlabBlock());
+	public static final RegistryObject<Block> ANAHEIM_FENCE = REGISTRY.register("anaheim_fence", () -> new AnaheimFenceBlock());
+	public static final RegistryObject<Block> ANAHEIM_FENCE_GATE = REGISTRY.register("anaheim_fence_gate", () -> new AnaheimFenceGateBlock());
+	public static final RegistryObject<Block> ANAHEIM_PRESSURE_PLATE = REGISTRY.register("anaheim_pressure_plate", () -> new AnaheimPressurePlateBlock());
+	public static final RegistryObject<Block> ANAHEIM_BUTTON = REGISTRY.register("anaheim_button", () -> new AnaheimButtonBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

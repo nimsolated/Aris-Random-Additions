@@ -2,7 +2,7 @@
   "_fv": 73,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Cover Me In Endermite",
+    "achievementName": "Cover Me In Shulker Shells",
     "achievementDescription": "Wear a full armor set of Endite.",
     "achievementIcon": {
       "value": "CUSTOM:EnditeArmor.body"

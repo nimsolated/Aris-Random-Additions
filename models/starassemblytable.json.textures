@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "hexa-condensed_netherrack",
+        "1": "black_iron_block",
+        "2": "beacon"
+      },
+      "name": "default"
+    }
+  }
+}

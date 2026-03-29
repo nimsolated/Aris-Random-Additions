@@ -3,7 +3,7 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "orichalcum_helmat",
+    "textureHelmet": "orichalcum_helmet",
     "enableBody": true,
     "textureBody": "orichalcum_chestplate",
     "enableLeggings": true,

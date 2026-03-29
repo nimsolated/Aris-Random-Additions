@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:scute"
+    },
+    "b": {
+      "item": "aris_random_additions:orichalcum_apple"
+    }
+  },
+  "result": {
+    "item": "aris_random_additions:turtle_apple",
+    "count": 1
+  }
+}

@@ -1,4 +1,8 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "aris_random_additions:anaheim_planks",
+    "aris_random_additions:anaheim_log",
+    "aris_random_additions:anaheim_wood"
+  ]
 }

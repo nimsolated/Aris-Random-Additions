@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "aris_random_additions:block/star_assembly_table"
+    },
+    "facing=east": {
+      "model": "aris_random_additions:block/star_assembly_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "aris_random_additions:block/star_assembly_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "aris_random_additions:block/star_assembly_table",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "aris_random_additions:block/anaheim_leaves",
+    "particle": "aris_random_additions:block/anaheim_leaves"
+  }
+}

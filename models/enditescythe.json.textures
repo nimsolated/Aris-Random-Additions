@@ -2,8 +2,8 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "endite_ore_block",
-        "1": "endite_scythe_handle"
+        "1": "endite_scythe_blade",
+        "2": "endite_scythe_handle"
       },
       "name": "default"
     }

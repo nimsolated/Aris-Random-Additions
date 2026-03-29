@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "birch_forest",
+  "features": "aris_random_additions:anaheim_tree_feature",
+  "step": "vegetal_decoration"
+}

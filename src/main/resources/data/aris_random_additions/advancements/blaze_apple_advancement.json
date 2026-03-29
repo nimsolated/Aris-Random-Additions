@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "aris_random_additions:blaze_apple"
+    },
+    "title": {
+      "translate": "advancements.blaze_apple_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.blaze_apple_advancement.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "blaze_apple_advancement_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "aris_random_additions:blaze_apple"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "aris_random_additions:orichalcum_apple_advancement"
+}

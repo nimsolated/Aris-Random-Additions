@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "aris_random_additions:black_iron_apple"
+    },
+    "title": {
+      "translate": "advancements.black_iron_apple_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.black_iron_apple_advancement.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "black_iron_apple_advancement_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "aris_random_additions:black_iron_apple"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "aris_random_additions:black_iron_advancement"
+}

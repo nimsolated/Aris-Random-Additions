@@ -11,7 +11,7 @@
       "item": "minecraft:bedrock"
     },
     "b": {
-      "item": "minecraft:enchanted_golden_apple"
+      "item": "aris_random_additions:void_apple"
     }
   },
   "result": {

@@ -11,7 +11,9 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.arisrandomadditions.block.entity.StarAssemblyTableBlockEntity;
 import net.mcreator.arisrandomadditions.block.entity.OreMinerBlockEntity;
+import net.mcreator.arisrandomadditions.block.entity.NetherPowerGeneratorBlockEntity;
 import net.mcreator.arisrandomadditions.block.entity.BedrockifierBlockEntity;
 import net.mcreator.arisrandomadditions.ArisRandomAdditionsMod;
 
@@ -19,6 +21,8 @@ public class ArisRandomAdditionsModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, ArisRandomAdditionsMod.MODID);
 	public static final RegistryObject<BlockEntityType<?>> ORE_MINER = register("ore_miner", ArisRandomAdditionsModBlocks.ORE_MINER, OreMinerBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> BEDROCKIFIER = register("bedrockifier", ArisRandomAdditionsModBlocks.BEDROCKIFIER, BedrockifierBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> NETHER_POWER_GENERATOR = register("nether_power_generator", ArisRandomAdditionsModBlocks.NETHER_POWER_GENERATOR, NetherPowerGeneratorBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> STAR_ASSEMBLY_TABLE = register("star_assembly_table", ArisRandomAdditionsModBlocks.STAR_ASSEMBLY_TABLE, StarAssemblyTableBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities

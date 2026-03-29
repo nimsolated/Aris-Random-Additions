@@ -1,0 +1,8 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "particle": "aris_random_additions:block/anaheim_planks",
+    "texture": "aris_random_additions:block/anaheim_planks"
+  },
+  "render_type": "solid"
+}

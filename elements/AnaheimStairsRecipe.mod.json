@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "wooden_stairs",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:AnaheimPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AnaheimPlanks"
+      },
+      {
+        "value": "CUSTOM:AnaheimPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AnaheimPlanks"
+      },
+      {
+        "value": "CUSTOM:AnaheimPlanks"
+      },
+      {
+        "value": "CUSTOM:AnaheimPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AnaheimStairs"
+    },
+    "name": "anaheim_stairs_recipe",
+    "namespace": "mod"
+  }
+}

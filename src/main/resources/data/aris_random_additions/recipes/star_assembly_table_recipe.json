@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "aris_random_additions:netherrackite"
+    },
+    "b": {
+      "item": "aris_random_additions:socket"
+    },
+    "c": {
+      "item": "minecraft:beacon"
+    }
+  },
+  "result": {
+    "item": "aris_random_additions:star_assembly_table",
+    "count": 1
+  }
+}

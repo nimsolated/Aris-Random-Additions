@@ -12,7 +12,7 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "Blocks.CONCRETE#0"
+        "value": "Blocks.REDSTONE_LAMP"
       },
       {
         "value": "Items.DYE#1"

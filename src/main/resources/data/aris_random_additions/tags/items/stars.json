@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:nether_star",
+    "aris_random_additions:void_star",
+    "aris_random_additions:power_star",
+    "aris_random_additions:star"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "blockstates",
+  "definition": {
+    "block": "NetherPowerGenerator",
+    "blockstateList": [
+      {
+        "texture": "black_iron_block",
+        "textureTop": "black_iron_block",
+        "textureLeft": "nether_power_generator_side_filled1",
+        "textureFront": "nether_power_generator_side_filled1",
+        "textureRight": "nether_power_generator_side_filled1",
+        "textureBack": "nether_power_generator_side_filled1",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 0,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "black_iron_block",
+        "textureTop": "black_iron_block",
+        "textureLeft": "nether_power_generator_side_filled2",
+        "textureFront": "nether_power_generator_side_filled2",
+        "textureRight": "nether_power_generator_side_filled2",
+        "textureBack": "nether_power_generator_side_filled2",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 0,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "black_iron_block",
+        "textureTop": "black_iron_block",
+        "textureLeft": "nether_power_generator_side_filled3",
+        "textureFront": "nether_power_generator_side_filled3",
+        "textureRight": "nether_power_generator_side_filled3",
+        "textureBack": "nether_power_generator_side_filled3",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 0,
+        "boundingBoxes": []
+      }
+    ]
+  }
+}

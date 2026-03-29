@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "aris_random_additions:taste_the_rainbow_water_can"
+    },
+    "title": {
+      "translate": "advancements.taste_the_rainbow_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.taste_the_rainbow_advancement.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "taste_the_rainbow_advancement_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "aris_random_additions:taste_the_rainbow_water_can"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "aris_random_additions:sweetened_carbonated_water_can_advancement"
+}

@@ -27,7 +27,47 @@ public class GetPermanentStatsCommandProcedureProcedure {
 						return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
 					return 0;
 				}
-			}.getScore("PermanentBonusAttackDamage", entity)) + "\n" + "Permanent Creative Flight: " + (new Object() {
+			}.getScore("PermanentBonusAttackDamage", entity)) + "\n" + "Permanent Bonus Armor: " + (new Object() {
+				public int getScore(String score, Entity _ent) {
+					Scoreboard _sc = _ent.level().getScoreboard();
+					Objective _so = _sc.getObjective(score);
+					if (_so != null)
+						return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
+					return 0;
+				}
+			}.getScore("PermanentBonusArmor", entity)) + "\n" + "Permanent Bonus Armor Toughness: " + (new Object() {
+				public int getScore(String score, Entity _ent) {
+					Scoreboard _sc = _ent.level().getScoreboard();
+					Objective _so = _sc.getObjective(score);
+					if (_so != null)
+						return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
+					return 0;
+				}
+			}.getScore("PermanentBonusArmorToughness", entity) * 0.67) + "\n" + "Permanent Bonus Knockback Resistance: " + (new Object() {
+				public int getScore(String score, Entity _ent) {
+					Scoreboard _sc = _ent.level().getScoreboard();
+					Objective _so = _sc.getObjective(score);
+					if (_so != null)
+						return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
+					return 0;
+				}
+			}.getScore("PermanentBonusKnockbackResistance", entity) * 0.05) + "\n" + "Permanent Fire Resistance: " + (new Object() {
+				public int getScore(String score, Entity _ent) {
+					Scoreboard _sc = _ent.level().getScoreboard();
+					Objective _so = _sc.getObjective(score);
+					if (_so != null)
+						return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
+					return 0;
+				}
+			}.getScore("PermanentFireResistance", entity)) + "\n" + "Permanent Water Breathing: " + (new Object() {
+				public int getScore(String score, Entity _ent) {
+					Scoreboard _sc = _ent.level().getScoreboard();
+					Objective _so = _sc.getObjective(score);
+					if (_so != null)
+						return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
+					return 0;
+				}
+			}.getScore("PermanentWaterBreathing", entity)) + "\n" + "Permanent Creative Flight: " + (new Object() {
 				public int getScore(String score, Entity _ent) {
 					Scoreboard _sc = _ent.level().getScoreboard();
 					Objective _so = _sc.getObjective(score);

@@ -15,7 +15,7 @@
     "rewardLoot": [],
     "rewardRecipes": [],
     "rewardXP": 0,
-    "achievementType": "challenge",
+    "achievementType": "goal",
     "parent": {
       "value": "CUSTOM:OrichalcumAdvancement"
     },

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "aris_random_additions:anaheim_stairs",
     "aris_random_additions:magma_brick_stairs",
     "aris_random_additions:redstone_brick_stairs"
   ]

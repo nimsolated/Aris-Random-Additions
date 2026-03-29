@@ -44,7 +44,7 @@ public class BedrockApplePlayerFinishesUsingItemProcedure {
 					_player.onUpdateAbilities();
 				}
 				if (entity instanceof Player _player && !_player.level().isClientSide())
-					_player.displayClientMessage(Component.literal("\u00A78Bedrock Apple \u00A7rgranted you Creative Flight!"), false);
+					_player.displayClientMessage(Component.literal("\u00A70Bedrock Apple \u00A7rgranted you Creative Flight!"), false);
 			}
 		}
 	}

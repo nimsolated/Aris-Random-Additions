@@ -2,8 +2,8 @@
   "_fv": 73,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Unobtainium Block",
-    "achievementDescription": "Obtain Bedrock",
+    "achievementName": "The Voices Are Gone. But This Is Just The Beginning.",
+    "achievementDescription": "Obtain Bedrock via sacrificing valuable time of your life",
     "achievementIcon": {
       "value": "Blocks.BEDROCK"
     },
@@ -17,7 +17,7 @@
     "rewardXP": 0,
     "achievementType": "challenge",
     "parent": {
-      "value": "CUSTOM:BedrockShardAdvancement"
+      "value": "CUSTOM:HexaCondensedNetherrackAdvancement"
     },
     "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"134\" y=\"117\"><next><block type=\"item_in_inventory\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">64</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">Blocks.BEDROCK</field></block></value></block></next></block></xml>"
   }

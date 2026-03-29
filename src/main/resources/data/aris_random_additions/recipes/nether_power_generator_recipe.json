@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "aris_random_additions:black_iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:cauldron"
+    }
+  },
+  "result": {
+    "item": "aris_random_additions:nether_power_generator",
+    "count": 1
+  }
+}

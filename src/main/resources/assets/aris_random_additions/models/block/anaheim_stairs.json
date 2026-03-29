@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "aris_random_additions:block/anaheim_planks",
+    "bottom": "aris_random_additions:block/anaheim_planks",
+    "top": "aris_random_additions:block/anaheim_planks",
+    "side": "aris_random_additions:block/anaheim_planks"
+  },
+  "render_type": "solid"
+}

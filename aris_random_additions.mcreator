@@ -787,7 +787,7 @@
           "src/main/resources/data/aris_random_additions/recipes/netherrite_template_recipe.json"
         ]
       },
-      "path": "~/Other"
+      "path": "~/QualityOfLifeRecipes"
     },
     {
       "name": "OreMiner",
@@ -831,7 +831,7 @@
           "src/main/resources/data/aris_random_additions/recipes/netherrite_template_recipe_2.json"
         ]
       },
-      "path": "~/Other"
+      "path": "~/QualityOfLifeRecipes"
     },
     {
       "name": "Ghoul",
@@ -1271,7 +1271,7 @@
           "src/main/resources/data/aris_random_additions/recipes/skull_recipe.json"
         ]
       },
-      "path": "~/Other"
+      "path": "~/QualityOfLifeRecipes"
     },
     {
       "name": "WitherSkeletonSkullRecipe",
@@ -1284,7 +1284,7 @@
           "src/main/resources/data/aris_random_additions/recipes/wither_skeleton_skull_recipe.json"
         ]
       },
-      "path": "~/Other"
+      "path": "~/QualityOfLifeRecipes"
     },
     {
       "name": "RabbitHideRecipe",
@@ -1297,7 +1297,7 @@
           "src/main/resources/data/aris_random_additions/recipes/rabbit_hide_recipe.json"
         ]
       },
-      "path": "~/Other"
+      "path": "~/QualityOfLifeRecipes"
     },
     {
       "name": "RabbitFootRecipe",
@@ -1310,7 +1310,7 @@
           "src/main/resources/data/aris_random_additions/recipes/rabbit_foot_recipe.json"
         ]
       },
-      "path": "~/Other"
+      "path": "~/QualityOfLifeRecipes"
     },
     {
       "name": "DragonBreathRecipe",
@@ -1323,7 +1323,7 @@
           "src/main/java/net/mcreator/arisrandomadditions/recipes/brewing/DragonBreathRecipeBrewingRecipe.java"
         ]
       },
-      "path": "~/Other"
+      "path": "~/QualityOfLifeRecipes"
     },
     {
       "name": "GunpowderRecipe",
@@ -1336,7 +1336,7 @@
           "src/main/resources/data/aris_random_additions/recipes/gunpowder_recipe.json"
         ]
       },
-      "path": "~/Other"
+      "path": "~/QualityOfLifeRecipes"
     },
     {
       "name": "MobSpawnerRecipe",
@@ -1349,7 +1349,7 @@
           "src/main/resources/data/aris_random_additions/recipes/mob_spawner_recipe.json"
         ]
       },
-      "path": "~/Other"
+      "path": "~/QualityOfLifeRecipes"
     },
     {
       "name": "ExperienceBottleRecipe",
@@ -1362,7 +1362,7 @@
           "src/main/java/net/mcreator/arisrandomadditions/recipes/brewing/ExperienceBottleRecipeBrewingRecipe.java"
         ]
       },
-      "path": "~/Other"
+      "path": "~/QualityOfLifeRecipes"
     },
     {
       "name": "RedstoneBricks",
@@ -1680,7 +1680,7 @@
           "src/main/resources/assets/aris_random_additions/models/item/bean.json"
         ]
       },
-      "path": "~/Other"
+      "path": "~/Magma"
     },
     {
       "name": "Cheese",
@@ -1694,7 +1694,7 @@
           "src/main/resources/assets/aris_random_additions/models/item/cheese.json"
         ]
       },
-      "path": "~/Other"
+      "path": "~/Magma"
     },
     {
       "name": "MagmaBlockLootTable",
@@ -1707,7 +1707,7 @@
           "src/main/resources/data/minecraft/loot_tables/blocks/magma_block.json"
         ]
       },
-      "path": "~/Magma"
+      "path": "~/LootTables"
     },
     {
       "name": "MagmaBricksRecipe4",
@@ -1840,7 +1840,7 @@
           "src/main/resources/data/aris_random_additions/recipes/totem_of_undying_recipe.json"
         ]
       },
-      "path": "~/Other"
+      "path": "~/QualityOfLifeRecipes"
     },
     {
       "name": "Bedrockifier",
@@ -3490,7 +3490,7 @@
           "src/main/java/net/mcreator/arisrandomadditions/item/NightVisionGogglesItem.java"
         ]
       },
-      "path": "~/Other"
+      "path": "~/NightVisionGoggles"
     },
     {
       "name": "NightVisionGogglesHelmetTickEvent",
@@ -3513,7 +3513,7 @@
           }
         ]
       },
-      "path": "~/Other"
+      "path": "~/NightVisionGoggles"
     },
     {
       "name": "NightVisionGogglesShaderUpdate",
@@ -3536,7 +3536,7 @@
           }
         ]
       },
-      "path": "~/Other"
+      "path": "~/NightVisionGoggles"
     },
     {
       "name": "BlackIronIngot",
@@ -3550,7 +3550,7 @@
           "src/main/java/net/mcreator/arisrandomadditions/item/BlackIronIngotItem.java"
         ]
       },
-      "path": "~/Other"
+      "path": "~/BlackIron"
     },
     {
       "name": "NightVisionGogglesRecipe",
@@ -3563,7 +3563,7 @@
           "src/main/resources/data/aris_random_additions/recipes/night_vision_goggles_recipe.json"
         ]
       },
-      "path": "~/Other"
+      "path": "~/NightVisionGoggles"
     },
     {
       "name": "BlackIronIngotRecipe",
@@ -3576,7 +3576,7 @@
           "src/main/resources/data/aris_random_additions/recipes/black_iron_ingot_recipe.json"
         ]
       },
-      "path": "~/Other"
+      "path": "~/BlackIron"
     },
     {
       "name": "RaveBlock",
@@ -4859,7 +4859,7 @@
           "src/main/resources/data/aris_random_additions/loot_tables/entities/ari.json"
         ]
       },
-      "path": "~/Ari"
+      "path": "~/LootTables"
     },
     {
       "name": "NotchAppleRecipe",
@@ -5411,7 +5411,7 @@
           "src/main/resources/data/minecraft/loot_tables/blocks/oak_leaves.json"
         ]
       },
-      "path": "~/Orange"
+      "path": "~/LootTables"
     },
     {
       "name": "DarkOakTreeLeavesLootTable",
@@ -5424,7 +5424,7 @@
           "src/main/resources/data/minecraft/loot_tables/blocks/dark_oak_leaves.json"
         ]
       },
-      "path": "~/Orange"
+      "path": "~/LootTables"
     },
     {
       "name": "MintPlant",
@@ -5542,7 +5542,7 @@
           "src/main/resources/assets/aris_random_additions/models/item/socket.json"
         ]
       },
-      "path": "~/Other"
+      "path": "~/BlackIron"
     },
     {
       "name": "EndPortalFrameRecipe",
@@ -5555,7 +5555,7 @@
           "src/main/resources/data/aris_random_additions/recipes/end_portal_frame_recipe.json"
         ]
       },
-      "path": "~/Other"
+      "path": "~/QualityOfLifeRecipes"
     },
     {
       "name": "SodaMachine",
@@ -5800,7 +5800,7 @@
           "src/main/resources/data/aris_random_additions/loot_tables/advancements/welcome_advancement.json"
         ]
       },
-      "path": "~/Advancements"
+      "path": "~/LootTables"
     },
     {
       "name": "BedrockEaterAdvancement",
@@ -5840,6 +5840,1375 @@
         ]
       },
       "path": "~/Advancements"
+    },
+    {
+      "name": "BlackIronBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_iron_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aris_random_additions/models/item/black_iron_block.json",
+          "src/main/resources/data/aris_random_additions/loot_tables/blocks/black_iron_block.json",
+          "src/main/java/net/mcreator/arisrandomadditions/block/BlackIronBlockBlock.java",
+          "src/main/resources/assets/aris_random_additions/models/block/black_iron_block.json",
+          "src/main/resources/assets/aris_random_additions/blockstates/black_iron_block.json"
+        ]
+      },
+      "path": "~/BlackIron"
+    },
+    {
+      "name": "BlackIronBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_iron_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/black_iron_block_recipe.json"
+        ]
+      },
+      "path": "~/BlackIron"
+    },
+    {
+      "name": "NetherPowerGenerator",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_power_generator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/block/NetherPowerGeneratorBlock.java",
+          "src/main/java/net/mcreator/arisrandomadditions/block/entity/NetherPowerGeneratorBlockEntity.java",
+          "src/main/resources/assets/aris_random_additions/models/block/nether_power_generator.json",
+          "src/main/resources/assets/aris_random_additions/blockstates/nether_power_generator.json",
+          "src/main/resources/data/aris_random_additions/loot_tables/blocks/nether_power_generator.json",
+          "src/main/resources/assets/aris_random_additions/models/item/nether_power_generator.json"
+        ]
+      },
+      "path": "~/NetherPowerGenerator"
+    },
+    {
+      "name": "NetherPowerGeneratorGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_power_generator_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/client/gui/NetherPowerGeneratorGUIScreen.java",
+          "src/main/java/net/mcreator/arisrandomadditions/network/NetherPowerGeneratorGUIButtonMessage.java",
+          "src/main/java/net/mcreator/arisrandomadditions/world/inventory/NetherPowerGeneratorGUIMenu.java"
+        ]
+      },
+      "path": "~/NetherPowerGenerator"
+    },
+    {
+      "name": "NetherPowerGeneratorRefillLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_power_generator_refill_logic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/NetherPowerGeneratorRefillLogicProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/NetherPowerGenerator"
+    },
+    {
+      "name": "NetherPowerGeneratorFluidTankTextUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_power_generator_fluid_tank_text_update",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/NetherPowerGeneratorFluidTankTextUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/NetherPowerGenerator"
+    },
+    {
+      "name": "NetherPowerGeneratorDrainLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_power_generator_drain_logic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/NetherPowerGeneratorDrainLogicProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/NetherPowerGenerator"
+    },
+    {
+      "name": "NetherPowerGeneratorFilledBlockStates",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_power_generator_filled_block_states",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aris_random_additions/models/block/nether_power_generator_filled_block_states_blockstate_2.json",
+          "src/main/resources/assets/aris_random_additions/models/block/nether_power_generator_filled_block_states_blockstate_0.json",
+          "src/main/resources/assets/aris_random_additions/models/block/nether_power_generator_filled_block_states_blockstate_1.json"
+        ]
+      },
+      "path": "~/NetherPowerGenerator"
+    },
+    {
+      "name": "NetherPowerGeneratorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_power_generator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/nether_power_generator_recipe.json"
+        ]
+      },
+      "path": "~/NetherPowerGenerator"
+    },
+    {
+      "name": "StarAssemblyTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_assembly_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aris_random_additions/models/block/star_assembly_table.json",
+          "src/main/java/net/mcreator/arisrandomadditions/block/StarAssemblyTableBlock.java",
+          "src/main/resources/assets/aris_random_additions/models/item/star_assembly_table.json",
+          "src/main/resources/data/aris_random_additions/loot_tables/blocks/star_assembly_table.json",
+          "src/main/resources/assets/aris_random_additions/blockstates/star_assembly_table.json",
+          "src/main/java/net/mcreator/arisrandomadditions/block/entity/StarAssemblyTableBlockEntity.java"
+        ]
+      },
+      "path": "~/StarAssemblyTable"
+    },
+    {
+      "name": "StarAssemblyTableRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_assembly_table_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/star_assembly_table_recipe.json"
+        ]
+      },
+      "path": "~/StarAssemblyTable"
+    },
+    {
+      "name": "LeftPieceOfNetherStar",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "left_piece_of_nether_star",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aris_random_additions/models/item/left_piece_of_nether_star.json",
+          "src/main/java/net/mcreator/arisrandomadditions/item/LeftPieceOfNetherStarItem.java"
+        ]
+      },
+      "path": "~/StarAssemblyTable"
+    },
+    {
+      "name": "TopPieceOfNetherStar",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "top_piece_of_nether_star",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aris_random_additions/models/item/top_piece_of_nether_star.json",
+          "src/main/java/net/mcreator/arisrandomadditions/item/TopPieceOfNetherStarItem.java"
+        ]
+      },
+      "path": "~/StarAssemblyTable"
+    },
+    {
+      "name": "RightPieceOfNetherStar",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "right_piece_of_nether_star",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/item/RightPieceOfNetherStarItem.java",
+          "src/main/resources/assets/aris_random_additions/models/item/right_piece_of_nether_star.json"
+        ]
+      },
+      "path": "~/StarAssemblyTable"
+    },
+    {
+      "name": "BottomPieceOfNetherStar",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottom_piece_of_nether_star",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aris_random_additions/models/item/bottom_piece_of_nether_star.json",
+          "src/main/java/net/mcreator/arisrandomadditions/item/BottomPieceOfNetherStarItem.java"
+        ]
+      },
+      "path": "~/StarAssemblyTable"
+    },
+    {
+      "name": "StarAssemblyTableGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_assembly_table_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/network/StarAssemblyTableGUIButtonMessage.java",
+          "src/main/java/net/mcreator/arisrandomadditions/world/inventory/StarAssemblyTableGUIMenu.java",
+          "src/main/java/net/mcreator/arisrandomadditions/client/gui/StarAssemblyTableGUIScreen.java"
+        ]
+      },
+      "path": "~/StarAssemblyTable"
+    },
+    {
+      "name": "StarAssemblyTableAssembleLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_assembly_table_assemble_logic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/StarAssemblyTableAssembleLogicProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/StarAssemblyTable"
+    },
+    {
+      "name": "WitherSkeletonLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_skeleton_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/wither_skeleton.json"
+        ]
+      },
+      "path": "~/LootTables"
+    },
+    {
+      "name": "AnaheimWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anaheim_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/loot_tables/blocks/anaheim_wood.json",
+          "src/main/resources/assets/aris_random_additions/models/item/anaheim_wood.json",
+          "src/main/resources/assets/aris_random_additions/models/block/anaheim_wood.json",
+          "src/main/java/net/mcreator/arisrandomadditions/block/AnaheimWoodBlock.java",
+          "src/main/resources/assets/aris_random_additions/blockstates/anaheim_wood.json"
+        ]
+      },
+      "path": "~/Anaheim"
+    },
+    {
+      "name": "AnaheimLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anaheim_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aris_random_additions/models/item/anaheim_log.json",
+          "src/main/resources/assets/aris_random_additions/blockstates/anaheim_log.json",
+          "src/main/resources/assets/aris_random_additions/models/block/anaheim_log.json",
+          "src/main/resources/data/aris_random_additions/loot_tables/blocks/anaheim_log.json",
+          "src/main/java/net/mcreator/arisrandomadditions/block/AnaheimLogBlock.java"
+        ]
+      },
+      "path": "~/Anaheim"
+    },
+    {
+      "name": "AnaheimPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anaheim_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/loot_tables/blocks/anaheim_planks.json",
+          "src/main/resources/assets/aris_random_additions/models/item/anaheim_planks.json",
+          "src/main/java/net/mcreator/arisrandomadditions/block/AnaheimPlanksBlock.java",
+          "src/main/resources/assets/aris_random_additions/blockstates/anaheim_planks.json",
+          "src/main/resources/assets/aris_random_additions/models/block/anaheim_planks.json"
+        ]
+      },
+      "path": "~/Anaheim"
+    },
+    {
+      "name": "AnaheimLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anaheim_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/block/AnaheimLeavesBlock.java",
+          "src/main/resources/assets/aris_random_additions/blockstates/anaheim_leaves.json",
+          "src/main/resources/assets/aris_random_additions/models/block/anaheim_leaves.json",
+          "src/main/resources/assets/aris_random_additions/models/item/anaheim_leaves.json"
+        ]
+      },
+      "path": "~/Anaheim"
+    },
+    {
+      "name": "AnaheimStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anaheim_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aris_random_additions/models/block/anaheim_stairs_outer.json",
+          "src/main/resources/assets/aris_random_additions/models/block/anaheim_stairs.json",
+          "src/main/resources/assets/aris_random_additions/models/block/anaheim_stairs_inner.json",
+          "src/main/resources/data/aris_random_additions/loot_tables/blocks/anaheim_stairs.json",
+          "src/main/java/net/mcreator/arisrandomadditions/block/AnaheimStairsBlock.java",
+          "src/main/resources/assets/aris_random_additions/blockstates/anaheim_stairs.json",
+          "src/main/resources/assets/aris_random_additions/models/item/anaheim_stairs.json"
+        ]
+      },
+      "path": "~/Anaheim"
+    },
+    {
+      "name": "AnaheimSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anaheim_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aris_random_additions/models/block/anaheim_slab_top.json",
+          "src/main/resources/data/aris_random_additions/loot_tables/blocks/anaheim_slab.json",
+          "src/main/resources/assets/aris_random_additions/models/item/anaheim_slab.json",
+          "src/main/resources/assets/aris_random_additions/models/block/anaheim_slab.json",
+          "src/main/resources/assets/aris_random_additions/blockstates/anaheim_slab.json",
+          "src/main/java/net/mcreator/arisrandomadditions/block/AnaheimSlabBlock.java",
+          "src/main/resources/assets/aris_random_additions/models/block/anaheim_slab_full.json"
+        ]
+      },
+      "path": "~/Anaheim"
+    },
+    {
+      "name": "AnaheimFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anaheim_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aris_random_additions/models/block/anaheim_fence_inventory.json",
+          "src/main/resources/assets/aris_random_additions/models/block/anaheim_fence.json",
+          "src/main/resources/assets/aris_random_additions/blockstates/anaheim_fence.json",
+          "src/main/resources/assets/aris_random_additions/models/item/anaheim_fence.json",
+          "src/main/resources/data/aris_random_additions/loot_tables/blocks/anaheim_fence.json",
+          "src/main/resources/assets/aris_random_additions/models/block/anaheim_fence_post.json",
+          "src/main/java/net/mcreator/arisrandomadditions/block/AnaheimFenceBlock.java"
+        ]
+      },
+      "path": "~/Anaheim"
+    },
+    {
+      "name": "AnaheimFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anaheim_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/loot_tables/blocks/anaheim_fence_gate.json",
+          "src/main/resources/assets/aris_random_additions/models/item/anaheim_fence_gate.json",
+          "src/main/resources/assets/aris_random_additions/models/block/anaheim_fence_gate.json",
+          "src/main/resources/assets/aris_random_additions/blockstates/anaheim_fence_gate.json",
+          "src/main/resources/assets/aris_random_additions/models/block/anaheim_fence_gate_wall.json",
+          "src/main/resources/assets/aris_random_additions/models/block/anaheim_fence_gate_wall_open.json",
+          "src/main/java/net/mcreator/arisrandomadditions/block/AnaheimFenceGateBlock.java",
+          "src/main/resources/assets/aris_random_additions/models/block/anaheim_fence_gate_open.json"
+        ]
+      },
+      "path": "~/Anaheim"
+    },
+    {
+      "name": "AnaheimPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anaheim_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/loot_tables/blocks/anaheim_pressure_plate.json",
+          "src/main/resources/assets/aris_random_additions/models/block/anaheim_pressure_plate.json",
+          "src/main/resources/assets/aris_random_additions/models/block/anaheim_pressure_plate_down.json",
+          "src/main/java/net/mcreator/arisrandomadditions/block/AnaheimPressurePlateBlock.java",
+          "src/main/resources/assets/aris_random_additions/models/item/anaheim_pressure_plate.json",
+          "src/main/resources/assets/aris_random_additions/blockstates/anaheim_pressure_plate.json"
+        ]
+      },
+      "path": "~/Anaheim"
+    },
+    {
+      "name": "AnaheimButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anaheim_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/loot_tables/blocks/anaheim_button.json",
+          "src/main/resources/assets/aris_random_additions/models/block/anaheim_button_inventory.json",
+          "src/main/resources/assets/aris_random_additions/models/block/anaheim_button_pressed.json",
+          "src/main/resources/assets/aris_random_additions/blockstates/anaheim_button.json",
+          "src/main/resources/assets/aris_random_additions/models/item/anaheim_button.json",
+          "src/main/java/net/mcreator/arisrandomadditions/block/AnaheimButtonBlock.java",
+          "src/main/resources/assets/aris_random_additions/models/block/anaheim_button.json"
+        ]
+      },
+      "path": "~/Anaheim"
+    },
+    {
+      "name": "AnaheimWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anaheim_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/anaheim_wood_recipe.json"
+        ]
+      },
+      "path": "~/Anaheim"
+    },
+    {
+      "name": "AnaheimPlanksLogRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anaheim_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/anaheim_planks_log_recipe.json"
+        ]
+      },
+      "path": "~/Anaheim"
+    },
+    {
+      "name": "AnaheimPlanksWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anaheim_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/anaheim_planks_wood_recipe.json"
+        ]
+      },
+      "path": "~/Anaheim"
+    },
+    {
+      "name": "AnaheimStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anaheim_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/anaheim_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Anaheim"
+    },
+    {
+      "name": "AnaheimSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anaheim_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/anaheim_slab_recipe.json"
+        ]
+      },
+      "path": "~/Anaheim"
+    },
+    {
+      "name": "AnaheimFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anaheim_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/anaheim_fence_recipe.json"
+        ]
+      },
+      "path": "~/Anaheim"
+    },
+    {
+      "name": "AnaheimFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anaheim_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/anaheim_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Anaheim"
+    },
+    {
+      "name": "AnaheimPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anaheim_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/anaheim_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Anaheim"
+    },
+    {
+      "name": "AnaheimButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anaheim_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/anaheim_button_recipe.json"
+        ]
+      },
+      "path": "~/Anaheim"
+    },
+    {
+      "name": "AnaheimStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anaheim_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/anaheim_stick_recipe.json"
+        ]
+      },
+      "path": "~/Anaheim"
+    },
+    {
+      "name": "AnaheimTreeFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anaheim_tree_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/worldgen/configured_feature/anaheim_tree_feature.json",
+          "src/main/resources/data/aris_random_additions/forge/biome_modifier/anaheim_tree_feature_biome_modifier.json",
+          "src/main/resources/data/aris_random_additions/worldgen/placed_feature/anaheim_tree_feature.json"
+        ]
+      },
+      "path": "~/Anaheim"
+    },
+    {
+      "name": "AnaheimTreeLeavesLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anaheim_tree_leaves_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/loot_tables/blocks/anaheim_leaves.json"
+        ]
+      },
+      "path": "~/LootTables"
+    },
+    {
+      "name": "NetherPowerGeneratorOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_power_generator_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/NetherPowerGeneratorOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/NetherPowerGenerator"
+    },
+    {
+      "name": "StarAssemblyTableAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_assembly_table_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/advancements/star_assembly_table_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "NetherPowerGeneratorAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_power_generator_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/advancements/nether_power_generator_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "BlackIronUpgradeSmithingTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_iron_upgrade_smithing_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aris_random_additions/models/item/black_iron_upgrade_smithing_template.json",
+          "src/main/java/net/mcreator/arisrandomadditions/item/BlackIronUpgradeSmithingTemplateItem.java"
+        ]
+      },
+      "path": "~/BlackIron"
+    },
+    {
+      "name": "BlackIronUpgradeSmithingTemplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_iron_upgrade_smithing_template_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/black_iron_upgrade_smithing_template_recipe.json"
+        ]
+      },
+      "path": "~/BlackIron"
+    },
+    {
+      "name": "LeatherRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leather_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/leather_recipe.json"
+        ]
+      },
+      "path": "~/QualityOfLifeRecipes"
+    },
+    {
+      "name": "LeatherRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leather_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/leather_recipe_2.json"
+        ]
+      },
+      "path": "~/QualityOfLifeRecipes"
+    },
+    {
+      "name": "RabbitHideRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rabbit_hide_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/rabbit_hide_recipe_2.json"
+        ]
+      },
+      "path": "~/QualityOfLifeRecipes"
+    },
+    {
+      "name": "BoneRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/bone_recipe.json"
+        ]
+      },
+      "path": "~/QualityOfLifeRecipes"
+    },
+    {
+      "name": "CharcoalRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charcoal_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/charcoal_recipe.json"
+        ]
+      },
+      "path": "~/QualityOfLifeRecipes"
+    },
+    {
+      "name": "BlazeRodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blaze_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/blaze_rod_recipe.json"
+        ]
+      },
+      "path": "~/QualityOfLifeRecipes"
+    },
+    {
+      "name": "BoneRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/bone_recipe_2.json"
+        ]
+      },
+      "path": "~/QualityOfLifeRecipes"
+    },
+    {
+      "name": "TridentRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trident_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/trident_recipe.json"
+        ]
+      },
+      "path": "~/QualityOfLifeRecipes"
+    },
+    {
+      "name": "SaddleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saddle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/saddle_recipe.json"
+        ]
+      },
+      "path": "~/QualityOfLifeRecipes"
+    },
+    {
+      "name": "DragonEggRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_egg_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/dragon_egg_recipe.json"
+        ]
+      },
+      "path": "~/QualityOfLifeRecipes"
+    },
+    {
+      "name": "TotemOfUndyingRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_undying_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/totem_of_undying_recipe_2.json"
+        ]
+      },
+      "path": "~/QualityOfLifeRecipes"
+    },
+    {
+      "name": "DripstoneRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dripstone_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/dripstone_recipe.json"
+        ]
+      },
+      "path": "~/QualityOfLifeRecipes"
+    },
+    {
+      "name": "SocketRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "socket_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/socket_recipe.json"
+        ]
+      },
+      "path": "~/BlackIron"
+    },
+    {
+      "name": "MagmaCreamRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_cream_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/magma_cream_recipe.json"
+        ]
+      },
+      "path": "~/QualityOfLifeRecipes"
+    },
+    {
+      "name": "BlazeApple",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blaze_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aris_random_additions/models/item/blaze_apple.json",
+          "src/main/java/net/mcreator/arisrandomadditions/item/BlazeAppleItem.java"
+        ]
+      },
+      "path": "~/Apples"
+    },
+    {
+      "name": "BlazeApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blaze_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/BlazeApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Apples"
+    },
+    {
+      "name": "BlazeAppleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blaze_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/blaze_apple_recipe.json"
+        ]
+      },
+      "path": "~/Apples"
+    },
+    {
+      "name": "TurtleApple",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_apple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/item/TurtleAppleItem.java",
+          "src/main/resources/assets/aris_random_additions/models/item/turtle_apple.json"
+        ]
+      },
+      "path": "~/Apples"
+    },
+    {
+      "name": "TurtleApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/TurtleApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Apples"
+    },
+    {
+      "name": "TurtleAppleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/turtle_apple_recipe.json"
+        ]
+      },
+      "path": "~/Apples"
+    },
+    {
+      "name": "PlayerUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/PlayerUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "BlackIronApple",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_iron_apple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/item/BlackIronAppleItem.java",
+          "src/main/resources/assets/aris_random_additions/models/item/black_iron_apple.json"
+        ]
+      },
+      "path": "~/BlackIron"
+    },
+    {
+      "name": "BlackIronApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_iron_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/BlackIronApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BlackIron"
+    },
+    {
+      "name": "BlackIronAppleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_iron_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/black_iron_apple_recipe.json"
+        ]
+      },
+      "path": "~/BlackIron"
+    },
+    {
+      "name": "BlackIronAppleAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_iron_apple_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/advancements/black_iron_apple_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "BlackIronAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_iron_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/advancements/black_iron_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "BlazeAppleAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blaze_apple_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/advancements/blaze_apple_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "TurtleAppleAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_apple_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/advancements/turtle_apple_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "CondensedCondensedNetherrackAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "condensed_condensed_netherrack_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/advancements/condensed_condensed_netherrack_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "CondensedCondensedCondensedNetherrackAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "condensed_condensed_condensed_netherrack_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/advancements/condensed_condensed_condensed_netherrack_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "QuadraCondensedNetherrackAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quadra_condensed_netherrack_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/advancements/quadra_condensed_netherrack_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "PentaCondensedNetherrackAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "penta_condensed_netherrack_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/advancements/penta_condensed_netherrack_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "HexaCondensedNetherrackAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hexa_condensed_netherrack_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/advancements/hexa_condensed_netherrack_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "TasteTheRainbowWaterCan",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taste_the_rainbow_water_can",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aris_random_additions/models/item/taste_the_rainbow_water_can.json",
+          "src/main/java/net/mcreator/arisrandomadditions/item/TasteTheRainbowWaterCanItem.java"
+        ]
+      },
+      "path": "~/Cans"
+    },
+    {
+      "name": "TasteTheRainbowWaterCanPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taste_the_rainbow_water_can_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/TasteTheRainbowWaterCanPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cans"
+    },
+    {
+      "name": "NetheriteApple",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aris_random_additions/models/item/netherite_apple.json",
+          "src/main/java/net/mcreator/arisrandomadditions/item/NetheriteAppleItem.java"
+        ]
+      },
+      "path": "~/Apples"
+    },
+    {
+      "name": "NetheriteApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/NetheriteApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Apples"
+    },
+    {
+      "name": "NetheriteAppleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/netherite_apple_recipe.json"
+        ]
+      },
+      "path": "~/Apples"
+    },
+    {
+      "name": "AnaheimCraftingTableRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anaheim_crafting_table_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/recipes/anaheim_crafting_table_recipe.json"
+        ]
+      },
+      "path": "~/Anaheim"
+    },
+    {
+      "name": "NetheriteAppleAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_apple_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/advancements/netherite_apple_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "TasteTheRainbowAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taste_the_rainbow_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aris_random_additions/advancements/taste_the_rainbow_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "TasteTheRainbowWaterCanRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taste_the_rainbow_water_can_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/recipes/brewing/TasteTheRainbowWaterCanRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Cans"
     }
   ],
   "variable_elements": [],
@@ -5869,11 +7238,30 @@
       "~CUSTOM:EnditeHoe",
       "~CUSTOM:OrichalcumHoe"
     ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:AnaheimLog"
+    ],
     "ITEMS:mod:ore_miner_acceptable_inputs": [
       "CUSTOM:BedrockPickaxe",
       "Items.DIAMOND_PICKAXE"
     ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:AnaheimLeaves"
+    ],
+    "ITEMS:mod:stars": [
+      "Items.NETHER_STAR",
+      "CUSTOM:VoidStar",
+      "CUSTOM:PowerStar",
+      "CUSTOM:Star"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:AnaheimSlab",
+      "~CUSTOM:MagmaBrickSlabs",
+      "~CUSTOM:RedstoneBrickSlabs"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:BlackIronBlock",
+      "~CUSTOM:SodaMachine",
       "~CUSTOM:BrickierMagmaBricks",
       "~CUSTOM:OrichalcumDeepslateOre",
       "~CUSTOM:EnditeBlock",
@@ -5897,9 +7285,17 @@
       "~CUSTOM:CondensedCondensedNetherrack",
       "~CUSTOM:CondensedNetherrack"
     ],
-    "BLOCKS:minecraft:slabs": [
-      "~CUSTOM:MagmaBrickSlabs",
-      "~CUSTOM:RedstoneBrickSlabs"
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:AnaheimPlanks",
+      "~CUSTOM:AnaheimLog",
+      "~CUSTOM:AnaheimWood"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:BlackIronBlock",
+      "~CUSTOM:SodaMachine"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:AnaheimFence"
     ],
     "BLOCKS:minecraft:walls": [
       "~CUSTOM:MagmaBrickWalls",
@@ -5910,17 +7306,18 @@
       "~CUSTOM:OrichalcumAxe"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:AnaheimStairs",
       "~CUSTOM:MagmaBrickStairs",
       "~CUSTOM:RedstoneBrickStairs"
-    ],
-    "ITEMS:origins-plus-plus:raw_meat": [
-      "CUSTOM:MagicFlesh"
     ],
     "ITEMS:minecraft:swords": [
       "~CUSTOM:OrichalcumKatana",
       "~CUSTOM:EnditeSword",
       "~CUSTOM:OrichalcumSword",
       "~CUSTOM:BedrockSword"
+    ],
+    "ITEMS:origins-plus-plus:raw_meat": [
+      "CUSTOM:MagicFlesh"
     ],
     "ITEMS:minecraft:shovels": [
       "~CUSTOM:EnditeShovel",
@@ -5937,14 +7334,19 @@
       "CUSTOM:CondensedCondensedCondensedNetherrack",
       "CUSTOM:QuadraCondensedNetherrack",
       "CUSTOM:PentaCondensedNetherrack"
+    ],
+    "ITEMS:mod:nether_power_generator_acceptable_inputs": [
+      "CUSTOM:NetherrackJuice.bucket",
+      "Items.BUCKET"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "advancements.condensed_netherrack_advancement.descr": "Condense Netherrack for the first time",
-      "item.nims_random_bullshit.magic_dust": "Magic Dust",
+      "block.aris_random_additions.anaheim_slab": "Anaheim Slab",
       "block.nims_random_bullshit.penta_condensed_netherrack": "Penta-condensed Netherrack",
+      "item.nims_random_bullshit.magic_dust": "Magic Dust",
       "item.nims_random_bullshit.orichalcum_armor_boots": "Orichalcum Boots",
       "block.nims_random_bullshit.magma_brick_button": "Magma Brick Button",
       "painting.nims_random_bullshit.shit_painting.title": "Shit Painting",
@@ -5954,19 +7356,25 @@
       "block.aris_random_additions.broken_glass": "Broken Glass",
       "item.aris_random_additions.ghoul_spawn_egg": "Ghoul Spawn Egg",
       "item.aris_random_additions.endite_armor_boots": "Endite Boots",
+      "block.aris_random_additions.star_assembly_table": "Star Assembly Table",
       "gui.aris_random_additions.turd_gui.label_uh_ohh_stinky": "UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! ",
+      "block.aris_random_additions.anaheim_button": "Anaheim Button",
       "item.aris_random_additions.bedrock_shard": "Bedrock Shard",
       "advancements.grave_digger_advancement.title": "We Must Dig!",
       "item.aris_random_additions.bedrock_upgrade_template": "Bedrock Upgrade Template",
       "item.aris_random_additions.endite_ingot": "Endite",
       "block.nims_random_bullshit.orichalcum_block": "Block of Orichalcum",
       "block.nims_random_bullshit.rubber_slab": "Rubber Slab",
+      "gui.aris_random_additions.star_assembly_table_gui.label_star_assembly_table": "Star Assembly Table",
       "item.nims_random_bullshit.bedrock_upgrade_template": "Bedrock Upgrade Template",
       "block.aris_random_additions.magma_brick_pressure_plate": "Beans and Cheese Pressure Plate",
       "advancements.orichalcum_set_advancement.descr": "Wear a full armor set of Orichalcum.",
       "block.nims_random_bullshit.orichalcum_ore": "Orichalcum Ore",
       "block.aris_random_additions.condensed_condensed_netherrack": "Condensed Condensed Netherrack",
+      "advancements.black_iron_advancement.title": "\"Black\" Iron Ingot",
+      "advancements.quadra_condensed_netherrack_advancement.descr": "Craft Quadra-Condensed Netherrack",
       "advancements.orange_sweetened_carbonated_water_can_advancement.descr": "Drink an Orange Soda",
+      "advancements.black_iron_apple_advancement.descr": "Eat a Black Iron Apple",
       "item.aris_random_additions.endite_pickaxe": "Endite Pickaxe",
       "advancements.endite_scythe_advancement.title": "Endbringer\u0027s Sharpest Tool",
       "painting.aris_random_additions.turd_painting.author": "Ari/nim",
@@ -5980,23 +7388,30 @@
       "item.aris_random_additions.wand_of_draining": "Wand Of Draining",
       "block.aris_random_additions.endite_block": "Block of Endite",
       "enchantment.aris_random_additions.passive_income_enchantment": "Passive Income",
+      "gui.aris_random_additions.nether_power_generator_gui.label_nether_power_generator": "Nether Power Generator",
       "item.aris_random_additions.sand_dust": "Sand Dust",
       "block.aris_random_additions.orichalcum_block": "Block of Orichalcum",
       "item.aris_random_additions.orange_sweetened_carbonated_water_can": "Canned Orange Soda",
       "gui.nims_random_bullshit.mailbox_gui.outbox_y_coord": "0",
+      "gui.aris_random_additions.nether_power_generator_gui.button_refill": "Refill",
       "item.aris_random_additions.power_star": "Power Star",
       "advancements.bedrock_eater_advancement.title": "Somehow, Being Made Of Bedrock Makes It More Replinishing. Yeah. I don\u0027t know.",
+      "advancements.nether_power_generator_advancement.title": "Brought To You By \"The Nether™\"",
       "enchantment.nims_random_bullshit.ruining_enchantment": "Ruining",
       "advancements.endite_advancement.descr": "Obtain Endite",
       "advancements.netherrack_juice_advancement.descr": "Obtain Netherrack Juice",
       "block.nims_random_bullshit.condensed_condensed_netherrack": "Condensed Condensed Netherrack",
       "block.nims_random_bullshit.quadra_condensed_netherrack": "Quadra-condensed Netherrack",
+      "advancements.condensed_condensed_netherrack_advancement.descr": "Craft Condensed Condensed Netherrack",
       "block.aris_random_additions.orange_wood_wood": "OrangeWood Wood",
       "advancements.orichalcum_katana_advancement.descr": "Obtain an Orichalcum Katana",
       "gui.nims_random_bullshit.bedrockifier_gui.button_empty": "-\u003e",
+      "advancements.netherite_apple_advancement.descr": "Eat a Netherite Apple",
       "block.nims_random_bullshit.hexa_condensed_netherrack": "Hexa-condensed Netherrack",
       "enchantment.nims_random_bullshit.sundering_enchantment": "Sundering",
       "block.aris_random_additions.magma_brick_slabs": "Beans and Cheese Slab",
+      "block.aris_random_additions.black_iron_block": "Black Iron Block",
+      "block.aris_random_additions.anaheim_planks": "Anaheim Planks",
       "item.aris_random_additions.gold_token": "Gold Token",
       "advancements.orichalcum_apple_advancement.descr": "Eat an Orichalcum Apple",
       "item.nims_random_bullshit.sand_dust": "Sand Dust",
@@ -6015,27 +7430,32 @@
       "item.aris_random_additions.orichalcum_armor_helmet.description_0": "Set Bonus: Speed, Jump Boost",
       "item.aris_random_additions.socket": "Socket",
       "block.nims_random_bullshit.rubber_pressure_plate": "Rubber Pressure Plate",
+      "item.aris_random_additions.black_iron_upgrade_smithing_template": "Black Iron Upgrade Template",
       "block.aris_random_additions.redstone_brick_walls": "Redstone Brick Wall",
       "item.nims_random_bullshit.orichalcum_armor_leggings": "Orichalcum Leggings",
       "block.nims_random_bullshit.condensed_netherrack": "Condensed Netherrack",
       "block.aris_random_additions.magma_brick_stairs": "Beans and Cheese Stairs",
+      "item.aris_random_additions.netherite_apple": "Netherite Apple",
       "block.nims_random_bullshit.magma_brick_slabs": "Magma Brick Slab",
       "block.aris_random_additions.orichalcum_deepslate_ore": "Orichalcum Deepslate Ore",
       "item.nims_random_bullshit.pocket_lightning": "Pocket Lightning",
       "item.aris_random_additions.water_can": "Canned Water",
       "block.aris_random_additions.redstone_brick_stairs": "Redstone Brick Stairs",
       "item.aris_random_additions.orichalcum_shovel": "Orichalcum Shovel",
+      "advancements.black_iron_advancement.descr": "Obtain Black Iron Ingot",
       "item.nims_random_bullshit.star_wand": "Star Wand",
       "item.nims_random_bullshit.orichalcum_axe": "Orichalcum Axe",
       "enchantment.nims_random_bullshit.passive_income_enchantment": "Passive Income",
       "block.aris_random_additions.magma_brick_button": "Beans and Cheese Button",
       "item.aris_random_additions.can_lid": "Can Lid",
+      "advancements.turtle_apple_advancement.title": "You\u0027re A Monster!",
       "block.aris_random_additions.orange_wood_log": "OrangeWood Log",
       "item.aris_random_additions.bean": "Bean",
       "block.aris_random_additions.orange_wood_fence_gate": "OrangeWood Fence Gate",
       "item.aris_random_additions.mint_leaves": "Mint Leaves",
       "block.nims_random_bullshit.broken_glass": "Broken Glass",
       "block.nims_random_bullshit.redstone_brick_walls": "Redstone Brick Wall",
+      "advancements.blaze_apple_advancement.title": "That Burns... Or Does It?",
       "item.aris_random_additions.tux_spawn_egg": "Tux Spawn Egg",
       "block.aris_random_additions.orange_wood_planks": "OrangeWood Planks",
       "advancements.grave_digger_advancement.descr": "Obtain Gravedigger",
@@ -6057,10 +7477,14 @@
       "advancements.void_apple_advancement.descr": "Eat a Void Apple",
       "item.nims_random_bullshit.snow_golem_question_mark": "Snow Golem...?",
       "item.aris_random_additions.gravedigger.description_0": "Right-Click on soul sand or soul soil to use them, summoning a ghoul that attacks hostile mobs.",
-      "advancements.bedrock_advancement.descr": "Obtain Bedrock",
+      "advancements.bedrock_advancement.descr": "Obtain Bedrock via sacrificing valuable time of your life",
       "item.aris_random_additions.gravedigger.description_1": "We must dig!",
+      "gui.aris_random_additions.star_assembly_table_gui.button_assemble": "Assemble",
       "item.nims_random_bullshit.orichalcum_shovel": "Orichalcum Shovel",
+      "advancements.penta_condensed_netherrack_advancement.descr": "Craft Penta-Condensed Netherrack",
+      "advancements.hexa_condensed_netherrack_advancement.title": "Besides... Something Tells Me I Need To Do This 8 More Times...",
       "block.nims_random_bullshit.redstone_brick_stairs": "Redstone Brick Stairs",
+      "advancements.taste_the_rainbow_advancement.descr": "Drink a Canned Taste The Rainbow",
       "block.aris_random_additions.magma_brick_walls": "Beans and Cheese Wall",
       "item.nims_random_bullshit.cheese": "Cheese",
       "item.aris_random_additions.snow_golem_question_mark": "Snow Golem...?",
@@ -6069,7 +7493,9 @@
       "enchantment.aris_random_additions.sundering_enchantment": "Sundering",
       "item.aris_random_additions.endite_shovel": "Endite Shovel",
       "item.aris_random_additions.endite_scythe.description_0": "Inflicts \"The End Of Your Misery\" effect on-hit, which detonates after 4 seconds to do 33% missing health magic damage.",
+      "block.aris_random_additions.nether_power_generator": "Nether Power Generator",
       "item.aris_random_additions.netherrackite_pickaxe": "Netherrackite Pickaxe",
+      "block.aris_random_additions.anaheim_log": "Anaheim Log",
       "item.aris_random_additions.netherrack_juice_bucket": "Netherrack Juice Bucket",
       "item.nims_random_bullshit.netherrackite_pickaxe.description_0": "Non-condensed netherracks broken by this pickaxe drop themselves an additional time.",
       "advancements.sweetened_carbonated_water_can_advancement.descr": "Drink a Canned Soda",
@@ -6084,6 +7510,8 @@
       "advancements.star_wand_advancement.descr": "Use a Star Wand",
       "item.aris_random_additions.netherrackite_pickaxe.description_0": "Non-condensed netherracks broken by this pickaxe drop themselves an additional time.",
       "advancements.end_portal_frame_advancement.descr": "Craft an End Portal Frame",
+      "item.aris_random_additions.right_piece_of_nether_star": "Right Piece Of Nether Star",
+      "advancements.condensed_condensed_condensed_netherrack_advancement.title": "You Ask Yourself, \"What Is The Point Of This?\" Yet, You Continue To Do \"This\".",
       "advancements.endite_set_advancement.descr": "Wear a full armor set of Endite.",
       "item.aris_random_additions.mint_sweetened_carbonated_water_can": "Canned Mint Soda",
       "advancements.welcome_advancement.title": "Arira!",
@@ -6091,18 +7519,26 @@
       "item.aris_random_additions.magic_egg": "Magic Egg",
       "entity.nims_random_bullshit.ghoul": "Ghoul",
       "enchantment.aris_random_additions.life_mending_enchantment": "Life Mending",
+      "block.aris_random_additions.anaheim_fence": "Anaheim Fence",
       "block.aris_random_additions.redstone_brick_slabs": "Redstone Brick Slab",
       "item.aris_random_additions.orichalcum_apple": "Orichalcum Apple",
+      "item.aris_random_additions.top_piece_of_nether_star": "Top Piece Of Nether Star",
       "advancements.star_advancement.descr": "Obtain a Star",
+      "block.aris_random_additions.anaheim_stairs": "Anaheim Stairs",
+      "item.aris_random_additions.turtle_apple": "Turtle Apple",
       "item.nims_random_bullshit.bedrock_pickaxe": "Bedrock Pickaxe",
       "item.aris_random_additions.endite_armor_chestplate.description_0": "Set Bonus: Resistance, Regeneration, Strength",
       "block.nims_random_bullshit.magma_brick_stairs": "Magma Brick Stairs",
+      "item.aris_random_additions.black_iron_apple.description_0": "When consumed: Grants 1 permanent bonus Armor and 0.67 permanent bonus Armor Toughness.",
       "gui.aris_random_additions.bedrockifier_gui.button_empty": "-\u003e",
       "advancements.bedrock_apple_advancement.descr": "Eat a Bedrock Apple",
-      "advancements.bedrock_shard_advancement.descr": "Obtain Bedrock Shard",
+      "advancements.bedrock_shard_advancement.descr": "Obtain Bedrock Shard via mining Bedrock with a non-silk-touch Bedrock Pickaxe",
       "block.aris_random_additions.quadra_condensed_netherrack": "Quadra-condensed Netherrack",
       "block.aris_random_additions.orange_wood_slab": "OrangeWood Slab",
+      "gui.aris_random_additions.nether_power_generator_gui.button_drain": "Drain",
+      "advancements.black_iron_apple_advancement.title": "Who Thought This Was A Good Idea???",
       "item.aris_random_additions.orichalcum_katana": "Orichalcum Katana",
+      "advancements.blaze_apple_advancement.descr": "Eat a Blaze Apple",
       "item.aris_random_additions.orichalcum_armor_boots": "Orichalcum Heels",
       "item.aris_random_additions.endite_upgrade_smithing_template": "Endite Upgrade Template",
       "item.aris_random_additions.bedrock_eater": "Bedrock Eater",
@@ -6119,9 +7555,11 @@
       "effect.aris_random_additions.stinky_effect": "Stinky",
       "advancements.endite_hoe_advancement.descr": "Craft an Endite Hoe",
       "advancements.void_star_advancement.descr": "Craft a Void Star",
+      "item.aris_random_additions.left_piece_of_nether_star": "Left Piece Of Nether Star",
       "item.aris_random_additions.orichalcum_armor_helmet": "Orichalcum Helmet",
       "enchantment.aris_random_additions.ruining_enchantment": "Ruining",
       "block.aris_random_additions.ore_miner": "Ore Miner",
+      "advancements.star_assembly_table_advancement.descr": "Succesfully assemble a Nether Star in the Star Assembly Table",
       "block.aris_random_additions.condensed_netherrack": "Condensed Netherrack",
       "item.aris_random_additions.orichalcum_katana.description_0": "Right-Click: empower the blade, making your next attack cause bleeding DoT effect to the target for a duration.",
       "item.aris_random_additions.empty_can": "Empty Can",
@@ -6130,6 +7568,7 @@
       "item.aris_random_additions.golden_berries": "Golden Berries",
       "item.nims_random_bullshit.lapis_lazuli_nugget": "Lapis Lazuli Nugget",
       "block.aris_random_additions.orange_wood_leaves": "OrangeWood Leaves",
+      "item.aris_random_additions.blaze_apple": "Blaze Apple",
       "item.aris_random_additions.star": "Star",
       "item.nims_random_bullshit.bedrock_sword": "Bedrock Sword",
       "item.aris_random_additions.sweetened_carbonated_water_can": "Canned Soda",
@@ -6139,9 +7578,12 @@
       "item.nims_random_bullshit.gravedigger": "Gravedigger",
       "item.aris_random_additions.pocket_lightning": "Pocket Lightning",
       "advancements.sweetened_carbonated_water_can_advancement.title": "Now That\u0027s The Good Stuff!",
+      "advancements.nether_power_generator_advancement.descr": "Craft a Nether Power Generator",
       "item.aris_random_additions.night_vision_goggles_helmet": "Night Vision Goggles",
       "advancements.orichalcum_katana_advancement.title": "As Fierce As The Color",
       "item.aris_random_additions.cheese": "Cheese",
+      "block.aris_random_additions.anaheim_fence_gate": "Anaheim Fence Gate",
+      "advancements.condensed_condensed_netherrack_advancement.title": "But For What Reason?",
       "item.aris_random_additions.orichalcum_sword": "Orichalcum Sword",
       "advancements.end_portal_frame_advancement.title": "You Shouldn\u0027t Have This...",
       "item.aris_random_additions.wand_of_resizing.description_0": "DISCLAIMER: Does not work with Origins that periodically reset your scale!",
@@ -6157,13 +7599,17 @@
       "block.aris_random_additions.orange_wood_fence": "OrangeWood Fence",
       "advancements.magic_egg_advancement.descr": "Obtain a Magic Egg",
       "advancements.orange_sweetened_carbonated_water_can_advancement.title": "A Fantastic Beverage!",
+      "advancements.quadra_condensed_netherrack_advancement.title": "I Mean. Surely This Will Lead To Something?",
       "item.aris_random_additions.orichalcum_apple.description_0": "When consumed: Grants 1 permanent bonus attack damage.",
       "block.aris_random_additions.mint_plant": "Mint Plant",
+      "block.aris_random_additions.anaheim_leaves": "Anaheim Leaves",
       "advancements.endite_advancement.title": "Purple Butter",
+      "advancements.taste_the_rainbow_advancement.title": "TASTE THE RAINBOW!!!!!!!!!",
       "advancements.bedrock_eater_advancement.descr": "Eat a block with the Bedrock Eater",
       "entity.aris_random_additions.ari": "Ari",
       "item.nims_random_bullshit.night_vision_goggles_helmet": "Night Vision Goggles",
       "advancements.power_star_advancement.descr": "Craft a Power Star",
+      "advancements.hexa_condensed_netherrack_advancement.descr": "Craft Hexa-Condensed Netherrack",
       "block.aris_random_additions.orichalcum_ore": "Orichalcum Ore",
       "item.aris_random_additions.orichalcum_axe": "Orichalcum Axe",
       "item.aris_random_additions.endite_hoe": "Endite Hoe",
@@ -6175,9 +7621,13 @@
       "item.aris_random_additions.void_apple.description_0": "When consumed: Grants 2 permanent bonus max health.",
       "advancements.star_advancement.title": "A Star Meant To Be",
       "effect.aris_random_additions.bleed_effect": "Bleeding",
+      "gui.aris_random_additions.nether_power_generator_gui.label_netherrack_juice_tank_currmax": "Tank: curr/max",
+      "item.aris_random_additions.taste_the_rainbow_water_can": "Canned Taste The Rainbow",
       "painting.nims_random_bullshit.shit_painting.author": "nim",
       "gui.nims_random_bullshit.mailbox_gui.outbox_x_coord": "0",
+      "block.aris_random_additions.anaheim_wood": "Anaheim Wood",
       "block.nims_random_bullshit.rubber_fence": "Rubber Fence",
+      "advancements.star_assembly_table_advancement.title": "Star Shaper",
       "advancements.turd_advancement.descr": "Turd",
       "advancements.condensed_netherrack_advancement.title": "Rackin\u0027 Em Up!",
       "death.attack.bleed_damage_type.player": "%1$s bled to death whilst trying to escape %2$s",
@@ -6205,17 +7655,20 @@
       "item.nims_random_bullshit.orichalcum_pickaxe": "Orichalcum Pickaxe",
       "item.aris_random_additions.magic_dust": "Magic Dust",
       "block.nims_random_bullshit.magma_brick_pressure_plate": "Magma Brick Pressure Plate",
-      "advancements.endite_set_advancement.title": "Cover Me In Endermite",
-      "advancements.bedrock_shard_advancement.title": "Unobtainium",
+      "advancements.endite_set_advancement.title": "Cover Me In Shulker Shells",
+      "advancements.bedrock_shard_advancement.title": "A Shard That Weighs As Much As 531,441 Netherracks",
       "item.aris_random_additions.endite_armor_boots.description_0": "Set Bonus: Resistance, Regeneration, Strength",
       "advancements.soda_machine_advancement.title": "It Doesn\u0027t Even Need To Be Restocked! It Just Dispenses Soda Out Of Thin Air!",
       "fluid.nims_random_bullshit.netherrack_juice": "Netherrack Juice",
       "item.nims_random_bullshit.wand_of_resizing.description_0": "DISCLAIMER: Does not work with Origins that periodically reset your scale!",
       "gui.nims_random_bullshit.mailbox_gui.outbox_z_coord": "0",
       "item.aris_random_additions.chorus_eye": "Eye of Chorus",
+      "block.aris_random_additions.anaheim_pressure_plate": "Anaheim Pressure Plate",
       "enchantment.aris_random_additions.sweet_blade_enchantment": "Sweet Blade",
       "item.aris_random_additions.turd": "Turd",
+      "advancements.netherite_apple_advancement.title": "Eating Ancient History",
       "item.aris_random_additions.pocket_lightning.description_0": "Spawns lightning wherever it lands.",
+      "item.aris_random_additions.netherite_apple.description_0": "When consumed: Grants 0.05 permanent bonus Knockback Resistance.",
       "item.nims_random_bullshit.netherrackite_pickaxe": "Netherrackite Pickaxe",
       "item.aris_random_additions.endite_armor_helmet.description_0": "Set Bonus: Resistance, Regeneration, Strength",
       "block.aris_random_additions.orange_wood_stairs": "OrangeWood Stairs",
@@ -6228,6 +7681,7 @@
       "fluid.aris_random_additions.netherrack_juice": "Netherrack Juice",
       "block.nims_random_bullshit.rubber_button": "Rubber Button",
       "item.aris_random_additions.mint": "mint",
+      "item.aris_random_additions.blaze_apple.description_0": "When consumed: Grants permanent Fire Resistance.",
       "block.aris_random_additions.orange_wood_button": "OrangeWood Button",
       "item.nims_random_bullshit.magic_egg": "Magic Egg",
       "block.aris_random_additions.redstone_bricks": "Redstone Bricks",
@@ -6235,11 +7689,13 @@
       "item.aris_random_additions.lapis_lazuli_nugget": "Lapis Lazuli Nugget",
       "advancements.void_apple_advancement.title": "It Certainly Is DeVOID Of Taste",
       "item.aris_random_additions.endite_armor_leggings": "Endite Leggings",
-      "advancements.bedrock_advancement.title": "Unobtainium Block",
+      "advancements.bedrock_advancement.title": "The Voices Are Gone. But This Is Just The Beginning.",
+      "advancements.condensed_condensed_condensed_netherrack_advancement.descr": "Craft Condensed Condensed Condensed Netherrack",
       "item.nims_random_bullshit.star": "Star",
       "gui.nims_random_bullshit.shit_gui.label_uh_ohh_stinky": "UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! UH OHH!!! STINKY!!! ",
       "block.nims_random_bullshit.magma_bricks": "Magma Bricks",
       "gui.nims_random_bullshit.bedrockifier_gui.label_bedrockifier": "Bedrockifier",
+      "advancements.turtle_apple_advancement.descr": "Eat a Turtle Apple",
       "item.aris_random_additions.endite_armor_chestplate": "Endite Chestplate",
       "item.nims_random_bullshit.shit": "Shit",
       "advancements.block_eater_advancement.title": "Eat The Blocks",
@@ -6248,8 +7704,12 @@
       "item.aris_random_additions.wither_question_mark": "Wither...?",
       "item.aris_random_additions.endite_armor_leggings.description_0": "Set Bonus: Resistance, Regeneration, Strength",
       "advancements.netherrack_juice_advancement.title": "Smells Kinda Funny",
+      "item.aris_random_additions.turtle_apple.description_0": "When consumed: Grants permanent Water Breathing.",
       "block.nims_random_bullshit.redstone_brick_slabs": "Redstone Brick Slab",
-      "block.aris_random_additions.netherrack_juice": "Netherrack Juice"
+      "item.aris_random_additions.bottom_piece_of_nether_star": "Bottom Piece Of Nether Star",
+      "block.aris_random_additions.netherrack_juice": "Netherrack Juice",
+      "item.aris_random_additions.black_iron_apple": "Black Iron Apple",
+      "advancements.penta_condensed_netherrack_advancement.title": "Otherwise, There Would Be No Point To Keep Rackin\u0027!"
     }
   },
   "foldersRoot": {
@@ -6338,13 +7798,45 @@
       {
         "name": "Mint",
         "children": []
+      },
+      {
+        "name": "BlackIron",
+        "children": []
+      },
+      {
+        "name": "NetherPowerGenerator",
+        "children": []
+      },
+      {
+        "name": "StarAssemblyTable",
+        "children": []
+      },
+      {
+        "name": "Anaheim",
+        "children": []
+      },
+      {
+        "name": "LootTables",
+        "children": []
+      },
+      {
+        "name": "NightVisionGoggles",
+        "children": []
+      },
+      {
+        "name": "QualityOfLifeRecipes",
+        "children": []
+      },
+      {
+        "name": "Apples",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "aris_random_additions",
     "modName": "Ari\u0027s Random Additions",
-    "version": "2.2.0",
+    "version": "2.3.0",
     "description": "Random Additions by Ari. Created with MCreator.",
     "author": "nimsolated, MCreator",
     "websiteURL": "https://mcreator.net",

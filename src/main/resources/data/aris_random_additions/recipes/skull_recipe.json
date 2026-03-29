@@ -3,15 +3,12 @@
   "category": "equipment",
   "pattern": [
     "aaa",
-    "aba",
+    "a a",
     "aaa"
   ],
   "key": {
     "a": {
       "item": "minecraft:bone"
-    },
-    "b": {
-      "item": "minecraft:iron_helmet"
     }
   },
   "result": {

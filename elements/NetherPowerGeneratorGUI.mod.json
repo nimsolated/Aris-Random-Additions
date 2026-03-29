@@ -1,0 +1,110 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 213,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_nether_power_generator",
+          "text": {
+            "fixedValue": "Nether Power Generator"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 22,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "TAG:mod:nether_power_generator_acceptable_inputs"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "color": {
+            "value": -13434880,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 204,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_netherrack_juice_tank_currmax",
+          "text": {
+            "fixedValue": "Tank: curr/max",
+            "name": "NetherPowerGeneratorFluidTankTextUpdate"
+          },
+          "color": {
+            "value": -13434880,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 94,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_refill",
+          "text": "Refill",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "NetherPowerGeneratorRefillLogic"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 218,
+          "y": 67,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_drain",
+          "text": "Drain",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "NetherPowerGeneratorDrainLogic"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 155,
+          "y": 67,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 9,
+      "sy": 9,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "aris_random_additions:hexa_condensed_netherrack"
+    },
+    "title": {
+      "translate": "advancements.hexa_condensed_netherrack_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.hexa_condensed_netherrack_advancement.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hexa_condensed_netherrack_advancement_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aris_random_additions:hexa_condensed_netherrack"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "aris_random_additions:penta_condensed_netherrack_advancement"
+}

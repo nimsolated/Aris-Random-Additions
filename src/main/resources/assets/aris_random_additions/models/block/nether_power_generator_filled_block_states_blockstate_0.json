@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aris_random_additions:block/black_iron_block",
+    "up": "aris_random_additions:block/black_iron_block",
+    "north": "aris_random_additions:block/nether_power_generator_side_filled1",
+    "east": "aris_random_additions:block/nether_power_generator_side_filled1",
+    "south": "aris_random_additions:block/nether_power_generator_side_filled1",
+    "west": "aris_random_additions:block/nether_power_generator_side_filled1",
+    "particle": "aris_random_additions:block/black_iron_block"
+  },
+  "render_type": "solid"
+}

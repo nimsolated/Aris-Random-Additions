@@ -2,8 +2,8 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "blade",
-        "1": "hilt"
+        "0": "katana_blade",
+        "1": "katana_hilt"
       },
       "name": "default"
     }

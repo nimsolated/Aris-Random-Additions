@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "aris_random_additions:block/anaheim_planks",
+    "particle": "aris_random_additions:block/anaheim_planks"
+  },
+  "render_type": "solid"
+}
