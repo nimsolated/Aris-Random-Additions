@@ -44,7 +44,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:oak_sapling",
-          "weight": 6,
+          "weight": 16,
           "conditions": [
             {
               "condition": "minecraft:inverted",

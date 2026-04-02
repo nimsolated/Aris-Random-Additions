@@ -39,7 +39,6 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
-import net.minecraft.network.chat.Component;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
 
@@ -59,8 +58,6 @@ public class AriEntity extends Monster {
 		setMaxUpStep(0.6f);
 		xpReward = 9;
 		setNoAi(false);
-		setCustomName(Component.literal("Ari"));
-		setCustomNameVisible(true);
 		setPersistenceRequired();
 		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(ArisRandomAdditionsModItems.ORICHALCUM_SWORD.get()));
 	}

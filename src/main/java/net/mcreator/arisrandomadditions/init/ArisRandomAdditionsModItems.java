@@ -214,6 +214,7 @@ public class ArisRandomAdditionsModItems {
 	public static final RegistryObject<Item> BLACK_IRON_APPLE = REGISTRY.register("black_iron_apple", () -> new BlackIronAppleItem());
 	public static final RegistryObject<Item> TASTE_THE_RAINBOW_WATER_CAN = REGISTRY.register("taste_the_rainbow_water_can", () -> new TasteTheRainbowWaterCanItem());
 	public static final RegistryObject<Item> NETHERITE_APPLE = REGISTRY.register("netherite_apple", () -> new NetheriteAppleItem());
+	public static final RegistryObject<Item> WAR_TANK_SPAWN_EGG = REGISTRY.register("war_tank_spawn_egg", () -> new ForgeSpawnEggItem(ArisRandomAdditionsModEntities.WAR_TANK, -16764160, -13421773, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

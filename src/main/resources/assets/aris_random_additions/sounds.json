@@ -1,0 +1,11 @@
+{
+  "wartank_moving": {
+    "subtitle": "subtitles.wartank_moving",
+    "sounds": [
+      {
+        "name": "aris_random_additions:wartank_moving",
+        "stream": false
+      }
+    ]
+  }
+}

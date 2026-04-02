@@ -3,7 +3,7 @@
   "_type": "livingentity",
   "definition": {
     "mobName": "Ari",
-    "mobLabel": "Ari",
+    "mobLabel": "",
     "mobModelName": "Biped",
     "mobModelTexture": "ari.png",
     "transparentModelCondition": {

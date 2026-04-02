@@ -30,7 +30,7 @@
             "item": {
               "value": "Blocks.SAPLING#0"
             },
-            "weight": 6,
+            "weight": 16,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,

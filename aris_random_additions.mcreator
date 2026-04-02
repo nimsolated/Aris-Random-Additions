@@ -7233,10 +7233,153 @@
         ]
       },
       "path": "~/LootTables"
+    },
+    {
+      "name": "WarTank",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "war_tank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/entity/WarTankEntity.java",
+          "src/main/resources/assets/aris_random_additions/models/item/war_tank_spawn_egg.json",
+          "src/main/java/net/mcreator/arisrandomadditions/client/renderer/WarTankRenderer.java"
+        ]
+      },
+      "path": "~/WarTank"
+    },
+    {
+      "name": "WarTankBullet",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "war_tank_bullet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/client/renderer/WarTankBulletRenderer.java",
+          "src/main/java/net/mcreator/arisrandomadditions/entity/WarTankBulletEntity.java"
+        ]
+      },
+      "path": "~/WarTank"
+    },
+    {
+      "name": "WarTankBulletProjectileHitsBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "war_tank_bullet_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/WarTankBulletProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/WarTank"
+    },
+    {
+      "name": "WarTankBulletProjectileHitsLivingEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "war_tank_bullet_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/WarTankBulletProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/WarTank"
+    },
+    {
+      "name": "WarTankOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "war_tank_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arisrandomadditions/procedures/WarTankOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/WarTank"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "wartank_moving",
+      "files": [
+        "wartank_moving"
+      ],
+      "category": "hostile",
+      "subtitle": "WarTankMoving"
+    }
+  ],
   "tag_elements": {
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:NetherrackJuice"
@@ -7368,6 +7511,7 @@
   "language_map": {
     "en_us": {
       "advancements.condensed_netherrack_advancement.descr": "Condense Netherrack for the first time",
+      "entity.aris_random_additions.war_tank": "War Tank",
       "block.aris_random_additions.anaheim_slab": "Anaheim Slab",
       "block.nims_random_bullshit.penta_condensed_netherrack": "Penta-condensed Netherrack",
       "item.nims_random_bullshit.magic_dust": "Magic Dust",
@@ -7685,11 +7829,13 @@
       "advancements.soda_machine_advancement.title": "It Doesn\u0027t Even Need To Be Restocked! It Just Dispenses Soda Out Of Thin Air!",
       "fluid.nims_random_bullshit.netherrack_juice": "Netherrack Juice",
       "item.nims_random_bullshit.wand_of_resizing.description_0": "DISCLAIMER: Does not work with Origins that periodically reset your scale!",
+      "subtitles.wartank_moving": "WarTankMoving",
       "gui.nims_random_bullshit.mailbox_gui.outbox_z_coord": "0",
       "item.aris_random_additions.chorus_eye": "Eye of Chorus",
       "block.aris_random_additions.anaheim_pressure_plate": "Anaheim Pressure Plate",
       "enchantment.aris_random_additions.sweet_blade_enchantment": "Sweet Blade",
       "item.aris_random_additions.turd": "Turd",
+      "item.aris_random_additions.war_tank_spawn_egg": "War Tank Spawn Egg",
       "advancements.netherite_apple_advancement.title": "Eating Ancient History",
       "item.aris_random_additions.pocket_lightning.description_0": "Spawns lightning wherever it lands.",
       "item.aris_random_additions.netherite_apple.description_0": "When consumed: Grants 0.05 permanent bonus Knockback Resistance.",
@@ -7854,13 +8000,17 @@
       {
         "name": "Apples",
         "children": []
+      },
+      {
+        "name": "WarTank",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "aris_random_additions",
     "modName": "Ari\u0027s Random Additions",
-    "version": "2.3.3",
+    "version": "2.3.4",
     "description": "Random Additions by Ari. Created with MCreator.",
     "author": "nimsolated, MCreator",
     "websiteURL": "https://mcreator.net",

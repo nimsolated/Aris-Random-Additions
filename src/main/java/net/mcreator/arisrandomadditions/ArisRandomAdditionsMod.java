@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.arisrandomadditions.init.ArisRandomAdditionsModTabs;
+import net.mcreator.arisrandomadditions.init.ArisRandomAdditionsModSounds;
 import net.mcreator.arisrandomadditions.init.ArisRandomAdditionsModParticleTypes;
 import net.mcreator.arisrandomadditions.init.ArisRandomAdditionsModPaintings;
 import net.mcreator.arisrandomadditions.init.ArisRandomAdditionsModMobEffects;
@@ -49,7 +50,7 @@ public class ArisRandomAdditionsMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		ArisRandomAdditionsModSounds.REGISTRY.register(bus);
 		ArisRandomAdditionsModBlocks.REGISTRY.register(bus);
 		ArisRandomAdditionsModBlockEntities.REGISTRY.register(bus);
 		ArisRandomAdditionsModItems.REGISTRY.register(bus);

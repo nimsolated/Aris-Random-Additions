@@ -1,0 +1,27 @@
+{
+  "_fv": 73,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "Items.FIRE_CHARGE"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "block.dispenser.dispense"
+    },
+    "igniteFire": false,
+    "power": 1.5,
+    "damage": 5.0,
+    "knockback": 5,
+    "entityModel": "ModelWarTankBullet",
+    "customModelTexture": "wartank_bullet_texture.png",
+    "modelWidth": 0.3,
+    "modelHeight": 0.3,
+    "onHitsBlock": {
+      "name": "WarTankBulletProjectileHitsBlock"
+    },
+    "onHitsEntity": {
+      "name": "WarTankBulletProjectileHitsLivingEntity"
+    }
+  }
+}

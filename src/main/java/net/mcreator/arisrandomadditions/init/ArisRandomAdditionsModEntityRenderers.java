@@ -11,6 +11,8 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
+import net.mcreator.arisrandomadditions.client.renderer.WarTankRenderer;
+import net.mcreator.arisrandomadditions.client.renderer.WarTankBulletRenderer;
 import net.mcreator.arisrandomadditions.client.renderer.TuxRenderer;
 import net.mcreator.arisrandomadditions.client.renderer.GhoulRenderer;
 import net.mcreator.arisrandomadditions.client.renderer.AriRenderer;
@@ -24,5 +26,7 @@ public class ArisRandomAdditionsModEntityRenderers {
 		event.registerEntityRenderer(ArisRandomAdditionsModEntities.POCKET_LIGHTNING_PROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(ArisRandomAdditionsModEntities.TURD_PROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(ArisRandomAdditionsModEntities.ARI.get(), AriRenderer::new);
+		event.registerEntityRenderer(ArisRandomAdditionsModEntities.WAR_TANK.get(), WarTankRenderer::new);
+		event.registerEntityRenderer(ArisRandomAdditionsModEntities.WAR_TANK_BULLET.get(), WarTankBulletRenderer::new);
 	}
 }

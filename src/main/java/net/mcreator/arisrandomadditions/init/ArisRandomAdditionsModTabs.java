@@ -127,6 +127,7 @@ public class ArisRandomAdditionsModTabs {
 			tabData.accept(ArisRandomAdditionsModItems.GHOUL_SPAWN_EGG.get());
 			tabData.accept(ArisRandomAdditionsModItems.TUX_SPAWN_EGG.get());
 			tabData.accept(ArisRandomAdditionsModItems.ARI_SPAWN_EGG.get());
+			tabData.accept(ArisRandomAdditionsModItems.WAR_TANK_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(ArisRandomAdditionsModBlocks.REDSTONE_BRICKS.get().asItem());
 			tabData.accept(ArisRandomAdditionsModBlocks.REDSTONE_BRICK_STAIRS.get().asItem());

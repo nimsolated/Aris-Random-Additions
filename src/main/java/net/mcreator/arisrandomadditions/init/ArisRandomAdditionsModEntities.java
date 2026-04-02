@@ -16,6 +16,8 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.arisrandomadditions.entity.WarTankEntity;
+import net.mcreator.arisrandomadditions.entity.WarTankBulletEntity;
 import net.mcreator.arisrandomadditions.entity.TuxEntity;
 import net.mcreator.arisrandomadditions.entity.TurdProjectileEntity;
 import net.mcreator.arisrandomadditions.entity.PocketLightningProjectileEntity;
@@ -41,6 +43,10 @@ public class ArisRandomAdditionsModEntities {
 			EntityType.Builder.<AriEntity>of(AriEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AriEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<WarTankEntity>> WAR_TANK = register("war_tank",
+			EntityType.Builder.<WarTankEntity>of(WarTankEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(WarTankEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<WarTankBulletEntity>> WAR_TANK_BULLET = register("war_tank_bullet",
+			EntityType.Builder.<WarTankBulletEntity>of(WarTankBulletEntity::new, MobCategory.MISC).setCustomClientFactory(WarTankBulletEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.3f, 0.3f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -54,6 +60,7 @@ public class ArisRandomAdditionsModEntities {
 			GhoulEntity.init();
 			TuxEntity.init();
 			AriEntity.init();
+			WarTankEntity.init();
 		});
 	}
 
@@ -62,5 +69,6 @@ public class ArisRandomAdditionsModEntities {
 		event.put(GHOUL.get(), GhoulEntity.createAttributes().build());
 		event.put(TUX.get(), TuxEntity.createAttributes().build());
 		event.put(ARI.get(), AriEntity.createAttributes().build());
+		event.put(WAR_TANK.get(), WarTankEntity.createAttributes().build());
 	}
 }
